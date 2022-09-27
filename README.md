@@ -12,6 +12,6 @@ Before doing any submission, please double check that a similar one does not **a
 
 ## Patch Notes
 
-Patch notes for ongoing live extension is always available [here](./patch-notes.md).\
+Patch notes for ongoing live extension is always available [here](./patch-notes.md).
 
 Whenever there is a new one, you will be able to find old notes in archives.

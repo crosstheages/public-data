@@ -1,3 +1,9 @@
 {
   "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.codeActionsOnSave": {},
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": false
+  }
 }
