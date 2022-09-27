@@ -3,11 +3,11 @@
 ## Direct Links
 
 - 0.1.17
-  - [Patch](#0.1.17-patch)
+  - [Patch](#0117-patch)
 - 0.1.16
-  - [Hotfix 2](#0.1.16-hotfix-2)
-  - [Hotfix 1](#0.1.16-hotfix-2)
-  - [Patch](#0.1.16-patch)
+  - [Hotfix 2](#0116-hotfix-2)
+  - [Hotfix 1](#0116-hotfix-2)
+  - [Patch](#0116-patch)
 
 ## 0.1.17 Patch
 
