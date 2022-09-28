@@ -3,11 +3,23 @@
 ## Direct Links
 
 - 0.1.17
+  - [Hotfix 1](#0117-hotfix-1)
   - [Patch](#0117-patch)
 - 0.1.16
   - [Hotfix 2](#0116-hotfix-2)
-  - [Hotfix 1](#0116-hotfix-2)
+  - [Hotfix 1](#0116-hotfix-1)
   - [Patch](#0116-patch)
+
+## 0.1.17 Hotfix 1
+
+`2022-09-28 05:00 UTC`
+
+Fixes
+
+- Duels
+  - Do correctly update players time left on timeout (more than 5 minutes elapsed for one of the players). Previously when the timer was about to hit 0, we would send the time from previous turn making a timeout ending screen with non-0 time left values which was confusing. Now, we display it correctly as 0.
+- System
+  - We made several changes to our North America and Asia datacenters in order to improve the reliability of the connection. We are still doing changes in collaboration with our partner but it should already be way more stable with less disconnect.
 
 ## 0.1.17 Patch
 
@@ -26,7 +38,7 @@ Changes
 Fixes
 
 - Duels
-  - Timers at the end of the match (last turn) are re-synchronized. Keep in mind that depending on your setup the timers might be a little bit off compared to the server, we are currently exploring ways to improve the synchronization through the game.
+  - Players time left at the end of the match (last turn) are re-synchronized. Keep in mind that depending on your setup the timers might be a little bit off compared to the server, we are currently exploring ways to improve the synchronization through the game.
   - Whenever a match has been ended by the server, you should now correctly see the victory/defeat screen instead of waiting with the timer at 00:00.
   - Fixed an issue showing the result from previous game instead of the current game.
   - No longer show cards from the previous reconnection on a fresh game.
