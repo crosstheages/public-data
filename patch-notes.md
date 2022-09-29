@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.1.18
+  - [Patch](#0118-patch)
 - 0.1.17
   - [Hotfix 1](#0117-hotfix-1)
   - [Patch](#0117-patch)
@@ -9,6 +11,34 @@
   - [Hotfix 2](#0116-hotfix-2)
   - [Hotfix 1](#0116-hotfix-1)
   - [Patch](#0116-patch)
+
+## 0.1.18 Patch
+
+`2022-09-29 04:00 UTC`
+
+This is a Release Candidate version, meaning this section will be updated on each iteration until the patch is out.  
+Also if you encounter any issue, feel free to use the latest stable version by downloading from our website.
+
+### RC 1
+
+This RC is meant to fix most of the issues you can face during a game, mostly related to Reconnection or Touchpad devices.  
+We are looking for detailed reports with logs if you still encounter those with this version, if so please report it as issue on our public tracker.
+
+Changes
+
+- Duels
+  - Added a backdrop behind the player name & avatar to more easily read the name.
+
+Fixes
+
+- Launch
+  - Fixed the launch button not appearing once reaching 100% of the progress bar.
+- Duels
+  - Fixed multiple issues during the reconnection.
+  - Card effects are now correctly translated.
+- Leaderboard
+  - Correctly display each player avatar & avatar frame.
+  - Scroll fetching fixes.
 
 ## 0.1.17 Hotfix 1
 
