@@ -14,31 +14,55 @@
 
 ## 0.1.18 Patch
 
-`2022-09-29 04:00 UTC`
-
-This is a Release Candidate version, meaning this section will be updated on each iteration until the patch is out.  
-Also if you encounter any issue, feel free to use the latest stable version by downloading from our website.
-
-### RC 1
-
-This RC is meant to fix most of the issues you can face during a game, mostly related to Reconnection or Touchpad devices.  
-We are looking for detailed reports with logs if you still encounter those with this version, if so please report it as issue on our public tracker.
+`2022-10-06 10:00 UTC`
 
 Changes
 
+- Login
+  - Updated the mails received on sign-up and on forgot password.
+  - Links no longer expire on each request, you can re-use the same link as long as it was not previously used (in case you made 3 forgot password requests for example).
 - Duels
-  - Added a backdrop behind the player name & avatar to more easily read the name.
+  - Added a backdrop behind the player's name & avatar to more easily read the name.
+  - Card invocations are now done only if the card is A or S grade.
+  - Update the tiles color of the default field.
+  - Game will now attempt to recover automatically the connection, in case it is not recoverable you will see a message telling you are disconnected.
+- Cards
+  - Import/Export strings have been updated to include the Special Attack (SA).
+    - Note: You need to update your export strings, previous strings are no longer compatible!
+- Profile
+  - You can now open the profile & settings menu using "ESC" key while on the dashboard.
+- Leaderboard
+  - You can now go to your position by clicking on your rating on the top right.
 
 Fixes
 
 - Launch
   - Fixed the launch button not appearing once reaching 100% of the progress bar.
+- Login
+  - Login is now case insensitive.
 - Duels
-  - Fixed multiple issues during the reconnection.
-  - Card effects are now correctly translated.
+  - Power Stacking SA now works starting from the first turn.
+  - Fixed a display issue showing attack attempt VFX under some cards.
+  - Fixed an issue preventing the duel to show up as ended whenever you were matched with someone from another region (example: EU vs NA).
+  - Fixed an issue wrongly showing you were disconnected.
+  - You can now use the reconnection if you do login again (on the same device or another).
+  - Fixed an issue where the board was empty when you did reconnect.
+  - Fixed an issue regarding the cards you had after a reconnect if you did discard and draw before being disconnected.
+  - Fixed issues related to touch devices such as touchpad, cards should no longer be blocked during a drag for example.
+    - Note: We did a complete overhaul of our hand system logic, please do not hesitate to fill a report on our tracker if you encounter some issues in this regard.
+  - You will no longer accidently open the card details using a long click while dragging a card.
+  - Card glow is now correctly removed once a card is played.
+  - Card effects on card details are now correctly translated.
+- Profile
+  - Audio settings are now correctly taken in account on restart.
+  - Your avatar is now correctly displayed after changing it without restarting the game.
 - Leaderboard
   - Correctly display each player avatar & avatar frame.
-  - Scroll fetching fixes.
+  - Scrolling has been smoothed.
+- Social
+  - You can now correctly exit a lobby while you are selecting a deck.
+- Localization
+  - Updated various text.
 
 ## 0.1.17 Hotfix 1
 
