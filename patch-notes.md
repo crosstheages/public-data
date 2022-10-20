@@ -2,147 +2,95 @@
 
 ## Direct Links
 
-- 0.1.18
-  - [Patch](#0118-patch)
-- 0.1.17
-  - [Hotfix 1](#0117-hotfix-1)
-  - [Patch](#0117-patch)
-- 0.1.16
-  - [Hotfix 2](#0116-hotfix-2)
-  - [Hotfix 1](#0116-hotfix-1)
-  - [Patch](#0116-patch)
+- 0.2.1
+  - [Patch](#021-patch)
+- 0.2.0
+  - [Patch](#020-patch)
 
-## 0.1.18 Patch
+## 0.2.2 Patch
 
-`2022-10-06 10:00 UTC`
+`Upcoming`
 
 Changes
 
-- Login
-  - Updated the mails received on sign-up and on forgot password.
-  - Links no longer expire on each request, you can re-use the same link as long as it was not previously used (in case you made 3 forgot password requests for example).
-- Duels
-  - Added a backdrop behind the player's name & avatar to more easily read the name.
-  - Card invocations are now done only if the card is A or S grade.
-  - Update the tiles color of the default field.
-  - Game will now attempt to recover automatically the connection, in case it is not recoverable you will see a message telling you are disconnected.
 - Cards
-  - Import/Export strings have been updated to include the Special Attack (SA).
-    - Note: You need to update your export strings, previous strings are no longer compatible!
-- Profile
-  - You can now open the profile & settings menu using "ESC" key while on the dashboard.
-- Leaderboard
-  - You can now go to your position by clicking on your rating on the top right.
+  - Added illustrator name.
 
 Fixes
 
-- Launch
-  - Fixed the launch button not appearing once reaching 100% of the progress bar.
-- Login
-  - Login is now case insensitive.
-- Duels
-  - Power Stacking SA now works starting from the first turn.
-  - Fixed a display issue showing attack attempt VFX under some cards.
-  - Fixed an issue preventing the duel to show up as ended whenever you were matched with someone from another region (example: EU vs NA).
-  - Fixed an issue wrongly showing you were disconnected.
-  - You can now use the reconnection if you do login again (on the same device or another).
-  - Fixed an issue where the board was empty when you did reconnect.
-  - Fixed an issue regarding the cards you had after a reconnect if you did discard and draw before being disconnected.
-  - Fixed issues related to touch devices such as touchpad, cards should no longer be blocked during a drag for example.
-    - Note: We did a complete overhaul of our hand system logic, please do not hesitate to fill a report on our tracker if you encounter some issues in this regard.
-  - You will no longer accidently open the card details using a long click while dragging a card.
-  - Card glow is now correctly removed once a card is played.
-  - Card effects on card details are now correctly translated.
-- Profile
-  - Audio settings are now correctly taken in account on restart.
-  - Your avatar is now correctly displayed after changing it without restarting the game.
-- Leaderboard
-  - Correctly display each player avatar & avatar frame.
-  - Scrolling has been smoothed.
-- Social
-  - You can now correctly exit a lobby while you are selecting a deck.
-- Localization
-  - Updated various text.
+- Cards
+  - Updated wrong card names.
 
-## 0.1.17 Hotfix 1
+## 0.2.1 Patch
 
-`2022-09-28 05:00 UTC`
+`2022-10-20 05:00 UTC`
 
-Fixes
+Changes
 
 - Duels
-  - Do correctly update players time left on timeout (more than 5 minutes elapsed for one of the players). Previously when the timer was about to hit 0, we would send the time from previous turn making a timeout ending screen with non-0 time left values which was confusing. Now, we display it correctly as 0.
+  - Trisel gains have been adjusted retroactively:
+    - +30 Trisel for a win.
+    - +15 Trisel for a loss in a draw.
+    - +10 Trisel for a loss with at least 40% of the cards on the board.
+    - +5 Triself for a loss with at least 30% of the cards on the board.
+    - Loose due to timeout, surrender or disconnect does not reward any trisel.
+  - You can now earn chests to incubate after each win. Keep in mind that your unlocker slots are limited, you can unlock the 2nd and 3rd one by leveling up. 4th to 6th are locked behind Shop Passes that will be enabled later in the Early Access.
+- Cards
+  - Weekly rotation has been updated.
+  - Added a button to lock/unlock your card in order to avoid accidently using them as reagents on the crafting or trade it.
+  - The lock indicator is also available in the card folder view.
+  - Added a button to mint your cards, each mint cost you 2 CTA Token. Tokens can be refilled in the shop.
+  - Rotation and Training cards are no longer shown in the collection, only in the deck building card selector.
+  - Default sort for a card is now: Power > Foil > Numbering.
+  - Now show "N/A" as numbering if the card is not owned (training and free rotation cards).
+  - Card numbering is now shown in the card folder.
+- Shop
+  - Added an information box showing the number of packs available to buy and when it will reset. The limit is 167 packs per day.
+  - "?" information box has been updated to show the odds of R+ and C+ cards.
+- Dashboard
+  - Feedback entry now redirect to our website instead of triggering a mail.
+  - Added tier 7 and tier 8 in Perks.
 - System
-  - We made several changes to our North America and Asia datacenters in order to improve the reliability of the connection. We are still doing changes in collaboration with our partner but it should already be way more stable with less disconnect.
-
-## 0.1.17 Patch
-
-`2022-09-27 12:00 UTC`
-
-Changes
-
-- Duels
-  - Matchmaking queue has been changed to favor opponent with close rating, you will be more often matched against opponent with close rating although queue time has a priority on this parameter. Also, the queue has been changed to be less predictable.
-  - Arkhome backgrounds behind player name in the header have been updated.
-  - Leader images in the header have been updated.
-  - Added a button to go to the decks from the deck selection.
-- Cards
-  - Deck costs of alternative field cards have been corrected. If your deck is now above the deck power limit you must update it. Previously cost was a fixed 440 while it should have ranged between 440 and 500 depending on the grade.
+  - Added a new way to handle layout and resize, you can now resize the windows as you would like and the game will adjust itself. In fullscreen, you can choose the resolution you want to display the game.
+  - Added a version checker at the start of the game, until Launcher is ready you will be warned if you need to download a new version of the game.
+  - Some players were able to duplicate their packs by bridging them during the first hour of the Early Access. All the packs, minting passes and cards have been burned and put back in the stock.
+  - Users who were not able to open their packs between 5pm UTC and 11pm UTC on the first day and who did not receive the 2 Ultra Rare cards as compensation as it was reserved to those having their packs burned now did received it as airdrop.
+  - Standard light field is now available in every chest. The field has been airdropped proportionally to what people would expect to have depending on their openings.
+  - Every field has been changed to Uncommon rarity (mostly impacting for Crafting). Keep in mind that they were before considered common, so in the chests from the shop those fields are now counted in the Uncommon section. The description will be updated accordingly later on, drop rate is the same.
 
 Fixes
 
 - Duels
-  - Players time left at the end of the match (last turn) are re-synchronized. Keep in mind that depending on your setup the timers might be a little bit off compared to the server, we are currently exploring ways to improve the synchronization through the game.
-  - Whenever a match has been ended by the server, you should now correctly see the victory/defeat screen instead of waiting with the timer at 00:00.
-  - Fixed an issue showing the result from previous game instead of the current game.
-  - No longer show cards from the previous reconnection on a fresh game.
-  - Adjusted the draw area to be accessible in all resolutions.
-  - Correctly display player rating during deck selection.
-  - Correctly display opponent rating on versus screen.
-- Cards
-  - Fixed layout display of Special Attacks.
-  - Last row of cards is now fully visible.
-  - Invalid deck icon is now bigger.
-  - Deck list is now correctly updated once deck is saved.
-- Leaderboard
-  - You can now more easily scroll others rank.
-  - Order should no longer be mixed.
-- Profile
-  - No longer ask to save settings if not needed.
-  - Enable full screen checkbox only if the layout is landscape.
-  - Win rate % is now correctly displayed.
+  - Fixed card being stuck under the mouse while having low FPS.
+  - 10 seconds timer is now correctly taken in effect for player 1.
+  - Header is now shown during the 10 seconds timer.
+  - Foil effect and card numbering are now correctly displayed during a duel.
+  - Correctly sort the hand after a discard & draw of a card.
+- Shop
+  - Update the text for each card rarity in chest description.
+  - You can now buy a chest using Pranas if you have exactly the amount needed.
+  - Now correctly display errors encountered in the shop (such as buying over the pack limit).
+- Loot
+  - Stash has now been renamed to Loot.
+  - Chests are sorted based on the number of packs they contain.
 - Login
-  - Updated password indications on sign-up form.
-  - No longer show incorrect maintenance message.
+  - Fixed an issue on the activation token due the case.
+  - Fixed the scroll sensitivity in the country dropdown.
+- Bridge
+  - Fixed an issue preventing some packs to be bridge due to missing metadata on Polygon.
+- System
+  - Fixed currencies (Trisel, Prana and CTA Tokens) being aliased.
+  - Fixed cursor size on macOS.
 
-## 0.1.16 Hotfix 2
+Notes
 
-`2022-09-24 12:15 UTC`
+- Following our [announcement](https://medium.com/cross-the-ages/cross-the-ages-tcg-early-access-game-updates-14e0742b5f9), Legacy packs and Missions are not yet available in this version.
+- Launcher (to auto-update the game) is still being worked on.
+- In an upcoming update, numbering will be split to separate foil and non-foils as well as each version of the minting passes. This will be done at the same time as we migrate from Stardust collection to Cross The Ages one on IMX.
+- After the GA, C+ drop rate will be roughly halved.
 
-Fixes
+## 0.2.0 Patch
 
-- Cards
-  - Updated Special Attacks name and description.  
-    Note: An upcoming update will fix the layout issue.
+`2022-10-12 16:30 UTC`
 
-## 0.1.16 Hotfix 1
-
-`2022-09-23 21:30 UTC`
-
-Changes
-
-- Cards
-  - Decks with less than 20 cards are no longer valid, if you made such a deck it is now flagged as invalid.
-  - As a result of the previous changes, a new era has started meaning all stats from the ladder have been reset.
-
-Fixes
-
-- Login
-  - Emails are no longer case sensitive.
-  - You can now use the forgot password link to activate your account at the same time of resetting your password in case the activation link expired.
-
-## 0.1.16 Patch
-
-`2022-09-23 17:00 UTC`
-
-Initial release.
+Initial release of the Early Access.
