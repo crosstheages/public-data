@@ -23,7 +23,7 @@ Fixes
 
 ## 0.2.1 Patch
 
-`2022-10-20 05:00 UTC`
+`2022-10-20 03:00 UTC`
 
 Changes
 
@@ -36,7 +36,7 @@ Changes
     - Loose due to timeout, surrender or disconnect does not reward any trisel.
   - You can now earn chests to incubate after each win. Keep in mind that your unlocker slots are limited, you can unlock the 2nd and 3rd one by leveling up. 4th to 6th are locked behind Shop Passes that will be enabled later in the Early Access.
 - Cards
-  - Weekly rotation has been updated.
+  - Weekly rotation has been updated, if you had card from the rotation in your deck you have to update it!
   - Added a button to lock/unlock your card in order to avoid accidently using them as reagents on the crafting or trade it.
   - The lock indicator is also available in the card folder view.
   - Added a button to mint your cards, each mint cost you 2 CTA Token. Tokens can be refilled in the shop.
@@ -66,6 +66,8 @@ Fixes
   - Header is now shown during the 10 seconds timer.
   - Foil effect and card numbering are now correctly displayed during a duel.
   - Correctly sort the hand after a discard & draw of a card.
+- Cards
+  - Animation level 1 of some card including Honora have been adjusted.
 - Shop
   - Update the text for each card rarity in chest description.
   - You can now buy a chest using Pranas if you have exactly the amount needed.
