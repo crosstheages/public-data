@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.2.1
+  - [Hotfix 1](#021-hotfix-1)
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
@@ -13,6 +14,13 @@
 
 Changes
 
+- Duels
+  - Experience gains have been adjusted retroactively:
+    - +300 experience for a win.
+    - +150 experience for a loss in a draw.
+    - +100 experience for a loss with at least 40% of the cards on the board.
+    - +50 experience for a loss with at least 30% of the cards on the board.
+    - Loss with less than 30%, due to timeout, surrender or disconnect does not reward any experience.
 - Cards
   - Added illustrator name.
 
@@ -20,6 +28,15 @@ Fixes
 
 - Cards
   - Updated wrong card names.
+
+## 0.2.1 Hotfix 1
+
+`2022-10-21 02:30 UTC`
+
+Fixes
+
+- Cards
+  - Weekly rotation is now available for players who used rotation card as leader or with empty decks. Once you login, the rotation cards should be available. Note that since 0.2.1 patch, rotation cards are displayed only in card selection when building a deck not in the collection.
 
 ## 0.2.1 Patch
 
@@ -32,8 +49,8 @@ Changes
     - +30 Trisel for a win.
     - +15 Trisel for a loss in a draw.
     - +10 Trisel for a loss with at least 40% of the cards on the board.
-    - +5 Triself for a loss with at least 30% of the cards on the board.
-    - Loose due to timeout, surrender or disconnect does not reward any trisel.
+    - +5 Trisel for a loss with at least 30% of the cards on the board.
+    - Loose with less than 30%, due to timeout, surrender or disconnect does not reward any trisel.
   - You can now earn chests to incubate after each win. Keep in mind that your unlocker slots are limited, you can unlock the 2nd and 3rd one by leveling up. 4th to 6th are locked behind Shop Passes that will be enabled later in the Early Access.
 - Cards
   - Weekly rotation has been updated, if you had card from the rotation in your deck you have to update it!
