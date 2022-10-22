@@ -21,13 +21,15 @@ Changes
     - +100 experience for a loss with at least 40% of the cards on the board.
     - +50 experience for a loss with at least 30% of the cards on the board.
     - Loss with less than 30%, due to timeout, surrender or disconnect does not reward any experience.
+  - Coin toss algorithm now uses a cryptographic implementation for its RNG non-subject to modulo bias. What that means is that you are less likely to see streak. In addition to this, in a future update your recent games will weight the coin toss to let you converge to a 50/50 faster in case you were unlucky (bad luck protection system).
 - Cards
-  - Added illustrator name.
+  - Added illustrator name under the card in details view.
 
 Fixes
 
 - Cards
-  - Updated wrong card names.
+  - Updated some card names that were wrong.
+  - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
 
 ## 0.2.1 Hotfix 1
 
@@ -89,6 +91,8 @@ Fixes
   - Update the text for each card rarity in chest description.
   - You can now buy a chest using Pranas if you have exactly the amount needed.
   - Now correctly display errors encountered in the shop (such as buying over the pack limit).
+- Dashboard
+  - Now correctly refresh your Trisel / Prana / CTA count whenever you enter it (before it was only in the shop).
 - Loot
   - Stash has now been renamed to Loot.
   - Chests are sorted based on the number of packs they contain.
