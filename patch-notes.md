@@ -10,12 +10,33 @@
 - 0.2.0
   - [Patch](#020-patch)
 
-## 0.2.3 Patch
+## 0.2.4 Patch
 
 `Upcoming`
 
 - Cards
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
+
+## 0.2.3 Patch
+
+`2022-10-28 23:45 UTC`
+
+Fixes
+
+- Duels
+  - SA Mirror Power now correctly display its VFX when played.
+  - SA Power Stacking icon has been changed.
+- Cards
+  - Display of cards on Craft / Collection / Decks has been adjusted to show intended cards depending on the context.
+- Missions
+  - Fields missions are now correctly computing the advancement.
+  - Win with more than 120s and 70% of possession are now correctly counting win only (before was counting any game).
+  - Weekly progress bar display has been adjusted.
+- Profile
+  - Highest rating value has been fixed.
+- System
+  - Halloween ambiance sound has been adjusted.
+  - Various texts adjustments in French.
 
 ## 0.2.2 Patch
 
