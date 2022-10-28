@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.2.3
+  - [Patch](#023-patch)
 - 0.2.2
   - [Patch](#022-patch)
 - 0.2.1
