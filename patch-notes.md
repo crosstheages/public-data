@@ -59,12 +59,12 @@ Changes
   - A notification will be shown if you have a chest to unlock or to claim.
 - Crafting
   - Potential merge has been unlocked. Keep in mind that it is the first iteration so you might experience some issues, be ultra careful as once merged cards are burned, double check before validating.
-    Note: UI is currently limited to 3 cards and selector re-use the one from the collection. In a future update you will be able to do it in bulk.
-    Known issue: Some non-foil common cards might not be given as a choice to merge.
+    - Note: UI is currently limited to 3 cards and selector re-use the one from the collection. In a future update you will be able to do it in bulk.
+    - Known issue: Some non-foil common cards might not be given as a choice to merge.
   - Alternative Combo now correctly applies the +20 power from Alternative.
-    Note: Honora + Hannibal is the only Alternative Combo card obtained by player right now, its power has been increased by 20, from 660 to 680.
+    - Note: Honora + Hannibal is the only Alternative Combo card obtained by player right now, its power has been increased by 20, from 660 to 680.
 - Missions
-  - Daily and Weekly missions have been unlocked.
+  - Daily and Weekly missions have been unlocked. Missions are randomly chosen every day/week but the same for everyone. This will stay like this until we are happy with their balance, then they will be random for each player.
 - Profile
   - Updated the forgotten password workflow.
   - Added a way to update the email linked to the game account.
