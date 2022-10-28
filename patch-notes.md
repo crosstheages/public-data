@@ -26,7 +26,7 @@
 Fixes
 
 - Duels
-  - SA Mirror Power now correctly display its VFX when played.
+  - SA Mirror Power now correctly displays its VFX when played.
   - SA Power Stacking icon has been changed.
 - Cards
   - Display of cards on Craft / Collection / Decks has been adjusted to show intended cards depending on the context.
@@ -38,7 +38,7 @@ Fixes
   - Highest rating value has been fixed.
 - System
   - Halloween ambiance sound has been adjusted.
-  - Various texts adjustments in French.
+  - Various text adjustments in French.
 
 ## 0.2.2 Patch
 
