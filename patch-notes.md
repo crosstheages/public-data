@@ -18,6 +18,7 @@
 
 - Cards
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
+  - Hanzo & ValRed is now correctly displayed as Rare (was Uncommon before).
 
 ## 0.2.3 Patch
 
@@ -30,6 +31,7 @@ Fixes
   - SA Power Stacking icon has been changed.
 - Cards
   - Display of cards on Craft / Collection / Decks has been adjusted to show intended cards depending on the context.
+  - Deck power computation is now working again as intended.
 - Missions
   - Fields missions are now correctly computing the advancement.
   - Win with more than 120s and 70% of possession are now correctly counting win only (before was counting any game).
