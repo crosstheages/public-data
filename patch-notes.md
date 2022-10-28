@@ -2,18 +2,31 @@
 
 ## Direct Links
 
+- 0.2.2
+  - [Patch](#022-patch)
 - 0.2.1
   - [Hotfix 1](#021-hotfix-1)
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
 
-## 0.2.2 Patch
+## 0.2.3 Patch
 
 `Upcoming`
 
+- Cards
+  - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
+
+## 0.2.2 Patch
+
+`2022-10-28 03:30 UTC`
+
 Changes
 
+- Launcher
+  - A launcher has been deployed. It is now the main way to access the game, it will update itself as well as the game so no more manual download needed.
+  - Keep in mind that this is the first iteration, many things will be added to it in the future.
+  - Also it is the first release, so if you encounter any issue with it, do report it! For macOS there is an Intel and an M1/M2 version.
 - Duels
   - Experience gains have been adjusted retroactively:
     - +300 experience for a win.
@@ -21,15 +34,62 @@ Changes
     - +100 experience for a loss with at least 40% of the cards on the board.
     - +50 experience for a loss with at least 30% of the cards on the board.
     - Loss with less than 30%, due to timeout, surrender or disconnect does not reward any experience.
-  - Coin toss algorithm now uses a cryptographic implementation for its RNG non-subject to modulo bias. What that means is that you are less likely to see streak. In addition to this, in a future update your recent games will weight the coin toss to let you converge to a 50/50 faster in case you were unlucky (bad luck protection system).
+  - Coin toss algorithm now uses a cryptographic implementation for its RNG non-subject to modulo bias. What that means is that you are less likely to see a streak.
+  - In addition to this, your recent games weigh the coin toss to let you converge to a 50/50 faster in case you were unlucky (bad luck protection system).
+    Note: We are internally iterating on changes to make the difference between starting or not a game less of a burden.
+  - Rating system have been adjusted as follow:
+    - Everyone starts at 1200, for players with existing rating prior to this patch you will see your real rating instead of a number starting from 0.
+    - You are immune to rating loss for the first 10 games.
+    - Adjustment factor (K-factor) has been changed to be less punitive until the player reaches higher ratings. New accounts and low-rated players now share the same factor, which means it reduces the incentive to play an alt account.
+  - Matchmaking has been changed to increase the odds to meet a player close to your rating. After the 90s it is random.
+  - A new SA has been added. It allows you to refill one draw (up to 3) per turn with your Leader on the board and under control.
+  - Updated light card drop VFX.
 - Cards
-  - Added illustrator name under the card in details view.
+  - Free rotation has been updated, and the total number of cards available has been reduced from 31 to 10.
+  - Cards that you do not have yet in your collection are displayed in gray.
+  - Deck import/export strings now include the power of the card. If there is no match, we take the closest one available.
+  - Added illustrator name under the card in detail view.
+  - Added animation level 1 for Honora & Hannibal
+  - Card details have been updated.
+- Shop
+  - Neo Halloween chest has been added, it will be available for 2 weeks only.
+  - Cards obtained during an opening are now correctly sorted/grouped together.
+- Loot
+  - Unlocker slot #2 and #3 can now be unlocked after being level 20 or having opened 50 chests.
+  - A notification will be shown if you have a chest to unlock or to claim.
+- Crafting
+  - Potential merge has been unlocked. Keep in mind that it is the first iteration so you might experience some issues, be ultra careful as once merged cards are burned, double check before validating.
+    Note: UI is currently limited to 3 cards and selector re-use the one from the collection. In a future update you will be able to do it in bulk.
+    Known issue: Some non-foil common cards might not be given as a choice to merge.
+  - Alternative Combo now correctly applies the +20 power from Alternative.
+    Note: Honora + Hannibal is the only Alternative Combo card obtained by player right now, its power has been increased by 20, from 660 to 680.
+- Missions
+  - Daily and Weekly missions have been unlocked.
+- Profile
+  - Updated the forgotten password workflow.
+  - Added a way to update the email linked to the game account.
+  - Added the highest rating achieved during the era.
+- Social
+  - You can now tweak the value for double affinity.
+  - You can now decide how the coin toss will be done (randomly, host starts, guest starts).
 
 Fixes
 
+- Duels
+  - Dragging of the card should be more stable on all platforms.
+  - Right panel buttons now cancel each other.
+  - Queuing while being in-game will reconnect you to the game.
 - Cards
-  - Updated some card names that were wrong.
+  - Updated card names & illustrators.
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
+- Shop
+  - Various texts have been adjusted.
+- Profile
+  - Win rate is now shown with two decimals.
+- Bridge
+  - Fixed another issue preventing some packs to be bridged due to missing metadata on Polygon.
+- System
+  - macOS executables are now fully signed and notarized to Apple.
 
 ## 0.2.1 Hotfix 1
 
@@ -100,7 +160,7 @@ Fixes
   - Fixed an issue on the activation token due the case.
   - Fixed the scroll sensitivity in the country dropdown.
 - Bridge
-  - Fixed an issue preventing some packs to be bridge due to missing metadata on Polygon.
+  - Fixed an issue preventing some packs to be bridged due to missing metadata on Polygon.
 - System
   - Fixed currencies (Trisel, Prana and CTA Tokens) being aliased.
   - Fixed cursor size on macOS.
