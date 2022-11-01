@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.2.3
+  - [Hotfix 1](#023-hotfix-1)
   - [Patch](#023-patch)
 - 0.2.2
   - [Patch](#022-patch)
@@ -16,9 +17,36 @@
 
 `Upcoming`
 
+Changes
+
+- Rewards
+  - Reward chest unlocker slots #4 to #6 are now available depending on the presale pack you opened until the end of the EA. In the GA, they will be available by buying an item in the Shop (Shop Passes).
+  - Reward chest can now be converted to Trisel instead of being opened at a rate of 1h = 10 Trisel. It means you will not get the cards inside it but Trisel in exchange, this feature is available after the time needed to unlock. All slots (including the free #1 to #3) are eligible for this convert mechanism.
+  - Considering we added the reward chest convert feature and that Shop Passes give 3 more unlock slots, there will not be a new daily mission for Shop Passes owners as it is now backed into the convert mechanism.
+  - Reward, Daily and Weekly chest can now reward foil cards.
 - Cards
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
   - Hanzo & ValRed is now correctly displayed as Rare (was Uncommon before).
+
+## 0.2.3 Hotfix 1
+
+`2022-11-01 23:30 UTC`
+
+Changes
+
+- Missions
+  - Added a new mission (both with daily and weekly objectives), its objective is related to the amount of cards captured during ranked duels.
+  - Added 3 new weekly missions (total is now 24). Win and Capture X in a single turn T1 and T2 now rewards half completion %. It means you need to do at maximum 23 of the 24 missions available to unlock weekly T3. Also you now have +240 Trisel per week that way.
+  - Update various objectives.
+
+Fixes
+
+- Duels
+  - Matchmaking conditions are now correctly checked for both players.
+- Crafting
+  - Field cards now correctly require 10 cards to be merged like other uncommon cards.
+- Missions
+  - Capture X in a single turn advancement now only shows you 0 / X until you complete it.
 
 ## 0.2.3 Patch
 
@@ -30,7 +58,7 @@ Fixes
   - SA Mirror Power now correctly displays its VFX when played.
   - SA Power Stacking icon has been changed.
 - Cards
-  - Display of cards on Craft / Collection / Decks has been adjusted to show intended cards depending on the context.
+  - Display of cards on Crafting / Collection / Decks has been adjusted to show intended cards depending on the context.
   - Deck power computation is now working again as intended.
 - Missions
   - Fields missions are now correctly computing the advancement.
@@ -61,7 +89,7 @@ Changes
     - Loss with less than 30%, due to timeout, surrender or disconnect does not reward any experience.
   - Coin toss algorithm now uses a cryptographic implementation for its RNG non-subject to modulo bias. What that means is that you are less likely to see a streak.
   - In addition to this, your recent games weigh the coin toss to let you converge to a 50/50 faster in case you were unlucky (bad luck protection system).
-    Note: We are internally iterating on changes to make the difference between starting or not a game less of a burden.
+    - Note: We are internally iterating on changes to make the difference between starting or not a game less of a burden.
   - Rating system have been adjusted as follow:
     - Everyone starts at 1200, for players with existing rating prior to this patch you will see your real rating instead of a number starting from 0.
     - You are immune to rating loss for the first 10 games.
