@@ -2,6 +2,13 @@
 
 ## Direct Links
 
+- Upcoming
+  - [Upcoming](#upcoming)
+- 0.2.5
+  - [0.2.5b](#025b-patch)
+  - [Patch](#025-patch)
+- 0.2.4
+  - [Patch](#024-patch)
 - 0.2.3
   - [Hotfix 1](#023-hotfix-1)
   - [Patch](#023-patch)
@@ -13,20 +20,92 @@
 - 0.2.0
   - [Patch](#020-patch)
 
-## 0.2.4 Patch
+## Upcoming
 
-`Upcoming`
+`TBD`
 
 Changes
 
-- Rewards
-  - Reward chest unlocker slots #4 to #6 are now available depending on the presale pack you opened until the end of the EA. In the GA, they will be available by buying an item in the Shop (Shop Passes).
-  - Reward chest can now be converted to Trisel instead of being opened at a rate of 1h = 10 Trisel. It means you will not get the cards inside it but Trisel in exchange, this feature is available after the time needed to unlock. All slots (including the free #1 to #3) are eligible for this convert mechanism.
-  - Considering we added the reward chest convert feature and that Shop Passes give 3 more unlock slots, there will not be a new daily mission for Shop Passes owners as it is now backed into the convert mechanism.
-  - Reward, Daily and Weekly chest can now reward foil cards.
+- Duels
+  - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
+    - You get an extra 10 Trisel / 100 EXP if you own more than 90% of the board on a win.
+    - You get more Trisel and EXP on your wins based on your rating. Thresholds are at 1150 / 1500 / 1850 / 2200 / 2550. For each threshold you have +5 Trisel / +50 EXP per win.
 - Cards
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
+    - Note: NFT version will be changed after migration.
   - Hanzo & ValRed is now correctly displayed as Rare (was Uncommon before).
+  - Nox & Skeleton is now correctly displayed as Ultra Rare (was Uncommon before).
+- Loots
+  - Reward, Daily and Weekly chests can now contain foil cards.
+
+## 0.2.5b Patch
+
+`2022-11-09 20:45 UTC`
+
+Fixes
+
+- Loots
+  - Reward chest opening should no longer be stuck.
+
+## 0.2.5 Patch
+
+`2022-11-09 17:00 UTC`
+
+Changes
+
+- Loots
+  - Legacy packs are now available for opening, it will be enabled on 2022-11-09 @ 19:00 UTC.
+  - Chest opening animation can now be skipped.
+- Crafting
+  - Awakening is now available, it will be enabled on 2022-11-10 @ 17:00 UTC.
+- Cards
+  - Free mint (if you have any) is now used instead of CTA Tokens.
+- Missions
+  - A new mission has been added, it requires you to unlock instead of open chests.
+
+Fixes
+
+- Profile & Settings
+  - Various fixes
+- System
+  - Game should now be able to connect to the internet on older versions of macOS.
+
+## 0.2.4 Patch
+
+`2022-11-05 10:00 UTC`
+
+Changes
+
+- Duels
+  - Power Mirror SA now dynamically show the expected power on your leader during gameplay.
+    - Note: The correct value for now is only during your turn, we will update it later on.
+  - Logs now display if the host changed the rules of who starts on Friendly Duel.
+  - Matchmaking now finds an opponent near your rating more efficiently. After the 90s it is still random.
+  - Added a new VFX for affinities. Color change based on if simple or double.
+  - Tile colors have been updated to make it more clear based on the field currently active.
+- Loots
+  - Reward chest unlocker slots #4 to #6 are now available depending on the presale pack you opened until the end of the EA. In the GA, they will be available by buying an item in the Shop (Shop Passes).
+  - Reward chest can now be converted to Trisel instead of being opened at a rate of 1h = 10 Trisel. It means you will not get the cards inside it but Trisel in exchange, this feature is available after the time needed to unlock. All slots (including the free #1 to #3) are eligible for this convert mechanism.
+    - Considering we added the reward chest convert feature and that Shop Passes give 3 more unlock slots, there will not be a new daily mission for Shop Passes owners as it is now backed into the convert mechanism.
+  - Unlock and Open screens have been merged into a screen.
+  - Slot #3 is now enabled after 50 unlock, no matter if you open or convert the chests.
+- Missions
+  - Reset timers are now displayed.
+- Settings
+  - You can now choose the intensity of the foil effect, both in menus and in-game.
+- Login
+  - It is no longer possible to use the username, only the email is now valid.
+- System
+  - You can now make a long left-click to emulate the behavior of a right-click.
+
+Fixes
+
+- Duels
+  - Player remaining time correctly shows what is set in Friendly Duel.
+  - Foil effect is now correctly displayed on animated cards.
+  - Foil effect is now correctly displayed on opponent cards.
+- Missions
+  - Login mission is now completed whenever you access the missions, you no longer have to relog.
 
 ## 0.2.3 Hotfix 1
 
