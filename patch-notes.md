@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.2.6
+  - [Patch](#026-patch)
 - 0.2.5
   - [0.2.5b](#025b-patch)
   - [Patch](#025-patch)
@@ -27,16 +29,99 @@
 Changes
 
 - Duels
+  - You can now mute opponent emotes.
+  - You can now report your opponent's name.
+  - Logs now show you the card name and coordinates using A/B/C/D + 1/2/3/4 coords.
+  - Custom options are now also shown at the top of the logs.
+  - Affinities created are now shown on the card instead of in a toast.
+  - Music is now evolving over the game.
+  - Opponent/Your turn display has been updated.
+  - Ending screen now shows you the reason of the victory/defeat.
+  - ^^Some Balances Changes^^
   - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
     - You get an extra 10 Trisel / 100 EXP if you own more than 90% of the board on a win.
+  - Opponent card placement is now animated.
+  - Persisting effects are now shown directly on the board.
+  - A/B/C/D & 1/2/3/4 coordinates are now slightly shown on the cells header.
+  - Combo cards will now show the cinematic of the character its arkhome is from, if it is grade A or S.
+- Cards
+  - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
+- User Interface
+  - The navigation between menus has been simplified with a static footer menu allowing you to move quickly from one menu to another.
+  - Dashboard has been updated with new buttons and animation.
+  - Shop, Collection and Crafting views have been slightly adjusted for this new navigation.
+  - Keep in mind that it is a first step to the new User Experience we are working on, more to come.
+- Crafting
+  - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+- System
+  - Performance of animation has been greatly improved on macOS and iOS.
+  - Performance when displaying hundreds of items (such as cards in collections) have been greatly improved on all platforms.
+
+## 0.2.6 Patch
+
+`2022-11-17 05:00 UTC`
+
+Changes
+
+- Duels
+  - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
     - You get more Trisel and EXP on your wins based on your rating. Thresholds are at 1150 / 1500 / 1850 / 2200 / 2550. For each threshold you have +5 Trisel / +50 EXP per win.
+  - Matchmaking now has a floor rating of 1000. It means that every player below 1000 rating is considered at 1000 for matchmaking purpose.
+    - Note: This change is mandatory in order to maintain the integrity of the economy as some users were purposely losing on their accounts in order to be matched against themselves in very low elo. Hundreds of thousands of Trisel has been earned that way.
+    - We have temporarily banned those accounts and removed all EXP/Trisel gains, if the Trisel were already spent, the balance will be negative and they will have to earn back everything.
+    - Keep in mind that we banned only accounts that abused the system, if you did encounter your other account only a few times you have not been banned. Keep in mind that this is still against the fairness rules and further measures might be taken against such behavior in the future.
+  - Timeout and Surrender rules have been revisited as follow:
+    - If you surrender before or during Turn 10, it is considered as an Early Surrender.
+    - Games have a duration of 5mins although each turn has now a maximum duration of 2mins, if the player does not end his turn (by playing a battle card) during those 2mins, he will lose the game as it is considered being AFK.
+    - Being AFK or making an early surrender triggers a matchmaking penalty that prevents you from queuing for a certain amount of time.
+    - This time exponentially increases on each penalty. It is reset weekly.
+    - Before making an early surrender, a window pop-up warns you about it.
+    - After not playing the turn for 1 min, a 60s countdown appears below the player. If it reaches 0, the game is lost for the AFK player.
+      - Note: Disconnects are not fully handled regarding this timer display on the client side, i.e. if you disconnect and reconnect late into a turn you might not see the countdown. This will be fixed in an upcoming update.
+    - Surrendering after turn 10 (turn 11 and so on) will not trigger any penalty. Although keep in mind that for missions accomplishment, the win will count as if the opponent controlled 100% of the board.
+  - Improved card glow VFX while in hand.
+  - Improved card affinities VFX while on the board.
 - Cards
   - Honora & Hannibal is now correctly displayed as Special Rare (was Rare before).
     - Note: NFT version will be changed after migration.
   - Hanzo & ValRed is now correctly displayed as Rare (was Uncommon before).
   - Nox & Skeleton is now correctly displayed as Ultra Rare (was Uncommon before).
+  - Multiple metadata such as illustrator name have been updated.
+    - Note: NFT version will be changed after migration.
 - Loots
   - Reward, Daily and Weekly chests can now contain foil cards.
+  - Pack progress is now shown if opening more than one pack.
+- Crafting
+  - Merge (to make Combo cards) will be enabled on `2022-11-17 17:00 UTC`.
+- Shop
+  - Neo Halloween chest will be removed from the Shop on `2022-11-17 17:00 UTC`.
+- Profile
+  - You can now redeem codes you received in your profile. Be aware that attempting to redeem invalid codes multiple times will ban you.
+
+Fixes
+
+- Duels
+  - No longer incorrectly reward an extra 20 Trisel on win if all unlocker slots were full.
+    - Note: This was an old implementation before convert was added to the game, it has then be replaced by the convert and the rating bonus.
+  - Emote selector layout has been fixed if using Legacy emote.
+  - Correctly freeze the players timer when the last card has been played.
+- Crafting
+  - Correctly clear the card selector on tab change.
+- Perks
+  - Golden & Golden Legacy now correctly increase your CTA cap (+500 and +1000 respectively).
+  - Last tier bar progress display is now correctly displayed.
+- Dashboard
+  - No longer show loading artifacts.
+- Profile
+  - Wallet ID and Immutascan Link are now correctly displayed.
+  - Emote selection should now behave correctly.
+
+Notes
+
+- Crafting wording will be updated as follow:
+  - Potential Merge -> Power Up
+  - Alternative Merge -> Merge
+  - Alternative Combo -> Combo
 
 ## 0.2.5b Patch
 
