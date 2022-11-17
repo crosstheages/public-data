@@ -5,6 +5,8 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.2.6
+  - [0.2.6c](#026c-patch)
+  - [0.2.6b](#026b-patch)
   - [Patch](#026-patch)
 - 0.2.5
   - [0.2.5b](#025b-patch)
@@ -44,8 +46,12 @@ Changes
   - Persisting effects are now shown directly on the board.
   - A/B/C/D & 1/2/3/4 coordinates are now slightly shown on the cells header.
   - Combo cards will now show the cinematic of the character its arkhome is from, if it is grade A or S.
+  - Game window will now be put in foreground if you were in the queue and are matched.
 - Cards
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
+- Loots
+  - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
+  - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - User Interface
   - The navigation between menus has been simplified with a static footer menu allowing you to move quickly from one menu to another.
   - Dashboard has been updated with new buttons and animation.
@@ -56,6 +62,31 @@ Changes
 - System
   - Performance of animation has been greatly improved on macOS and iOS.
   - Performance when displaying hundreds of items (such as cards in collections) have been greatly improved on all platforms.
+
+Fixes
+
+- Profile
+  - Avatar of the corresponding card is now correctly given on acquisition through crafting.
+
+## 0.2.6c Patch
+
+`2022-11-17 16:00 UTC`
+
+Fixes
+
+- Duels
+  - You will now be redirected back to the dashboard if you encounter an error while queuing.
+- Crafting
+  - Trisel deduction after merging is now correctly displayed (was wrongly shown on the client before).
+
+## 0.2.6b Patch
+
+`2022-11-17 13:00 UTC`
+
+Fixes
+
+- Crafting
+  - Trisel cost for Merge is now correctly shown.
 
 ## 0.2.6 Patch
 
