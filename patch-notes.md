@@ -67,6 +67,17 @@ Fixes
 - Profile
   - Avatar of the corresponding card is now correctly given on acquisition through crafting.
 
+## 0.2.6d Hotfix 1
+
+`2022-11-18 10:05 UTC`
+
+Fixes
+
+- Duels
+  - Duels are now ending correctly whether you surrender or are AFK.
+    - Note: Stuck players will receive a compensation of +1000 Trisel. Players who played at least 1 match during the ~7 hours window in degraded conditions but were not stuck will also receive +300 Trisel.
+    - Note: All matchmaking temporary bans (afk / early surrender) also have been lifted/reset.
+
 ## 0.2.6d Patch
 
 `2022-11-18 03:00 UTC`
