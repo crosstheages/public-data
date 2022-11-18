@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.2.6
+  - [0.2.6d](#026d-patch)
   - [0.2.6c](#026c-patch)
   - [0.2.6b](#026b-patch)
   - [Patch](#026-patch)
@@ -33,8 +34,6 @@ Changes
 - Duels
   - You can now mute opponent emotes.
   - You can now report your opponent's name.
-  - Logs now show you the card name and coordinates using A/B/C/D + 1/2/3/4 coords.
-  - Custom options are now also shown at the top of the logs.
   - Affinities created are now shown on the card instead of in a toast.
   - Music is now evolving over the game.
   - Opponent/Your turn display has been updated.
@@ -67,6 +66,23 @@ Fixes
 
 - Profile
   - Avatar of the corresponding card is now correctly given on acquisition through crafting.
+
+## 0.2.6d Patch
+
+`2022-11-18 03:00 UTC`
+
+Changes
+
+- Duels
+  - Logs now show you the card name and coordinates using A/B/C/D + 1/2/3/4 coords.
+  - Custom options are now also shown at the top of the logs (for custom duels).
+
+Fixes
+
+- Duels
+  - Various fixes regarding player's timers and AFK timers.
+- Cards
+  - Updated rarities such as Honora & Hannibal card should now be correctly displayed.
 
 ## 0.2.6c Patch
 
