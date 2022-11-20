@@ -5,6 +5,8 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.2.6
+  - [0.2.6d Hotfix #2](#026d-hotfix-2)
+  - [0.2.6d Hotfix #1](#026d-hotfix-1)
   - [0.2.6d](#026d-patch)
   - [0.2.6c](#026c-patch)
   - [0.2.6b](#026b-patch)
@@ -66,6 +68,21 @@ Fixes
 
 - Profile
   - Avatar of the corresponding card is now correctly given on acquisition through crafting.
+
+## 0.2.6d Hotfix 2
+
+`2022-11-20 14:00 UTC`
+
+Changes
+
+- Duels
+  - AFK and Early Surrender leave penalty is now capped at 15 minutes and reset daily.
+  - Coin toss bad luck protection now goes up to 90/10 odds from 75/25. Still based on yours and oppononent's last 10 games.
+
+Fixes
+
+- Duels
+  - Matchmaking rating first widening duration can no longer be wrongly reduced.
 
 ## 0.2.6d Hotfix 1
 
