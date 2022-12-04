@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.2.7
+  - [Patch](#027-patch)
 - 0.2.6
   - [0.2.6d Hotfix #2](#026d-hotfix-2)
   - [0.2.6d Hotfix #1](#026d-hotfix-1)
@@ -34,38 +36,65 @@
 Changes
 
 - Duels
-  - You can now mute opponent emotes.
-  - You can now report your opponent's name.
-  - Affinities created are now shown on the card instead of in a toast.
   - Music is now evolving over the game.
-  - Opponent/Your turn display has been updated.
-  - Ending screen now shows you the reason of the victory/defeat.
-  - ^^Some Balances Changes^^
+  - You can now report your opponent's name.
+  - ==Some Balances Changes==
   - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
     - You get an extra 10 Trisel / 100 EXP if you own more than 90% of the board on a win.
   - Opponent card placement is now animated.
   - Persisting effects are now shown directly on the board.
-  - A/B/C/D & 1/2/3/4 coordinates are now slightly shown on the cells header.
-  - Combo cards will now show the cinematic of the character its arkhome is from, if it is grade A or S.
-  - Game window will now be put in foreground if you were in the queue and are matched.
+  - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
+  - Game window will now be put in foreground if you are in the queue and are matched.
 - Cards
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loots
   - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+- Crafting
+  - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.2.7 Patch
+
+`2022-12-04 08:00 UTC`
+
 - User Interface
   - The navigation between menus has been simplified with a static footer menu allowing you to move quickly from one menu to another.
   - Dashboard has been updated with new buttons and animation.
   - Shop, Collection and Crafting views have been slightly adjusted for this new navigation.
   - Keep in mind that it is a first step to the new User Experience we are working on, more to come.
-- Crafting
-  - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+- Duels
+  - Matchmaking values have been tweaked for upcoming era, it now works as follow:
+    - Has a floor of 1100 rating (if you have a lower rating, it will be considered as if you had 1100).
+    - Widen the rating to match by 50 6 times, from +-50 to +-400.
+    - If no opponent is found after ~150s, match someone randomly.
+  - Added a SFX whenever you are matched as well as when you are running out of time in a game.
+  - Coin toss weight is now based on your last 7 games (was 10 games before).
+  - You can now disable emotes (globally in settings, during a game once the emote panel is opened).
+  - Updated various VFX.
+  - Added an option to show A/B/C/D & 1/2/3/4 landmarks on the cells header (useful for streaming or log reviews!).
+  - Affinities added/removed are now shown on the card instead of in a toast.
+  - Swap turn display has been updated.
+  - Ending screen now shows you the reason for the victory/defeat.
+- Cards
+  - Combo card names now use "&" instead of "+" in their name.
+- Profile
+  - Match history is now available.
+- Missions
+  - Missions system has been revamped for the upcoming era. As such weekly missions have been reset, you can complete them one more time this week. If you had a pending daily/weekly chest before the maintenance, it was auto-claimed.
+  - Some existing mission objectives have been updated.
 - System
   - Performance of animation has been greatly improved on macOS and iOS.
   - Performance when displaying hundreds of items (such as cards in collections) have been greatly improved on all platforms.
 
 Fixes
 
+- Duels
+  - Fixed an issue preventing you from entering the matchmaking as well as canceling the queue.
+  - Coin toss, preparation timer and default field are now correctly aligned.
+  - Fixed legacy emote size.
+  - Fixed various issues in log output.
+- Missions
+  - Fixed an issue where your first mission progress would not count toward the objective (first win, etc...).
 - Profile
   - Avatar of the corresponding card is now correctly given on acquisition through crafting.
 
