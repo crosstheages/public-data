@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.2.7
+  - [0.2.7b](#027b-patch)
   - [Patch](#027-patch)
 - 0.2.6
   - [0.2.6d Hotfix #2](#026d-hotfix-2)
@@ -51,6 +52,24 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.2.7b Patch
+
+`2022-12-04 23:30 UTC`
+
+Fixes
+
+- Duels
+  - Deck cost of the player is now correctly displayed.
+  - End of the game will correctly wait for all visual effects to end.
+- Cards
+  - Various selection fixes.
+- Crafting
+  - Fixed an issue where NFT card would not be selectable.
+  - Various layout fixes.
+- System
+  - Visual effects on macOS are back.
+    - Note: We re-implemented temporary the old way to render them.
 
 ## 0.2.7 Patch
 
