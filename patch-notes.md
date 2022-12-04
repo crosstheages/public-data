@@ -36,7 +36,6 @@
 Changes
 
 - Duels
-  - Music is now evolving over the game.
   - You can now report your opponent's name.
   - ==Some Balances Changes==
   - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
@@ -55,7 +54,7 @@ Changes
 
 ## 0.2.7 Patch
 
-`2022-12-04 08:00 UTC`
+`2022-12-04 10:15 UTC`
 
 - User Interface
   - The navigation between menus has been simplified with a static footer menu allowing you to move quickly from one menu to another.
@@ -65,10 +64,11 @@ Changes
 - Duels
   - Matchmaking values have been tweaked for upcoming era, it now works as follow:
     - Has a floor of 1100 rating (if you have a lower rating, it will be considered as if you had 1100).
-    - Widen the rating to match by 50 6 times, from +-50 to +-400.
+    - Widen at random interval the rating to match an opponent up 6 times, from +-50 to +-400.
     - If no opponent is found after ~150s, match someone randomly.
   - Added a SFX whenever you are matched as well as when you are running out of time in a game.
   - Coin toss weight is now based on your last 7 games (was 10 games before).
+  - Music is now evolving during the game.
   - You can now disable emotes (globally in settings, during a game once the emote panel is opened).
   - Updated various VFX.
   - Added an option to show A/B/C/D & 1/2/3/4 landmarks on the cells header (useful for streaming or log reviews!).
