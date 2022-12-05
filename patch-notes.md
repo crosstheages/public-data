@@ -53,6 +53,15 @@ Changes
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
 
+## 0.2.7c Patch
+
+`2022-12-05 00:30 UTC`
+
+Fixes
+
+- System
+  - Fixed an issue preventing launch on some devices.
+
 ## 0.2.7b Patch
 
 `2022-12-04 23:30 UTC`
