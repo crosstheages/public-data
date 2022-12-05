@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.2.7
+  - [0.2.7c](#027c-patch)
   - [0.2.7b](#027b-patch)
   - [Patch](#027-patch)
 - 0.2.6
