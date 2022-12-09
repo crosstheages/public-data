@@ -65,7 +65,7 @@ Changes
     - 1500-1849:  7,000 Trisels and a Mega chest
     - 1850-2200: 15,000 Trisels and a Mega chest + an Ultra chest
     - Note: In a previous communication, we said that the first threshold was 1150 but it was incorrect as since it's based on ATH everyone started at 1200, as such it has been put at 1250.
-  - In addition to this, the first 10 players who reached 2,000 rating (2k Challenge) received those rewards
+  - In addition to this, the first 10 players who reached 2,000 rating (2k Challenge) received those rewards:
     - 1st:        20,000 Trisels and a Neo chest
     - 2nd:        15,000 Trisels and an Omega chest
     - 3rd:        10,000 Trisels and an Ultra chest
@@ -74,22 +74,24 @@ Changes
   - Note: End of era rewards will not be based on the highest rating, it will instead be based either on current rating or a new system called "average rating", in any case it will be announced weeks before the end of the next era.
 - Gameplay
   - Disclaimer: All the changes below are part of our set of balance changes for the S1E2, although keep in mind that anything can be adjusted in the future.
+  - A new system "Affinity Stacking" has been added to the game:
+    - After each turn, each card affected by at least an affinity will gain +10 power.
+    - Losing one affinity does not reset this bonus, losing all of them does.
+    - Capture does also reset the affinity stacking bonus.
   - Special Abilities
     - We are renaming "Special Attack" to "Special Abilities" as some of them are not directly related to Attack.
     - Affinities Reinforcement
       - New SA: "As long as you own your Leader on the board, every card you own with at least one affinity has a power up of +20."
+      - Note: This bonus is independent from the "Affinity Stackig" system.
     - Shift Advantages
-      - New SA: "When played, your Leader shifts the arkhomes advantages, +150 becomes -150 and vice-versa. Lasts 3 turns."
+      - New SA: "When played, your Leader shifts the Arkhomes advantages, +150 becomes -150 and vice-versa. Lasts 3 turns."
     - Banner of Command
       - Buff: "As long as you own your Leader on the board, empower the Leader by +15 and all owned cards of the same Arkhome as your Leader by +45."
     - Field Influence
       - Buff: "As long as you own your Leader on the board, empower your field cards by +50 and weaken opponent field cards by -40. Your fields have -100 deck costs."
     - Power Stacking
       - Nerf: "For each turn elapsed and while you keep your Leader in your hand, its power is increased by +10 per turn."
-  - A new system "Affinity Stacking" has been added to the game:
-    - Whenever a card is affected by at least an affinity, it will gain +10 power for each turn elapsed while it keeps at least one affinity.
-    - Losing one affinity does not reset this bonus, losing all of them does.
-    - Capture does also reset the affinity stacking bonus.
+      - Note: Previously the power increase was effective starting from turn 1 or 2, now it's from turn 3 or 4.
 - Duel
   - All alert sounds have been updated (matchmaking, first and second alert for AFK / Timeout).
   - Coin toss bad luck protection no longer takes into account more than 2 games.
