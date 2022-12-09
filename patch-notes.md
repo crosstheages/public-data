@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.3.0
+  - [Patch](#030-patch)
 - 0.2.7
   - [0.2.7c](#027c-patch)
   - [0.2.7b](#027b-patch)
@@ -39,20 +41,107 @@ Changes
 
 - Duels
   - You can now report your opponent's name.
-  - ==Some Balances Changes==
-  - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
-    - You get an extra 10 Trisel / 100 EXP if you own more than 90% of the board on a win.
   - Opponent card placement is now animated.
   - Persisting effects are now shown directly on the board.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Cards
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
-- Loots
-  - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
+- Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.3.0 Patch
+
+`2022-12-09 05:30 UTC`
+
+Changes
+
+- Leaderboard
+  - Season 1 Era 1 (S1E1) has ended, here are the rewards you all received depending on the highest rating you reached:
+    - 0-1249: 1,000 Trisels
+    - 1250-1499:  3,000 Trisels
+    - 1500-1849:  7,000 Trisels and a Mega chest
+    - 1850-2200: 15,000 Trisels and a Mega chest + an Ultra chest
+    - Note: In a previous communication, we said that the first threshold was 1150 but it was incorrect as since it's based on ATH everyone started at 1200, as such it has been put at 1250.
+  - In addition to this, the first 10 players who reached 2,000 rating (2k Challenge) received those rewards
+    - 1st:        20,000 Trisels and a Neo chest
+    - 2nd:        15,000 Trisels and an Omega chest
+    - 3rd:        10,000 Trisels and an Ultra chest
+    - 4th to 10th: 5,000 Trisels and a Mega chest
+  - New era starting rating is now 1100, as a consequence floor rating for matchmaking is now 1000.
+  - Note: End of era rewards will not be based on the highest rating, it will instead be based either on current rating or a new system called "average rating", in any case it will be announced weeks before the end of the next era.
+- Gameplay
+  - Disclaimer: All the changes below are part of our set of balance changes for the S1E2, although keep in mind that anything can be adjusted in the future.
+  - Special Abilities
+    - We are renaming "Special Attack" to "Special Abilities" as some of them are not directly related to Attack.
+    - Affinities Reinforcement
+      - New SA: "As long as you own your Leader on the board, every card you own with at least one affinity has a power up of +20."
+    - Shift Advantages
+      - New SA: "When played, your Leader shifts the arkhomes advantages, +150 becomes -150 and vice-versa. Lasts 3 turns."
+    - Banner of Command
+      - Buff: "As long as you own your Leader on the board, empower the Leader by +15 and all owned cards of the same Arkhome as your Leader by +45."
+    - Field Influence
+      - Buff: "As long as you own your Leader on the board, empower your field cards by +50 and weaken opponent field cards by -40. Your fields have -100 deck costs."
+    - Power Stacking
+      - Nerf: "For each turn elapsed and while you keep your Leader in your hand, its power is increased by +10 per turn."
+  - A new system "Affinity Stacking" has been added to the game:
+    - Whenever a card is affected by at least an affinity, it will gain +10 power for each turn elapsed while it keeps at least one affinity.
+    - Losing one affinity does not reset this bonus, losing all of them does.
+    - Capture does also reset the affinity stacking bonus.
+- Duel
+  - All alert sounds have been updated (matchmaking, first and second alert for AFK / Timeout).
+  - Coin toss bad luck protection no longer takes into account more than 2 games.
+    - Note: Since our matchmaking does not consider your history of coin toss, reducing the number of games that weigh the toss reduces the probability of big streaks. In the future (when more players will be playing) we might revisit this system by adding it as a condition to match players together.
+  - Leader Arkhome is now shown in the header with its usual icon.
+  - Some effect durations have been shortened in order to speed up games.
+    - Note: We are continuously working on in-game effects and planning to add new effects / rework some effects. As such some duration might be adjusted when such updates will come out.
+  - A new outcome for a game has been added, before whenever the game ended by a 50/50 the lowest remaining time player would lose. We changed this behavior for ranked games as such:
+    - Whenever a 50/50 happens, both players earn a reward chest and they split Trisels (15 Trisels each baseline).
+    - If both players have a big enough rating difference, the highest rated player has no change on its rating, the lowest rated player does earn half the rating gain he would have earned on a win.
+    - If both players are close enough in rating, no changes are made to their rating.
+  - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
+    - You get an extra 10 Trisel / 100 EXP if you own more than 90% of the board on a win.
+- Mission
+  - Missions are now randomly chosen from a pool for each player.
+  - We added two new types of missions, playing and winning with a leader of a given Arkhome, available both daily and weekly.
+- Cards
+  - Free rotations are now randomly chosen from a given pool for each player.
+    - Note: We are still iterating on this, both in terms of the number of cards but also what cards. Expect some changes in the upcoming weeks in this regard.
+- Dashboard
+  - Player name is now shown in the header.
+  - Added a logout entry on the burger menu.
+- Profile
+  - Grayed out unavailable social accounts link (Apple, Google, Facebook, Twitter).
+- History
+  - Leader Arkhome is now displayed.
+  - Duel date is now displayed.
+  - Added draw outcome and updated some texts.
+- Heptagram
+  - Is now permanently displayed in every menu while on desktop layout. You can still toggle settings while in-game if needed.
+  - If Shift Advantages SA is played, the Heptagram will be shifted while the effect is active.
+- Loot
+  - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
+  
+Fixes
+
+- Mission
+  - Fixed an issue where opening a chest would count double toward the opening mission.
+- Dashboard
+  - Improved animation performances.
+- Profile
+  - Fixed an issue preventing the profile to be opened.
+- History
+  - Fixed an issue where the wrong leader was shown on some games.
+- System
+  - Fixed several issues regarding crashes and memory hog.
+
+Notes
+
+- This release also features mobile versions for OGs, Moderators and Testers.
+- Keep in mind that there are multiple display issues and that we are not looking for feedback on those, we are ONLY looking for blocking issues such as crash / cannot start / blocked in a menu / etc...
+- All the visual details are being polished for every resolution, no need to report them at this moment.
 
 ## 0.2.7c Patch
 
