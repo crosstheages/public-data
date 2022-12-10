@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.3.0
+  - [0.3.0.2492](#0302492-patch)
   - [0.3.0b](#030b-patch)
   - [Patch](#030-patch)
 - 0.2.7
@@ -52,6 +53,26 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.3.0.2492 Patch
+
+`2022-12-10 17:30 UTC`
+
+Changes
+
+- System
+  - Versioning now add build number instead of a letter as 4th argument.
+  - Added a "Reset" button on the splash screen. Do not use it unless you have some issue with the game data, if you do it will close the game and re-download everything on next launch.
+
+Fixes
+
+- Dashboard
+  - Game mode dropdown is now working again.
+  - Missions is no longer shown as locked.
+- Leaderboard
+  - List is once again visible.
+- System
+  - Fixed an issue preventing some light to be added to effects.
 
 ## 0.3.0b Patch
 
