@@ -61,18 +61,18 @@ Changes
 Changes
 
 - System
-  - Versioning now add build number instead of a letter as 4th argument.
+  - Versioning now includes build number, in an upcoming update the build number will replace the patch one which is the 3rd argument (`0.3.0.2492`-> `0.3.2492`).
   - Added a "Reset" button on the splash screen. Do not use it unless you have some issue with the game data, if you do it will close the game and re-download everything on next launch.
 
 Fixes
 
 - Dashboard
   - Game mode dropdown is now working again.
-  - Missions is no longer shown as locked.
+  - Missions are no longer shown as locked.
 - Leaderboard
   - List is once again visible.
 - System
-  - Fixed an issue preventing some light to be added to effects.
+  - Fixed an issue preventing some light from being added to effects.
 
 ## 0.3.0b Patch
 
