@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.3.0
+  - [0.3.0b](#030b-patch)
   - [Patch](#030-patch)
 - 0.2.7
   - [0.2.7c](#027c-patch)
@@ -51,6 +52,32 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.3.0b Patch
+
+`2022-12-10 09:30 UTC`
+
+Changes
+
+- Settings
+  - Added an option to limit game's resources for low-end devices.
+- System
+  - Lowered some graphics requirements from the game.
+  - Reworked the launch of the application in order to pre-load some needed assets as well as being more explicit of the tasks being done in the loading progress bar.
+  - Various UI updates for small resolutions.
+
+Fixes
+
+- Duel
+  - Custom duels now have a value of 10 for affinity stacking.
+  - Fixed an issue where multiple SFX could be played at once when a card was played.
+- Cards
+  - Deck cost deck with Field Influence SA should no longer wrongly warn about incompatible deck (due to new SA deck cost reduction) despite being valid.
+  - Loading screen with cards no longer shows a blank card.
+- Loot
+  - Reward chest not unlocked/opened since more than a few weeks can now be unlocked/opened.
+- Dashboard
+  - Fixed an issue that made the queuing time from the dashboard longer than expected (up to 15s).
 
 ## 0.3.0 Patch
 
