@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.4
+  - [0.4.2607](#042607-patch)
 - 0.3.0
   - [0.3.0.2492](#0302492-patch)
   - [0.3.0b](#030b-patch)
@@ -44,15 +46,81 @@ Changes
 - Duels
   - You can now report your opponent's name.
   - Opponent card placement is now animated.
-  - Persisting effects are now shown directly on the board.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Cards
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
+  - You now have an "auto" button that make a deck based on your SA and Leader.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.4.2607 Patch
+
+Changes
+
+- Event
+  - Christmas event is now available until Monday 9th January, 8am UTC.
+  - New event missions have been added, they last for the whole event.
+  - Completing all of them rewards you with an event chest with rewards containing up to 2 Ultra Rare cards. It also contains a guaranteed Exclusive card and an exclusive Cosmetic reward.
+  - Christmas Neo is also available in the shop, it contains the same base as Neo but adds a guaranteed Exclusive card and an exclusive Cosmetic reward (if you did not have all the event Cosmetics already).
+  - The Exclusive card artworks are masked, it will be revealed on Christmas Day (December 25th).
+    - Note: You cannot play with it until the 25th. If you mint it before the 25th, it will have the mystery artwork that will not be updated after the 25th. We are in the process of moving out of Stardust so we will not fix it until the migration has been done.
+  - You can also earn the Exclusive card by winning games, rules are as follow:
+    - You can earn up to 1 Exclusive card after a ranked game.
+    - You need at least 1300 rating at the end of the game to be eligible.
+    - If you are the winner, you have 1% to get it. If it is a draw, each player has 0.5% to get it.
+  - The card exists in Standard and Alternative. You cannot craft it at all, the outcome (rank/grade) is random when you obtain it and definitive. Foil odds are the same as usual (10%), grade odds follow the base (70/22/7/1 respectively) ones, rank distribution is uniform.
+    - Known Issue: Alternative versions all have the same power (grade is not taken in account), it is something that will be fixed at a later date.
+  - List of all the Cosmetic rewards:
+    - 2 avatars obtained (automatically with the cards)
+    - 3 avatar frames
+    - 1 profile banner
+    - 1 in-game footer
+    - 2 emotes
+  - All the cosmetic rewards cannot be NFT right now but it is something that we are considering in the future.
+  - Dashboard has some snow showing up to celebrate the winter.
+- Gameplay
+  - Affinity Stacking
+    - Nerf: Now is triggered at the start of your turn with a value a +20 (instead of the start of every turn with a value of +10).
+  - Field Influence SA
+    - Nerf: Deck cost reduction is now scaled based on the field power, i.e. at 50 it is -0, at 150 it is -100.
+- Duels
+  - Updated the default in-game footer.
+  - Slightly slowed attack attempt animation.
+  - Persisting global effects such as SA or Fields are now shown directly on the board, per player.
+  - Fields are now animated on the mobile.
+  - Heptagram is now half-transparent on mobile.
+  - Added a system to detect if the client missed an event (such as swap turn), if it happens it will automatically trigger a reconnection without restarting the application.
+  - Ending a game on a draw will now count towards the win progress of missions.
+- Cards
+  - Free rotation has been updated to include at least 3 strong cards. Battle cards can now have their rank and grade tweaked to reach a power target more or less balanced for every player.
+  - Updated multiple level 1 animation.
+- Leaderboard
+  - Now display draws count in addition to win/loss. Draw is neutral for win rate %.
+    - Known Issue: Draw count is shown as 0, will be fixed in a later patch.
+- System
+  - Reduced the size of various assets.
+  - Added a higher definition of assets for Retina / 2k+ displays.
+
+Fixes
+
+- Duel
+  - No longer play multiple alert sounds on the versus screen.
+  - No longer wrongly restricts from matchmaking a timed out player.
+  - Field swap no longer shows a black screen on mobile.
+  - No longer play sounds nor coin toss nor timer during a reconnection.
+- Cards
+  - Removed card backs at the end of Collection / Opening.
+- Profile
+  - Fullscreen resolution is now persisted correctly.
+  - No longer show resolution settings on mobile.
+- User Interfaces
+  - Various fixes on mobile.
+- System
+  - Various crash fixes.
+  - Changed some animation rendering process to avoid unexpected blank/green texture.
 
 ## 0.3.0.2492 Patch
 
