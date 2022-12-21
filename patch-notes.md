@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.4
+  - [0.4.2607 Hotfix #1](#042607-hotfix-1)
   - [0.4.2607](#042607-patch)
 - 0.3.0
   - [0.3.0.2492](#0302492-patch)
@@ -55,6 +56,28 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.4.2607 Hotfix 1
+
+Changes
+
+- Duel
+  - Matchmaking has been adjusted to widen a little bit quicker the rating, max is now 2 mins from 2 mins and 30 seconds.
+  - Matchmaking rating widening range is now up to +- 700 before being uncapped (up from 400 before being uncapped).
+    - Note: Rating gain is (and always has been) capped at 400 rating diff. So if a player at 1800 plays against someone <= 1400, he will have the same gain/loss as if it was 1400 so does his opponent (his rating +400).
+  -
+- Profile
+  - Total cards and Total power now count only one value per card.
+    - We show only unique id owned (if you have 3 Solis, we only count 1).
+    - We count only the biggest power (if you have Solis Alt S and Solis Alt C, only the Alt S is counted).
+
+Fixes
+
+- Cards
+  - Locke exclusive power is now correctly computed.
+  - Illustrators of Alternative and Combo cards are now correctly displayed.
+- Reset
+  - Daily/Weekly/FreeRotation are now more reliable as they are triggered as soon as you interact with the server rather than specific events.
 
 ## 0.4.2607 Patch
 
