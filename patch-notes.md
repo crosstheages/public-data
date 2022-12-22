@@ -58,7 +58,20 @@ Changes
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
 
+## 0.4.2673 Patch
+
+`2022-12-22 21:00 UTC`
+
+Fixes
+
+- Cards
+  - Power font has been adjusted to reduce aliasing.
+- Shop
+  - Payment link is now selectable and can be copied.
+
 ## 0.4.2666 Patch
+
+`2022-12-22 14:30 UTC`
 
 Changes
 
@@ -98,6 +111,8 @@ Fixes
 
 ## 0.4.2607 Hotfix 1
 
+`2022-12-21 04:30 UTC`
+
 Changes
 
 - Duel
@@ -119,6 +134,8 @@ Fixes
   - Daily/Weekly/FreeRotation are now more reliable as they are triggered as soon as you interact with the server rather than specific events.
 
 ## 0.4.2607 Patch
+
+`2022-12-19 07:00 UTC`
 
 Changes
 
