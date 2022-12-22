@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.4
+  - [0.4.2666](#042666-patch)
   - [0.4.2607 Hotfix #1](#042607-hotfix-1)
   - [0.4.2607](#042607-patch)
 - 0.3.0
@@ -56,6 +57,44 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.4.2666 Patch
+
+Changes
+
+- Duels
+  - You can now directly see Exclusive Card Details from the ending screen.
+- Cards
+  - Power on cards now have a stronger outline making them easier to read on some bright cards.
+- Shop
+  - Added the payment link in the popup that is opened whenever you are trying to buy Prana / CTA Tokens in order to manually open the page in case the auto-open fails.
+- System
+  - Added support for mobile notches.
+  - Changed minimum versions for several platforms:
+    - Windows: 10+
+    - macOS: 11.3+ (Big Sur)
+    - Android: 10+
+    - iOS: 14+
+
+Fixes
+
+- Duels
+  - Updated queue cancel logic to avoid being pulled into a game while the queue should have been canceled.
+  - Heptagram can now be toggled without issue.
+- Loots
+  - Christmas Event Chest and Christmas Neo Chest now correctly show Exclusive cards while revealing them one by one.
+- Craft
+  - Correctly filter valid rarity on Power Up.
+- History
+  - Rating is no longer shown for custom games.
+- Auth
+  - Automatically trim spaces from input such as email whenever invalid, mostly relevant for Android.
+- UI
+  - Various layout fixes for mobile.
+  - Various text updates.
+  - 2D assets are no longer too bright on Android.
+- System
+  - Fixed various crashes.
 
 ## 0.4.2607 Hotfix 1
 
