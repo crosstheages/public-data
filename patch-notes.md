@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.4
+  - [0.4.2673](#042673-patch)
   - [0.4.2666](#042666-patch)
   - [0.4.2607 Hotfix #1](#042607-hotfix-1)
   - [0.4.2607](#042607-patch)
