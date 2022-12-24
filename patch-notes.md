@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.4
+  - [0.4.2704](#042704-patch)
   - [0.4.2673](#042673-patch)
   - [0.4.2666](#042666-patch)
   - [0.4.2607 Hotfix #1](#042607-hotfix-1)
@@ -58,6 +59,37 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.4.2704 Patch
+
+`2022-12-24 17:00 UTC`
+
+Changes
+
+- Play
+  - Limit Game Resources option now replaces Animated Field by Static Field. Use it on low-end devices.
+- Cards
+  - Locke Exclusive Standard and Alternative are now revealed.
+- System
+  - Warn you when new downloads are available and you are not on Wi-Fi to prevent extra charges.
+
+Fixes
+
+- Play
+  - Buff/Debuff tooltips are now clamped to the screen.
+- Dashboard
+  - Event text is translated.
+  - Game mode dropdown text has been adjusted.
+- Cards
+  - Power on cards is no longer aliased while being visible on very bright cards (such as Calyps Alternative)
+- Loots
+  - The notification indicator is now back.
+- Craft
+  - Confirm button is accessible on mobile with notches.
+- Profile
+  - WalletID and Immutascan links are working again.
+- Interface
+  - Notch adjustments on iOS have been slightly modified to reduce distance from the home button.
 
 ## 0.4.2673 Patch
 
