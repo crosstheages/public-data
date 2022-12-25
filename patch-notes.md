@@ -60,6 +60,20 @@ Changes
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
 
+## 0.4.2704 Hotfix 1
+
+`2022-12-25 04:00 UTC`
+
+Changes
+
+- Duel
+  - Odds to get Locke Exclusive after a duel is now as follow:
+    - 1150-1349 rating: 0.5% on win, 0.25% on draw
+    - 1350-1649 rating: 1% on win, 0.5% on draw
+    - 1650+ rating: 1.5% on win, 0.75% on draw
+- Cards
+  - Locke Exclusive illustrator is now unveiled.
+
 ## 0.4.2704 Patch
 
 `2022-12-24 17:00 UTC`
