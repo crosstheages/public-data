@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.5
+  - [0.5.2838](#052838-patch)
 - 0.4
   - [0.4.2704 Hotfix #1](#042704-hotfix-1)
   - [0.4.2704](#042704-patch)
@@ -60,6 +62,58 @@ Changes
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 - Crafting
   - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+
+## 0.5.2838 Patch
+
+`2023-01-09 06:00 UTC`
+
+Known Issues (do not report this, we are working on it)
+
+- Cards
+  - Deck edition as well as filtering/sorting might not be working, as such rotations cards did not change so you can still use your existing decks. This will be fixed ASAP.
+- Crafting
+  - Some interfaces might not be fully responsive / slow to respond.
+- System
+  - Some images might not load correctly.
+
+Changes
+
+- Duels
+  - Rating gain for a draw is now the normal formula but at a 50% rate. The player with the highest rating is considered as the loser. Rating for every player has been fully recomputed using this formula in order to remove the inflation from the previous formula present on the leaderboard.
+    - Note: Your rating was lowered by this change, this is normal as the previous one was over-inflated. Keep in mind that if we did not do that, we would have to increase the threshold of rewards for the majority + draw abusers would get way more rewards than what they deserves.
+  - Your highest MMR is now computed based on your games during the last 7 seven days, updated daily.
+  - If you have more than 1850 rating and you do not play for more than 7 days, you will lose 50 rating per threshold (1850 / 2200 / 2550) per non-played week.
+  - Affinity stacking has been adjusted as follow:
+    - +20 power on [450, 545] cards
+    - +15 power on [550, 645] cards
+    - +10 power on 650+ cards
+- Cards
+  - UI has been entirely revamped.
+  - You can now filter and sort your collection.
+  - You now have an "auto" button that makes a deck based on your SA and Leader.
+  - Exclusive Locke is now playable, keep in mind as since it is a skin you cannot play the normal Locke and the exclusive one. This does apply for any card skin that will be available in the future.
+- Crafting
+  - UI has been entirely revamped.
+    - Note: Filters from the collection will be added at a later date, performance will be improved too.
+  - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+- Auth
+  - Your last email used is now saved.
+- System
+  - Game accounts no longer need to be whitelisted for mobile access.
+  - Now recommend you to switch to Wi-Fi if you have data to download and are on roaming internet access.
+  - You can now disable fields and cards animation, you might want to enable those settings on low-end devices.
+
+Fixes
+
+- Duels
+  - Correctly skip coin toss / 10s timer on reconnection during turn 1.
+  - Correctly remove you from the queue if you leave quickly before entering it.
+- Cards
+  - Fixed an issue where cards from the Christmas Event Missions Chest had incorrect rank/potential.
+- Profile
+  - Correctly show AFK / Surrender stamps text.
+- System
+  - Various adjustments for smartphone notches.
 
 ## 0.4.2704 Hotfix 1
 
