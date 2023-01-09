@@ -69,8 +69,6 @@ Changes
 
 Known Issues (do not report this, we are working on it)
 
-- Cards
-  - Deck edition as well as filtering/sorting might not be working, as such rotations cards did not change so you can still use your existing decks. This will be fixed ASAP.
 - Crafting
   - Some interfaces might not be fully responsive / slow to respond.
 - System
