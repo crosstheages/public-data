@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.6
+  - [0.6.2925](#062925-patch)
 - 0.5
   - [0.5.2838](#052838-patch)
 - 0.4
@@ -57,11 +59,54 @@ Changes
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Cards
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
-  - You now have an "auto" button that make a deck based on your SA and Leader.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.6.2925 Patch
+
+`2023-01-12 04:30 UTC`
+
+Known Issues (do not report this, we are working on it)
+
+- Duel
+  - If you are player 1 and have to reconnect to the game, you might not be able to play your cards.
+- Loots
+  - Cards recap after an opening might show blank cards.
+
+Changes
+
+- Duels
+  - Draw no longer changes the rating (+0/-0) based on rating difference, it is now neutral for the rating. Rating has been recomputed since the start of the era following this change.
+  - Reworked the management of the connectivity in order to better track if you were disconnected.
+- Cards
+  - Auto deck now considers your fields (if you put any) in addition of your Leader and SA.
+  - Increased the size of the card on card detail outside of the game.
+  - Reworked the card count icon to show it as clickable as well as increasing its size to better read the text inside it. Hitbox is bigger too.
+- System
+  - Updated the contrast of some icons.
+  - Updated the global footer to make it more clear.
+  - Updated various interfaces.
+- Dashboard
+  - ESC now opens the burger menu.
+
+Fixes
+
+- Duels
+  - No longer show a buff for Power Stacking SA, buffs are only shown for global effects.
+  - Player time left on reconnection is now synchronized back with the server.
+  - Affinity stacking default values have been updated for custom games.
+  - No longer make the player enter in a coin toss -> 10s timer -> coin toss -> etc. loop.
+  - Music cracking noise has been removed.
+- Cards
+  - Fixed an issue where the auto deck was adding cards not owned and then preventing the deck to be saved.
+  - Auto deck now has an icon.
+  - No longer let you think you can mint Training / Rotation cards.
 - Crafting
-  - You now have an "auto" button for power up. It will automatically consume eligible duplicate cards at 0 potential from highest to lowest numbering in order to reach the rank you set.
+  - Now show alternative card image possibilities on awaken.
+  - Correctly update the selected card on power up.
+- System
+  - Now show you an error if you are trying to redeem a code without having access to the Early Access.
+  - Loader cards are no longer blank.
 
 ## 0.5.2838 Patch
 
