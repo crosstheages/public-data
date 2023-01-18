@@ -5,6 +5,8 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.6
+  - [0.6.3006](#063006-patch)
+  - [0.6.3004](#063004-patch)
   - [0.6.2925](#062925-patch)
 - 0.5
   - [0.5.2838](#052838-patch)
@@ -61,6 +63,60 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.6.3006 Patch
+
+`2023-01-18 14:00 UTC`
+
+Changes
+
+- Profile
+  - Highest Rating is now the Recent Highest Rating.
+
+## 0.6.3004 Patch
+
+`2023-01-18 10:30 UTC`
+
+Changes
+
+- Duels
+  - Now show Training and Rotation ribbons on cards in-game.
+  - Show a blinking cinematic icon during cinematic in case it is hidden or skipped.
+- Cards
+  - Added a setting button for the current deck.
+    - Let you customize the deck name and card back to use (not available yet).
+    - Show you your cards arkhome & power repartition.
+- Crafting
+  - Filters are now available.
+
+Fixes
+
+- Duels
+  - No longer prevent player from playing his cards if starting player and have to reconnect.
+  - No longer wrongly display the starting player timer at the start of duel.
+  - Fixed an issue preventing music from being played on some turns.
+  - No longer highlight the draw stack if not available.
+- Cards
+  - No longer can close card details on desktop layout.
+  - Card ribbons (training / rotation) text is now correctly displayed.
+  - Stacking filter setting is now saved in presets.
+  - Various fixes on the auto deck feature.
+  - Various display fixes.
+- Loots
+  - Cards recap at the end of an opening no longer show blank cards.
+- Crafting
+  - Various display fixes.
+- Shop
+  - Added missing texts.
+- Missions
+  - Fixed a rare issue preventing missions to be renewed right after a login.
+- Profile
+  - WalletID is no longer displayed on two lines on mobile.
+- Settings
+  - Added a setting to enable/disable hardware acceleration. Some low end devices might prefer software rendering.
+- System
+  - No longer show disconnected notifications when logging out.
+  - Fixed multiple issues regarding connection loss.
 
 ## 0.6.2925 Patch
 
@@ -264,7 +320,6 @@ Changes
   - Matchmaking has been adjusted to widen a little bit quicker the rating, max is now 2 mins from 2 mins and 30 seconds.
   - Matchmaking rating widening range is now up to +- 700 before being uncapped (up from 400 before being uncapped).
     - Note: Rating gain is (and always has been) capped at 400 rating diff. So if a player at 1800 plays against someone <= 1400, he will have the same gain/loss as if it was 1400 so does his opponent (his rating +400).
-  -
 - Profile
   - Total cards and Total power now count only one value per card.
     - We show only unique id owned (if you have 3 Solis, we only count 1).
