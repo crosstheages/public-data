@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.6
+  - [0.6.3012](#063012-patch)
   - [0.6.3006](#063006-patch)
   - [0.6.3004](#063004-patch)
   - [0.6.2925](#062925-patch)
@@ -63,6 +64,19 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.6.3012 Patch
+
+`2023-01-19 08:15 UTC`
+
+Fixes
+
+- Duel
+  - No longer show red warn screen nor red timers on reconnection.
+- Cards
+  - Fixed an issue preventing the deck to be saved.
+- Profile
+  - Banner and In-Game Footer are now in their own section.
 
 ## 0.6.3006 Patch
 
