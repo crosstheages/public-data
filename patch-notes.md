@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.7
+  - [0.7.3061](#073061-patch)
 - 0.6
   - [0.6.3012](#063012-patch)
   - [0.6.3006](#063006-patch)
@@ -64,6 +66,81 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.7.3061 Patch
+
+`2023-01-20 10:30 UTC`
+
+Changes
+
+- Leaderboard
+  - Season 1 Era 2 (S1E2) has ended, here are the rewards you all received depending on the recent highest rating you reached:
+    - 0-1149: 1,000 Trisels
+    - 1150-1349:  3,000 Trisels
+    - 1350-1699:  7,000 Trisels and a Mega chest
+    - 1700+: 15,000 Trisels and a Mega chest + an Ultra chesteveryone started at 1200, as such it has been put at 1250.
+  - In addition to this and considering there have been a lot of bugs hunting, especially on mobile release, we added a bonus for anyone who opened his pack before the end of this era, as follow:
+    - Standard: 100 Trisels
+    - Apprentice: 1,000 Trisels
+    - Disciple: 2,500 Trisels
+    - Primus: 5,000 Trisels
+- Event
+  - Lunar New Year event is now available until Thursday 9th February, 11pm UTC.
+  - New event missions have been added, they last for the whole event.
+  - Completing all of them rewards you with an event chest with rewards containing up to 2 Ultra Rare cards and 1 Exclusive card for accounts with a cap higher than 100 CTA Token.
+  - Lunar Neo is available in the shop, it contains the same base as Neo but adds a guaranteed Exclusive card and an exclusive Cosmetic reward (if you did not have all the event Cosmetics already).
+  - Lunar Omega is also available in the shop, it contains the same base as Omega but adds a guaranteed Exclusive card and an exclusive Cosmetic reward (if you did not have all the event Cosmetics already), limited to 3 purchases only.
+  - You can also earn the Exclusive card by winning games, rules are as follow:
+    - You can earn up to 1 Exclusive card after a ranked game.
+    - You need at least 1150 rating at the end of the game to be eligible.
+    - Odds to get Phoenix Exclusive after a duel is now as follow:
+      - 1150-1349 rating: 0.25% on win, 0.13% on draw
+      - 1350-1649 rating: 0.5% on win, 0.25% on draw
+      - 1650+ rating: 0.75% on win, 0.38% on draw
+  - The card exists in Standard and Alternative. You cannot craft it at all, the outcome (rank/grade) is random when you obtain it and definitive. Foil odds are the same as usual (10%), grade odds follow the base (70/22/7/1 respectively) ones, rank distribution is uniform.
+  - List of all the Cosmetic rewards:
+    - 2 avatars obtained (automatically with the cards)
+    - 2 avatar frames
+    - 1 profile banner
+    - 1 in-game footer
+    - 3 emotes
+  - Dashboard features a new background.
+- Duels
+  - Win condition for turn 16 has been replaced with a score system, the player with the highest score wins the game. If both players have the same score, it is a draw.
+  - Added a new win condition, if a player reaches a score of 50 or higher he immediately wins the game. In case both players have more than 50 points, the one with the highest win. In case of the same score on both sides, it is a draw.
+  - Score is gained as follow:
+    - +1 point per card captured
+    - +1 point per card that have at least one affinity
+  - Score is computed on each turn for both players
+  - Score is displayed on a bar for each player, you can interact with it to see the breakdown of your score.
+  - Game duration is now 6 mins per player up to 1850 rating, starting from 1850 rating it is 5mins.
+  - Affinity Stacking is no longer active.
+- Blockchain
+  - We migrated the collection from Stardust to our own. Wallet will be using non-custodial Magic Link instead of custodial Stardust.
+  - Previous collection: <https://immutascan.io/address/0x8e3c7e22566983e1ede005762a6afab6bdf28277>
+  - New collection: <https://immutascan.io/address/0xa04bcac09a3ca810796c9e3deee8fdc8c9807166>
+  - This migration is quite huge as it involves 250k NFT, every NFT is handled automatically except Bored Box which will have a separate way to be migrated.
+  - Here is the breakdown of each steps that will be happening in the next following days and weeks:
+    - Put the bridge offline.
+    - Deploy the new collection and mint every NFT from the Stardust collection (with numbering split).
+    - PreSale packs are also all re-minted and those opened are burned (to maintain consistency with Polygon collection).
+    - Burn all Stardust NFT except Bored Box
+    - Unplug Stardust from the game
+    - Put back online the game
+    - Re-enable features one by one (should last up to 1 week up to step 4):
+      1. Enable mint only (no NFT pack opening nor NFT crafting)
+      2. Enable burn (NFT pack opening + NFT crafting)
+      3. Re-activate the bridge
+      4. Enable Magic Link initialization (put all NFT on player wallet which make transfer and marketplace available by exporting the seed)
+      5. Add crypto payments
+      6. Add "cold wallet" feature
+      7. Add in-game marketplace
+      8. Enable chest minting
+- Cards
+  - Presets are now limited to 25.
+- Missions
+  - Added 3 new types of missions.
+  - Removed the mission related to previous game mode.
 
 ## 0.6.3012 Patch
 
