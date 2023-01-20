@@ -140,7 +140,8 @@ Changes
   - Presets are now limited to 25.
 - Missions
   - Added 3 new types of missions.
-  - Removed the mission related to previous game mode.
+  - Removed the mission related to previous game mode, if you had it in your weekly quests it has been automatically completed.
+    - Note: There was a bug that instead of completing this mission it completed all the missions, lucky you, we will not revert it so feel free to claim them (you would have done them anyway!).
 
 ## 0.6.3012 Patch
 
