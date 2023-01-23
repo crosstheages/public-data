@@ -67,6 +67,31 @@ Changes
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.7.3069 Patch
+
+`2023-01-23 05:30 UTC`
+
+Changes
+
+- Duels
+  - Score indicators (text and bar) have been updated to be more visible.
+  - Swap turn banner has been moved below the header to prevent hiding score changes.
+  - No longer hide card details on the last turn except on mobile.
+- Profile
+  - History has been adjusted for mobile screens.
+- System
+  - Increased scroll sensitivity across the board.
+
+Fixes
+
+- Duel
+  - Fixed an issue where draw was not issued when it should have been.
+  - Missing audio sound during turn 6-7 is now back.
+- Cards
+  - Unowned cards are not showing a quantity of 0.
+- Profile
+  - Emotes are back.
+
 ## 0.7.3061 Patch
 
 `2023-01-20 10:30 UTC`
