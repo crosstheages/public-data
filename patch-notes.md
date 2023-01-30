@@ -4,7 +4,10 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.8
+  - [0.8.3192](#083192-patch)
 - 0.7
+  - [0.7.3069](#073069-patch)
   - [0.7.3061](#073061-patch)
 - 0.6
   - [0.6.3012](#063012-patch)
@@ -66,6 +69,44 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.8.3192 Patch
+
+`2023-01-30 11:30 UTC`
+
+Changes
+
+- Duels
+  - Points gained by a capture increased from 1 to 2.
+  - Score threshold increased from 50 to 65.
+  - Trisels gained per duel are now based on your score. You get roughly half the points you scored at the end of the game (no matter if it is a victory or not) with a maximum of 35. It is then increased up to 100% based on your rating.
+  - Trisels gained per duel has a rolling daily cap of 500 Trisels over the last 30 days, increased up to 50% based on your rating. Cap each day is updated only if you open the game (but you do not need to play).
+  - Experience gained per duel is now based on your score. You get roughly half the points you scored at the end of the game (no matter if it is a victory or not) multiplied by 10 with a maximum of 350. It is then increased up to 100% based on your rating.
+  - Removed any queue restriction from early surrender or disconnect.
+  - Added a new card details panel.
+- Dashboard
+  - Now tell you if you do not have Early Access how you can move forward.
+- Loots
+  - NFT packs opening is back.
+- Crafting
+  - NFT cards crafting is back.
+- Settings
+  - Added a setting to control cutscenes behavior.
+- System
+  - Added various SFX.
+
+Fixes
+
+- Duel
+  - Fixed an issue preventing the player from putting a card on the board if he disconnected after a redraw.
+- Cards
+  - Cannot add unowned cards to the deck anymore.
+- Crafting
+  - Various fixes.
+- Settings
+  - Fixed an issue preventing language change.
+- Interface
+  - Various texts update.
 
 ## 0.7.3069 Patch
 
