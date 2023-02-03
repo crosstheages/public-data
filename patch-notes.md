@@ -5,6 +5,11 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.8
+  - [0.8.3271 Hotfix #1](#083271-hotfix-1)
+  - [0.8.3271](#083271-patch)
+  - [0.8.3264 Hotfix #1](#083264-hotfix-1)
+  - [0.8.3264](#083264-patch)
+  - [0.8.3192 Hotfix #1](#083192-hotfix-1)
   - [0.8.3192](#083192-patch)
 - 0.7
   - [0.7.3069](#073069-patch)
@@ -69,6 +74,89 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.8.3271 Hotfix #1
+
+`2023-02-03 06:45 UTC`
+
+Notes
+
+- We are aware of issues, mostly crashes, that arise in 0.8.3264 Patch and are actively working on those. We are looking to deploy a new client-only patch later this week, hopefully today.
+- Considering how our last update prevented players from making their daily mission, either from crashes or gameplay changes, we dropped to everyone who has Early Access 500 trisels directly on your account.
+
+Changes
+
+- Duels
+  - Reverted changes to the hand, it is now working like before (start with 10 cards in hand and 3 redraw).
+  - Player time is now 5 mins starting from gold rating (>= 1500), was platinum rating before (>= 1850).
+
+## 0.8.3271 Patch
+
+`2023-02-02 13:30 UTC`
+
+Fixes
+
+- Shop
+  - Fixed an issue preventing desktop clients from buying prana.
+
+## 0.8.3264 Hotfix #1
+
+`2023-02-02 12:30 UTC`
+
+Fixes
+
+- Auth
+  - Fixed an issue preventing older clients from logging in (mostly relevant for mobile).
+
+## 0.8.3264 Patch
+
+`2023-02-02 11:30 UTC`
+
+Changes
+
+- Duels
+  - Changed the number of cards available when starting a duel, it now work as follow:
+    - 6 cards in your starting hand, down from 10.
+    - On your first turn you get a redraw, on the next you draw. And then it alternates up to the last turn.
+    - In total you can see up to 6 + 4 + 4 = 14 cards from your deck, up from 13 (10 + 3).
+    - Notes: On older clients you might see your redraw count starting at 3 and then changing back to 1 or 0 on next turn, it is only visual as it is working as explained above.
+  - Added penalty on Trisel gains after a duel in order to reduce incentive from giving up:
+    - Defeat has a 33% penalty on trisel gained. I.e.: if you scored 50 and earned 25 trisel before, you will now earn 16 Trisel instead. Keep in mind that every computations are always rounded down.
+    - Surrender has a 66% penalty on trisel gained, example: if you scored 50 and earned 25 trisel before, you will now earn 8 Trisel instead. Keep in mind that every computations are always rounded down.
+- Loots
+  - Reworked the interface.
+  - The new interface now shows what Shop Pass is active on your account, if you do not have any you will be able to buy a one in the shop in an upcoming update (mostly relevant for Standard pack owner / Road to GA players).
+  - As a reminder, those passes are what give you more unlock chest slots. They also have been renamed to reduce confusion with minting passes (such as the Golden one) and player ranks on the leaderboard (bronze, silver, gold, ...). New names are:
+    - Iron -> Topaz (1 extra slot, auto-activated on Apprentice during EA)
+    - Bronze -> Amethyst (2 extra slots, auto-activated on Disciple during EA)
+    - Silver -> Sapphire (3 extra slots, auto-activated on Primus during EA)
+- Shop
+  - Added a confirmation checkbox on early access CTA Token discount usage when buy a CTA Token bundle.
+- Auth
+  - Add visual feedback whenever your login attempt is being processed by the server.
+
+Fixes
+
+- Play
+  - Fixed buff/debuff tooltip display.
+- Cards
+  - Made the details scrollable giving back access to the mint button on mobile.
+- Auth
+  - Various fixes in sign-up form.
+- Interface
+  - Various text updates.
+- System
+  - Various sound effects fixes.
+  - Fixed crashes happening due to connection loss.
+
+## 0.8.3192 Hotfix #1
+
+`2023-01-30 15:45 UTC`
+
+Fixes
+
+- Bridge
+  - Fixed an issue preventing Legacy packs to be bridged.
 
 ## 0.8.3192 Patch
 
