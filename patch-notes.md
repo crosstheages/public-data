@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.8
+  - [0.8.3322](#083322-patch)
   - [0.8.3271 Hotfix #1](#083271-hotfix-1)
   - [0.8.3271](#083271-patch)
   - [0.8.3264 Hotfix #1](#083264-hotfix-1)
@@ -74,6 +75,50 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.8.3322 Patch
+
+`2023-02-06 19:30 UTC`
+
+Changes
+
+- Tutorial
+  - Added a new tutorial showing you every basics of the game.
+  - Anytime we make a gameplay update, it will be updated and you will be able to replay it.
+  - Once played, you can replay it using the burger menu on the dashboard.
+- Duels
+  - Added custom options to choose hand size / draw & redraw count:
+    - Size is the number of cards you have when starting the game. Default: 5, Min: 2, Max: Compound
+    - Draw is the number of times you draw a card, starting on the first turn and each subsequent turn. Default: 8, Min: 0, Max: 8.
+    - Redraw is the number of times you can discard a card to get a new one, you get this amount at the beginning of the duel. Default: 2, Min: 0, Max: 3.
+    - You need to have/draw at least 10 cards in order to have valid parameters.
+    - You cannot have + draw + redraw more than the maximum of a deck (20).
+  - Splitted affinity score in simple and double. For now the default is 1 for both (no change from previous patch) but you can now change it as you prefer in custom. Keep in mind that a card counted with a double is not counted with a simple.
+  - Special Ability visual effect no longer goes beyond board border.
+- Cards
+  - Auto update training deck with rotation cards using auto deck feature in order to make a more competitive deck.
+  - Added an indicator explaining that the filter panel can be scrolled.
+- Leaderboard
+  - Removed the draw indicator since it is no longer really relevant with score game mode.
+
+Fixes
+
+- Duels
+  - Fixed opponent leader not showing on versus screen.
+  - Fixed an error while exiting a scene where the heptagram is shown.
+  - No longer close the card details panel on the last turn except if open on mobile.
+- Shop
+  - Fixed an error occuring while interacting with pop-ups.
+  - Fixed an error related to daily, weekly and reward chests.
+  - Fixed discount showing up on Prana bundles.
+- Loots
+  - Updated Shop Passes names.
+- Interface
+  - Various text updates.
+  - Fixed various images of bleeding artifacts.
+- System
+  - Fixed many crash occurrences.
+  - Fixed an error preventing some input fields from being completed.
 
 ## 0.8.3271 Hotfix #1
 
