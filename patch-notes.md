@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.8
+  - [0.9.3431](#093431-patch)
   - [0.8.3322](#083322-patch)
   - [0.8.3271 Hotfix #1](#083271-hotfix-1)
   - [0.8.3271](#083271-patch)
@@ -75,6 +76,93 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.9.3431 Patch
+
+`2023-02-10 15:30 UTC`
+
+Disclaimer
+
+Due to API limitations on the IMX side, we have to throttle our usage of the blockchain. As such getting all the NFTs when initializing your wallet can take some time, it is being done as a background task.
+Also, whenever you need to burn tokens, it might take up to 1 min to get the information back from IMX, so please wait on the loading screen in-game while we are getting the information. If you cancel it (but your burn all went through), you will still have the content of your chest / the outcome of your card.
+
+Changes
+
+- Wallet
+  - As part of our migration from Stardust to Magic Link, we are now making the CTA Magic Link wallet available and required for any Web3 action.
+  - Please see the notes at the end to have a guide based on your use case(s).
+  - Using this non-custodial wallet, you can manage your assets however you want. Keep in mind that since it is non-custodial, you have the entire responsibility of your NFT and we will not be able to recover any wrong usage of them on the blockchain.
+  - We have removed any plan for Trisel activation fee on transfer EXCEPT on the Minting Pass. Every Minting Pass is automatically activated when you open a PreSale Pack that contains it, although if you transfer it, including selling it, the new owner will have to activate it using Trisel in order to gain its benefit. Although there is no restriction on re-trading.
+  - Keep in mind that the Magic Link solution is an intermediate step for us since we are working with Immutable X since the end of 2022 on the [Immutable X Passport](https://www.immutable.com/products/passport) that will be released later this year, CTA will be one of the first game to implement it as it will let many people onboard easily to Web3.
+- Marketplace
+  - The 3 largest Prana Bundles are now available on the marketplace, listed in USDC, with the same price as what it is in the shop (minus marketplace fee). Once bought, send it to your game wallet and you will be able to open it like a chest to get your Prana.
+  - There is no supply for those Bundles, although our community has asked us for a way to make available the card we are releasing in our Prana Physical Collection. As such each card is available with a supply of 1000 and 100 (non-foil / foil respectively) whenever you will redeem it, as a souvenir. There are 10 different cards for each bundle, you get one randomly for each bundle consumed.
+  - Those cards cannot be used in-game / in your deck and are purely for the collection.
+- Duels
+  - You are now warned if you are trying to enter a queue while it's disabled.
+- Cards
+  - Added arkhome to the deck export string in order to pick a proper combo card.
+  - Exclusive cards for our private investors are now available. If you are eligible, please contact us with the wallet you want them to be transferred on.
+  - Now display your NFT tokenId on card details if it is an NFT.
+- Shop
+  - CTA Token are now priced in Prana
+    - Note: This change is due to Prana Bundle being available on IMX as NFT.
+- Interface
+  - We updated the heptagram to make it more clear.
+  - Added a few animations.
+
+Fixes
+
+- Cards
+  - Fixed an issue with sorting in the collection.
+- Leaderboard
+  - Fixed a display issue with one dummy element.
+- Loots
+  - Added a message if you are trying to open two presale packs on the same account (it is restricted to 1).
+- Settings
+  - Fixed various issues with how settings were saved.
+- Auth
+  - Fixed display issue in register email.
+- System
+  - Fixed an issue slowing down the servers between 00:00 and 08:00 UTC.
+  - Fixed various crash and disconnect loops.
+
+Notes
+
+Here is some guidance about CTA x Magic Link and the use cases in our game :
+
+- I want to **mint / craft / bridge / open NFT**:
+  - You need to initialize your Magic Link wallet.
+  - Before starting, double check that the email of your game account is the one you want to use.
+  - If not, you can change it in-game in your settings.
+  - Then simply go to our [Bridge Application](https://bridge.cta-tcg-live.com/).
+  - When you log in, you will be prompted with CTA Magic Link wallet initialization.
+  - Follow the Magic Link steps.
+  - That's it! You're all set up.
+  - For burn operation, you will be redirected to Magic Link in order to validate the transaction.
+- I want to **buy NFTs on the marketplace** with my **own wallet** (not CTA Magic Link):
+  - You do not need Magic Link for that, any IMX-compatible & enabled Wallet will let you go on the marketplaces.
+  - Once you have bought the NFTs, if you want to play with them you just have to send it to your CTA Magic Link wallet, its address is displayed on the bridge once initialized.
+- I want to **transfer** or **sell** my NFTs:
+  - In order to do so, you will have to reveal your private key.
+  - Once initialized, click on the "Revel" button in the home page of the Bridge.
+  - You will be redirected to the CTA Magic Link Reveal page where you will get your private key.
+  - KEEP IN MIND THAT PRIVATE KEY GIVE TOTAL CONTROL OF YOUR WALLET TO ANYONE WITH IT, AS SUCH WE RECOMMEND YOU TO STORE IT SECURELY IF YOU DO SO.
+  - Import your private key to any IMX-compatible wallet (GameStop Wallet or MetaMask).
+- I want to change my **CTA Magic Link wallet email address**:
+  - This use case is not available yet, we expect to release it before the end of February (Change Email).
+- I want to **link my own wallet to my game account**:
+  - This use case is not available yet, we expect to release it before the end of February (Cold Wallet).
+
+Keep in mind that we are currently reworking our Bridge application to be more than that and be your CTA Account Application.
+We will both expand its features as well as its UX/UI.
+We are also intending to release our own online Shop (to buy Prana on the web using Credit Card) as well as our own Marketplace with custom display and no marketplace fee.
+
+Fees :
+
+- 2% IMX (protocol)
+- 3% CTA (creator)
+- x% Marketplace -> this one vary based on the marketplace you are trading
 
 ## 0.8.3322 Patch
 
