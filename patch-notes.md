@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.8
+  - [0.9.3447](#093447-patch)
   - [0.9.3431](#093431-patch)
   - [0.8.3322](#083322-patch)
   - [0.8.3271 Hotfix #1](#083271-hotfix-1)
@@ -76,6 +77,28 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.9.3447 Patch
+
+`2023-02-11 17:30 UTC`
+
+Notes
+
+We are aware of some issues regarding blockchain synchronization. We are working on it and will update you as soon as it is ready.
+
+Fixes
+
+- Loot
+  - Fixed an issue with the Prana Bundles text.
+  - Fixed an issue with the Prana Bundles opening display.
+  - Fixed an issue where cards could be reversed (we know you loved Reverse but it's now gone!).
+- Heptagram
+  - Various layout fixes.
+- Interface
+  - Fixed missing cursor on desktop platform.
+  - Various texts update.
+- System
+  - Fixed an issue with initial loading when starting the application.
 
 ## 0.9.3431 Patch
 
