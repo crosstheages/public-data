@@ -4,9 +4,13 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
-- 0.8
+- 0.9
+  - [0.9.3688](#093688-patch)
+  - [0.9.3616](#093616-patch)
+  - [0.9.3528](#093528-patch)
   - [0.9.3447](#093447-patch)
   - [0.9.3431](#093431-patch)
+- 0.8
   - [0.8.3322](#083322-patch)
   - [0.8.3271 Hotfix #1](#083271-hotfix-1)
   - [0.8.3271](#083271-patch)
@@ -77,6 +81,77 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.9.3688 Patch
+
+`2023-02-28 10:30 UTC`
+
+Changes
+
+- CTA Account
+  - Added access to the shop.
+  - Various visual updates.
+- Tutorial
+  - Added a skip button on the tutorial dialog.
+  - Added a step to explain the field card and redraw.
+- Loots
+  - Updated opening interfaces.
+
+Fixes
+
+- Loots
+  - Updated prana bundle texts.
+
+## 0.9.3616 Patch
+
+`2023-02-22 07:30 UTC`
+
+Changes
+
+- Blockchain
+  - Smaller prana bundles are now available on the marketplaces.
+- Loots
+  - You now have to burn any NFT chest before seeing its opening animation.
+- Shop
+  - Added CTA tokens purchases on mobile.
+
+Fixes
+
+- Tutorial
+  - Fixed issue preventing players from going past the heptagram step.
+- Cards
+  - Fixed non-working filters related to owned/unowned cards.
+  - Fixed issues with scrolling.
+- Settings
+  - Fixed an issue preventing settings to be persisted.
+- System
+  - Disabled hardware acceleration on all platforms until more crash fixes.
+
+## 0.9.3528 Patch
+
+`2023-02-19 08:35 UTC`
+
+Changes
+
+- Blockchain
+  - Any missing mint pass will automatically be minted on your next login.
+  - Pending burns are now available on the CTA Account app (formerly called Bridge, url will change in the future but for now it will still be using the bridge one).
+  - Assets section is available on the CTA Account app, it lets you browse your assets as well as transfer them without revealing your game wallet private key.
+  - Awakening now burns & mint a new token instead of updating the previous one.
+  - Prana bundles images have been updated to avoid mixing them.
+  - Souvenir cards now have a Grade metadata showing from what bundle they are from (C from 100$, B from 250$, A from 500$).
+- Shop
+  - You can now buy CTA tokens when you have 10 or less remaining (was 0 previously but impossible to reach for a non-presale account).
+  - CTA Tokens prices in Prana have been reduced until mobile payment. Users who bought them at higher prices between 11th and 15th will automatically receive the difference at the start of next month.
+- Loots
+  - You can now open up to one Standard, one Premium and one Legacy pack on the same account. You can still bridge as many packs as you want from Polygon on the same account.
+- Perks
+  - CTA Cap breakdown is now available in Perks.
+
+Fixes
+
+- Blockchain
+  - Bridge should no longer bug out with infinite loading time.
 
 ## 0.9.3447 Patch
 
