@@ -5,7 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.10
-  - [0.10.3683](#0103683-patch)
+  - [0.10.3853](#0103853-patch)
 - 0.9
   - [0.9.3688](#093688-patch)
   - [0.9.3616](#093616-patch)
@@ -84,7 +84,7 @@ Changes
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
-## 0.10.3683 Patch
+## 0.10.3853 Patch
 
 `2023-03-06 03:30 UTC`
 
