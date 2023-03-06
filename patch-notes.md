@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.10
+  - [0.10.3683](#0103683-patch)
 - 0.9
   - [0.9.3688](#093688-patch)
   - [0.9.3616](#093616-patch)
@@ -81,6 +83,74 @@ Changes
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.10.3683 Patch
+
+`2023-03-06 03:30 UTC`
+
+Changes
+
+- Leaderboard
+  - Season 1 Era 3 (S1E3) has ended, here are the rewards you all received depending on the recent highest rating you reached:
+    - 0-1149: 1,000 Trisels + Weekly T1 chest
+    - 1150-1349:  2,000 Trisels + Weekly T2 chest
+    - 1350-1499:  3,000 Trisels + Weekly T3 chest
+    - 1500-1649:  5,000 Trisels + Super chest
+    - 1650-1799:  7,000 Trisels + Mega chest
+    - 1800-1949:  10,000 Trisels + Ultra chest + 600 Prana
+    - 1950-2099:  15,000 Trisels + Omega chest + 1200 Prana
+    - 2100+:  25,000 Trisels + Neo chest + 2400 Prana
+- Gameplay
+  - Score computations has been changed, previously both simple and double affinities were counting in points now it is double only.
+  - Cards in hand loop has changed, you now start with 4 cards, draw 1 each turn and can redraw up to 2 per game.
+    - Note: It means that on your first playable turn you will have 5 cards in your hand.
+  - Introducing a new system called affixes:
+    - Affixes are game modified applied at the start of the game and slightly changes some rules of the game.
+    - It is determined randomly at the start, some affixes depends on the rating you have.
+    - There is 2 pools of affixes, one that is available for everyone and one that is available above 1700 rating only.
+    - Here is the list of the first pool:
+      1. Classic (unlocked at 0 rating): No game modifier.
+      2. Elemental (unlocked at 1200 rating): A field of a random element is activated at a determined turn. You know when it will be activated but not which element. Lasts 2 turns.
+         - Field strength: 30
+         - If a field is already active, it will be overridden by this one.
+         - When a player plays a field of his own, at the end of it we return to neutral.
+         - 1 field activated turn rand(5-8), 1 field activated turn 10-13 (first rand + 5 : if first is activated at turn 5, the other is activated at 10 ; if 6, the other is activated at 11 ; ...).
+         - Element and turn activation of the first field is announced at the start. Element and turn activation of the second field is announced after the decay of the first field.
+      3. Score Twist (unlocked at 1250 rating): Modification of end score rand (55, 60, 70).
+      4. Extended Reach (unlocked at 1300 rating): Chain starts at 2.
+      5. Inspiring (unlocked at 1350 rating): All cards with the same Element as the leader gains 25 power.
+         - If a player uses Banner of command, it stacks.
+      6. Limited reach (unlocked at 1400 rating): Chain can't go above 1.
+      7. Field Overflow (unlocked at 1450 rating): Fields are boosted by +25 power.
+      8. Revolution (unlocked at 1500 rating): At the start of the duel, your leader is locked in your hand and can't be played until turn 7-8.
+    - Here is the list of the second pool (1700+ rating):
+      1. Classic: No game modifier.
+      2. Blitz Game: 24 seconds per turn.
+      3. Classic: No game modifier.
+      4. Shift: same as SA SA_SHIFT_ADVANTAGES but for the whole duration of the duel. If you play a leader with shift advantage, it un-shifts for the duration of the SA.
+      5. Classic: No game modifier.
+      6. Golden Redraw: Only 1 draw at the start of the game.
+      7. Classic: No game modifier.
+      8. Affinity Stacking: When a card has 1 affinity, it gains power each turn.
+         - Mode D, +20 (Adds 20 power every 2 turns starting at the end of next turn, once per card).
+    - Affixes are shown at the start of the game through a dice roll, the number shown correspond to the number of the lists above. One affix means one dice, two affixes means two dices.
+- User
+  - Birthdate is now required. If you are not an adult in your country you might not have acces to crypto features depending on the law of your country.
+  - Multi-session is now allowed between a game session (from the game) and any web application (such as CTA Account). You will no longer have to relog if you log in on a web application while using the game.
+- Board
+  - Updated every drop VFX.
+- Auth
+  - Completely reworked the flow and the look.
+- Shop
+  - Interface has been updated.
+
+Fixes
+
+- Board
+  - Cards details now correctly show field arkhome modifier.
+  - Heptagram with double shift SA should now behave correctly.
+- Crafting
+  - Power up details window is now scrollable.
 
 ## 0.9.3688 Patch
 
