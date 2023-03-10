@@ -1,4 +1,4 @@
-# Cross The Ages: TCG Open Beta Patch Notes
+# Cross The Ages: TCG Early Access Patch Notes
 
 ## Direct Links
 
@@ -72,7 +72,7 @@
 
 `TBD`
 
-Changes
+### Changes
 
 - Duels
   - You can now report your opponent's name.
@@ -88,7 +88,7 @@ Changes
 
 `2023-03-06 03:30 UTC`
 
-Changes
+### Changes
 
 - Leaderboard
   - Season 1 Era 3 (S1E3) has ended, here are the rewards you all received depending on the recent highest rating you reached:
@@ -144,7 +144,7 @@ Changes
 - Shop
   - Interface has been updated.
 
-Fixes
+### Fixes
 
 - Board
   - Cards details now correctly show field arkhome modifier.
@@ -156,7 +156,7 @@ Fixes
 
 `2023-02-28 10:30 UTC`
 
-Changes
+### Changes
 
 - CTA Account
   - Added access to the shop.
@@ -167,7 +167,7 @@ Changes
 - Loots
   - Updated opening interfaces.
 
-Fixes
+### Fixes
 
 - Loots
   - Updated prana bundle texts.
@@ -176,7 +176,7 @@ Fixes
 
 `2023-02-22 07:30 UTC`
 
-Changes
+### Changes
 
 - Blockchain
   - Smaller prana bundles are now available on the marketplaces.
@@ -185,7 +185,7 @@ Changes
 - Shop
   - Added CTA tokens purchases on mobile.
 
-Fixes
+### Fixes
 
 - Tutorial
   - Fixed issue preventing players from going past the heptagram step.
@@ -201,7 +201,7 @@ Fixes
 
 `2023-02-19 08:35 UTC`
 
-Changes
+### Changes
 
 - Blockchain
   - Any missing mint pass will automatically be minted on your next login.
@@ -218,7 +218,7 @@ Changes
 - Perks
   - CTA Cap breakdown is now available in Perks.
 
-Fixes
+### Fixes
 
 - Blockchain
   - Bridge should no longer bug out with infinite loading time.
@@ -227,11 +227,11 @@ Fixes
 
 `2023-02-11 17:30 UTC`
 
-Notes
+### Notes
 
 We are aware of some issues regarding blockchain synchronization. We are working on it and will update you as soon as it is ready.
 
-Fixes
+### Fixes
 
 - Loot
   - Fixed an issue with the Prana Bundles text.
@@ -254,7 +254,7 @@ Disclaimer
 Due to API limitations on the IMX side, we have to throttle our usage of the blockchain. As such getting all the NFTs when initializing your wallet can take some time, it is being done as a background task.
 Also, whenever you need to burn tokens, it might take up to 1 min to get the information back from IMX, so please wait on the loading screen in-game while we are getting the information. If you cancel it (but your burn all went through), you will still have the content of your chest / the outcome of your card.
 
-Changes
+### Changes
 
 - Wallet
   - As part of our migration from Stardust to Magic Link, we are now making the CTA Magic Link wallet available and required for any Web3 action.
@@ -279,7 +279,7 @@ Changes
   - We updated the heptagram to make it more clear.
   - Added a few animations.
 
-Fixes
+### Fixes
 
 - Cards
   - Fixed an issue with sorting in the collection.
@@ -295,9 +295,9 @@ Fixes
   - Fixed an issue slowing down the servers between 00:00 and 08:00 UTC.
   - Fixed various crash and disconnect loops.
 
-Notes
+### Notes
 
-Here is some guidance about CTA x Magic Link and the use cases in our game :
+Here is some guidance about CTA x Magic Link and the use cases in our game:
 
 - I want to **mint / craft / bridge / open NFT**:
   - You need to initialize your Magic Link wallet.
@@ -326,7 +326,7 @@ Keep in mind that we are currently reworking our Bridge application to be more t
 We will both expand its features as well as its UX/UI.
 We are also intending to release our own online Shop (to buy Prana on the web using Credit Card) as well as our own Marketplace with custom display and no marketplace fee.
 
-Fees :
+Fees:
 
 - 2% IMX (protocol)
 - 3% CTA (creator)
@@ -336,7 +336,7 @@ Fees :
 
 `2023-02-06 19:30 UTC`
 
-Changes
+### Changes
 
 - Tutorial
   - Added a new tutorial showing you every basics of the game.
@@ -357,7 +357,7 @@ Changes
 - Leaderboard
   - Removed the draw indicator since it is no longer really relevant with score game mode.
 
-Fixes
+### Fixes
 
 - Duels
   - Fixed opponent leader not showing on versus screen.
@@ -380,12 +380,12 @@ Fixes
 
 `2023-02-03 06:45 UTC`
 
-Notes
+### Notes
 
 - We are aware of issues, mostly crashes, that arise in 0.8.3264 Patch and are actively working on those. We are looking to deploy a new client-only patch later this week, hopefully today.
 - Considering how our last update prevented players from making their daily mission, either from crashes or gameplay changes, we dropped to everyone who has Early Access 500 trisels directly on your account.
 
-Changes
+### Changes
 
 - Duels
   - Reverted changes to the hand, it is now working like before (start with 10 cards in hand and 3 redraw).
@@ -395,7 +395,7 @@ Changes
 
 `2023-02-02 13:30 UTC`
 
-Fixes
+### Fixes
 
 - Shop
   - Fixed an issue preventing desktop clients from buying prana.
@@ -404,7 +404,7 @@ Fixes
 
 `2023-02-02 12:30 UTC`
 
-Fixes
+### Fixes
 
 - Auth
   - Fixed an issue preventing older clients from logging in (mostly relevant for mobile).
@@ -413,7 +413,7 @@ Fixes
 
 `2023-02-02 11:30 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Changed the number of cards available when starting a duel, it now work as follow:
@@ -436,7 +436,7 @@ Changes
 - Auth
   - Add visual feedback whenever your login attempt is being processed by the server.
 
-Fixes
+### Fixes
 
 - Play
   - Fixed buff/debuff tooltip display.
@@ -454,7 +454,7 @@ Fixes
 
 `2023-01-30 15:45 UTC`
 
-Fixes
+### Fixes
 
 - Bridge
   - Fixed an issue preventing Legacy packs to be bridged.
@@ -463,7 +463,7 @@ Fixes
 
 `2023-01-30 11:30 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Points gained by a capture increased from 1 to 2.
@@ -484,7 +484,7 @@ Changes
 - System
   - Added various SFX.
 
-Fixes
+### Fixes
 
 - Duel
   - Fixed an issue preventing the player from putting a card on the board if he disconnected after a redraw.
@@ -501,7 +501,7 @@ Fixes
 
 `2023-01-23 05:30 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Score indicators (text and bar) have been updated to be more visible.
@@ -512,7 +512,7 @@ Changes
 - System
   - Increased scroll sensitivity across the board.
 
-Fixes
+### Fixes
 
 - Duel
   - Fixed an issue where draw was not issued when it should have been.
@@ -526,7 +526,7 @@ Fixes
 
 `2023-01-20 10:30 UTC`
 
-Changes
+### Changes
 
 - Leaderboard
   - Season 1 Era 2 (S1E2) has ended, here are the rewards you all received depending on the recent highest rating you reached:
@@ -602,7 +602,7 @@ Changes
 
 `2023-01-19 08:15 UTC`
 
-Fixes
+### Fixes
 
 - Duel
   - No longer show red warn screen nor red timers on reconnection.
@@ -615,7 +615,7 @@ Fixes
 
 `2023-01-18 14:00 UTC`
 
-Changes
+### Changes
 
 - Profile
   - Highest Rating is now the Recent Highest Rating.
@@ -624,7 +624,7 @@ Changes
 
 `2023-01-18 10:30 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Now show Training and Rotation ribbons on cards in-game.
@@ -636,7 +636,7 @@ Changes
 - Crafting
   - Filters are now available.
 
-Fixes
+### Fixes
 
 - Duels
   - No longer prevent player from playing his cards if starting player and have to reconnect.
@@ -676,7 +676,7 @@ Known Issues (do not report this, we are working on it)
 - Loots
   - Cards recap after an opening might show blank cards.
 
-Changes
+### Changes
 
 - Duels
   - Draw no longer changes the rating (+0/-0) based on rating difference, it is now neutral for the rating. Rating has been recomputed since the start of the era following this change.
@@ -692,7 +692,7 @@ Changes
 - Dashboard
   - ESC now opens the burger menu.
 
-Fixes
+### Fixes
 
 - Duels
   - No longer show a buff for Power Stacking SA, buffs are only shown for global effects.
@@ -722,7 +722,7 @@ Known Issues (do not report this, we are working on it)
 - System
   - Some images might not load correctly.
 
-Changes
+### Changes
 
 - Duels
   - Rating gain for a draw is now the normal formula but at a 50% rate. The player with the highest rating is considered as the loser. Rating for every player has been fully recomputed using this formula in order to remove the inflation from the previous formula present on the leaderboard.
@@ -749,7 +749,7 @@ Changes
   - Now recommend you to switch to Wi-Fi if you have data to download and are on roaming internet access.
   - You can now disable fields and cards animation, you might want to enable those settings on low-end devices.
 
-Fixes
+### Fixes
 
 - Duels
   - Correctly skip coin toss / 10s timer on reconnection during turn 1.
@@ -765,7 +765,7 @@ Fixes
 
 `2022-12-25 04:00 UTC`
 
-Changes
+### Changes
 
 - Duel
   - Odds to get Locke Exclusive after a duel is now as follow:
@@ -779,7 +779,7 @@ Changes
 
 `2022-12-24 17:00 UTC`
 
-Changes
+### Changes
 
 - Play
   - Limit Game Resources option now replaces Animated Field by Static Field. Use it on low-end devices.
@@ -788,7 +788,7 @@ Changes
 - System
   - Warn you when new downloads are available and you are not on Wi-Fi to prevent extra charges.
 
-Fixes
+### Fixes
 
 - Play
   - Buff/Debuff tooltips are now clamped to the screen.
@@ -810,7 +810,7 @@ Fixes
 
 `2022-12-22 21:00 UTC`
 
-Fixes
+### Fixes
 
 - Cards
   - Power font has been adjusted to reduce aliasing.
@@ -821,7 +821,7 @@ Fixes
 
 `2022-12-22 14:30 UTC`
 
-Changes
+### Changes
 
 - Duels
   - You can now directly see Exclusive Card Details from the ending screen.
@@ -837,7 +837,7 @@ Changes
     - Android: 10+
     - iOS: 14+
 
-Fixes
+### Fixes
 
 - Duels
   - Updated queue cancel logic to avoid being pulled into a game while the queue should have been canceled.
@@ -861,7 +861,7 @@ Fixes
 
 `2022-12-21 04:30 UTC`
 
-Changes
+### Changes
 
 - Duel
   - Matchmaking has been adjusted to widen a little bit quicker the rating, max is now 2 mins from 2 mins and 30 seconds.
@@ -872,7 +872,7 @@ Changes
     - We show only unique id owned (if you have 3 Solis, we only count 1).
     - We count only the biggest power (if you have Solis Alt S and Solis Alt C, only the Alt S is counted).
 
-Fixes
+### Fixes
 
 - Cards
   - Locke exclusive power is now correctly computed.
@@ -884,7 +884,7 @@ Fixes
 
 `2022-12-19 07:00 UTC`
 
-Changes
+### Changes
 
 - Event
   - Christmas event is now available until Monday 9th January, 8am UTC.
@@ -930,7 +930,7 @@ Changes
   - Reduced the size of various assets.
   - Added a higher definition of assets for Retina / 2k+ displays.
 
-Fixes
+### Fixes
 
 - Duel
   - No longer play multiple alert sounds on the versus screen.
@@ -952,13 +952,13 @@ Fixes
 
 `2022-12-10 17:30 UTC`
 
-Changes
+### Changes
 
 - System
   - Versioning now includes build number, in an upcoming update the build number will replace the patch one which is the 3rd argument (`0.3.0.2492`-> `0.3.2492`).
   - Added a "Reset" button on the splash screen. Do not use it unless you have some issue with the game data, if you do it will close the game and re-download everything on next launch.
 
-Fixes
+### Fixes
 
 - Dashboard
   - Game mode dropdown is now working again.
@@ -972,7 +972,7 @@ Fixes
 
 `2022-12-10 09:30 UTC`
 
-Changes
+### Changes
 
 - Settings
   - Added an option to limit game's resources for low-end devices.
@@ -981,7 +981,7 @@ Changes
   - Reworked the launch of the application in order to pre-load some needed assets as well as being more explicit of the tasks being done in the loading progress bar.
   - Various UI updates for small resolutions.
 
-Fixes
+### Fixes
 
 - Duel
   - Custom duels now have a value of 10 for affinity stacking.
@@ -998,7 +998,7 @@ Fixes
 
 `2022-12-09 05:30 UTC`
 
-Changes
+### Changes
 
 - Leaderboard
   - Season 1 Era 1 (S1E1) has ended, here are the rewards you all received depending on the highest rating you reached:
@@ -1068,7 +1068,7 @@ Changes
 - Loot
   - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
   
-Fixes
+### Fixes
 
 - Mission
   - Fixed an issue where opening a chest would count double toward the opening mission.
@@ -1081,7 +1081,7 @@ Fixes
 - System
   - Fixed several issues regarding crashes and memory hog.
 
-Notes
+### Notes
 
 - This release also features mobile versions for OGs, Moderators and Testers.
 - Keep in mind that there are multiple display issues and that we are not looking for feedback on those, we are ONLY looking for blocking issues such as crash / cannot start / blocked in a menu / etc...
@@ -1091,7 +1091,7 @@ Notes
 
 `2022-12-05 00:30 UTC`
 
-Fixes
+### Fixes
 
 - System
   - Fixed an issue preventing launch on some devices.
@@ -1100,7 +1100,7 @@ Fixes
 
 `2022-12-04 23:30 UTC`
 
-Fixes
+### Fixes
 
 - Duels
   - Deck cost of the player is now correctly displayed.
@@ -1148,7 +1148,7 @@ Fixes
   - Performance of animation has been greatly improved on macOS and iOS.
   - Performance when displaying hundreds of items (such as cards in collections) have been greatly improved on all platforms.
 
-Fixes
+### Fixes
 
 - Duels
   - Fixed an issue preventing you from entering the matchmaking as well as canceling the queue.
@@ -1164,13 +1164,13 @@ Fixes
 
 `2022-11-20 14:00 UTC`
 
-Changes
+### Changes
 
 - Duels
   - AFK and Early Surrender leave penalty is now capped at 15 minutes and reset daily.
   - Coin toss bad luck protection now goes up to 90/10 odds from 75/25. Still based on yours and oppononent's last 10 games.
 
-Fixes
+### Fixes
 
 - Duels
   - Matchmaking rating first widening duration can no longer be wrongly reduced.
@@ -1179,7 +1179,7 @@ Fixes
 
 `2022-11-18 10:05 UTC`
 
-Fixes
+### Fixes
 
 - Duels
   - Duels are now ending correctly whether you surrender or are AFK.
@@ -1190,13 +1190,13 @@ Fixes
 
 `2022-11-18 03:00 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Logs now show you the card name and coordinates using A/B/C/D + 1/2/3/4 coords.
   - Custom options are now also shown at the top of the logs (for custom duels).
 
-Fixes
+### Fixes
 
 - Duels
   - Various fixes regarding player's timers and AFK timers.
@@ -1207,7 +1207,7 @@ Fixes
 
 `2022-11-17 16:00 UTC`
 
-Fixes
+### Fixes
 
 - Duels
   - You will now be redirected back to the dashboard if you encounter an error while queuing.
@@ -1218,7 +1218,7 @@ Fixes
 
 `2022-11-17 13:00 UTC`
 
-Fixes
+### Fixes
 
 - Crafting
   - Trisel cost for Merge is now correctly shown.
@@ -1227,7 +1227,7 @@ Fixes
 
 `2022-11-17 05:00 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Trisel and Exp gains have been adjusted to let you earn more under some circumstances:
@@ -1264,7 +1264,7 @@ Changes
 - Profile
   - You can now redeem codes you received in your profile. Be aware that attempting to redeem invalid codes multiple times will ban you.
 
-Fixes
+### Fixes
 
 - Duels
   - No longer incorrectly reward an extra 20 Trisel on win if all unlocker slots were full.
@@ -1282,7 +1282,7 @@ Fixes
   - Wallet ID and Immutascan Link are now correctly displayed.
   - Emote selection should now behave correctly.
 
-Notes
+### Notes
 
 - Crafting wording will be updated as follow:
   - Potential Merge -> Power Up
@@ -1293,7 +1293,7 @@ Notes
 
 `2022-11-09 20:45 UTC`
 
-Fixes
+### Fixes
 
 - Loots
   - Reward chest opening should no longer be stuck.
@@ -1302,7 +1302,7 @@ Fixes
 
 `2022-11-09 17:00 UTC`
 
-Changes
+### Changes
 
 - Loots
   - Legacy packs are now available for opening, it will be enabled on 2022-11-09 @ 19:00 UTC.
@@ -1314,7 +1314,7 @@ Changes
 - Missions
   - A new mission has been added, it requires you to unlock instead of open chests.
 
-Fixes
+### Fixes
 
 - Profile & Settings
   - Various fixes
@@ -1325,7 +1325,7 @@ Fixes
 
 `2022-11-05 10:00 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Power Mirror SA now dynamically show the expected power on your leader during gameplay.
@@ -1349,7 +1349,7 @@ Changes
 - System
   - You can now make a long left-click to emulate the behavior of a right-click.
 
-Fixes
+### Fixes
 
 - Duels
   - Player remaining time correctly shows what is set in Friendly Duel.
@@ -1362,14 +1362,14 @@ Fixes
 
 `2022-11-01 23:30 UTC`
 
-Changes
+### Changes
 
 - Missions
   - Added a new mission (both with daily and weekly objectives), its objective is related to the amount of cards captured during ranked duels.
   - Added 3 new weekly missions (total is now 24). Win and Capture X in a single turn T1 and T2 now rewards half completion %. It means you need to do at maximum 23 of the 24 missions available to unlock weekly T3. Also you now have +240 Trisel per week that way.
   - Update various objectives.
 
-Fixes
+### Fixes
 
 - Duels
   - Matchmaking conditions are now correctly checked for both players.
@@ -1382,7 +1382,7 @@ Fixes
 
 `2022-10-28 23:45 UTC`
 
-Fixes
+### Fixes
 
 - Duels
   - SA Mirror Power now correctly displays its VFX when played.
@@ -1404,7 +1404,7 @@ Fixes
 
 `2022-10-28 03:30 UTC`
 
-Changes
+### Changes
 
 - Launcher
   - A launcher has been deployed. It is now the main way to access the game, it will update itself as well as the game so no more manual download needed.
@@ -1456,7 +1456,7 @@ Changes
   - You can now tweak the value for double affinity.
   - You can now decide how the coin toss will be done (randomly, host starts, guest starts).
 
-Fixes
+### Fixes
 
 - Duels
   - Dragging of the card should be more stable on all platforms.
@@ -1478,7 +1478,7 @@ Fixes
 
 `2022-10-21 02:30 UTC`
 
-Fixes
+### Fixes
 
 - Cards
   - Weekly rotation is now available for players who used rotation card as leader or with empty decks. Once you login, the rotation cards should be available. Note that since 0.2.1 patch, rotation cards are displayed only in card selection when building a deck not in the collection.
@@ -1487,7 +1487,7 @@ Fixes
 
 `2022-10-20 03:00 UTC`
 
-Changes
+### Changes
 
 - Duels
   - Trisel gains have been adjusted retroactively:
@@ -1520,7 +1520,7 @@ Changes
   - Standard light field is now available in every chest. The field has been airdropped proportionally to what people would expect to have depending on their openings.
   - Every field has been changed to Uncommon rarity (mostly impacting for Crafting). Keep in mind that they were before considered common, so in the chests from the shop those fields are now counted in the Uncommon section. The description will be updated accordingly later on, drop rate is the same.
 
-Fixes
+### Fixes
 
 - Duels
   - Fixed card being stuck under the mouse while having low FPS.
@@ -1548,7 +1548,7 @@ Fixes
   - Fixed currencies (Trisel, Prana and CTA Tokens) being aliased.
   - Fixed cursor size on macOS.
 
-Notes
+### Notes
 
 - Following our [announcement](https://medium.com/cross-the-ages/cross-the-ages-tcg-early-access-game-updates-14e0742b5f9), Legacy packs and Missions are not yet available in this version.
 - Launcher (to auto-update the game) is still being worked on.
