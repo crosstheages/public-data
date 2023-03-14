@@ -97,7 +97,7 @@
   - You can also progress this system by doing your regular missions such as dailies and weeklies (amount varies) as well as winning duels (+125 per duel).
   - The progression is divided in 50 levels each requiring 500 Event Points.
   - Completed them awards you Trisel, Cosmetics and Event Coins.
-  - Those Event Coins will be exchangeable in the upcoming Event Shop, planned for the 17th at 17:00 UTC.
+  - Those Event Coins will be exchangeable in the upcoming Event Shop, planned for the 15th at 17:00 UTC.
   - You can earn additional rewards by buying Event Insignia which also unlock new special rewards in the shop. Keep in mind that the most rare items such as the new Exclusive Cards require the Insignia to be exchanged for.
   - During this Event there will be up to 7 Exclusive Cards, until the 22th there will be only 2 available. After this, other 5 will be available in the Event Shop as well as inside the Neo Arkhante Chest which will also release on the 22th at 17:00 UTC.
 - Blockchain
