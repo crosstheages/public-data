@@ -94,12 +94,12 @@
   - Arkhante event is now available until Thursday 06th April, 23:59 UTC.
   - New event missions have been added, they last for the whole event.
   - Completing them rewards you with Event Point which is a new progression system that we added.
-  - You can also progress this system by doing your regular missions such as dailies and weeklies (amount varies) as well as winning duels (+100 per duel).
+  - You can also progress this system by doing your regular missions such as dailies and weeklies (amount varies) as well as winning duels (+125 per duel).
   - The progression is divided in 50 levels each requiring 500 Event Points.
   - Completed them awards you Trisel, Cosmetics and Event Coins.
   - Those Event Coins will be exchangeable in the upcoming Event Shop, planned for the 17th at 17:00 UTC.
-  - You can earn up to double rewards by buying Event Insignia which unlock new special rewards. Keep in mind that the most rare items such as the new Exclusive Cards require the Insignia to be exchanged for.
-  - During this Event there will be up to 7 Exclusive Cards, until the 22th there will be only 2 available. After this all 5 will be available in the Event Shop as well as inside the Neo Arkhante Chest which will also release on the 22th at 17:00 UTC.
+  - You can earn additional rewards by buying Event Insignia which also unlock new special rewards in the shop. Keep in mind that the most rare items such as the new Exclusive Cards require the Insignia to be exchanged for.
+  - During this Event there will be up to 7 Exclusive Cards, until the 22th there will be only 2 available. After this, other 5 will be available in the Event Shop as well as inside the Neo Arkhante Chest which will also release on the 22th at 17:00 UTC.
 - Blockchain
   - Added a feature to link and unlink a Cold wallet. More details on the CTA Account application. Only supports MetaMask for now.
   - Added a feature to unlink your Game wallet (through Magic Link) if it is empty (no NFT on it). Once there is no Game wallet linked you can change your email.
