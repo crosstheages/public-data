@@ -84,6 +84,25 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.11.3984 Patch
+
+`2023-03-15 08:30 UTC`
+
+### Changes
+
+- Event
+  - EP gain per duel win is +125 as long as you are above 1000 rating. Then it increases by +10 for every 150 rating above 1000, so at 1300 you gain +145 EP per win.
+
+### Fixes
+
+- Play
+  - Improved load of new card drop VFX, will cause less stutter and potentially crashes although keep in mind that we are still iterating on this one.
+  - Countdown scale is now correct.
+- Profile
+  - Correctly display some missing emotes.
+- System
+  - Correctly use round or square icon depending on the platform (desktop vs mobile)
+
 ## 0.11.3970 Patch
 
 `2023-03-14 07:30 UTC`
