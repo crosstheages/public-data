@@ -4,6 +4,9 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+  0.11
+  - [0.11.3984](#0113984-patch)
+  - [0.11.3970](#0113970-patch)
 - 0.10
   - [0.10.3853](#0103853-patch)
 - 0.9
@@ -135,6 +138,8 @@
   - Added a pop-up showing the notes when a new patch is out.
   - Added a pop-up showing when a new event is out.
   - Added some animation level 3 and 4 randomly on the dashboard.
+- Missions
+  - When the opponent surrenders, consider max score for missions resolution.
 - System
   - Renamed "Simple Affinity" into "Affinity" and "Double Affinity" into "Trinity".
   - Improved synchronization with IMX blockchain to be blazing fast.
