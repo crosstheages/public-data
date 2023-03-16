@@ -87,6 +87,32 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.11.4017 Patch
+
+`2023-03-16 05:45 UTC`
+
+### Changes
+
+- Event
+  - Event Shop is now accessible in-game. Keep in mind that you will not be able to buy anything until Thursday March 16th, 19:00 UTC.
+  - You will find different cosmetics where prices range from 100 to 400 Event Coins.
+  - You will also find Trisels in limited quantities (2500 in total), 50 x 50 at the cost of 20 Event Coins each.
+  - Astrid exclusive will be directly available, at the cost of 600 Event Coins. Odds to get alternative is 1/4, rest is usual (foil is 10%, ranks for standard are evenly split, grade for alternative follow base odds of 70/22/7/1).
+  - Griffin and Giant Eagle exclusive will be available at 600 Event Coins starting from the 22th at 5pm UTC. Odds to get an alternative is 1/4, combo is 1/6 if alternative. Rest is usual (foil is 10%, ranks for standard are evenly split, grade for alternative and combo follow base odds of 70/22/7/1).
+  - As a reminder, you CANNOT craft any exclusive (and unique) cards.
+  - Random card, available for 150 Event Coins, include cards from Common to Rare following daily/weekly/reward chests odds.
+  - Random card +, available for 300 Event Coins and 25 times only, include cards from Common to Mythic with hugely boosted odds: 1/10 Common, 1/10 Uncommon Battle, 2/10 Uncommon Field, 2/10 Rare, 3/10 Ultra Rare, 1/10 Mythic.
+  - Some rewards in the shop require the Event Insignia (available in Prana).
+  - Neo Arkhante chests will also be available starting from the 22th at 5pm UTC. It will contain either Astrid or Griffin or Giant Eagle in any of their versions (standard, alternative, combo if applicable). Those will be the last edition of Neo chests with such content, Neo post-GA will have different odds / systems. In addition of the 481 cards, on open it will give you 250 Event Coins during the event or a directly random cosmetic from the event if opened once the event has ended.
+  - Note: We are aware of some text issues (Lunar instead of Arkhante, Pass instead of Insignia, ...), those will be fixed in the next release.
+- Interface
+  - Various text updates for all localizations.
+
+### Fixes
+
+- System
+  - Drastically reduced the resource consumption of new card drop VFX. Should fix most crashes if not all related to that.
+
 ## 0.11.3984 Patch
 
 `2023-03-15 08:30 UTC`
