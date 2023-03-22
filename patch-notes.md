@@ -5,6 +5,9 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.11
+  - [0.11.4085](#0114085-patch)
+  - [0.11.4036](#0114036-patch)
+  - [0.11.4017](#0114017-patch)
   - [0.11.3984](#0113984-patch)
   - [0.11.3970](#0113970-patch)
 - 0.10
@@ -86,6 +89,34 @@
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.11.4085 Patch
+
+`2023-03-21 23:00 UTC`
+
+- Event
+  - Added random videos of the new Giant Eagle and Griffin cards.
+- Play
+  - Added the possibility to select a card with a touch.
+- Interface
+  - Decks are now directly visible when entering collection.
+  - Added some padding at the bottom of the collection so you can always view the last row.
+  - Fixed the inverted icons for folder view and list view in Collection.
+  - Reduced transition time between screens.
+  - Updated the footer visual.
+  - Removed quit button from settings as it is now in the burger menu.
+
+## 0.11.4036 Patch
+
+`2023-03-17 05:00 UTC`
+
+- Event
+  - Added some navigation between event journey and the shop.
+- Play
+  - Fixed an issue when dragging a card on the board, it would sometimes release it without releasing the press.
+  - Fixed a missing asset resulting in a white icon on card details.
+- Interface
+  - Various text updates for all localizations.
 
 ## 0.11.4017 Patch
 
