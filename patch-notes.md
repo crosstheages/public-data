@@ -94,29 +94,40 @@
 
 `2023-03-21 23:00 UTC`
 
+### Changes
+
 - Event
   - Added random videos of the new Giant Eagle and Griffin cards.
 - Play
-  - Added the possibility to select a card with a touch.
+  - Added the possibility to select a card with a touch. You can then play it by touching the board where you want to play it.
 - Interface
   - Decks are now directly visible when entering collection.
   - Added some padding at the bottom of the collection so you can always view the last row.
-  - Fixed the inverted icons for folder view and list view in Collection.
   - Reduced transition time between screens.
   - Updated the footer visual.
   - Removed quit button from settings as it is now in the burger menu.
+
+### Fixes
+
+- Interface
+  - Fixed the inverted icons for folder and list view in Collection.
 
 ## 0.11.4036 Patch
 
 `2023-03-17 05:00 UTC`
 
+### Changes
+
 - Event
   - Added some navigation between event journey and the shop.
+- Interface
+  - Various text updates for all localizations.
+
+### Fixes
+
 - Play
   - Fixed an issue when dragging a card on the board, it would sometimes release it without releasing the press.
   - Fixed a missing asset resulting in a white icon on card details.
-- Interface
-  - Various text updates for all localizations.
 
 ## 0.11.4017 Patch
 
