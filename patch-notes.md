@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.11
+  - [0.11.4103](#0114103-patch)
   - [0.11.4085](#0114085-patch)
   - [0.11.4036](#0114036-patch)
   - [0.11.4017](#0114017-patch)
@@ -89,6 +90,23 @@
   - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.11.4103 Patch
+
+`2023-03-22 15:00 UTC`
+
+### Fixes
+
+- Interface
+  - Fixed some overlapping issues with the new footer design.
+  - Added back the notification on the loot menu when new chests are available.
+  - Fixed the right click actions not showing the left panel on PC.
+  - Fixed the mint button not showing on card details.
+  - Fixed mission window adding some invalid missions when validating a mission.
+  - Fixed missing FR localization in the mission window.
+  - Added missing card back asset from the event shop.
+  - Fixed some vfx not playing exactly on the card on some specific screen resolution.
+  - Fixed some crashes on mobile.
 
 ## 0.11.4085 Patch
 
