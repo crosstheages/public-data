@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.12
+  - [0.12.4210](#0124210-patch)
 - 0.11
   - [0.11.4103](#0114103-patch)
   - [0.11.4085](#0114085-patch)
@@ -86,10 +88,55 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
-- Cards
-  - You can now purchase animation level 2 using your free animation or CTA Token otherwise.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.12.4210 Patch
+
+`2023-03-29 02:00 UTC`
+
+### Changes
+
+- Gameplay
+  - You now have a total of 5 minutes to play no matter your rating (instead of 6 minutes until 1850 and 5 minutes after that).
+  - You now have 1 minute and 30 seconds to play your turn instead of 2 minutes.
+  - Surrender is now only available only if you have at least 20 score points.
+  - If you lose by being AFK during a duel 5 times in 12h, you are now banned temporarily. The ban time increases if you AFK again during the same time window following your ban.
+  - Special Abilities
+    - Banner of Command - Added a new effect: Each battle card of the same Arkhome as your Leader has a deck cost reduction of -10.
+    - Draw Refill - Added a new effect: The cards you draw using a redraw are empowered by +10 power.
+    - Updated most of the special abilities description.
+  - Affixes
+    - Inspiring:
+      - Reworked the affix to affect the cards you control (including cards of your opponent that you captured) instead of the cards you own.
+      - The affix doesn't affect the Leader anymore.
+    - Elemental:
+      - The turn of application of the first field is now random between 3 and 8 instead of 5 to 8.
+      - The two fields cannot be the same anymore.
+- Interface
+  - General Missions are available!
+    - General missions are one-time missions that give you Trisel (more rewards to come!) and General mission points.
+    - Those points are only there to show off how much you played CTA. They will later be displayed on your profile.
+    - More missions to come later with many rewards including some cosmetics and deck slots!
+  - Chest Mint
+    - You are now able to mint your chest in the loots section.
+  - Collections
+    - Level 2 card Animations are now available for $9 or using free animation.
+    - Added some preset filters.
+- Shop
+  - Added Apple and Google payment to buy Prana directly in the game on mobile.
+  - Updated the cost of CTA Token Bundle due to mobile payment (will be effective on GA launch).
+  - Added relics to the shop. They add up to 3 more chest unlock slots and speed up all your unlocks by 10/20/30%.
+- Play
+  - Partially updated the interface, more to come soon!
+  - New animations for default and alternative fields.
+
+### Fixes
+
+- Play
+  - Fixed an issue where card borders could stay red after being captured.
+- Translation
+  - Fixed some issues with Japanese and Chinese characters.
 
 ## 0.11.4103 Patch
 
