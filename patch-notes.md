@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.12
+  - [0.12.4226](#0124226-patch)
   - [0.12.4210](#0124210-patch)
 - 0.11
   - [0.11.4103](#0114103-patch)
@@ -91,6 +92,31 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.12.4226 Patch
+
+`2023-03-29 14:00 UTC`
+
+### Fixes
+
+- Event
+  - Fixed an issue where you cannot buy the Insignia in the Event journey.
+- Play
+  - Fixed an issue with elemental affix popup incorrectly parsing water icon.
+- Translation
+  - Fixed some missing translations.
+- Interface
+  - The general missions are sorted by claimability first.
+  - Fixed the patchnote panel and Event information panel.
+  - Fixed the popup warning when a Relic expired.
+- Shop
+  - Added a skip button for the CTA token video chest.
+- System
+  - Fixed some missions incorrectly validating in case of a draw.
+  - Fixed the weekly missions "Win X ranked duels with an {Element} Leader." and changed them to "Play X {Element} battle cards in ranked duels" as it was supposed to be.
+  - Fixed an issue with the numbering of mint passes and souvenir cards.
+  - Chest and prana bundle on your cold wallet are no longer displayed in the game.
+  - Pending burn related to chests are now deleted if the chest is transferred to another wallet.
+  
 ## 0.12.4210 Patch
 
 `2023-03-29 02:00 UTC`
