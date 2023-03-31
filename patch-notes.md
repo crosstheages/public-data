@@ -5,7 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.12
-  - [0.12.4237](#0124237-patch)
+  - [0.12.4269](#0124269-patch)
   - [0.12.4226](#0124226-patch)
   - [0.12.4210](#0124210-patch)
 - 0.11
@@ -93,24 +93,28 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
-## 0.12.4237 Patch
+## 0.12.4269 Patch
 
-`2023-03-31 10:00 UTC`
+`2023-03-31 19:00 UTC`
 
 ### Changes
 
 - Crafting
   - Being able to craft NFT now require 10 CTA Token.
-    - Note: This has been added in order to reduce incentive to create multiple accounts to abuse the new General Mission reward system.
+    - Note: This has been added in order to reduce incentive to create multiple accounts to abuse the new reward system. You can still craft digital without any CTA tokens.
 
 ### Fixes
 
-- Interface
-  - Randomize again the rarity of the cards shown when opening a chest instead of showing you them in increasing rarity (uncommon first, then common, rare, ultra rare and mythics). The content of the chest is still exactly the same but in random order.
-  - Fixed some missing assets.
-  - Fixed some missing localization.
+- Duel
+  - Fixed multiple issues regarding AFK timer alert.
 - Missions
   - Fixed the "Capture {0} cards with a maximum reach chain in ranked duels." mission not counting all captures.
+  - Added notification indicator for event reward.
+- Loots
+  - Randomize again the rarity of the cards shown when opening a chest instead of showing you them in increasing rarity (uncommon first, then common, rare, ultra rare and mythics). The content of the chest is still exactly the same but in random order.
+- Interface
+  - Fixed some missing assets.
+  - Fixed some missing localization.
 
 ## 0.12.4226 Patch
 
