@@ -116,6 +116,7 @@
   - Fields, Uncommon Battle and Rare have been buffed by +296.67%, +9.62% and +3.38% respectively.
   - New chests have a personal stock which guarantees you that after opening 1200 packs, you will get everything possible and everyone will have the same exact amount of cards including foil and non-foil cards.
   - In a future update, you will be able to see this personal stock as well as a way to reset it.
+  - For the first 2000 Neo opened on an account that don't already have a presale pack opened, your CTA cap is increased by 500.
 - Airdrop
   - First batch of Prana bundles has been dropped to Golden and Golden Legacy Mint Pass owners. You will be able to redeem those NFTs to get the Prana only if there is an adequate Mint Pass (either Golden or Golden Legacy depending on the bundle) on your Game or Cold wallet.
   - A 3rd Prana bundle have been dropped to Golden Legacy Mint Pass owners later.
@@ -125,7 +126,8 @@
 - Collection
   - When building a deck, automatically hide cards that you don't own.
 - Interface
-  - Remove the redeem code button on iOS as it is forbidden by Apple guidelines.
+  - Added a popup on the Dashboard when you have a pending burn that shows until you complete it.
+  - Removed the redeem code button on iOS as it is forbidden by Apple guidelines.
   - Add Portuguese localization.
 
 ### Fixes
