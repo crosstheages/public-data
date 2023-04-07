@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.13
+  - [0.13.4349](#0134349-patch)
 - 0.12
   - [0.12.4269](#0124269-patch)
   - [0.12.4226](#0124226-patch)
@@ -92,6 +94,54 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.13.4349 Patch
+
+`2023-04-07 02:00 UTC`
+
+### Changes
+
+- Easter Event
+  - Easter event starts today at `2023-04-07 08:00 UTC`.
+  - It features a fresh event journey with cosmetic rewards and a new Exclusive card: Kobold!
+  - New event missions will be available, they last for the whole event.
+  - The principle is the same as the last event: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you Trisel, cosmetics or points that you can use in the event shop.
+  - A new event shop with new cosmetics will be available starting from `2023-04-08 16:00 UTC`.
+  - Finally, a Neo Easter Chest will be available in the shop starting from `2023-04-09 16:00 UTC`.
+- Chests
+  - "Early" chests are no longer available in the shop. All early chests available in the shop had their odds of Ultra Rare and Mythic cards boosted for Early Access.
+  - These chests can still be bought on the secondary market from other players.
+  - The new chests contain the same amount of cards but have their chance of having a field card massively buffed and their chance of Ultra Rare and Mythic cards reduced compared to "Early" Chests.
+  - Odds for UR and Mythic are now -40% compared to before. Common have been nerfed by -13.52%.
+  - Fields, Uncommon Battle and Rare have been buffed by +296.67%, +9.62% and +3.38% respectively.
+  - New chests have a personal stock which guarantees you that after opening 1200 packs, you will get everything possible and everyone will have the same exact amount of cards including foil and non-foil cards.
+  - In a future update, you will be able to see this personal stock as well as a way to reset it.
+- Airdrop
+  - First batch of Prana bundles has been dropped to Golden and Golden Legacy Mint Pass owners. You will be able to redeem those NFTs to get the Prana only if there is an adequate Mint Pass (either Golden or Golden Legacy depending on the bundle) on your Game or Cold wallet.
+  - A 3rd Prana bundle have been dropped to Golden Legacy Mint Pass owners later.
+  - Special Rare Cards and Mantris Shards drops will start on April 19th.
+- Duel
+  - Added new visuals for the affixes dices!
+- Collection
+  - When building a deck, automatically hide cards that you don't own.
+- Interface
+  - Remove the redeem code button on iOS as it is forbidden by Apple guidelines.
+  - Add Portuguese localization.
+
+### Fixes
+
+- Special Ability
+  - Draw Refill: The +10 bonus power on drawed cards stays on the card even if it's captured by your opponent.
+- General missions
+  - Fixed "Get grade X cards from awakening" mission not counting properly.
+  - Fixed "Get X cards to Alternative Combo from merging" mission not counting properly.
+  - Fixed "Complete all daily/weekly mission" mission not counting properly.
+  - Fixed "Collect X% of the Arkhante collection" requiring all elements of Combo cards to complete the collection. The mission will recalculate itself the next time you get a card from a chest.
+- Interface
+  - Updated feedback link from dashboard menu.
+  - Added some details on the popup that show when you are banned from matchmaking for too much AFK.
+  - Fixed a few issues with relic texts.
+  - Fixed some localization issues for Chinese and Japanese.
 
 ## 0.12.4269 Patch
 
