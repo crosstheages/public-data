@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.13
+  - [0.13.4388](#0134388-patch)
   - [0.13.4349](#0134349-patch)
 - 0.12
   - [0.12.4269](#0124269-patch)
@@ -94,6 +95,46 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.13.4388 Patch
+
+`2023-04-12 13:00 UTC`
+
+### Changes
+
+- CTA Account App
+  - Add a way to redeem code directly.
+  - Add a stacking mode on the marketplace.
+  - Filters are now in the URL.
+  - You can now select "all" Token Types in the My Assets page.
+  - Now only show USDC and ETH.
+  - USDC is now pre-selected when listing an asset.
+  - Navigation tabs have been added in the header.
+  - Added a warning message regarding cookies.
+- NFT.NYC 2023
+  - On `2023-04-12 16:00 UTC`, a special NFT.NYC chest will be available in the shop for one week.
+  - This chest contains 3 booster packs and a cosmetic. There are a total of 3 cosmetics available.
+  - It is not available for minting yet but will be by the end of April.
+- Bored Box
+  - Bored Box are now available to bridge from Stardust collection to Cross The Ages collection.
+  - Once the new asset has been minted in the Cross The Ages collection, you can open it like any other chest. As a reminder, this chest contains 10 NFT cards using the Early system (like other Early chests) and 10 CTA tokens.
+- Collection
+  - Card back is now selectable. You will see it on the board while capturing cards for now. In upcoming updates, you will be able to see it on your redraw as well as when the opponent drop a card.
+- Account
+  - Added a way to disable or delete its account, this is available in the settings page.
+- Initialization
+  - Added a warning before downloading additional assets with its size.
+
+### Fixes
+
+- Play
+  - Fixed dices not showing up after a reconnection.
+  - Fixed various tooltips.
+  - Fixed an issue preventing players from surrendering.
+- Profile
+  - Fixed infinite loading.
+- Collection & Crafting
+  - Massively improved the speed of filtering, especially if you have many cards.
 
 ## 0.13.4349 Patch
 
