@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.13
+  - [0.13.4546](#0134546-patch)
   - [0.13.4388](#0134388-patch)
   - [0.13.4349](#0134349-patch)
 - 0.12
@@ -96,6 +97,34 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.13.4546 Patch
+
+`2023-04-21 20:00 UTC`
+
+### Changes
+
+- Airdrop
+  - First batch of Airdrop has been sent! More details on airdrops in the medium article: <https://medium.com/cross-the-ages/cta-token-perks-weekly-sr-aidrops-77c87e952345>
+- Crafting
+  - Added an animation for powering up a card. More to come for the other crafts in the coming weeks!
+- Deck selection
+  - Updated the Deck selection screen with the ability to go to the edit mode directly from this screen.
+- Duel
+  - New design for the footer. You can now discard by sending cards you don't want in the lava pit!
+  - Affixes are now shown in the footer.
+  - You can now surrender freely after turn 8 without point restriction.
+- Relics
+  - New design for relics.
+- UI
+  - Added various missing sound effects for chest opening.
+- Localization
+  - Updated all localization for easter event.
+
+### Fixes
+
+- General Missions
+  - Fixed "Get X Exclusive cards" mission not counting properly when bought from the event shop.
+
 ## 0.13.4388 Patch
 
 `2023-04-12 13:00 UTC`
@@ -119,7 +148,7 @@
   - Bored Box are now available to bridge from Stardust collection to Cross The Ages collection.
   - Once the new asset has been minted in the Cross The Ages collection, you can open it like any other chest. As a reminder, this chest contains 10 NFT cards using the Early system (like other Early chests) and 10 CTA tokens.
 - Collection
-  - Card back is now selectable. You will see it on the board while capturing cards for now. In upcoming updates, you will be able to see it on your redraw as well as when the opponent drop a card.
+  - Card back is now selectable. You will see it on the board while capturing cards for now. In upcoming updates, you will be able to see it on your redraw as well as when the opponent drops a card.
 - Account
   - Added a way to disable or delete its account, this is available in the settings page.
 - Initialization
@@ -160,7 +189,7 @@
   - For the first 2000 Neo opened on an account that don't already have a presale pack opened, your CTA cap is increased by 500.
 - Airdrop
   - First batch of Prana bundles has been dropped to Golden and Golden Legacy Mint Pass owners. You will be able to redeem those NFTs to get the Prana only if there is an adequate Mint Pass (either Golden or Golden Legacy depending on the bundle) on your Game or Cold wallet.
-  - A 3rd Prana bundle have been dropped to Golden Legacy Mint Pass owners later.
+  - A 3rd Prana bundle has been dropped to Golden Legacy Mint Pass owners later.
   - Special Rare Cards and Mantris Shards drops will start on April 19th.
 - Duel
   - Added new visuals for the affixes dices!
@@ -193,7 +222,7 @@
 ### Changes
 
 - Crafting
-  - Being able to craft NFT now require 10 CTA Token.
+  - Being able to craft NFT now requires 10 CTA Token.
     - Note: This has been added in order to reduce incentive to create multiple accounts to abuse the new reward system. You can still craft digital without any CTA tokens.
 
 ### Fixes
