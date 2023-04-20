@@ -112,6 +112,7 @@
 - Duel
   - New design for the footer. You can now discard by sending cards you don't want in the lava pit!
   - Affixes are now shown in the footer.
+  - Added a capture indicator on cards that would be captured if you hover a card on a slot next to one of your opponent cards. This is only available for players below 1200 rating.
   - You can now surrender freely after turn 8 without point restriction.
 - Relics
   - New design for relics.
