@@ -104,7 +104,7 @@
 ### Changes
 
 - Airdrop
-  - First batch of Airdrop has been sent! More details on airdrops in the medium article: <https://medium.com/cross-the-ages/cta-token-perks-weekly-sr-aidrops-77c87e952345>
+  - First batch of Airdrop has been sent! More details on airdrops in the medium article: [Link](https://medium.com/cross-the-ages/cta-token-perks-weekly-sr-aidrops-77c87e952345)
 - Crafting
   - Added an animation for powering up a card. More to come for the other crafts in the coming weeks!
 - Deck selection
