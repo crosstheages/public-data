@@ -4,6 +4,8 @@
 
 - Upcoming
   - [Upcoming](#upcoming)
+- 0.14
+  - [0.14.4853](#0144853-patch)
 - 0.13
   - [0.13.4546](#0134546-patch)
   - [0.13.4388](#0134388-patch)
@@ -96,6 +98,88 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.4853 Patch
+
+`2023-05-11 14:30 UTC`
+
+Welcome to the new era, this patch is quite major with some gameplay changes such as decks with 30 cards. We recommend you to read below to get more details!
+
+### Changes
+
+- Gameplay
+  - Deck
+    - You now must have 30 cards in your deck for duels. Accordingly, you can have up to 15,000 power and 3 field cards.
+    - As such, to help new players complete their decks, we doubled the amount of battle cards you get in the weekly free rotation. We also added 4 fields of 50 powers so you have fields for all the elements. That means you will have 3 powerful fields that match your 3 strongest cards, and 4 basic fields for the rest of the elements.
+  - Mulligan
+    - At the start of a duel, you can now choose up to 4 cards from your initial hand to discard and draw the amount of card you discarded. The discarded cards are then shuffled in your deck and you can draw them later.
+  - Affix
+    - Blitz is now 30 seconds to play your turn instead of 24 seconds.
+  - Special Abilities
+    - Affinity reinforcement: As long as you control your Leader on the board, empower each card you control by +20 power for their first affinity, and by +5 power for each additional affinity (so +20, +25 or +30).
+  - Changed the way we manage time remaining for playing. You shouldn't have any more desync with the server that could make you lose by afk while you still had time showing on your screen.
+  - Added alerts for when your time is low, especially when the Blitz affix is activated.
+- Reborn Event
+  - Reborn event starts Friday at `2023-05-12 08:00 UTC`.
+  - It features a fresh event journey with cosmetic rewards and new Exclusive cards: Skeleton and Nox!
+  - New event missions will be available, they last for the whole event.
+  - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you Trisel, cosmetics or points that you can use in the event shop.
+  - New for this event: as it does not start on Wednesday, you will get your weekly missions before the start of the event. But do not worry, every mission that you completed before the start of the event will award event points on Friday retroactively!
+  - A new event shop with new cosmetics will be available starting from `2023-05-17 16:00 UTC`.
+  - Finally, a Neo Reborn Chest will be available in the shop starting from `2023-05-19 16:00 UTC`.
+- Leaderboard
+  - Season 1 Era 4 (S1E4) has ended. This time, players are rewarded based on their relative rank to others. Here are the rewards you all received depending on your rank:
+    - 1st: 2 Neo Chests + 15,120 Pranas + 30,000 Trisels
+    - 2nd: Neo Chest + 9,360 Pranas + 25,000 Trisels
+    - 3rd: Neo Chest + 4,860 Pranas + 20,000 Trisels
+    - 4th: Omega Chest + 4,680 Pranas + 17,500 Trisels
+    - Top 8:  Omega Chest + 3,180 Pranas + 15,000 Trisels
+    - Top 16:  Omega Chest + 2,280 Pranas + 14,000 Trisels
+    - Top 32:  Omega Chest + 1,680 Pranas + 13,000 Trisels
+    - Top 64:  Ultra Chest + 1,440 Pranas + 12,000 Trisels
+    - Top 128:  Ultra Chest + 840 Pranas + 11,000 Trisels
+    - Top 256:  Mega Chest + 720 Pranas + 10,000 Trisels
+    - Top 512:  Extra Chest + 480 Pranas + 7,500 Trisels
+    - Top 1,024:  Super Chest + 5,000 Trisels
+    - Top 2,048:  Weekly T2 Chest + Basic Chest + 3,000 Trisels
+    - Top 4,096:  2 Weekly T2 Chests + 2,000 Trisels
+    - Top 10,000:  Weekly T2 Chest + 1,000 Trisels
+    - Rest:  500 Trisels
+  - For Era 5, the system will be a bit different: you will score points every week based on your highest rating of the week. The general ranking of the end of the era will be based on the sum of the points players earned during each week of the era and end of era rewards will be sent according to the general ranking.
+  - New UI for the leaderboard. You can switch to the General ranking view and Weekly ranking view in the top left dropdown. You will also be able to view previous weeks results when we advance into the era.
+- Game Mode.
+  - UI has seen an overhaul.
+  - We added an unranked game mode where you will be able play freely, validate missions, earn rewards (experience, Trisel, Event Points but at a reduced rate, i.e. a third of what you earn in ranked mode) without the pressure of the ranking.
+  - Note: In a previous communication, we said that Rotation cards will be forbidden from now on in ranked, we do give a grâce period for everyone to switch over. Later in the era, those will be restricted from ranked games.
+- General Missions
+  - Added leveling general missions.
+    - Those missions grant many rewards including cosmetics, deck slots, cards, and of course, Trisel.
+    - The first time you login after the patch, the missions corresponding to your in-game account level will already be claimable.
+    - Some of these missions also unlock functionality such as daily missions (level 2), weekly missions (level 5) and crafting (level 9). It also means that if you didn't reach those levels, you will not have access to these functionality until you reach it.
+    - The functionality unlocks when you claim the corresponding mission. It means that after the update, you will have to go to the general mission screen to validate these missions and unlock the functionalities again.
+  - Removed the mission "I am the Champion (Era 4)" and added the mission "I am the Champion (Era 5)".
+    - The Era 4 mission is still visible for players that earned it during era 4 but you cannot complete it.
+    - The points earned for the era 4 mission are not removed but count as "bonus" points toward the maximum of general mission points.
+- Pending Burns
+  - They now auto-expire after 7 days if you did not complete them in the meantime. In case of an expiration, nothing is refunded so you might lose the Trisel and potentially cards you already burned.
+  - You receive 3 email notifications about them (first day, 3rd day, last day).
+- UI
+  - Added various missing sound effects through the app, test it out!
+  - Chests with the new odds system are now mintable.
+  - Added a message notifier system on the dashboard, which will be used to warn you about upcoming / important changes.
+  - Emails layouts have been updated.
+- Payment
+  - According to regulations, we disabled Prana purchases in banned countries from the United Nations.
+  - Also, CTA Tokens purchases are now reserved for 18+ years old players.
+
+### Fixes
+
+- Duel
+  - Fixed an issue with the Extended Reach affix blocking capture chains in some rare cases.
+- UI
+  - Fixed an issue with the daily chest not being highlighted properly when claimable.
+- System
+  - Upgraded the engine to significantly reduce the amount of crashes during games.
 
 ## 0.13.4546 Patch
 
