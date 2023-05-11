@@ -121,7 +121,7 @@ Welcome to the new era, this patch is quite major with some gameplay changes suc
   - Added alerts for when your time is low, especially when the Blitz affix is activated.
 - Reborn Event
   - Reborn event starts Friday at `2023-05-12 08:00 UTC`.
-  - It features a fresh event journey with cosmetic rewards and new Exclusive cards: Skeleton and Nox!
+  - It features a fresh event journey with cosmetic rewards and new Exclusive cards: Skeleton!
   - New event missions will be available, they last for the whole event.
   - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you Trisel, cosmetics or points that you can use in the event shop.
   - New for this event: as it does not start on Wednesday, you will get your weekly missions before the start of the event. But do not worry, every mission that you completed before the start of the event will award event points on Friday retroactively!
