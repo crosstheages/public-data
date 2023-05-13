@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.4878](#0144878-patch)
   - [0.14.4853](#0144853-patch)
 - 0.13
   - [0.13.4546](#0134546-patch)
@@ -98,6 +99,29 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.4878 Patch
+
+`2023-05-13 03:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Mulligan now lasts for 15 seconds instead of 10.
+  - Added end of duel rewards to unranked duels. (as previously announced, a third of what you earn in ranked mode).
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue in unranked mode where you would not loose if your turn lasted more than the intended turn duration (1 minute 30 secondes).
+  - Fixed an issue with the versus screen not closing properly and it would fail to launch the duel.
+  - Fixed an issue where you could see twice the same card in your hand after a reconnect.
+  - Fixed several issue with timings during a duel.
+- UI
+  - Fixed an issue with the footer not deselecting the current menu in certain conditions.
+  - Fixed news screen showing older patch notes first.
+  - Fixed leveling general missions not showing the reward popup consistently.
+  - Fixed leaderboard not highlighting correctly the current player.
 
 ## 0.14.4853 Patch
 
