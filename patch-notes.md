@@ -127,9 +127,9 @@
 
 `2023-05-11 14:30 UTC`
 
-Welcome to the new era, this patch is quite major with some gameplay changes such as decks with 30 cards. We recommend you to read below to get more details!
-
 ### Changes
+
+Welcome to the new era, this patch is quite major with some gameplay changes such as decks with 30 cards. We recommend you to read below to get more details!
 
 - Gameplay
   - Deck
