@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.4920](#0144920-patch)
   - [0.14.4878](#0144878-patch)
   - [0.14.4853](#0144853-patch)
 - 0.13
@@ -100,6 +101,37 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.14.4920 Patch
+
+`2023-05-17 04:00 UTC`
+
+### Changes
+
+- Play
+  - Card bump on affinities is now only on trinities.
+  - Differentiate Owner and Controller on card details.
+  - No longer wait for the turn resolution end during a surrender.
+  - Updated hand behavior.
+- Game Mode
+  - Added an information window regarding affixes.
+- Interface
+  - Slightly updated crafting interface.
+- System
+  - Updated application icon.
+
+### Fixes
+
+- Play
+  - Various modifier display fixes.
+  - Timers are now independent from device local clock.
+- Leaderboard
+  - Various sort / display fixes.
+- Collection
+  - Correctly show 3 fields on deck stats.
+  - Card minting is now correctly awaited and refreshed.
+- System
+  - Updated various sounds including chests opening.
+
 ## 0.14.4878 Patch
 
 `2023-05-13 03:00 UTC`
@@ -129,8 +161,8 @@
 
 ### Changes
 
-Welcome to the new era, this patch is quite major with some gameplay changes such as decks with 30 cards. We recommend you to read below to get more details!
-
+- MAJOR changes
+  - Welcome to the new era, this patch is quite major with some gameplay changes such as decks with 30 cards. We recommend you to read below to get more details!
 - Gameplay
   - Deck
     - You now must have 30 cards in your deck for duels. Accordingly, you can have up to 15,000 power and 3 field cards.
