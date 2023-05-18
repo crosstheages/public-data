@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.4931](#0144931-patch)
   - [0.14.4920](#0144920-patch)
   - [0.14.4878](#0144878-patch)
   - [0.14.4853](#0144853-patch)
@@ -100,6 +101,28 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.4931 Patch
+
+`2023-05-18 23:30 UTC`
+
+### Changes
+
+- Loot
+  - NFT.NYC 2023, Neo Easter and Neo Reborn are now mintable.
+
+### Fixes
+
+- Play
+  - Surrender conditions are now displayed in normal.
+- Crafting
+  - Various fixes.
+- Leaderboard
+  - Various fixes.
+- Collection
+  - Kassius artwork is no longer mixed.
+- Loot
+  - Fixed an issue where an expired Relic was displayed (with a negative time remaining).
 
 ## 0.14.4920 Patch
 
