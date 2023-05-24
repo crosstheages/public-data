@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.5004](#0145004-patch)
   - [0.14.4931](#0144931-patch)
   - [0.14.4920](#0144920-patch)
   - [0.14.4878](#0144878-patch)
@@ -101,6 +102,29 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.5004 Patch
+
+`2023-05-24 02:00 UTC`
+
+### Changes
+
+- Leaderboard
+  - Show most used SA and Leader for each player
+
+### Fixes
+
+- Duel
+  - Fixed the Owner display in card details
+  - Fixed various issue with card display
+  - Fixed an issue with the "Hide" countdown font size
+- UI
+  - Fixed random affix option in custom duel settings
+  - Fixed an issue with the volume of the app being lower than intended
+  - Fixed an issue with Nox standard and alternative avatar being inverted
+  - Fixed a few issues with the tutorial
+  - Fixed a few issues with the craft
+  - Fixed a few issues with the autodeck feature not working in specific conditions
 
 ## 0.14.4931 Patch
 
