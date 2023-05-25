@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.5019](#0145019-patch)
   - [0.14.5004](#0145004-patch)
   - [0.14.4931](#0144931-patch)
   - [0.14.4920](#0144920-patch)
@@ -102,6 +103,22 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.5019 Patch
+
+`2023-05-25 15:00 UTC`
+
+### Fixes
+
+- Shop
+  - Fixed an issue with Neo reborn Chest not counting towards the first 2000 Neo bought for the CTA Cap bonus. For users that previously opened Neo Reborn, we made the change retroactive.
+- Duel
+  - Fixed an issue with the "Control" display in card details from cards you draw showing incorrect player.
+- UI
+  - Fixed an issue with the current event not loading correctly for some people.
+  - Fixed an issue with the game mode selection screen hiding the footer when closed.
+  - Fixed an issue with the currencies not refreshing properly after switching to another account.
+  - Fixed a few display issues with the leaderboard.
 
 ## 0.14.5004 Patch
 
