@@ -5,6 +5,7 @@
 - Upcoming
   - [Upcoming](#upcoming)
 - 0.14
+  - [0.14.5086](#0145086-patch)
   - [0.14.5019](#0145019-patch)
   - [0.14.5004](#0145004-patch)
   - [0.14.4931](#0144931-patch)
@@ -103,6 +104,26 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.14.5086 Patch
+
+`2023-05-31 00:00 UTC`
+
+### Changes
+
+- Shop
+  - Chests are now regrouped into the Arkhante collection where you can see cards remaining for you to get.
+- UI
+  - Enabled News button on the dashboard to show previous patch notes.
+
+### Fixes
+
+- Duel
+  - Fixed an issue with the revolution affix making cards stuck in the middle of the board.
+- UI
+  - Fixed ToS link in register.
+  - Fixed small alignement issues in the craft window.
+  - Fixed a few UI issues on the leaderboard.
 
 ## 0.14.5019 Patch
 
