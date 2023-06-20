@@ -2,8 +2,8 @@
 
 ## Direct Links
 
-- Upcoming
-  - [Upcoming](#upcoming)
+- 0.15
+  - [0.15.5281](#0155281-patch)
 - 0.14
   - [0.14.5086](#0145086-patch)
   - [0.14.5019](#0145019-patch)
@@ -91,19 +91,89 @@
 - 0.2.0
   - [Patch](#020-patch)
 
-## Upcoming
+## 0.15.5281 Patch
 
-`TBD`
+`2023-06-20 01:00 UTC`
 
 ### Changes
 
-- Duels
-  - You can now report your opponent's name.
-  - Opponent card placement is now animated.
-  - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
-  - Game window will now be put in foreground if you are in the queue and are matched.
-- Loot
-  - You now dynamically see how many chests left you need to unlock before getting slot #3.
+- Leaderboard
+  - The new Decay system will be implemented in the upcoming era. It was applied for the current Era, but since we did not adequately communicate on it, we have decided to revert it and will return points to those affected by the system, ensuring that the decay will not be applied in future snapshots until the next Era.
+  - The decay will work as follow:
+    - No decay before 1500 rating
+    - Gold (1500 – 1849): 150 rating decay if you haven’t played for more than 7 days
+    - Platinum (1850 – 2199): 100 rating decay if you haven’t played for more than 3 days
+    - Diamond+ (2200+): 50 rating decay if you haven’t played for more than 1 day
+- Gameplay
+  - The Score Twist Affix is now permanent in the game. Every duel will have an end score that can be either 45, 50, 55, 60, 65 or 70. The end score to reach will be displayed during the dice roll of affixes at the start and at all times at the top of the board.
+  - Affixes
+    - Affixes are now unlocked after 10 duels in ranked. You can then train against them in normal duels the same way you would do in ranked duels.
+    - Affixes are now less common. You will encounter them on average in 50% of your duels. The probability of having a second affix during a duel is now available for everyone but at low ranking the probability is low. It is more and more present the higher your rating is. Chances of a second affix:
+      - Bronze: 2%
+      - Silver: 10%
+      - Gold: 25%
+      - Platinum: 50%
+      - Diamond: 75%
+      - Master: 100%
+    - Affixes are now all in the same pool and can be either the first or the second affix. Some affixes can not be drawn together like Extended Reach and Limited Reach.
+    - You can now ban affixes you don't want to play against:
+      - In a duel, if one of the players has banned an affix, you won't be able to roll it.
+      - You can ban affixes in the game mode selection window.
+      - At low ranks, you can ban up to 2 affixes.
+      - Starting at gold rating, you can ban only 1 affix.
+      - And starting at Platinum rating, you can't ban affixes anymore.
+  - Balance
+    - Fields
+      - Fields penalty power has been redesigned. They now have a flat (Nominal power + 300) penalty power when building your deck.
+      - ie: A 50 Nominal power now has a 350 penalty power (was 300 penalty power before). A 140 Nominal power now has a 440 penalty power (was 480 penalty power before).
+    - Special Abilities
+      - Power Stacking: The SA was reworked to be capped at 725. Also, the amount of power the card gains per turn depends on their rarity and grade (whichever is highest):
+        - +20 per turn for a Mythic card or grade S card.
+        - +15 per turn for an Ultra Rare card or grade A card.
+        - +10 per turn for a Rare card or grade B card.
+        - +5 per turn for an Uncommon/Common card or S grade C card.
+        - Full text: At the end of your turns, as long as you keep your Leader in your hand, empower it according to the highness of his rarity or grade, whichever grants you the higher bonus (between 5 and 20 per turn). The power of the Leader can not exceed 725.
+      - Field Influence: The SA was reworked to only debuff the fields of the opponent but by 50 power (was 40). The cost of field cards has been simplified to a flat -50 penalty power.
+        - Full text: As long as you control your Leader on the board, weaken the opponent's field cards by -50 power. Also reduce the cost of your field cards by 50.
+      - Affinity Reinforcement: The SA was reworked to make it a passive effect that lasts for for whole duration of the duel instead of only on Leader control. To balance it, it was nerfed to +10 power for the first affinity and +5 for each additional affix (was +15 for the first affinity and +5 for each additional affix)
+        - Full text: Empower each card you control by +10 power for their first affinity, and by +5 power for each additional affinity. This is a passive effect and applies at the start of the duel.
+    - Affixes
+      - Affinity stacking: Reduced the bonus for each affinity to 15 (was 20).
+        - Full text: When a card you control has an affinity for more than a turn, it is empowered by +15 power at the start of each of your turns.
+      - Revolution: This affix was reworked to silence the SA for the whole duration of the duel instead of blocking it until turn 7.
+        - Full text: At the start of the duel, your Leader is silenced and your Special Ability will not trigger.
+  - Animations
+    - New design for the dice. Also added a dice to show the draw for Score Twist. During a duel, the score to reach is always displayed on top of the score gauge.
+    - New animations for the score after each capture and trinity. The score is updated live with each capture and the score gauge has received an update to its style.
+    - An animation has been added when your opponent draws a card next to the score gauge.
+  - Buff/Debuff
+    - The tooltips for buffs and debuffs have received an update and are now much more informative.
+- Rising Suns Event
+  - Rising Suns event starts on Tuesday at `2023-06-20 08:00 UTC`.
+  - It features a fresh event journey with cosmetic rewards and new Exclusive cards: Hanzo!
+  - New event missions will be available, they last for the whole event.
+  - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you Trisel, cosmetics or points that you can use in the event shop. Every mission that you completed before the start of the event will award event points on Friday retroactively!
+  - A new event shop with new cosmetics will be available starting from `2023-06-22 16:00 UTC`.
+  - Finally, a Neo Rising Suns Chest will be available in the shop starting from `2023-06-23 17:00 UTC`.
+- NFTokyo Chest
+  - Celebrating our participation in Non Fungible Tokyo and IVS Kyoto, we will release a special chest containing 3 cosmetics and the new shard system starting from `2023-06-21 23:00 UTC (08:00 JST)`.
+  - You need to combine 20 shards to receive the exclusive Ruby, Shards are mintable for 0.5$ each. Mint Passes owner receives some shards for free. Shards can be combined starting from `2023-06-24 16:00 UTC`
+  - You cannot mix digital and NFT shards.
+  - You can obtain from 1 to 3 shards in each chest.
+
+### Fixes
+
+- Duel
+  - Fixed an issue with the Field influence Special Ability buff not showing in the card details.
+  - Fixed an issue with the Affinity reinforcement Special Ability that showed 3 buffs icons instead of 1.
+  - Fixed an issue with the Special Abilities animation that could sometimes be shown behind the cards in the middle of the board.
+  - Fixed an issue with the Elemental Affix not showing a buff icon for the first turn it was applied.
+  - Fixed an issue with the Inspiring Affix not empowering the battle cards in your hand. It was only empowering the card once it was played on the board. This is only a display issue.
+  - Fixed an issue with the capture indicator showing captures that were made from a capture chain. Capture indicator should only show direct captures.
+  - Fixed an issue with the capture indicator not showing for cards that were acquired through discard and draw this turn.
+- UI
+  - Fixed an issue with the Auto deck feature not working properly on specific conditions.
+  - Fixed an issue with the message shown when the player is banned to be more informative about the duration of the ban. We also did reset the queue ban for everyone, watch out it's a one time thing!
 
 ## 0.14.5086 Patch
 
