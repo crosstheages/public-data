@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.15
+  - [0.15.5281 Hotfix #1](#0155281-hotfix-1)
   - [0.15.5281](#0155281-patch)
 - 0.14
   - [0.14.5086](#0145086-patch)
@@ -90,6 +91,37 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## Upcoming
+
+`TBD`
+
+### Changes
+
+- Duels
+  - You can now report your opponent's name.
+  - Opponent card placement is now animated.
+  - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
+  - Game window will now be put in foreground if you are in the queue and are matched.
+- Loot
+  - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.15.5281 Hotfix #1
+
+`2023-06-20 13:00 UTC`
+
+### Changes
+
+- Training cards
+  - Added 12 new training cards to the welcome package for new players with one field of each Arkhome to make it easier to complete a 30 cards deck.
+
+### Fixes
+
+- Leaderboard
+  - Recomputed the leaderboard as previously stated.
+- Duel
+  - Disabled Revolution affix until we find a more adequate solution for this affix.
+  - Fixed an issue with the SA Affinity Reinforcement with the capture of the Leader (The icon still swap side for now but the effect is correctly applied to the right player).
 
 ## 0.15.5281 Patch
 
