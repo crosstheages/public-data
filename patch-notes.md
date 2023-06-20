@@ -120,7 +120,7 @@
 - Leaderboard
   - Recomputed the leaderboard as previously stated.
 - Duel
-  - Disabled Revolution affix until we find a more adequate solution for this affix.
+  - Disabled Revolution affix until further notice.
   - Fixed an issue with the SA Affinity Reinforcement with the capture of the Leader (The icon still swap side for now but the effect is correctly applied to the right player).
 
 ## 0.15.5281 Patch
