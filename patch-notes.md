@@ -131,11 +131,11 @@
         - +20 per turn for a Mythic card or grade S card.
         - +15 per turn for an Ultra Rare card or grade A card.
         - +10 per turn for a Rare card or grade B card.
-        - +5 per turn for an Uncommon/Common card or S grade C card.
+        - +5 per turn for an Uncommon/Common card or grade C card.
         - Full text: At the end of your turns, as long as you keep your Leader in your hand, empower it according to the highness of his rarity or grade, whichever grants you the higher bonus (between 5 and 20 per turn). The power of the Leader can not exceed 725.
       - Field Influence: The SA was reworked to only debuff the fields of the opponent but by 50 power (was 40). The cost of field cards has been simplified to a flat -50 penalty power.
         - Full text: As long as you control your Leader on the board, weaken the opponent's field cards by -50 power. Also reduce the cost of your field cards by 50.
-      - Affinity Reinforcement: The SA was reworked to make it a passive effect that lasts for for whole duration of the duel instead of only on Leader control. To balance it, it was nerfed to +10 power for the first affinity and +5 for each additional affix (was +15 for the first affinity and +5 for each additional affix)
+      - Affinity Reinforcement: The SA was reworked to make it a passive effect that lasts for for whole duration of the duel instead of only on Leader control. To balance it, it was nerfed to +10 power for the first affinity and +5 for each additional affinity (was +15 for the first affinity and +5 for each additional affinity)
         - Full text: Empower each card you control by +10 power for their first affinity, and by +5 power for each additional affinity. This is a passive effect and applies at the start of the duel.
     - Affixes
       - Affinity stacking: Reduced the bonus for each affinity to 15 (was 20).
