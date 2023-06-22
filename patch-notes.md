@@ -161,7 +161,7 @@
     - Special Abilities
       - Power Stacking: The SA was reworked to be capped at 725. Also, the amount of power the card gains per turn depends on their rarity and grade (whichever is highest):
         - +20 per turn for a Mythic card or grade S card.
-        - +15 per turn for an Ultra Rare card or grade A card.
+        - +15 per turn for an Special Rare, Ultra Rare card or grade A card.
         - +10 per turn for a Rare card or grade B card.
         - +5 per turn for an Uncommon/Common card or grade C card.
         - Full text: At the end of your turns, as long as you keep your Leader in your hand, empower it according to the highness of his rarity or grade, whichever grants you the higher bonus (between 5 and 20 per turn). The power of the Leader can not exceed 725.
