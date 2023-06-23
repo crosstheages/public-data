@@ -107,7 +107,7 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
-## 0.15.5306
+## 0.15.5306 Patch
 
 `2023-06-23 08:00 UTC`
 
