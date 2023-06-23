@@ -109,7 +109,7 @@
 
 ## 0.15.5306
 
-`2023-06-22 14:00 UTC`
+`2023-06-23 08:00 UTC`
 
 ### Fixes
 
@@ -117,7 +117,7 @@
   - Fixed a few missing assets resulting in white squares.
   - Fixed a few issues in the tutorial.
   - Fixed a few issues in the affix ban window.
-  - Added missing localization for Japan.
+  - Added missing localizations for Japan.
 
 ## 0.15.5281 Hotfix #1
 
