@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.15
+  - [0.15.5306](#0155306-patch)
   - [0.15.5281 Hotfix #1](#0155281-hotfix-1)
   - [0.15.5281](#0155281-patch)
 - 0.14
@@ -105,6 +106,18 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.15.5306
+
+`2023-06-22 14:00 UTC`
+
+### Fixes
+
+- UI
+  - Fixed a few missing assets resulting in white squares.
+  - Fixed a few issues in the tutorial.
+  - Fixed a few issues in the affix ban window.
+  - Added missing localization for Japan.
 
 ## 0.15.5281 Hotfix #1
 
