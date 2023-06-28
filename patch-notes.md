@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.15
+  - [0.15.5306 Hotfix #1](#0155306-hotfix-1)
   - [0.15.5306](#0155306-patch)
   - [0.15.5281 Hotfix #1](#0155281-hotfix-1)
   - [0.15.5281](#0155281-patch)
@@ -106,6 +107,46 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.15.5306 Hotfix #1
+
+`2023-06-28 08:00 UTC`
+
+### Changes
+
+- Leaderboard
+  - Season 1 Era 5 (S1E5) has ended. This time, players are rewarded based on the amount of points you had in the global leaderboard. In case players have the same amount of points, the order is given by who ranked the best on average in previous weeks, and then by highest recent rating, and finally by who reached that highest first. As a reminder, every reward but shards will be sent for this era, those will be sent on the next era ending (August).
+    - 1st: 2 Neo Chests + 15,120 Pranas + 30,000 Trisels
+    - 2nd: Neo Chest + 9,360 Pranas + 25,000 Trisels
+    - 3rd: Neo Chest + 4,860 Pranas + 20,000 Trisels
+    - 4th: Omega Chest + 4,680 Pranas + 17,500 Trisels
+    - Top 8:  Omega Chest + 3,180 Pranas + 15,000 Trisels
+    - Top 16:  Omega Chest + 2,280 Pranas + 14,000 Trisels
+    - Top 32:  Omega Chest + 1,680 Pranas + 13,000 Trisels
+    - Top 64:  Ultra Chest + 1,440 Pranas + 12,000 Trisels
+    - Top 128:  Ultra Chest + 840 Pranas + 11,000 Trisels
+    - Top 256:  Mega Chest + 720 Pranas + 10,000 Trisels
+    - Top 512:  Extra Chest + 480 Pranas + 7,500 Trisels
+    - Top 1,024:  Super Chest + 5,000 Trisels
+    - Top 2,048:  Weekly T2 Chest + Basic Chest + 3,000 Trisels
+    - Top 4,096:  2 Weekly T2 Chests + 2,000 Trisels
+    - Top 10,000:  Weekly T2 Chest + 1,000 Trisels
+    - Rest:  500 Trisels
+  - Season 1 Era 6 (S1E6) has started with the same leaderboard system as era 5.
+  - The new Decay system will be implemented in this era. The decay will work as follow:
+    - No decay before 1500 rating
+    - Gold (1500 – 1849): 150 rating decay if you haven’t played for more than 7 days
+    - Platinum (1850 – 2199): 100 rating decay if you haven’t played for more than 3 days
+    - Diamond+ (2200+): 50 rating decay if you haven’t played for more than 1 day
+  - Rotation cards are now disabled in ranked duels. If you have rotation cards in your deck, you won't be able to play ranked duels with it until you remove the rotation cards.
+- UI
+  - The inventory page doesn't show shards from the cold wallet anymore. To combine shards, you will now have to transfer them to your game wallet first.
+  - Added missing localization for Spanish, Portuguese  and chinese.
+
+### Fixes
+
+- Cards
+  - Fixed some field cards that were not correctly updated with the new field penalty power formula.
 
 ## 0.15.5306 Patch
 
