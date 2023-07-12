@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.15
+  - [0.15.5333](#0155333-patch)
   - [0.15.5306 Hotfix #1](#0155306-hotfix-1)
   - [0.15.5306](#0155306-patch)
   - [0.15.5281 Hotfix #1](#0155281-hotfix-1)
@@ -108,6 +109,31 @@
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
+## 0.15.5333 Patch
+
+`2023-07-12 08:00 UTC`
+
+### Changes
+
+- Balance
+  - SA Field Influence: We reverted the change we made in the previous patch to the Field SA as it was too strong in combination with the field cost changes. We went back to the previous version of the SA with adjusted values.
+    - Full text: As long as you control your Leader on the board, empower your field cards by +40 power and weaken opponent's field cards by -30 power.
+  - SA Power Mirror: Power mirror is also a SA that we feel is too strong at the start of this era. We are changing it so it can only copy the power of the cards that you own (cards that are in your deck at the start of the duel) on the board.
+    - Full text: When played, your Leader copies the nominal power of the most powerful card you own on the board.
+    - Note: Own and Control are important notions that we want to normalize for the wording in the game. "Own" is cards that are yours at the start of the duel, and "Control" are cards that are currently under your control on the board. This notion is shown for each card on the board when you show the details of a card (long press or right click on a card).
+  - Normal mode rewards: Now that rotation cards are disabled in ranked mode, we feel the normal mode rewards were a bit lackluster for new players as they don't have the choice to play in ranked mode at first. We changed the normal mode rewards so that ranked game rewards are only 33% better than normal mode rewards. Additionally, we wanted to give a new bonus to the event insignia : If you have bought the insignia for the current event, normal duels will now award you with 100% of the event experience you would gain in a ranked duel.
+- EthCC Chest
+  - Celebrating our EthCC event participation, we will release a special chest containing 3 cosmetics and a new shard starting `2023-07-17 08:00 UTC`.
+  - Mint Passes owners will receive some shards for free (same quantity as ruby shards) starting `2023-07-17 08:00 UTC`.
+  - You need to combine 20 shards to receive the exclusive Kraken card. Shards are mintable for 0.5$ each. Shards can be combined starting `2023-07-20 08:00 UTC`
+  - You cannot mix digital and NFT shards.
+  - You can obtain from 1 to 3 shards in each chest.
+
+### Fixes
+
+- UI
+  - Fixed a few issues in the Inventory section regarding relics.
+
 ## 0.15.5306 Hotfix #1
 
 `2023-06-28 08:00 UTC`
@@ -120,18 +146,18 @@
     - 2nd: Neo Chest + 9,360 Pranas + 25,000 Trisels
     - 3rd: Neo Chest + 4,860 Pranas + 20,000 Trisels
     - 4th: Omega Chest + 4,680 Pranas + 17,500 Trisels
-    - Top 8:  Omega Chest + 3,180 Pranas + 15,000 Trisels
-    - Top 16:  Omega Chest + 2,280 Pranas + 14,000 Trisels
-    - Top 32:  Omega Chest + 1,680 Pranas + 13,000 Trisels
-    - Top 64:  Ultra Chest + 1,440 Pranas + 12,000 Trisels
-    - Top 128:  Ultra Chest + 840 Pranas + 11,000 Trisels
-    - Top 256:  Mega Chest + 720 Pranas + 10,000 Trisels
-    - Top 512:  Extra Chest + 480 Pranas + 7,500 Trisels
-    - Top 1,024:  Super Chest + 5,000 Trisels
-    - Top 2,048:  Weekly T2 Chest + Basic Chest + 3,000 Trisels
-    - Top 4,096:  2 Weekly T2 Chests + 2,000 Trisels
-    - Top 10,000:  Weekly T2 Chest + 1,000 Trisels
-    - Rest:  500 Trisels
+    - Top 8: Omega Chest + 3,180 Pranas + 15,000 Trisels
+    - Top 16: Omega Chest + 2,280 Pranas + 14,000 Trisels
+    - Top 32: Omega Chest + 1,680 Pranas + 13,000 Trisels
+    - Top 64: Ultra Chest + 1,440 Pranas + 12,000 Trisels
+    - Top 128: Ultra Chest + 840 Pranas + 11,000 Trisels
+    - Top 256: Mega Chest + 720 Pranas + 10,000 Trisels
+    - Top 512: Extra Chest + 480 Pranas + 7,500 Trisels
+    - Top 1,024: Super Chest + 5,000 Trisels
+    - Top 2,048: Weekly T2 Chest + Basic Chest + 3,000 Trisels
+    - Top 4,096: 2 Weekly T2 Chests + 2,000 Trisels
+    - Top 10,000: Weekly T2 Chest + 1,000 Trisels
+    - Rest: 500 Trisels
   - Season 1 Era 6 (S1E6) has started with the same leaderboard system as era 5.
   - The new Decay system will be implemented in this era. The decay will work as follow:
     - No decay before 1500 rating
@@ -141,7 +167,7 @@
   - Rotation cards are now disabled in ranked duels. If you have rotation cards in your deck, you won't be able to play ranked duels with it until you remove the rotation cards.
 - UI
   - The inventory page doesn't show shards from the cold wallet anymore. To combine shards, you will now have to transfer them to your game wallet first.
-  - Added missing localization for Spanish, Portuguese  and chinese.
+  - Added missing localization for Spanish, Portuguese and chinese.
 
 ### Fixes
 
@@ -430,18 +456,18 @@
     - 2nd: Neo Chest + 9,360 Pranas + 25,000 Trisels
     - 3rd: Neo Chest + 4,860 Pranas + 20,000 Trisels
     - 4th: Omega Chest + 4,680 Pranas + 17,500 Trisels
-    - Top 8:  Omega Chest + 3,180 Pranas + 15,000 Trisels
-    - Top 16:  Omega Chest + 2,280 Pranas + 14,000 Trisels
-    - Top 32:  Omega Chest + 1,680 Pranas + 13,000 Trisels
-    - Top 64:  Ultra Chest + 1,440 Pranas + 12,000 Trisels
-    - Top 128:  Ultra Chest + 840 Pranas + 11,000 Trisels
-    - Top 256:  Mega Chest + 720 Pranas + 10,000 Trisels
-    - Top 512:  Extra Chest + 480 Pranas + 7,500 Trisels
-    - Top 1,024:  Super Chest + 5,000 Trisels
-    - Top 2,048:  Weekly T2 Chest + Basic Chest + 3,000 Trisels
-    - Top 4,096:  2 Weekly T2 Chests + 2,000 Trisels
-    - Top 10,000:  Weekly T2 Chest + 1,000 Trisels
-    - Rest:  500 Trisels
+    - Top 8: Omega Chest + 3,180 Pranas + 15,000 Trisels
+    - Top 16: Omega Chest + 2,280 Pranas + 14,000 Trisels
+    - Top 32: Omega Chest + 1,680 Pranas + 13,000 Trisels
+    - Top 64: Ultra Chest + 1,440 Pranas + 12,000 Trisels
+    - Top 128: Ultra Chest + 840 Pranas + 11,000 Trisels
+    - Top 256: Mega Chest + 720 Pranas + 10,000 Trisels
+    - Top 512: Extra Chest + 480 Pranas + 7,500 Trisels
+    - Top 1,024: Super Chest + 5,000 Trisels
+    - Top 2,048: Weekly T2 Chest + Basic Chest + 3,000 Trisels
+    - Top 4,096: 2 Weekly T2 Chests + 2,000 Trisels
+    - Top 10,000: Weekly T2 Chest + 1,000 Trisels
+    - Rest: 500 Trisels
   - For Era 5, the system will be a bit different: you will score points every week based on your highest rating of the week. The general ranking of the end of the era will be based on the sum of the points players earned during each week of the era and end of era rewards will be sent according to the general ranking.
   - New UI for the leaderboard. You can switch to the General ranking view and Weekly ranking view in the top left dropdown. You will also be able to view previous weeks results when we advance into the era.
 - Game Mode.
@@ -644,7 +670,7 @@
   - Fixed an issue with the numbering of mint passes and souvenir cards.
   - Chest and prana bundle on your cold wallet are no longer displayed in the game.
   - Pending burn related to chests are now deleted if the chest is transferred to another wallet.
-  
+
 ## 0.12.4210 Patch
 
 `2023-03-29 02:00 UTC`
@@ -860,13 +886,13 @@
 - Leaderboard
   - Season 1 Era 3 (S1E3) has ended, here are the rewards you all received depending on the recent highest rating you reached:
     - 0-1149: 1,000 Trisels + Weekly T1 chest
-    - 1150-1349:  2,000 Trisels + Weekly T2 chest
-    - 1350-1499:  3,000 Trisels + Weekly T3 chest
-    - 1500-1649:  5,000 Trisels + Super chest
-    - 1650-1799:  7,000 Trisels + Mega chest
-    - 1800-1949:  10,000 Trisels + Ultra chest + 600 Prana
-    - 1950-2099:  15,000 Trisels + Omega chest + 1200 Prana
-    - 2100+:  25,000 Trisels + Neo chest + 2400 Prana
+    - 1150-1349: 2,000 Trisels + Weekly T2 chest
+    - 1350-1499: 3,000 Trisels + Weekly T3 chest
+    - 1500-1649: 5,000 Trisels + Super chest
+    - 1650-1799: 7,000 Trisels + Mega chest
+    - 1800-1949: 10,000 Trisels + Ultra chest + 600 Prana
+    - 1950-2099: 15,000 Trisels + Omega chest + 1200 Prana
+    - 2100+: 25,000 Trisels + Neo chest + 2400 Prana
 - Gameplay
   - Score computations has been changed, previously both simple and double affinities were counting in points now it is double only.
   - Cards in hand loop has changed, you now start with 4 cards, draw 1 each turn and can redraw up to 2 per game.
@@ -1298,8 +1324,8 @@ Fees:
 - Leaderboard
   - Season 1 Era 2 (S1E2) has ended, here are the rewards you all received depending on the recent highest rating you reached:
     - 0-1149: 1,000 Trisels
-    - 1150-1349:  3,000 Trisels
-    - 1350-1699:  7,000 Trisels and a Mega chest
+    - 1150-1349: 3,000 Trisels
+    - 1350-1699: 7,000 Trisels and a Mega chest
     - 1700+: 15,000 Trisels and a Mega chest + an Ultra chesteveryone started at 1200, as such it has been put at 1250.
   - In addition to this and considering there have been a lot of bugs hunting, especially on mobile release, we added a bonus for anyone who opened his pack before the end of this era, as follow:
     - Standard: 100 Trisels
@@ -1770,14 +1796,14 @@ Known Issues (do not report this, we are working on it)
 - Leaderboard
   - Season 1 Era 1 (S1E1) has ended, here are the rewards you all received depending on the highest rating you reached:
     - 0-1249: 1,000 Trisels
-    - 1250-1499:  3,000 Trisels
-    - 1500-1849:  7,000 Trisels and a Mega chest
+    - 1250-1499: 3,000 Trisels
+    - 1500-1849: 7,000 Trisels and a Mega chest
     - 1850-2200: 15,000 Trisels and a Mega chest + an Ultra chest
     - Note: In a previous communication, we said that the first threshold was 1150 but it was incorrect as since it's based on ATH everyone started at 1200, as such it has been put at 1250.
   - In addition to this, the first 10 players who reached 2,000 rating (2k Challenge) received those rewards:
-    - 1st:        20,000 Trisels and a Neo chest
-    - 2nd:        15,000 Trisels and an Omega chest
-    - 3rd:        10,000 Trisels and an Ultra chest
+    - 1st: 20,000 Trisels and a Neo chest
+    - 2nd: 15,000 Trisels and an Omega chest
+    - 3rd: 10,000 Trisels and an Ultra chest
     - 4th to 10th: 5,000 Trisels and a Mega chest
   - New era starting rating is now 1100, as a consequence floor rating for matchmaking is now 1000.
   - Note: End of era rewards will not be based on the highest rating, it will instead be based either on current rating or a new system called "average rating", in any case it will be announced weeks before the end of the next era.
@@ -1834,7 +1860,7 @@ Known Issues (do not report this, we are working on it)
   - If Shift Advantages SA is played, the Heptagram will be shifted while the effect is active.
 - Loot
   - No longer show a blank screen but a wait screen if you skip the opening and not all packs are ready to be opened.
-  
+
 ### Fixes
 
 - Mission
