@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.16
+  - [0.16.5787](#0165787-patch)
 - 0.15
   - [0.15.5333](#0155333-patch)
   - [0.15.5306 Hotfix #1](#0155306-hotfix-1)
@@ -108,6 +110,75 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.16.5787 Patch
+
+`2023-08-16 15:30 UTC`
+
+### Changes
+
+- Account management
+  - Anonymous
+    - A new way to enjoy Cross The Ages! You are no longer required to register to start to play! When first launching the app, you will be asked if you want to play directly or create an account or sign in.
+    - When playing on an anonymous account, you are able to enjoy all the gameplay of Cross The Ages , but some features are blocked such as all the interactions with the blockchain, ranked leaderboard and end of era rewards. Upon registering, you will receive a welcome gift with some cards and Trisel.
+  - Account switching
+    - For players that enjoy the game on multiple accounts, we made it easier to switch between different accounts! When you successfully log in an account, the session is stored on the device and you are now able to easily switch between all logged in accounts on the device. Keep in mind that logging in this account on another device will expire the session.
+    - To access this functionality, just after the login window, in the top left of the account screen, you have a dropdown with all the accounts you have logged in on this device. And you can also add new accounts.
+    - After this update, you will have to log again onto all your accounts.
+  - Settings shared to device
+    - All settings are now shared between all accounts on the device.
+- Leaderboard
+  - Season 1 Era 1-5 (S1E1 to S1E5) Argonath & Solis shards have been sent retroactively.
+  - For Season 1 Era 4 (S1E4), a bonus of 1 Solis shard and 1 Argonath shard have been sent to top 384 and 768 respectively as a compensation of the recently highest rating confusion.
+  - Season 1 Era 6 (S1E6) has ended and corresponding rewards have been sent. Reminder that in case players have the same amount of points, the order is given by who ranked the best on average in previous weeks, and then by highest recent rating, and finally by who reached that highest first.
+  - Season 1 Era 7 (S1E7) has started with a notable change regarding the decay. It has been removed, you now have an amount of games to play each week to validate your weekly rating based on your previous week rank. For the first week, you only need 1 game. As a reference, here are the requirements:
+    - 1st-64th: 10 games / week
+    - 65-128th: 7 games / week
+    - 129-256th: 3 games / week
+    - 257th+: 1 game / week
+- Event
+  - Plenition event starts on `2023-08-16 08:00 UTC`.
+  - It features a fresh event journey with cosmetic rewards and a new exclusive card: Lena!
+  - New event missions will be available, they last for the whole event.
+  - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you cosmetics or coins that you can use in the event shop.
+  - A new event shop with new cosmetics will be available starting from `2023-08-21 16:00 UTC`.
+  - Finally, a Neo Plenition Chest will be available in the shop starting from `2023-08-22 16:00 UTC`.
+- Gameplay
+  - Balance
+    - Draw Refill Special Ability has been reworked to "When played, your Leader makes you draw the amount of cards he directly captured (does not apply to chain captures)."
+    - Mulligan
+      - You can now only select a maximum of 2 cards down from 4 to replace during the mulligan phase.
+      - The selected cards are now automatically replaced at the end of the timer if you did not have time or forgot to click the confirm button.
+  - Normal Games
+    - The AFK/ban system from ranked games is now also present on normal games. Penalties are splitted though.
+  - Custom Games
+    - You can now spectate a custom game. By entering the code, choosing the Point of View and using the "Spectate" button. Keep in mind that this feature is in preview for our qualifiers and that a complete revamp of our custom lobby is ongoing and will be available soon.
+- UI
+  - Shop
+    - We reworked the layout of the Shop, all cleaned up and re-organised for upcoming items!
+    - In the event shop, you will now be able to directly buy multiple items that are stackable (cards, Trisel).
+    - Starting with this event, the Event shop will stay open 7 days after the end of the event.
+    - In the Arkhante serie: You are now able to reset your serie. As you know, earlier this year we introduced the stock system to the shop. Meaning that cards have a specific amount of personal stock that you can have when buying packs to guarantee you will have all cards after buying sufficient packs. You can look at the state of your serie on the Arkhante collection. You can now reset that stock to start with a fresh stock.
+      - Example: You can only have 1 Foil Sarash card within your serie. If you got it by opening your first Neo Plenition, you won't be able to get it until you run out of stock for all your other cards. With the Reset, you are able to fill up all the stock, and you might be able to get another Foil Sarash on your next Omega if you are lucky.
+  - Crafting
+    - We added two beautiful new animations when Awakening a card and when Merging two cards!
+  - Collection
+    - We completely revamped the Collection: new filter system where you can pin filters to have easy access, new folder system, ...
+  - Card Details
+    - Level 3 animations are coming! Stay tuned for their upcoming weekly releases.
+    - The animation will be accessible as usual on the card detail in the collection.
+  - Capture indicator in settings
+    - We added a new option in the settings to disable the Capture indicator in duels.
+  - Korean language
+    - Added support for the Korean language.
+  - Hand in duel
+    - Changed the way the hand is displayed in a duel to better match cards you would have in your hands.
+
+### Fixes
+
+- Fixed many small UI issues across the applications.
+- Fixed an issue with the Capture indicator and the SA Power Mirror not correctly displayed after a reconnect.
+- Fixed an issue with avatar for exclusive cards from shards not being properly awarded.
 
 ## 0.15.5333 Patch
 
