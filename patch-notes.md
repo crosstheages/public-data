@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.5851](#0165851-patch)
   - [0.16.5787](#0165787-patch)
 - 0.15
   - [0.15.5333](#0155333-patch)
@@ -110,6 +111,25 @@
   - Game window will now be put in foreground if you are in the queue and are matched.
 - Loot
   - You now dynamically see how many chests left you need to unlock before getting slot #3.
+
+## 0.16.5851 Patch
+
+`2023-08-23 14:00 UTC`
+
+### Changes
+
+- Leaderboard
+  - Added an alert when the player didn't finish his weekly duels to be eligible for the weekly points and rewards.
+
+### Fixes
+
+- Crafting
+  - Fixed an issue where crafting a card contained in a deck would not properly re-compute the deck power and block the user from using this deck in a duel without being alerted of the reason.
+- UI
+  - Fixed an issue in the shop where canceling a purchase would freeze the app and force a restart.
+  - Fixed some missing localization.
+  - Fixed the awakening general mission wrong localization in French and Japanese.
+  - Fixed a few UI issues
 
 ## 0.16.5787 Patch
 
