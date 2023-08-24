@@ -3,7 +3,8 @@
 ## Direct Links
 
 - 0.16
-  - [0.16.5851](#0165851-patch)
+  - [0.16.5861](#0165861-patch)
+  - [0.16.5827](#0165827-patch)
   - [0.16.5787](#0165787-patch)
 - 0.15
   - [0.15.5333](#0155333-patch)
@@ -109,27 +110,50 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
-- Loot
-  - You now dynamically see how many chests left you need to unlock before getting slot #3.
 
-## 0.16.5851 Patch
+## 0.16.5861 Patch
 
-`2023-08-23 14:00 UTC`
+`2023-08-24 02:00 UTC`
 
 ### Changes
 
 - Leaderboard
-  - Added an alert when the player didn't finish his weekly duels to be eligible for the weekly points and rewards.
+  - Added a warning when a player is not yet eligible to weekly leaderboard based on the number of duels remaining.
 
 ### Fixes
 
 - Crafting
-  - Fixed an issue where crafting a card contained in a deck would not properly re-compute the deck power and block the user from using this deck in a duel without being alerted of the reason.
-- UI
+  - Fixed an issue where crafting a card contained in a deck would not properly re-compute the deck power and block the user from using this deck in a duel without being noticed while queuing.
+- Shop
+  - Fixed an issue regarding payment on iOS.
   - Fixed an issue in the shop where canceling a purchase would freeze the app and force a restart.
+- Miscellaneous
   - Fixed some missing localization.
   - Fixed the awakening general mission wrong localization in French and Japanese.
   - Fixed a few UI issues
+
+## 0.16.5827 Patch
+
+`2023-08-19 02:00 UTC`
+
+### Changes
+
+- Duels
+  - Added an option to know the spectators in a custom lobby and eventually ban them. Once banned, a player/spectator cannot join back the lobby, you might want to create a new lobby if you wrongly banned someone.
+
+### Fixes
+
+- Authentication
+  - Fixed various issues regarding multi-accounts users.
+- Duel
+  - Fixed end of game score display.
+  - Fixed white animated card.
+- Shop
+  - Redeem code button is back except on iOS.
+- Crafting
+  - Fixed memory leak issues related to new animation.
+- Miscellaneous
+  - Fixed fonts not correctly displaying non-latin characters.
 
 ## 0.16.5787 Patch
 
