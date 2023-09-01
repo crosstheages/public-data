@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.5874](#0165874-patch)
   - [0.16.5861](#0165861-patch)
   - [0.16.5827](#0165827-patch)
   - [0.16.5787](#0165787-patch)
@@ -110,6 +111,26 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.16.5874 Patch
+
+`2023-09-01 11:00 UTC`
+
+### Changes
+
+- KBW Chest
+  - Celebrating our Korea Blockchain Week event participation, we will release a special chest containing 3 cosmetics and a new shard starting `2023-09-04 08:00 UTC`.
+  - Mint Passes owners will receive some shards for free starting `2023-09-04 08:00 UTC`.
+  - You need to combine 20 shards to receive the exclusive Harpy card. Shards are mintable for 0.5$ each. Shards can be combined starting `2023-09-07 08:00 UTC`
+  - You cannot mix digital and NFT shards.
+  - You can obtain from 1 to 3 shards in each chest.
+
+### Fixes
+
+- Leaderboard
+  - Fixed an issue with the weekly rewards incorrectly based on general leaderboard instead of weekly leaderboard. Players that have been receiving less reward than intended have been compensated.
+- Miscellaneous
+  - Fixed some missing localization.
 
 ## 0.16.5861 Patch
 
