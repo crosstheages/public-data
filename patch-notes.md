@@ -119,9 +119,9 @@
 ### Changes
 
 - KBW Chest
-  - Celebrating our Korea Blockchain Week event participation, we will release a special chest containing 3 cosmetics and a new shard starting `2023-09-04 08:00 UTC`.
-  - Mint Passes owners will receive some shards for free starting `2023-09-04 08:00 UTC`.
-  - You need to combine 20 shards to receive the exclusive Harpy card. Shards are mintable for 0.5$ each. Shards can be combined starting `2023-09-07 08:00 UTC`
+  - Celebrating our Korea Blockchain Week event participation, we will release a special chest containing 3 cosmetics and a new shard starting `2023-09-04 00:00 UTC`.
+  - Mint Passes owners will receive some shards for free starting `2023-09-04 00:00 UTC`.
+  - You need to combine 20 shards to receive the exclusive Harpy card. Shards are mintable for 0.5$ each. Shards can be combined starting `2023-09-07 11:00 UTC`
   - You cannot mix digital and NFT shards.
   - You can obtain from 1 to 3 shards in each chest.
 
