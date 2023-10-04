@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.6586](#0166586-patch)
   - [0.16.5874](#0165874-patch)
   - [0.16.5861](#0165861-patch)
   - [0.16.5827](#0165827-patch)
@@ -111,6 +112,57 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.16.6586 Patch
+
+`2023-10-04 15:00 UTC`
+
+### Changes
+
+- Adventure Mode
+  - We are thrilled to announce the addition of Adventure mode to Cross The Ages: Trading Card Game. In Adventure you don't play against another player, but against an AI in different levels and setups.
+  - This mode will facilitate access to the game for new players by offering an easy-to-approach mode, with a multi-step tutorial and application exercises to help you understand the game. This mode also introduces "Eternal" cards, which you can earn in this mode, but which cannot be crafted or minted. By introducing cards that cannot be altered, we're able to give you many more of them, and in higher rarity! You'll be able to get Mythic, Alternative, Ultra Rare or Combo cards straight away!
+  - In adventure mode, you don't score points, but you do take life points away from your opponent! At the start of the duel, each player has a given number of life points, and each time a capture is made, the power difference between the two cards is deducted from the opponent's life gauge. This mechanic is specific to Adventure mode, and the score system is retained in Arena mode, where you face off against other players.
+  - In Adventure mode, decks are simplified: they contain only 15 cards (1 Leader, 2 field cards and 12 battle cards), and have no Special Ability or power limit! Throw all the power you've got at the various levels available, but bear in mind that this isn't necessarily the best solution!
+  - Adventure mode is also an opportunity for us to improve the way you learn to play Cross The Ages: Trading Card Game. The tutorial has been divided into several parts and serves as an introduction to each chapter of the Story mode. You'll learn how to play the game step-by-step in different scenarios, so you can get the grip on all the basics of the game.
+  - You'll then be able to tackle various dungeons that will allow you to earn rewards repeatedly every day, thanks to an energy system. Facing a dungeon costs 10 energy. You have an energy cap of 100, and you regain 10 every 2 hours (and 100 when you gain a level).
+  - Every week, you can face a challenge to win new rewards! The weekly dungeon is made up of 3 duels that you'll have to chain one after the other, and the reward will depend on your performance in these duels.
+  - A final mode lets you train infinitely and earn Eternal card shards to expand your collection.
+  - Throughout Adventure mode, all the cards and card shards you earn are Eternal (formerly known as "Training" cards). This means that these cards cannot be Minted (and therefore cannot be traded on the blockchain), and cannot be upgraded through crafting. In some game modes, you earn shards of Eternal cards. These can be combined to create Eternal cards. A rework of the inventory screen is on the way to facilitate the combination of newly added shards.
+  - Daily, weekly and general missions can be completed in dungeons, except missions tied to scoring, Special abilities, or duels.
+  - Of course, this is just the beginning of Adventure mode! More levels to come, new modes, new dungeons, ...
+- Arena mode
+  - Affixes are removed in Normal and Ranked mode. They provided a variety of changes, made to make every duel feel different while grinding the ladder. With the arrival of the Adventure mode, we don't need that system in the Arena mode. You can still experience them in custom mode and who knows, they may surprise you in the Adventure mode!
+  - We've also added a much-requested feature: duels against an AI! You can come and test your new decks without any consequences against an AI that will adapt to your various moves. It will be improved over time to provide you with a challenging experience. For the moment, only one difficulty level is available. The AI deck adapts in terms of power to what you may have in your collection, to ensure a fair duel.
+  - For new players, the Adventure mode will be mandatory before entering the Arena: you will first have to do all the intro of the Story mode to get enough knowledge of the game before fighting other players. You will then have to duel the IA to unlock Normal mode, and finally some game in Normal mode to unlock Ranked mode. Although keep in mind that Ranked mode is disabled until the new season.
+    - End of duel chests
+    - Changed the chest that you get at the end of a duel to always be the Tier 2 chest (6 hours unlock).
+    - This chest will now reward Eternal cards.
+    - We removed the possibility to recycle those chests to offset the amount of Trisel that you gain from Adventure mode.
+    - You will have a slight chance to receive a chest from doing dungeons in the PvE mode.
+  - End of era rewards
+    - Season 1 Era 7 (S1E7) has ended and corresponding rewards have been sent. Reminder that end of era rewards a bit less than the previous Era because it accounts for a part of the rewards being sent weekly.
+- Inbox
+  - We added a new system to better communicate with you and send you your gifts: the Inbox system.
+  - The inbox is accessible right on the dashboard and you will be able to see what gifts you receive from the CTA team.
+  - This includes: Info about new events, new chests, info about the current era, your end of era rewards, Airdrops, ...
+  - Also included: When you forgot to claim your daily or weekly mission chest, it will automatically be sent to you in the mailbox! Be careful thought, you will only be able to claim it for 1 week after the reset, not more.
+- Reworks
+  - Custom Lobby rework
+    - Another rework is the Custom Lobby: The UI has been completely redone to be easier to read and to set up duels with your friend.
+    - On this screen, you will also be able to invite spectators that will be allowed to watch your duel from the point of view of either of the players. He will obviously not be able to interact with the duel in any way.
+  - Reworked the way the card detail is displayed in the collection and while in a duel.
+- Miscellaneous
+  - You will now need to be level 10 to Mint a card.
+  - With the amount of cards you will receive in the PvE mode, there is no more need for rotation cards and they have consequently been removed.
+  - Changed all cards that you gain from chests that you get by playing the game (welcome chest, daily, weekly and general mission chests) to award Eternal cards.
+  - Added German and Italian localization.
+  - Various terms of the game have been renamed to better fit the lore of Cross the Ages (Prana to Pranah, Arkhome/Element to Trait, in french Abilité Spéciale to Technique Spéciale).
+
+### Fixes
+
+- Miscellaneous
+  - Fixed some crashes and invisible cards situation.
 
 ## 0.16.5874 Patch
 
