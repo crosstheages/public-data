@@ -3,7 +3,7 @@
 ## Direct Links
 
 - 0.16
-  - [0.16.6586](#0166586-patch)
+  - [0.16.6594](#0166594-patch)
   - [0.16.5874](#0165874-patch)
   - [0.16.5861](#0165861-patch)
   - [0.16.5827](#0165827-patch)
@@ -113,7 +113,7 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
-## 0.16.6586 Patch
+## 0.16.6594 Patch
 
 `2023-10-04 15:00 UTC`
 
@@ -137,7 +137,7 @@
   - For new players, the Adventure mode will be mandatory before entering the Arena: you will first have to do all the intro of the Story mode to get enough knowledge of the game before fighting other players. You will then have to duel the IA to unlock Normal mode, and finally some game in Normal mode to unlock Ranked mode. Although keep in mind that Ranked mode is disabled until the new season.
     - End of duel chests
     - Changed the chest that you get at the end of a duel to always be the Tier 2 chest (6 hours unlock).
-    - This chest will now reward Eternal cards.
+    - This chest will now reward Eternal cards. In the future, using relics you will be able to make them digital again if you have an active relic during the unlock process.
     - We removed the possibility to recycle those chests to offset the amount of Trisel that you gain from Adventure mode.
     - You will have a slight chance to receive a chest from doing dungeons in the PvE mode.
   - End of era rewards
