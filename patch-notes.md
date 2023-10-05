@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.6635](#0166635-patch)
   - [0.16.6594](#0166594-patch)
   - [0.16.5874](#0165874-patch)
   - [0.16.5861](#0165861-patch)
@@ -113,6 +114,23 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
+## 0.16.6635 Patch
+
+`2023-10-05 19:00 UTC`
+
+### Changes
+
+- Changed the ways we decide the deck of the AI for dungeons so it's not always the same.
+- Added a way to display the Adventure mode information popup again by clicking on the information button in the header.
+
+### Fixes
+
+- Fixed an issue where duel could start in an incorrect state and not show the dashboard.
+- Fixed an issue with the shard combine where you didn't receive the card directly but sent to the inbox.
+- Fixed some UI issue with the popup explaining Adventure mode.
+- Fixed an issues with the energy refill popup.
+- Fixed some texts in the tutorials.
+
 ## 0.16.6594 Patch
 
 `2023-10-04 15:00 UTC`
@@ -125,7 +143,7 @@
   - In adventure mode, you don't score points, but you do take life points away from your opponent! At the start of the duel, each player has a given number of life points, and each time a capture is made, the power difference between the two cards is deducted from the opponent's life gauge. This mechanic is specific to Adventure mode, and the score system is retained in Arena mode, where you face off against other players.
   - In Adventure mode, decks are simplified: they contain only 15 cards (1 Leader, 2 field cards and 12 battle cards), and have no Special Ability or power limit! Throw all the power you've got at the various levels available, but bear in mind that this isn't necessarily the best solution!
   - Adventure mode is also an opportunity for us to improve the way you learn to play Cross The Ages: Trading Card Game. The tutorial has been divided into several parts and serves as an introduction to each chapter of the Story mode. You'll learn how to play the game step-by-step in different scenarios, so you can get the grip on all the basics of the game.
-  - You'll then be able to tackle various dungeons that will allow you to earn rewards repeatedly every day, thanks to an energy system. Facing a dungeon costs 10 energy. You have an energy cap of 100, and you regain 10 every 2 hours (and 100 when you gain a level).
+  - You'll then be able to tackle various dungeons that will allow you to earn rewards repeatedly every day, thanks to an energy system. Facing a dungeon costs 10 energy. You have an energy cap of 100, and you regain 10 every 2 hours (and 30 when you gain a level).
   - Every week, you can face a challenge to win new rewards! The weekly dungeon is made up of 3 duels that you'll have to chain one after the other, and the reward will depend on your performance in these duels.
   - A final mode lets you train infinitely and earn Eternal card shards to expand your collection.
   - Throughout Adventure mode, all the cards and card shards you earn are Eternal (formerly known as "Training" cards). This means that these cards cannot be Minted (and therefore cannot be traded on the blockchain), and cannot be upgraded through crafting. In some game modes, you earn shards of Eternal cards. These can be combined to create Eternal cards. A rework of the inventory screen is on the way to facilitate the combination of newly added shards.
