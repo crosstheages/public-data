@@ -120,17 +120,20 @@
 
 ### Changes
 
-- Added a way to display the Adventure mode information popup again by clicking on the information button in the header.
-- Animations shown on the dashboard are now level 2 instead of level 4+3.
+- Adventure Mode
+  - Added a way to display the Adventure mode information popup again by clicking on the information button in the header.
+- Miscellaneous
+  - Animations shown on the dashboard are now level 2 instead of level 4+3.
 
 ### Fixes
 
-- Fixed an issue regarding the deck of the AI for dungeons being always the same.
-- Fixed an issue where duels could start in an incorrect state and not show the board/hand (with a reconnection the only way to play the game).
-- Fixed an issue with the shard combine where you didn't receive the card directly but was sent to the inbox after restarting the game.
-- Fixed some UI issues with the popup explaining Adventure mode.
-- Fixed an issue with the energy refill popup not working as intended.
-- Fixed some texts in the tutorials.
+- Adventure Mode
+  - Fixed an issue regarding the deck of the AI for dungeons being always the same.
+  - Fixed an issue where duels could start in an incorrect state and not show the board/hand (with a reconnection the only way to play the game).
+  - Fixed an issue with the shard combine where you didn't receive the card directly but was sent to the inbox after restarting the game.
+  - Fixed some UI issues with the popup explaining Adventure mode.
+  - Fixed an issue with the energy refill popup not working as intended.
+  - Fixed some texts in the tutorials.
 
 ## 0.16.6594 Patch
 
