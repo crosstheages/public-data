@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.6664](#0166664-patch)
   - [0.16.6635](#0166635-patch)
   - [0.16.6594](#0166594-patch)
   - [0.16.5874](#0165874-patch)
@@ -113,6 +114,31 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.16.6664 Patch
+
+`2023-10-06 18:00 UTC`
+
+### Changes
+
+- Adventure Mode
+  - Added General Missions for Adventure mode. They have been validated retro-actively if you already did some duels in Adventure mode.
+  - Added the information of how to get each star before starting the stage.
+  - Added some tooltips on the dashboard and in story mode to better explain the energy system.
+
+### Fixes
+
+- Adventure Mode
+  - Fixed an issue with the AI playing his Leader too early.
+  - Fixed an issue with the AI surrendering in some rare case.
+  - Fixed an issue with the AI having wrong decks in Story mode. It should be much more diverse right now.
+  - Fixed an issue where special Abilities not working correctly in Story mode chapter 7.
+  - Fixed an issue with the Weekly dungeon not correctly leaving the current session when the player decided to abandon.
+  - Fixed an issue with the energy refill popup not working as intended.
+- Missions
+  - Fixed an issue with daily/weekly mission chest claim where you didn't receive the chest directly but was sent to the inbox after restarting the game.
+- Miscellaneous
+  - Fixed various UI issues with the card details in the collection.
 
 ## 0.16.6635 Patch
 
