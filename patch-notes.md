@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.6753](#0166753-patch)
   - [0.16.6664](#0166664-patch)
   - [0.16.6635](#0166635-patch)
   - [0.16.6594](#0166594-patch)
@@ -114,6 +115,35 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.16.6753 Patch
+
+`2023-10-11 12:00 UTC`
+
+### Changes
+
+- Crafting
+  - Reworked the merge screen to allow merges with more than 2 cards. You now have to select the Combo you want to craft, and then select the cards that you want to add in the craft of the combo.
+  - This is just a first step: The power-up and Awakening will be reworked in the same style.
+- Adventure Mode
+  - Added Recommanded deck power on the Dungeon selection screen to give a better idea of what you need to have to win that duel.
+  - The tab you were at is now remembered when leaving the Adventure mode and you directly go to that tab when re-entering the Adventure mode.
+- Cards
+  - Animation Levels
+    - Due to technical constraints, we are reducing the total number of animation levels from 5 to 3. As such, we are removing the current Animation Level 1 and are giving for free to everyone what used to be Animation Level 2. We are doing the same with Animation Level 2 and 3, which means that if you bought the Level 2 previously you directly get what used to be the Level 3 ! The old Level 4 (new Level 3) will be available after Mantris.
+    - Examples :
+      - I previously had a card with Animation Level 1 -> I have the same card that is still Animation Level 1 but the art is the old Animation Level 2.
+      - I previously had a card with Animation Level 2 -> I have the same card that is still Animation Level 2 but the art is the old Animation Level 3.
+  - Updated the Artwork for 3 standard field cards (Alvilid (133), Acongua (134) and Nepthys (136))
+
+### Fixes
+
+- Collection
+  - Fixed an issue with the Duplicate and Export deck functionality.
+- Interface
+  - Fixed an issue with Adventure General Mission display.
+- Custom Lobby
+  - Fixed an issue with the Lobby creation.
 
 ## 0.16.6664 Patch
 
