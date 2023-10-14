@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.16
+  - [0.16.6789](#0166789-patch)
   - [0.16.6753](#0166753-patch)
   - [0.16.6664](#0166664-patch)
   - [0.16.6635](#0166635-patch)
@@ -115,6 +116,33 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.16.6789 Patch
+
+`2023-10-14 00:00 UTC`
+
+### Changes
+
+- Play
+  - Added back the possibility to look at the board at the end of a duel. Access it by clicking on the button in the top left of the end screen.
+- Adventure Mode
+  - Added the information of how many turns needed for each star on the end screen.
+- Arena Mode
+  - Added an option to make a custom game lobby with tournament restrictions (which does not allow Eternal cards). We are aware of a potential issue on mobile regarding app switch while a lobby is created, we recommend using the desktop version for any tournament to ensure a smooth experience.
+- Missions
+  - The 'Win X duels' no longer take into account dungeons from Adventure mode. This is a temporary disable, more on this for season 2 'Mantris' release.
+
+### Fixes
+
+- Play
+  - Fixed an issue on the end screen where the end timer for each player could have a few seconds difference with the actual end timer.
+- Adventure Mode
+  - Fixed an issue with the reward tooltip display for dungeon 1 and chapter 4.
+- Arena Mode
+  - Fixed an issue preventing a custom game lobby creation while being far away from a server.
+- Crafting
+  - Fixed an issue with NFT merge crafting where it required 100 CTA Token instead of 10. This change will be effective starting from season 2 'Mantris' release.
+  - Fixed an issue with merge crafting where the background of the screen could show up when launching a duel.
 
 ## 0.16.6753 Patch
 
