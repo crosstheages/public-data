@@ -126,8 +126,10 @@
 ### Changes
 
 - Mantris season
-  - Season 2: Mantris is here! You will be able to open your presale packs on `2023-10-25 16:00 UTC`. This season will feature up to 225 cards with 165 available right away. By opening a pack, you will be automatically eligible to receive your Cross The Ages Land ticket. Later in the year, we'll send you as many tickets as you've opened packs. They will be sent to the game wallet of the account on which they were opened.
-  - The first series of Mantris cards will be available in the shop on `2023-10-25 18:00 UTC` to give you some time to open your presale packs. This pack contains 10 cards with a chance to obtain the first Mythic card: Hassan! A new pack will be available each month featuring a new Mythic card. This series will be available until `2023-11-22 18:00 UTC`. Pity system is as before except it now requires 5 times less packs to reach the end of the stock per mythic series.
+  - Season 2: Mantris is here! You will be able to open your presale packs on `2023-10-25 16:00 UTC`. This season will feature up to 225 cards with 165 available right away.
+  - By opening a presale pack, you will be automatically eligible to receive your Cross The Ages Land ticket. Later in the year, we'll send you as many tickets as you've opened packs. They will be sent to the game wallet of the account on which they were opened.
+  - The first series of Mantris cards will be available in the shop on `2023-10-25 18:00 UTC` to give you some time to open your presale packs. This pack contains 10 cards with a chance to obtain the first Mythic card: Hassan!
+  - A new pack will be available each month featuring a new Mythic card. This series will be available until `2023-11-22 18:00 UTC`. Pity system is as before except it now requires 5 times less packs to reach the end of the stock per mythic series.
   - New packs have been added as rewards for daily & weekly missions and for duel wins. Those packs contain only the cards first released in the shop. It means those packs can contain Static cards up to Mythic rarities! You will be able to open them starting from `2023-10-25 18:00 UTC`.
   - New daily, weekly and general missions have been added with objectives that validate with Mantris cards. It has also been made clearer from which game mode each mission validates.
 - Rewards
