@@ -132,7 +132,8 @@
   - New daily, weekly and general missions have been added with objectives that validate with Mantris cards. It has also been made clearer from which game mode each mission validates.
 - Rewards
   - Trisel base gain per win has been increased from 35 to 100. Daily limit has been increased from 500 to 1500.
-  - Trisel gains are no longer available in Adventure and Missions and have been replaced by cards or card shards. It will partially come back with new relics in a future update.
+  - Trisel gains are no longer available in Adventure and  Daily/Weekly Missions. It has been replaced by cards or card shards. It will partially come back with new relics in a future update. General Missions will follow.
+  - Players who had a relic active between 4 Oct and today have been fully refunded (even if you had only 1 day remaining).
 - Shop
   - The Arkhante series will be removed from the shop at `2023-10-25 16:00 UTC` to make room for the Mantris series! The display is meant for Mantris packs so you will have to scroll a little bit for Arkhante chests.
 - Account
