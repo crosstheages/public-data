@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.17
+  - [0.17.6985](#0176985-patch)
 - 0.16
   - [0.16.6789](#0166789-patch)
   - [0.16.6753](#0166753-patch)
@@ -116,6 +118,37 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.17.6985 Patch
+
+`2023-10-25 06:00 UTC`
+
+### Changes
+
+- Mantris season
+  - Season 2: Mantris is here! You will be able to open your presale packs on `2023-10-25 16:00 UTC`. This season will feature up to 225 cards with 165 available right away.
+  - The first series of Mantris cards will be available in the shop on `2023-10-25 18:00 UTC` to give you some time to open your presale packs. This pack contains 10 cards with a chance to obtain the first Mythic card: Hassan! A new pack will be available each month featuring a new Mythic card. This series will be available until `2023-11-22 18:00 UTC`. Pity system is as before except it now requires 5 times less packs to reach the end of the stock per mythic series.
+  - New packs have been added as rewards for daily & weekly missions and for duel wins. Those packs contain only the cards first released in the shop. It means those packs can contain Static cards up to Mythic rarities! You will be able to open them starting from `2023-10-25 18:00 UTC`.
+  - New daily, weekly and general missions have been added with objectives that validate with Mantris cards. It has also been made clearer from which game mode each mission validates.
+- Rewards
+  - Trisel base gain per win has been increased from 35 to 100. Daily limit has been increased from 500 to 1500.
+  - Trisel gains are no longer available in Adventure and Missions and have been replaced by cards or card shards. It will partially come back with new relics in a future update.
+- Shop
+  - The Arkhante series will be removed from the shop at `2023-10-25 16:00 UTC` to make room for the Mantris series! The display is meant for Mantris packs so you will have to scroll a little bit for Arkhante chests.
+- Account
+  - Verifying your account is now mandatory in order to interact with the blockchain.
+  - We previously announced the minimum amount of CTA tokens to interact will be raised to 100, this has been postponed following account merge as cap will be modified. More on this during the November update.
+- Collection
+  - Types of cards have been renamed to allow for better communication:
+    - Eternal cards (cards you gained from playing the game) are now Static cards. Those cards cannot be minted and thus traded.
+    - Digital cards (cards you obtained from opening chests from the shop) are now Flex cards.
+    - NFT cards (cards that have been minted) are now Eternal cards.
+  - Arkhante and Mantris default card back have been updated/added.
+  - You can now see every card from the game in a loading screen including their combo variation.
+- Play
+  - New animations have been added in duels for Special Abilities.
+- Heptagram
+  - The heptagram has been revamped to welcome Mantris. Keep in mind it will be updated early next year following gameplay changes after the Heroes Legacy tournament.
 
 ## 0.16.6789 Patch
 
