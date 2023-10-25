@@ -136,7 +136,7 @@
 - Shop
   - The Arkhante series will be removed from the shop at `2023-10-25 16:00 UTC` to make room for the Mantris series! The display is meant for Mantris packs so you will have to scroll a little bit for Arkhante chests.
 - Account
-  - Verifying your account is now mandatory in order to interact with the blockchain.
+  - Verifying your account is now mandatory in order to interact with the blockchain to mint or craft a card.
   - We previously announced the minimum amount of CTA tokens to interact will be raised to 100, this has been postponed following account merge as cap will be modified. More on this during the November update.
 - Collection
   - Types of cards have been renamed to allow for better communication:
