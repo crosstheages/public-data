@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.17
+  - [0.17.6985 Hotfix 1](#0176985-hotfix-1)
   - [0.17.6985](#0176985-patch)
 - 0.16
   - [0.16.6789](#0166789-patch)
@@ -119,6 +120,32 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
+## 0.17.6985 Hotfix 1
+
+`2023-10-26 13:00 UTC`
+
+### Changes
+
+- Trisel Rewards
+  - Base Trisel gain has been increased by 300%. Computation for a win was `Score / 2` capped at 35. It is now `Score * 2` capped at `100`.
+  - As a reminder, this formula is true for a win or a draw and before any multiplier (based on your rating or a bonus).
+  - Whenever you lose, if it is a surrender or timeout, this value is divided by 3 otherwise it is divided by 1.5.
+  - If you have a high rating (currently it uses the rating of the last era while ranked games are disabled), this value can be multiplied by up to 50%.
+  - In order to celebrate the launch of Mantris and until new relics are out, we apply a bonus multiplier that increases the rewards by 100%.
+- Trisel Rewards Cap
+  - The cap is rolling over 28 days but the limit used to increase daily (500 x28 before Mantris, 1500 x28 since then as long as you log in every day for a total of 42000 over 28 days).
+  - We are moving this increase to every week, meaning you only need to log-in one time every 7 days to increase your rolling limit by 10000.
+  - This value can also be multiplied by 50% based on your rating (scales linearly).
+  - Trisel bonus multipliers (such as the one we are enabling for Mantris until relics are out) also apply. It means that until relics, the maximum theoretical cap is 120000 over 28 days if you were Champion in the last era, 80000 over 28 days if you were Bronze.
+- Mission
+  - As explained in `0.17.6985 Patch`, all General Missions rewards now have been replaced with Card Shards.
+
+### Fixes
+
+- Mantris PreSale Packs
+  - Cards being displayed as flex are now correctly minted, they were in a pending mint state. Order of mint is the same as the opening.
+  - As a clarification due to many questions in this regards, here is how the Orion unique card works: odds are 1 out of 10000 for the first 10000 packs. After this, the odds increase to 1 out of remaining packs, up until 1 out of 1 for the last pack (meaning it is guaranteed to be drawn). To compensate for this system, the first 10000 packs have a bonus foil odds up to the double amount of what is normally possible (between 10% and 20%, not counting the guaranteed foils).
+
 ## 0.17.6985 Patch
 
 `2023-10-25 06:00 UTC`
@@ -133,7 +160,7 @@
   - New packs have been added as rewards for daily & weekly missions and for duel wins. Those packs contain only the cards first released in the shop. It means those packs can contain Static cards up to Mythic rarities! You will be able to open them starting from `2023-10-25 18:00 UTC`.
   - New daily, weekly and general missions have been added with objectives that validate with Mantris cards. It has also been made clearer from which game mode each mission validates.
 - Rewards
-  - Trisel base gain per win has been increased from 35 to 100. Daily limit has been increased from 500 to 1500.
+  - Trisel base gain cap per win has been increased from 35 to 100. Daily limit has been increased from 500 to 1500.
   - Trisel gains are no longer available in Adventure and  Daily/Weekly Missions. It has been replaced by cards or card shards. It will partially come back with new relics in a future update. General Missions will follow.
   - Players who had a relic active between 4 Oct and today have been fully refunded (even if you had only 1 day remaining).
 - Shop
