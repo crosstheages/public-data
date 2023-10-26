@@ -120,6 +120,33 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
+## 0.17.7035 Patch
+
+`2023-10-25 18:00 UTC`
+
+### Fixes
+
+- Duel
+  - Fixed the cards sorting in your hand.
+  - Fixed a display issue with the animation level not correctly fading away with some cards in your hand.
+  - Fixed a display issue in adventure mode when surrendering with a dialog popup opened.
+  - Fixed a display issue with Shift SA animation.
+  - Fixed a display issue with the ID of cards in the card detail.
+- Collection
+  - Fixed an issue with Banner of Command, not being unlocked properly.
+  - Fixed a display issue with the Footer folder view.
+- Inventory
+  - Fixed an issue with the opening of season 1 daily, weekly and duel chests.
+  - Fixed sound effect while opening a mantris pack.
+  - Fixed a display issue of season 1 weekly chests.
+  - Fixed a display issue with Golden Pranah bundles.
+- Crafting
+  - Fixed a display issue with the grade probabilities in the Awakening screen.
+- Shop
+  - Fixed a display issue with the timer not showing hours and minutes when necessary.
+- Heptagram
+  - Fixed a few display issues on the heptagram.
+
 ## 0.17.6985 Hotfix 1
 
 `2023-10-26 13:00 UTC`
