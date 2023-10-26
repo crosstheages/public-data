@@ -127,7 +127,8 @@
 ### Changes
 
 - Trisel Rewards
-  - Base Trisel gain has been increased by 300%. Computation for a win was `Score / 2` capped at 35. It is now `Score * 2` capped at `100`.
+  - Trisel base gain has been increased by 300%. Computation for a win was `Score / 2` capped at 35. It is now `Score * 2` capped at `100`.
+  - In normal game, you only earn 75% of this formula.
   - As a reminder, this formula is true for a win or a draw and before any multiplier (based on your rating or a bonus).
   - Whenever you lose, if it is a surrender or timeout, this value is divided by 3 otherwise it is divided by 1.5.
   - If you have a high rating (currently it uses the rating of the last era while ranked games are disabled), this value can be multiplied by up to 50%.
