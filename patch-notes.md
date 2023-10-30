@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.17
+  - [0.17.7078](#0177078-patch)
   - [0.17.7035](#0177035-patch)
   - [0.17.6985 Hotfix 1](#0176985-hotfix-1)
   - [0.17.6985](#0176985-patch)
@@ -121,17 +122,50 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
-## 0.17.7035 Patch
+## 0.17.7078 Patch
 
-`2023-10-25 18:00 UTC`
+`2023-10-30 01:00 UTC`
+
+### Changes
+
+- Duel
+  - Now use ranked rating for normal games multiplier Trisel gain.
 
 ### Fixes
 
 - Duel
   - Fixed the cards sorting in your hand.
+  - Show token id on card details while in a duel.
+  - Fixed a display issue with Shift SA animation.
+  - Fixed invocation videos not showing up in some instances.
+  - Fixed traits from Mantris not showing up on the lower left part of the cards with affinity/trinity.
+- Decks
+  - Fixed auto deck with some combinations from Mantris.
+- Collection
+  - Fixed an issue showing the total number of cards count as 0 with some filters.
+  - Fixed some cards showing as animation level 0 while being minted.
+  - Correctly manage multiple states in card details (static / flex / eternal).
+- Loots
+  - Fixed an issue preventing you from opening a minted pack if you also have the same type of minted pack on your cold wallet.
+- Shop
+  - Correctly show price on desktop platforms with currency based current country.
+  - Fixed display of weekly packs.
+- Missions
+  - No longer incorrectly drop Trisel in General Missions pouch rewards.
+- Heptagram
+  - Various UI fixes.
+- Auth
+  - Fixed an issue preventing new players from upgrading an anonymous account.
+
+## 0.17.7035 Patch
+
+`2023-10-26 18:00 UTC`
+
+### Fixes
+
+- Duel
   - Fixed a display issue with the animation level not correctly fading away with some cards in your hand.
   - Fixed a display issue in adventure mode when surrendering with a dialog popup opened.
-  - Fixed a display issue with Shift SA animation.
   - Fixed a display issue with the ID of cards in the card detail.
 - Collection
   - Fixed an issue with Banner of Command, not being unlocked properly.
