@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.17
+  - [0.17.7103](#0177103-patch)
   - [0.17.7078](#0177078-patch)
   - [0.17.7035](#0177035-patch)
   - [0.17.6985 Hotfix 1](#0176985-hotfix-1)
@@ -121,6 +122,24 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.17.7103 Patch
+
+`2023-11-01 16:00 UTC`
+
+### Changes
+
+- Adventure
+  - Added stars difference on story mode completion end screen result.
+- Heptagram
+  - Text container is now highlighted in the same color of its traits.
+
+### Fixes
+
+- Duel
+  - Fixed Nature/Meditech drop VFX roots being incorrectly positioned.
+- System
+  - Fixed crash issues related to memory.
 
 ## 0.17.7078 Patch
 
