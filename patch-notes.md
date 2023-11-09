@@ -136,20 +136,23 @@
 
 ### Fixes
 
-- Stability
-  - Fixed some crashes issues that some low-end or bloated devices could face due to being out of memory.
-- Inventory
-  - Fixed an issue with Eternal Shards combine not awarding an Eternal card but a Flex card. Players that had that issue have been compensated as follows: If you minted the card manually, we refunded the CTA Token cost and if you didn't, we minted the card as it should have been. Numbering follows the combining order.  
-- Collection
-  - Fixed the import deck functionality that would not work in some rare cases.
 - Duel
   - Fixed an issue that would sometimes make a card invisible when trying to discard it with no more discard available.
   - Fixed the capture indicator that would sometimes show the previous turn calculations.
   - Fixed a display issue in card details that would show trinities as affinities and conversely.
+- Loots
+  - Fixed an issue with Eternal Shards combine not awarding an Eternal card but a Flex card. Players that had that issue have been compensated as follows: If you minted the card manually, we refunded the CTA Token cost and if you didn't, we minted the card as it should have been. Numbering follows the combining order.  
+- Collection
+  - Fixed the import deck functionality that would not work in some rare cases.
 - Dashboard
   - Fixed some display issue with tooltips for Korean and Chinese localization.
+- Account
+  - Fixed an issue regarding the country not being correctly displayed after account verification.
 - Register
   - Fixed a display issues in the register form.
+- System
+  - Fixed some crashes issues that some low-end or bloated devices could face due to being out of memory.
+  - Fixed an issue preventing some devices from running the game at all on Android.
 
 ## 0.17.7103 Patch
 
