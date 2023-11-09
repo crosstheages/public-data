@@ -123,6 +123,34 @@
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
 
+## 0.17.7161 Patch
+
+`2023-11-09 20:30 UTC`
+
+### Changes
+
+- Duel
+  - Trisel earned on a win by a surrender or timeout has a new multiplier of 10% per remaining turn (so 60% if there are 6 remaining turns).
+  - Trisel earned on a defeat has now a multiplier of 50% down from 66%.
+  - Trisel earned on a surrender has now a multiplier of 0% down from 33%.
+
+### Fixes
+
+- Stability
+  - Fixed some crashes issues that some low-end or bloated devices could face due to being out of memory.
+- Inventory
+  - Fixed an issue with Eternal Shards combine not awarding an Eternal card but a Flex card. Players that had that issue have been compensated as follows: If you minted the card manually, we refunded the CTA Token cost and if you didn't, we minted the card as it should have been. Numbering follows the combining order.  
+- Collection
+  - Fixed the import deck functionality that would not work in some rare cases.
+- Duel
+  - Fixed an issue that would sometimes make a card invisible when trying to discard it with no more discard available.
+  - Fixed the capture indicator that would sometimes show the previous turn calculations.
+  - Fixed a display issue in card details that would show trinities as affinities and conversely.
+- Dashboard
+  - Fixed some display issue with tooltips for Korean and Chinese localization.
+- Register
+  - Fixed a display issues in the register form.
+
 ## 0.17.7103 Patch
 
 `2023-11-01 16:00 UTC`
