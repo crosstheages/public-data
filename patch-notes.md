@@ -130,9 +130,9 @@
 ### Changes
 
 - Adventure
-  - Added stars difference on story mode completion end screen result.
+  - Added **stars difference** on story mode completion end screen result.
 - Heptagram
-  - Text container is now highlighted in the same color of its traits.
+  - Text container is now **highlighted** in the same color of its traits.
 
 ### Fixes
 
@@ -148,22 +148,22 @@
 ### Changes
 
 - Duel
-  - Now use ranked rating for normal games multiplier Trisel gain.
+  - Now use **ranked rating** for normal games multiplier Trisel gain.
 
 ### Fixes
 
 - Duel
   - Fixed the cards sorting in your hand.
   - Show token id on card details while in a duel.
-  - Fixed a display issue with Shift SA animation.
+  - Fixed a display issue with **Shift** SA animation.
   - Fixed invocation videos not showing up in some instances.
   - Fixed traits from Mantris not showing up on the lower left part of the cards with affinity/trinity.
 - Decks
-  - Fixed auto deck with some combinations from Mantris.
+  - Fixed **auto deck** with some combinations from Mantris.
 - Collection
-  - Fixed an issue showing the total number of cards count as 0 with some filters.
+  - Fixed an issue showing the **total number of cards** count as 0 with some filters.
   - Fixed some cards showing as animation level 0 while being minted.
-  - Correctly manage multiple states in card details (static / flex / eternal).
+  - Correctly manage multiple **states in card details** (static / flex / eternal).
 - Loots
   - Fixed an issue preventing you from opening a minted pack if you also have the same type of minted pack on your cold wallet.
 - Shop
