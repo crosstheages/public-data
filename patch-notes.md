@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.17
+  - [0.17.7207](#0177207-patch)
   - [0.17.7103](#0177103-patch)
   - [0.17.7078](#0177078-patch)
   - [0.17.7035](#0177035-patch)
@@ -122,6 +123,38 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.17.7207 Patch
+
+`2023-11-21 14:00 UTC`
+
+### Changes
+
+- Play
+  - SA: Banner of command
+    - Removed the power bonus on the leader to avoid overpowered leaders.
+    - Full description: As long as you control your Leader on the board, all the other battle cards you control of the same Trait are empowered by +45 power. Each battle card of the same Trait as your Leader has a deck cost reduction of -10.
+  - SA: Draw Refill
+    - Added 1 draw counter at the start of the duel and added the refill of the draw counter with the amount of cards captured directly by the Leader.
+    - Full description: You start the game with 3 draw counters. When played, your leader fully refills your 3 draw counters and makes you draw the amount of cards he directly captured (does not apply to chain captures).
+  - There will not be any other balancing changes until Act 2.
+- Shop
+  - Following community feedback, we are making some adjustments to Mantris collection series:
+    - We are making the series being released faster (2 weeks instead of 1 month), their duration are 6 weeks.
+    - In the near future, we will be adding both a limited discount system and bonus content whenever you buy a large amount of packs from the shop. As a result, we are delaying the end of the Hassan series so everyone will be able to benefit on this series too.
+    - Hassan series is being prolonged until December 20th (8 weeks total).
+    - Arhax series will start November 22nd and will end on January 3rd (6 weeks total).
+    - Shakti series will start December 6th and will end on January 17th (6 weeks total).
+    - The details regarding the series update will be given in November's Take news.
+
+### Fixes
+
+- Duel
+  - Fixed an issue with the surrender button being still accessible on the endscreen.
+- Collection
+  - Fixed artist names on a few cards.
+- Shop
+  - Fixed aspect ratio of the Hassan series banner with large screens.
 
 ## 0.17.7161 Patch
 
