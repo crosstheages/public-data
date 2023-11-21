@@ -136,7 +136,7 @@
     - Full description: As long as you control your Leader on the board, all the other battle cards you control of the same Trait are empowered by +45 power. Each battle card of the same Trait as your Leader has a deck cost reduction of -10.
   - SA: Draw Refill
     - Added 1 draw counter at the start of the duel and added the refill of the draw counter with the amount of cards captured directly by the Leader.
-    - Full description: You start the game with 3 draw counters. When played, your leader fully refills your 3 draw counters and makes you draw the amount of cards he directly captured (does not apply to chain captures).
+    - Full description: You start the game with 3 draw counters. When played, your leader makes you both draw and increase your draw counter of the amount of cards he directly captured (does not apply to chain captures).
   - There will not be any other balancing changes until Act 2.
 - Shop
   - Following community feedback, we are making some adjustments to Mantris collection series:
