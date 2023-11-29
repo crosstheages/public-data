@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.18
+  - [0.18.7474](#0187474-patch)
 - 0.17
   - [0.17.7207](#0177207-patch)
   - [0.17.7103](#0177103-patch)
@@ -123,6 +125,115 @@
   - Opponent card placement is now animated.
   - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
   - Game window will now be put in foreground if you are in the queue and are matched.
+
+## 0.18.7474 Patch
+
+`2023-11-29 08:00 UTC`
+
+### Changes
+
+- Leaderboard
+  - **Season 2 Era 1 (S2E1) has started** with significant changes to how the Leaderboard works.
+  - We've removed the weekly and general points system to give greater focus to your rank.
+  - Two new ranks have been added: **Gladiator** and **Champion**. Among the Diamond players, the top 10 will be Champion rank and the next 100 will be Gladiator.
+  - Rewards have been revamped and weekly rewards are now common to all members of the same rank. The following rewards will be distributed in total for the era:
+    - Champion: 24,000 Trisel, 96 reward packs, 52 shards of exclusive UR card, 26 shards of exclusive Mythic card,
+    - Gladiator: 21,000 Trisel, 84 reward packs, 38 shards of exclusive UR card, 19 shards of exclusive Mythic card,
+    - Diamond: 18,000 Trisel, 72 reward packs, 24 shards of exclusive UR card, 12 shards of exclusive Mythic card,
+    - Platinum: 12,000 Trisel, 60 reward packs, 16 shards of exclusive UR card, 8 shards of exclusive Mythic card,
+    - Gold: 9,000 Trisel, 48 reward packs, 12 shards of exclusive UR card, 6 shards of exclusive Mythic card,
+    - Silver: 6,000 Trisel, 36 reward packs, 10 shards of exclusive UR card, 5 shards of exclusive Mythic card,
+    - Bronze: 3,000 Trisel, 24 reward packs, 8 shards of exclusive UR card, 4 shards of exclusive Mythic card.
+  - The way we display the leaderboard is being reworked to better show the different rewards for your rank directly in game. Stay tuned!
+  - The distribution is split based on the week, weeks 1, 2, 4 and 6 are normal weeks. Weeks 3 and 5 are super weeks. Last week will be the most generous of all weeks.
+  - The number of duels required to qualify for weekly rewards has been increased, and depends on your rank:
+    - Champion, Gladiator and Diamond: 30 duels,
+    - Platinum: 15 duels,
+    - Gold: 7 duels,
+    - Silver: 5 duels,
+    - Bronze: 3 duels.
+  - Update the formula of rating gain, you basically can now climb (and fall) 2 times faster than before until you are Diamond ~100pts.
+  - Bonus Trisel multiplier based on rank have been updated as follow:
+    - Champion, Gladiator and Diamond: x1.4 -> x1.5,
+    - Platinum: x1.3 -> x1.3 (unchanged),
+    - Gold: x1.2 -> x1.15,
+    - Silver: x1.1 -> x1.05,
+    - Bronze: x1 -> x1 (unchanged).
+- Rewards
+  - We standardized the cards you obtain by playing the game into one pack. This pack is named **Reward pack** and contains 10 cards from common to mythic. The odds per card compared to before are as follow:
+    - Mythic: 0.05% -> 0.20%,
+    - Ultra Rare: 0.15% -> 0.80%,
+    - Rare: 9.80% -> 7.00%,
+    - Uncommon: 30.00% -> 22.00%,
+    - Common: 60.00% -> 70.00%,
+  - Finishing your daily missions gives you one reward pack containing 10 cards up from 3 cards.
+  - Finishing your weekly missions gives you up to 7 reward packs, you can now claim 1, 2 and 4 reward packs at each threshold for a total of 70 cards up from 15 cards.
+  - End of duel packs are now reward packs, but still have to go through the unlocker first. The packs contain 10 cards up from 2 cards and takes 12 hrs to unlock up from ~4.5 hours.
+  - Weekly dungeons now give up to 7 reward packs based on the number of stars you achieve for a total of 70 cards up from 12 cards.
+  - Rewards from 1, 2 and 3 stars of repeatable dungeons have been revamped with the most notable change being a reduction of the shards obtained and now a random card up to mythic for all dungeons instead of the last one only.
+  - Shards combine odds have been updated too, here are the new ones:
+    - Mythic: 0.05% -> 0.10%,
+    - Ultra Rare: 0.15% -> 0.40%,
+    - Rare: 9.80% -> 7.50%,
+    - Uncommon: 30.00% -> 22.00%,
+    - Common: 60.00% -> 70.00%.
+  - Rewards from missions have also been adjusted due to the drop rate changes with a reduction in shard to compensate for the new amount of cards in reward packs.
+  - Daily/weekly missions and repeatable dungeons now give Mantris card shards instead of Arkhante.
+  - UI reworks
+    - We reworked the inventory to better show each section. We split the unlocker and inventory in three separate tabs: Unlocker, Inventory and Shards.
+      - Unlocker
+        - You now have a number of locked packs you can **store** when your unlocker is full, up to 8 slots (with a Sapphire relic).
+        - We also **reduced** the number of **unlock slot** available, removing the level 20 slot and the 50 unlock slot, from 6 to 4 maximum (with a Sapphire relic).
+      - Inventory
+        - Show all **chests, packs, pranah bundle, free mint, mint pass** you have. You can better see each of these items individually, see all odds related to each chests, ...
+      - Shards
+        - Show all the **shards** you have. You can filter them out by Season or Nature, Open or Mint multiple at a time, better see the odds related to that shard.
+    - Following the rework of the Merge, we also reworked the user experience for the Power up and the Awakening!
+      - Power-up & Awakening
+        - Entire **UI remake** so it's smoother and easier to see the different outcomes.
+      - Merge
+        - Added an **Auto-fill** functionality that will automatically fill all the reagent cards with the lowest grade card you have.
+    - We remade the display of **patch notes** to make them more readable and facilitate the navigation between different patches.
+    - We added a display for the **maximum amount of Trisel** a player can earn from PvP duels in the tooltip of Trisel on the dashboard (the cap was already in place but we just added the display of it).
+    - We added a display for the **current exp** you are at and the total amount of exp necessary to level up in the tooltip of Experience on the dashboard.
+- Relics
+  - **Relics** will be back on `2023-12-04 14:00 UTC`!
+  - They received a whole rework and offer now **multiple bonuses**:
+    - More slots to unlock packs (up to 3 additionals based on relic),
+    - More slots to store unlocked packs (up to 6 additionals based on relic),
+    - Auto-unlock and claim of unlocker packs,
+    - Flex Cards in reward packs and leaderboard (up to mythic based on relic),
+    - Flex Shards in dungeons and daily/weekly missions (up to mythic for every relic),
+    - Queue multiple repeatable dungeons at a time,
+    - AutoBattle option for repeatable dungeons (only with Amethyst and Sapphire Relic),
+    - Battle Speed-Up x2 option for repeatable dungeons (only with Sapphire Relic),
+    - Bonus damage per capture in repeatable dungeons (up to +20 based on relic),
+    - Bonus Trisel on repeatable dungeons and daily/weekly missions (up to 7x amount of shards based on relic)
+    - Bonus Trisel in reward packs (up to 77 based on relic),
+    - Reductions in energy refill cost increase (up to 400 based on relic),
+    - They now last **15 days** and are available in **three tiers** that offers those bonuses but at different degrees.
+- Eternal
+  - As previously discussed, we decided to change the way we manage **numbering** in the early moments of the release of new cards (pack opening, new crafts available, exclusive cards from events, ...) to be more fair to everyone.
+  - With this update, for a **few days** following the release of new cards, the creation of a new Eternal card will not allocate a number at first but instead, register the creation in a pool. At the end of the delay, a numbering will be attributed to each card **randomly**, not dependent on the order they entered that pool.
+- Crafting
+  - The crafting will be **opened** for Mantris cards on `2023-11-30 14:00 UTC`!
+  - Numbering pool will be in place until `2023-12-04 14:00 UTC`.
+- Adventure
+  - We improved performance in the energy refill window.
+- Play
+  - We added an outline on numbers in buffs icons (fields, Shift SA) to better visualize the turn remaining.
+
+### Fixes
+
+- Duel
+  - Fixed capture indicator display not updating correctly in some rare cases.
+  - Fixed score indicator not being displayed on mobile.
+- Loots
+  - Fixed foil cards not being displayed correctly.
+- Collection
+  - Fixed the sort by arkhome not ordering correctly.
+  - Fixed an issue when editing decks, where selecting cards with the same id (but different season) as your leader would swap them.
+  - Fixed the folder view of field cards not displaying fields properly.
 
 ## 0.17.7207 Patch
 
