@@ -114,18 +114,6 @@
 - 0.2.0
   - [Patch](#020-patch)
 
-## Upcoming
-
-`TBD`
-
-### Changes
-
-- Duels
-  - You can now report your opponent's name.
-  - Opponent card placement is now animated.
-  - Combo cards grade A or S will now show the cinematic of the character its arkhome is from.
-  - Game window will now be put in foreground if you are in the queue and are matched.
-
 ## 0.18.7474 Patch
 
 `2023-11-29 08:00 UTC`
