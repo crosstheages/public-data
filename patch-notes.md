@@ -126,10 +126,9 @@
   - Fixed an issue with ranked points text size.
   - Fixed an issue preventing some card cinematic to be played.
 - Adventure
-  - Now correctly show the amount of packs available to claim in Weekly dungeon.
+  - Now correctly show the amount of packs available to claim in Weekly dungeons.
 - Missions
   - Adjusted threshold for daily and weekly "Open", "Unlock" missions.
-  - Allow Dungeons to count towards daily and weekly "Duels Win" mission at a reduced rate (4 times less than a PvP duel).
   - Those changes are only applied to newly generated missions and are not retroactive.
   - Now display the card you earn on missions reward claim.
 - Loots
