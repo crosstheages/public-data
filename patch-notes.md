@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.18
+  - [0.18.7505](#0187505-patch)
   - [0.18.7474](#0187474-patch)
 - 0.17
   - [0.17.7207](#0177207-patch)
@@ -113,6 +114,35 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.18.7505 Patch
+
+`2023-12-01 07:00 UTC`
+
+### Fixes
+
+- Duel
+  - Fixed an action on drop sometimes slowing down the pace of the game.
+  - Fixed an issue with ranked points text size.
+  - Fixed an issue preventing some card cinematic to be played.
+- Adventure
+  - Now correctly show the amount of packs available to claim in Weekly dungeon.
+- Missions
+  - Adjusted threshold for daily and weekly "Open", "Unlock" missions.
+  - Allow Dungeons to count towards daily and weekly "Duels Win" mission at a reduced rate (4 times less than a PvP duel).
+  - Those changes are only applied to newly generated missions and are not retroactive.
+  - Now display the card you earn on missions reward claim.
+- Loots
+  - Fixed an issue preventing to open Eternal chests / bundles / packs.
+  - Now tell you if there is an existing pending burn for a shards consume.
+  - Added a glow on shards target.
+  - Fixed various UI issues.
+- Crafting
+  - Locked cards are no longer shown.
+- Profile
+  - Fixed an issue preventing profile match history to load.
+- System
+  - Updated default card back of Arkhante and Mantris.
 
 ## 0.18.7474 Patch
 
