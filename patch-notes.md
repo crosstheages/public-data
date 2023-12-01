@@ -129,7 +129,6 @@
   - Now correctly show the amount of packs available to claim in Weekly dungeons.
 - Missions
   - Adjusted threshold for daily and weekly "Open", "Unlock" missions.
-  - Those changes are only applied to newly generated missions and are not retroactive.
   - Now display the card you earn on missions reward claim.
 - Loots
   - Fixed an issue preventing to open Eternal chests / bundles / packs.
