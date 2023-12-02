@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.18
+  - [0.18.7539](#0187539-patch)
   - [0.18.7505](#0187505-patch)
   - [0.18.7474](#0187474-patch)
 - 0.17
@@ -115,6 +116,33 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.18.7539 Patch
+
+`2023-12-02 08:00 UTC`
+
+### Changes
+
+- Collection
+  - Now display the default Mantris card back while loading.
+- Crafting
+  - Added a message on Merge warning you when the craft is being done with different grades.
+
+### Fixes
+
+- Duel
+  - Fixed a display issue showing a chest being awarded on a defeat while it was not the case.
+  - Fixed an issue preventing some affinities to not being shown.
+- Leaderboard
+  - Updated display for Bronze players, they now starts at 300 points and cannot go lower than 0 point.
+  - Fixed the display of Leader and Special Abilities.
+  - Fixed various UI issues.
+- Loots
+  - Fixed an issue preventing the first pack to unlock to be put in an unlocker after a claim.
+  - Fixed various UI issues.
+- Crafting
+  - Do not attempt to auto power-up cards from Cold Wallet.
+  - Do not priorize cards in a deck on auto power-up.
+  
 ## 0.18.7505 Patch
 
 `2023-12-01 07:00 UTC`
