@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.18
+  - [0.18.7591](#0187591-patch)
   - [0.18.7539](#0187539-patch)
   - [0.18.7505](#0187505-patch)
   - [0.18.7474](#0187474-patch)
@@ -115,6 +116,28 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.18.7591 Patch
+
+`2023-12-05 14:30 UTC`
+
+### Changes
+
+- Trisel
+  - A bonus multiplier of 1.5 has been added due to relics being disabled.
+- Missions
+  - The win X duel mission can now be validated in repeatable dungeons, its threshold has been adjusted accordingly : Arena duels (Ranked and Normal) count as 4 duels and repeatable Dungeons count as 1 duel.
+- Collection
+  - When editing a deck, unowned cards are not shown anymore.
+
+### Fixes
+
+- Intro
+  - Fixed an issue with the introduction video showing everytime you switch accounts.
+- Adventure
+  - Fixed various UI issues.
+- Custom lobby
+  - Fixed various UI issues.
 
 ## 0.18.7539 Patch
 
