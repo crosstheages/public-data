@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.18
+  - [0.18.7626](#0187626-patch)
   - [0.18.7591](#0187591-patch)
   - [0.18.7539](#0187539-patch)
   - [0.18.7505](#0187505-patch)
@@ -116,6 +117,29 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.18.7626 Patch
+
+`2023-12-07 12:30 UTC`
+
+### Changes
+
+- Shop
+  - Pranah bundles now have the bonus amount of Pranah on mobile devices.
+- Play
+  - The endgame screen now shows you the next dungeon you will unlock when playing Story mode.
+
+### Fixes
+
+- Play
+  - Fixed an issue with the affinities not showing on certain cards after another affinity was removed.
+  - Fixed a few issues with the display of the opponent name in Adventure mode.
+  - Fixed an issue with the display of the amount of reward on the endgame screen in Adventure mode.
+  - Fixed an issue with the rating gauge on the endgame screen not properly showing your progression in your rank.
+- Inbox
+  - Fixed an issue with the inbox not correctly showing the count of rewards before the claim.
+- Profile
+  - Fixed an issue with the display of the rating.
 
 ## 0.18.7591 Patch
 
