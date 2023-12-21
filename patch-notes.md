@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.19
+  - [0.19.7825](#0197825-patch)
 - 0.18
   - [0.18.7626](#0187626-patch)
   - [0.18.7591](#0187591-patch)
@@ -117,6 +119,60 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.19.7825 Patch
+
+`2023-12-21 09:30 UTC`
+
+### Changes
+
+- Shop
+  - Multiple bonuses have been added to the packs sold in the shop
+    - For each Mythic series, if you buy 48 packs in one single purchase, you will get a bonus Mythic card of that series. This bonus was applied retroactively, for each chunk of 48 packs you bought previously you will receive the corresponding amount of Mythic cards in your inbox. Also, Hassan has been postponed until `2023-12-22 17:00 UTC` to let everyone benefit from this bonus.
+    - The first Permanent series that contains all cards from the three first series is now available. Beside individual pack purchase, this series adds an option to buy a box containing 24 packs and one Opax Unit Exclusive card as well as a box that contains 48 packs and one Class III Utility Robot Exclusive card. Those boxes will be mintable in the future.
+    - Additionally, every 10 Mantris packs you open, you will accumulate a Bonus Roll to get an Ultra-Rare or a Mythic card from any advancement (Standard, Alternative or Combo)!
+- Event
+  - Winter Event is here!
+  - It features a fresh event journey with a new exclusive card: KatK!
+  - New event missions are available, they last for the whole event.
+  - The rewards have been updated to give cards through the event Journey. If you have the event Insignia, cards obtained are Flex, otherwise, they are Static.
+  - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you rewards or coins that you can use in the event shop.
+  - A new event shop is available. The exclusive card can be purchased both as Static and Flex. The mint is done with the same system as previously used in the craft for the numbering. Numbering will be assigned on `2023-12-25 00:00 UTC`.
+  - The event will be available until `2024-01-30 08:00 UTC` and the shop will remain open for one more week after it ends.
+- Airdrop
+  - On `2023-12-25 00:00 UTC`, every Honora & Hannibal owner will receive a new SR Mantris card with the mirrored attributes from their H&H card.
+- Craft
+  - Filters selected in the crafting section are now saved when switching the crafting tab and reapplied.
+  - We added the possibility to select a combo to see the reagents instead of blocking you if you didn't have all the reagents.
+
+### Fixes
+
+- Gamemode selection
+  - Fixed an issue with the eligible for weekly rewards count non refreshing properly.
+- Craft
+  - Fixed the search by name filter to not be case sensitive.
+  - Fixed the warning and popups for the merge with different grades.
+  - Fixed an issue with the craft button not being properly shown for phones with a notch.
+- Inbox
+  - Fixed the era count and added the season to the weekly leaderboard mail.
+  - Fixed an issue with the rewards not correctly displaying their description.
+  - Various UI fixes.
+- Collection
+  - The collection filter is now correctly saved in presets.
+  - Fixed the autodeck functionality for Adventure decks not taking the highest fields you have.
+- Adventure
+  - The Weekly dungeon rewards are now correctly shown even if you retry directly from the endscreen.
+- Rewards
+  - When receiving multiple rewards, they are now ordered by rarity to build up the hype!
+- Missions
+  - Fix an issue with the daily and weekly missions missed packs not being sent to your inbox. All previous mail that were not sent have been sent out.
+  - Added the missing general mission winning 20 duels when above Platinum rank in Era 1.
+- Play
+  - Various UI fixes on the endgame screen.
+- Leaderboard
+  - Various UI fixes.
+- Inventory
+  - Various UI fixes.
 
 ## 0.18.7626 Patch
 
