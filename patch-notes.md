@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.19
+  - [0.19.7849](#0197849-patch)
   - [0.19.7825](#0197825-patch)
 - 0.18
   - [0.18.7626](#0187626-patch)
@@ -119,6 +120,25 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.19.7849 Patch
+
+`2023-12-22 12:00 UTC`
+
+### Fixes
+
+- iPhone
+  - Fixed some display issue with iPhones.
+- Duel
+  - Fixed an issue with Event points not being displayed at the end of a duel.
+  - Fixed an issue with the control display in the card details not properly refreshing.
+  - Fixed an issue with the eternal icon display on the board.
+- Event journey
+  - Fixed an issue with assets that were missing.
+- Shards
+  - Fixed an issue with shard combine not properly closing the combine window when validating a combine.
+- Adventure
+  - Fixed an issue with the display of shards' tooltips.
 
 ## 0.19.7825 Patch
 
