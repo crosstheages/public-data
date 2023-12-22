@@ -135,7 +135,7 @@
   - Winter Event is here!
   - It features a fresh event journey with a new exclusive card: KatK!
   - New event missions are available, they last for the whole event.
-  - The rewards have been updated to give cards through the event Journey. If you have the event Insignia, cards obtained are Flex, otherwise, they are Static.
+  - The rewards have been updated to give static cards through the event Journey. If you have the event Insignia, you will receive additional Flex cards!
   - The principle is the same as the last events: completing daily, weekly and event missions gives you event points to progress in the event journey. Each level reached gives you rewards or coins that you can use in the event shop.
   - A new event shop is available. The exclusive card can be purchased both as Static and Flex. The mint is done with the same system as previously used in the craft for the numbering. Numbering will be assigned on `2023-12-25 00:00 UTC`.
   - The event will be available until `2024-01-30 08:00 UTC` and the shop will remain open for one more week after it ends.
