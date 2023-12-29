@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.19
+  - [0.19.7849 Hotfix #1](#0197849-hotfix-1)
   - [0.19.7849](#0197849-patch)
   - [0.19.7825](#0197825-patch)
 - 0.18
@@ -120,6 +121,22 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.19.7849 Hotfix #1
+
+`2023-12-29 13:30 UTC`
+
+### Changes
+
+- Event Journey
+  - The infinite leveling past level 50 is now accessible for players without having to buy the Insignia. You will experience some display issues until the client is updated but rewards are correctly claimed.
+
+### Fixes
+
+- Souvenir cards
+  - Souvenir cards should now correctly be minted.
+- Erika & Tiger Robot Airdrop
+  - We fixed the numbering of aidropped Erika & Tiger Robot cards that was shifted by 1.
 
 ## 0.19.7849 Patch
 
