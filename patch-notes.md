@@ -160,9 +160,9 @@
   - Fixed empty card detail between weekly dungeons floors.
   - Various other UI fixes.
 - Leaderboard
-- Fixed missing leader.
-- Fixed for scrolling issue on some devices   .
-- Various other UI fixes.
+  - Fixed missing leader.
+  - Fixed for scrolling issue on some devices.
+  - Various other UI fixes.
 - Collection
   - Fixed an issue when you are editing a deck, the button to roll a card that you have in several    copies is now functional.
   - Fixed an issue for white squares on card after swapping on the deck you are modifying,
