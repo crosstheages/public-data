@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.20
+  - [0.20.7970](#0207970-patch)
 - 0.19
   - [0.19.7849 Hotfix #1](#0197849-hotfix-1)
   - [0.19.7849](#0197849-patch)
@@ -121,6 +123,63 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.20.7970 Patch
+
+`2024-01-11 9:00 UTC`
+
+### Changes
+
+- Missions
+  - Adjustments of the UX/UI, missions can be rerolled and the possibility to claim all have been added, icons for traits, Special Abilities and ranks are displayed.
+  - The rating missions have been adapted to the new leaderboard system.
+- Leaderboard
+  - Rewards per rank details are accessible from the footer.
+  - Notice section accessible from the footer have been added, information about ranks, ladder, mandatory duels, rewards are available on it.
+  - Player rank indicator is now displayed.
+- Shop
+  - Added CTA Tokens Top-Up, possibility to buy X amount of tokens if you currently have more than 250 (like on the portal).
+  - Backgrounds have been added to the available cards section inside the Permanent/Mythic series.
+- Craft
+  - Added a lighter card detail without the possibility to mint cards.
+- Arena selection mode
+  - An animation has been added when pvp modes are unlocked.
+- Custom Lobby
+  - We added the ability to create or join a custom lobby without first selecting a deck.
+
+### Fixes
+
+- Souvenir cards
+  - Souvenir cards should now correctly be minted on pranah bundle burn.
+- Erika & Tiger Robot Airdrop
+  - We fixed the numbering of airdropped Erika & Tiger Robot cards that was shifted by 1.
+-Missions
+  - Fixed an issue with tooltips on mission rewards that weren't displayed.
+- Card detail
+  - Fixed missing numbering for NFT cards.
+  - Fixed empty card detail between weekly dungeons floors.
+  - Various other UI fixes.
+- Leaderboard
+- Fixed missing leader.
+- Fixed for scrolling issue on some devices   .
+- Various other UI fixes.
+- Collection
+  - Fixed an issue when you are editing a deck, the button to roll a card that you have in several    copies is now functional.
+  - Fixed an issue for white squares on card after swapping on the deck you are modifying,
+- Login
+  - Fixed an issue about the logout button, after a fresh install of the game, if you login before the downloading of the "required files" you have the option to logout during them. The Cross The Ages logo does not appear anymore over the artwork texts with a "try again" button.
+- Duels footer
+  - The size of the footer in duel has been modified and elements are not hidden anymore on mobile devices.
+- Changelog
+  - Fixed an issue if you were on an older version of the game, you were not able to see the most recent changelog version.
+- Inventory
+  - Fixed UI for bulk opening, + and - buttons for chests that can be opened by the bulk system are not displayed anymore.
+- Dungeons
+  - Fixed spacing issues on dungeons and energy pop up.
+- Application window
+  - The game app window can’t be resized below the 9:20 ratio.
+- Videos
+  - The skip buttons have been homogenized in all app.
 
 ## 0.19.7849 Hotfix #1
 
