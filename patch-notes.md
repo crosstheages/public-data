@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.20
+  - [0.20.7970 Hotfix #1](#0207970-hotfix-1)
   - [0.20.7970](#0207970-patch)
 - 0.19
   - [0.19.7849 Hotfix #1](#0197849-hotfix-1)
@@ -124,6 +125,23 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.20.7970 Hotfix #1
+
+`2024-01-17 8:00 UTC`
+
+### Changes
+
+- Ranked
+  - Era 7 is over but Era 8 will not start directly. Until then, ranked queue has been disabled.
+  - To compensate, Trisel gains in normal duels have been buffed to the same level as ranked duels.
+
+### Fixes
+
+- Missions
+  - Claimable General missions are now shown at the top.
+- Profile
+  - Fixed an issue with duel history not loading properly.
+
 ## 0.20.7970 Patch
 
 `2024-01-11 9:00 UTC`
@@ -149,23 +167,19 @@
 
 ### Fixes
 
-- Souvenir cards
-  - Souvenir cards should now correctly be minted on pranah bundle burn.
-- Erika & Tiger Robot Airdrop
-  - We fixed the numbering of airdropped Erika & Tiger Robot cards that was shifted by 1.
--Missions
+- Missions
   - Fixed an issue with tooltips on mission rewards that weren't displayed.
 - Card detail
   - Fixed missing numbering for NFT cards.
-  - Fixed empty card detail between weekly dungeons floors.
+  - Fixed empty card details between weekly dungeons floors.
   - Various other UI fixes.
 - Leaderboard
   - Fixed missing leader.
   - Fixed for scrolling issue on some devices.
   - Various other UI fixes.
 - Collection
-  - Fixed an issue when you are editing a deck, the button to roll a card that you have in several    copies is now functional.
-  - Fixed an issue for white squares on card after swapping on the deck you are modifying,
+  - Fixed an issue when you are editing a deck, the button to roll a card that you have in several copies is now functional.
+  - Fixed an issue for white squares on card after swapping on the deck you are modifying.
 - Login
   - Fixed an issue about the logout button, after a fresh install of the game, if you login before the downloading of the "required files" you have the option to logout during them. The Cross The Ages logo does not appear anymore over the artwork texts with a "try again" button.
 - Duels footer
@@ -179,7 +193,7 @@
 - Application window
   - The game app window can’t be resized below the 9:20 ratio.
 - Videos
-  - The skip buttons have been homogenized in all app.
+  - The skip buttons have been homogenized in the entire app.
 
 ## 0.19.7849 Hotfix #1
 
