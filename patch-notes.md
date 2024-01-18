@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.20
+  - [0.20.7976](#0207976-patch)
   - [0.20.7970 Hotfix #1](#0207970-hotfix-1)
   - [0.20.7970](#0207970-patch)
 - 0.19
@@ -124,6 +125,15 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.20.7976 Patch
+
+`2024-01-18 9:00 UTC`
+
+### Fixes
+
+- Gamemode selection
+  - Fixed an issue where you could tag in ranked duels when the queue is disabled and lock the application in the versus screen.
 
 ## 0.20.7970 Hotfix #1
 
