@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.20
+  - [0.20.7976](#0207976-hotfix-1)
   - [0.20.7976](#0207976-patch)
   - [0.20.7970 Hotfix #1](#0207970-hotfix-1)
   - [0.20.7970](#0207970-patch)
@@ -125,6 +126,19 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.20.7976 Hotfix #1
+
+`2024-02-09 14:00 UTC`
+
+### Changes
+
+- Rewards
+  - Trisel cap is now 30k per week. The change has been applied retroactively.
+- Shop
+  - Due to the postpone of 0.21 update, Permanent 2 series will be released on February 21st.
+- Account
+  - Verifying a new account cannot be made anymore with an identity already used by another account. This will result in a duplicate state and the verification will not be effective. For special case please contact the support.
 
 ## 0.20.7976 Patch
 
