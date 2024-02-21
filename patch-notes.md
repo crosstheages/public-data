@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.21
+  - [0.21.8307](#0218307-patch)
 - 0.20
   - [0.20.7976](#0207976-hotfix-1)
   - [0.20.7976](#0207976-patch)
@@ -126,6 +128,63 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.21.8307 Patch
+
+`2024-02-21 16:00 UTC`
+
+### Changes
+
+- Account
+  - We added the possibility to transfer all the Flex assets from an account to another account that shares the same identity (also known as KYC). You will find all the necessary information in the Take News N°5 (<https://noria.crosstheages.com/hc/en-gb/articles/22305099631889-Take-News-N-5>)
+- CTA Token
+  - The remaining supply of CTA Tokens is now directly shown in the shop, for the first 24 hours it will not be updated and everyone can buy from it, once elapsed it will be updated every hour.
+  - As stated in the latest Take News, the CTA Token price has been adjusted to 195 Pranah for 10 tokens.
+  - The CTA Token Cap has been greatly increased for each previous way of augmenting the cap.
+  - There is no base cap of 100 CTA Token anymore. You will need to get an Arkhante presale pack in order to increase your cap. You can mint in Pranah directly if you do not have any CTA Tokens and/or cannot buy them anymore.
+- SR System
+  - You can now charge your mint pass with CTA Tokens, becoming eligible for the weekly airdrop of Special Rare cards, the first one will come on March 6th. It's also a way to overcap your CTA token cap on your account.
+  - You also need to earn VP, mint passes give a weekly amount passively each second otherwise you will have to win duels. For the first week, VPs are not taken into account as there will be no airdrop on February 28st.
+- Ranked mode
+  - A new ranked era is available !
+  - We removed the weekly rewards and instead, you will have a chance to get the rewards directly after each duel. This removes the advantages of ranking up multiple accounts to get more rewards.
+  - Rewards include Packs, cards, Exclusive Mythic and Ultra-rare card shards, bonus Trisel, Free Mint, Free Animation, and energy. Rewards details are listed in the Rewards tab of the leaderboard, they might be adjusted in the future.
+  - This also means that we don't need to end the era as soon as previous eras. This era will be running until the end of the Mantris season.
+  - We are making a hard rating reset (everyone will drop to Bronze 300) and changing the Demote protection system a bit as follow : the demote protection system will refrain you from losing rating if you lose a duel for your first 25 duels (was 30 duels), or until you reach Gold rating (was Platinum 250).
+  - We will be making gameplay adjustments during the era. Stay tuned for more info!
+- Rewards
+  - We removed the Trisel cap entirely. To compensate, the Trisel gains have been slightly increased in normal games and are now greatly increased in ranked games.
+- Shop
+  - The 2nd Permanent series will be released on the 28th of February. You will be able to buy it directly in the shop. It contains the cards from the Pollen, The Ordinator and Sassaki series.
+    - The associated chests that features new Exclusive cards will also be released at the same date:
+      - Matricial Guard Exclusive card when buying the 24 pack Box.
+      - Blue Dream exclusive card when buying the 48 pack box.
+- Animation Level 3
+  - You can now buy Animation Level 3 for your Arkhante cards for 20 CTA Tokens.
+- Wallets
+  - You can now choose the wallet on which you want to send the result of mints to in the settings (Airdrops, card mint, chest mint, shard mint, minted shard combine, Awakening, Merge, minted chest opening). By default, the target wallet is the MagicLink wallet.
+  - Cold Wallet
+    - You can now directly craft cards and open packs directly from your Cold Wallet. You don't need to transfer them to your game wallet.
+- Crafting
+  - Filters simplification
+    - We regrouped the filters in the crafting sections
+    - Filters that are common to each tab will persist when switching tabs.
+- Adventure
+  - Energy's refill price doesn't scale exponentially every 400 Energy bought.
+
+### Fixes
+
+- Login
+  - Fixed an issue with the Asset download bar not showing properly on some devices
+- Missions
+  - Fixed the order for general mission order. We now show completed missions that were not claimed at the top.
+- Shop
+  - Fixed an issue with Pranah bundle not showing up properly on some devices.
+- Adventure
+  - Fixed an issue where some people could get stuck at the end of a dungeon and not be able to relaunch a duel.
+- Endscreen issues
+  - Fixed a display issue with the rating loss protection not properly showing on the endscreen.
+  - Fixed an issue with the play again button not working properly on adventure mode.
 
 ## 0.20.7976 Hotfix #1
 
