@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.21
+  - [0.21.8375](#0218375-patch)
   - [0.21.8307](#0218307-patch)
 - 0.20
   - [0.20.7976](#0207976-hotfix-1)
@@ -128,6 +129,52 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.21.8375 Patch
+
+`2024-02-28 10:00 UTC`
+
+### Changes
+
+- Shop
+  - The 2nd Permanent series will be released on the 28th of February at 13:00 UTC. It contains the cards from the Pollen, The Ordinator and Sassaki series.
+    - The associated chests that features new Exclusive cards will also be released at the same date:
+      - Matricial Guard Exclusive card when buying the 24 pack Box.
+      - Blue Dream exclusive card when buying the 48 pack box.
+    - The numbering from these exclusive cards will not be decided until March 1st 8pm UTC. It will then be decided randomly from all the previous purchases.
+- SR System
+  - You now start accumulating VP for the first Airdrop on March 6th 8am UTC.
+
+### Fixes
+
+- Collection
+  - You can now preview the level 3 Animation by selecting it on the card details.
+- Leaderboard
+  - Fixed a few display issues with the rewards of the Leaderboard.
+- Missions
+  - Fixed an issue with some missions not progressing.
+- Perks
+  - Added an horizontal scroll to the charges Mint passes progress bar for players with many mint passes.
+  - Disabled the charge with Pranah button when the CTA Token supply is depleted.
+- Craft
+  - Fixed a display issue with the animation level warning not showing properly with Animation Level 3.
+- Duel History
+  - Fixed a display issue with the score bars.
+- Adventure
+  - Fixed a display issue with the Pranah refill cost of Energy.
+- Common
+  - Fixed some display issues with tooltips.
+- Inventory
+  - Fixed an issue with Bored Box not giving the correct amount of CTA Token. Players that opened one during last week have had their CTA Token count corrected.
+- Play
+  - Fixed a display issue with the Affinity reinforcement tooltip.
+  - The "Play again" button has been temporarily removed, it will come back in a future update.
+  - Fixed a display issue with Draw Refill SA's animation not working properly on Mac Intel.
+  - Fixed a display issue with cards that were stuck on top of the board.
+- Gamemode Selection
+  - The previous game mode selected is now correctly saved from the last duel.
+- Localization
+  - Fixed a few unlocalized texts.
 
 ## 0.21.8307 Patch
 
@@ -438,7 +485,7 @@
 - Crafting
   - Do not attempt to auto power-up cards from Cold Wallet.
   - Do not priorize cards in a deck on auto power-up.
-  
+
 ## 0.18.7505 Patch
 
 `2023-12-01 07:00 UTC`
@@ -625,7 +672,7 @@
   - Fixed the capture indicator that would sometimes show the previous turn calculations.
   - Fixed a display issue in card details that would show trinities as affinities and conversely.
 - Loots
-  - Fixed an issue with Eternal Shards combine not awarding an Eternal card but a Flex card. Players that had that issue have been compensated as follows: If you minted the card manually, we refunded the CTA Token cost and if you didn't, we minted the card as it should have been. Numbering follows the combining order.  
+  - Fixed an issue with Eternal Shards combine not awarding an Eternal card but a Flex card. Players that had that issue have been compensated as follows: If you minted the card manually, we refunded the CTA Token cost and if you didn't, we minted the card as it should have been. Numbering follows the combining order.
 - Collection
   - Fixed the import deck functionality that would not work in some rare cases.
 - Dashboard
@@ -758,7 +805,7 @@
   - New daily, weekly and general missions have been added with objectives that validate with Mantris cards. It has also been made clearer from which game mode each mission validates.
 - Rewards
   - Trisel base gain cap per win has been increased from 35 to 100. Daily limit has been increased from 500 to 1500.
-  - Trisel gains are no longer available in Adventure and  Daily/Weekly Missions. It has been replaced by cards or card shards. It will partially come back with new relics in a future update. General Missions will follow.
+  - Trisel gains are no longer available in Adventure and Daily/Weekly Missions. It has been replaced by cards or card shards. It will partially come back with new relics in a future update. General Missions will follow.
   - Players who had a relic active between 4 Oct and today have been fully refunded (even if you had only 1 day remaining).
 - Shop
   - The Arkhante series will be removed from the shop at `2023-10-25 16:00 UTC` to make room for the Mantris series! The display is meant for Mantris packs so you will have to scroll a little bit for Arkhante chests.
