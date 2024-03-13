@@ -194,7 +194,7 @@
   - You also need to earn VP, mint passes give a weekly amount passively each second otherwise you will have to win duels. For the first week, VPs are not taken into account as there will be no airdrop on February 28st.
 - Ranked mode
   - A new ranked era is available !
-  - We removed the weekly rewards and instead, you will have a chance to get the rewards directly after each duel. This removes the advantages of ranking up multiple accounts to get more rewards.
+  - We removed the weekly rewards and instead, you will have a chance to get the rewards directly after each duel win. This removes the advantages of ranking up multiple accounts to get more rewards.
   - Rewards include Packs, cards, Exclusive Mythic and Ultra-rare card shards, bonus Trisel, Free Mint, Free Animation, and energy. Rewards details are listed in the Rewards tab of the leaderboard, they might be adjusted in the future.
   - This also means that we don't need to end the era as soon as previous eras. This era will be running until the end of the Mantris season.
   - We are making a hard rating reset (everyone will drop to Bronze 300) and changing the Demote protection system a bit as follow : the demote protection system will refrain you from losing rating if you lose a duel for your first 25 duels (was 30 duels), or until you reach Gold rating (was Platinum 250).
