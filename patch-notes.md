@@ -147,7 +147,6 @@
     - The board was starting to have too many effects and movements.
     - It has been redesigned to be much simpler and easier to see.
     - We removed field animations and replaced it with a much simpler flow around the board.
-    - We removed
     - We will continue to update it with new affinities effects in the future for example.
   - Card frame update
     - Card frames have been re-designed to emphasize important information for the gameplay.
