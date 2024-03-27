@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.22
+  - [0.22.9073](#0229073-patch)
 - 0.21
   - [0.21.8375](#0218375-patch)
   - [0.21.8307](#0218307-patch)
@@ -129,6 +131,83 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9073 Patch
+
+`2024-03-27 14:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Heptagram simplification
+    - We want to simplify how we talk about the Heptagram. We have therefore chosen to group Arkhomes and Techstyles (as well as upcoming Tribes) under a common name "Elements".
+    - These Elements have an updated name and icon.
+    - In case we were talking about a specific Arkhome or Techstyle, we now use the Faction to complete the Element in order to differentiate them. (ie: to talk about Robotic, we may say Mantris Earth)
+  - Updated board
+    - The board was starting to have too many effects and movements.
+    - It has been redesigned to be much simpler and easier to see.
+    - We removed field animations and replaced it with a much simpler flow around the board.
+    - We removed
+    - We will continue to update it with new affinities effects in the future for example.
+  - Card frame update
+    - Card frames have been re-designed to emphasize important information for the gameplay.
+    - You'll find the Faction in the top left corner, the Element in the top right corner, the Reinforcement level in the bottom left corner, and the Leader icon in the bottom right corner. The state of the card (static, flex, eternal with animation level or numbering) is indicated at the top of the card.
+  - New Alliance system
+    - Alliances are a new system introduced in duels around factions. An Alliance activates when two adjacent cards from the same Element but different factions are controlled by the same player. An alliance gives 1 reinforcement to both cards.
+  - Reinforcement system
+    - The reinforcement is a new system that allows you to quickly view how many alliances, affinities and trinities a card has received. A reinforcement gives +100 power to a card. The number of reinforcement a card has received is shown on the bottom left of a card when played on the board.
+  - Updated advantage/disadvantage values
+    - Advantages and Disadvantages now respectively give +200 and -200 power when attacking a card.
+  - Special Ability changes
+    - Revenge (New)
+      - When you play your Leader, you gain 3 points for each card that captures a different Faction.
+      - Obtained by achieving 36% of the Mantris collection.
+    - Patience (New)
+      - During your turn, you stack 2 points for each card from a different Faction captured. When your Leader is played, if you directly capture a different Faction, you unlock your stacked points.
+      - Obtained by achieving 72% of the Mantris collection.
+    - Unity (Affinity Reinforcement renamed and unlock condition changed)
+      - Empower each card you control by +10 power for their first reinforcement, and by +5 power for each additional reinforcement. This is a passive effect and applies at the start of the duel.
+      - Obtained by achieving 36% of the Arkhante collection.
+    - Shift Advantages (unlock condition changed)
+      - When played, your Leader inverts the element's basic advantages for 3 turns: +200 becomes -200 and vice-versa.
+      - Obtained by achieving 72% of the Arkhante collection.
+  - Score Twist
+    - We removed the 50 score value from Score Twist at the start of a duel. The score to reach values can now be 55, 60 or 65.
+- Event
+  - Introducing Raids
+    - Raids are special encounters that you will have to overcome with other players to earn special rewards and up to 5 new exclusive cards!
+    - When you beat a raid boss, every player that participated will receive rewards.
+    - It will cost you 30 Energy to register to fight the boss or 60 if the boss is already in progress.
+  - Event journey
+    - A fresh event journey and a new insignia are available for the duration of the event.
+    - Every reward is now earned either through the event journey or the raid encounters. There is no event shop anymore.
+    - Purchasing the insignia allows you to earn the flex version of the exclusive card when defeating raid bosses.
+  - Schedule
+    - The event starts today and ends on `2024-05-01 08:00 UTC`
+    - The numbering for exclusive cards will not be determined until `2024-04-12 08:00 UTC`
+- Missions
+  - New missions have been added :
+    - Always Stronger: Augment X times the reinforcement level of a card.
+    - Patience is a virtue: Win X Arena duels using Patience.
+    - Revenge is best served cold: Win X Arena duels using Revenge.
+    - I am the Champion (Season 2 Era 2): Win 20 ranked duels above Platinum rank during Era 2 of Season 2.
+- Adventure
+  - A new chapter has been added to the Story mode, where you will be able to learn more about how Alliances work and earn static cards by completing it.
+- Profile
+  - The profile has been redesigned to allow better customisation and show more information to the user.
+  - The new profile also contains the perks section and a redesigned match history.
+- Settings
+  - Settings have also been redesigned to better fit the current Art direction.
+  - A number of settings that were only applied to the next duel are now applied instantly.
+- Collection
+  - The card collection screen has been updated to allow for better deck building.
+  - You will now receive new card backs for your collection completion for some thresholds.
+- Bug report
+  - A bug report functionality has been added. To report an issue, shake your phone or press the F1 key on your keyboard. It will allow you to automatically send us a screenshot of the issue and logs so we can better diagnose your issue.
+- Crafting
+  - You can now display the card details for the card reagents on the merge screen.
+
+### Fixes
 
 ## 0.21.8375 Patch
 
