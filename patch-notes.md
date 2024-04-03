@@ -3,6 +3,9 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9191](#0229191-patch)
+  - [0.22.9144](#0229144-patch)
+  - [0.22.9115](#0229115-patch)
   - [0.22.9073](#0229073-patch)
 - 0.21
   - [0.21.8375](#0218375-patch)
@@ -131,6 +134,81 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9191 Patch
+
+`2024-04-03 15:00 UTC`
+
+### Changes
+
+- Watch Dogs collection
+  - The first series of cards from the Watch Dogs collection representing the Arkhante faction has been added to the shop!
+  - Get your Watch dogs cards from the Arkhante faction with the 24 packs Box to receive an Helen Dashwood Special Rare card.
+  - Get card backs specific to the Watch dogs collection by collecting cards from the collection.
+  - The first series is available starting from `2024-04-03 16:00 UTC` and until the end of the Season 2. The numbering for first series cards will not be determined until `2024-04-05 16:00 UTC`.
+- FreeMint compensation
+  - The Free Mint compensation has been sent via in-game mail to eligible players.
+- Raid (some of the changes have already been applied during the weekend)
+  - Adjusted Boss Health and health scaling per user.
+  - Reduced Raid fight phase duration to 30 minutes instead of 1 hour. Adjusted health accordingly.
+  - Adjusted the planning phase time to 5 hours for a T1 boss, 6 hours for a T2 boss and 7 hours for a T3 boss.
+  - Added a warning by in-game mail to players that don't contribute enough to the Raid. After receiving a sanction, the cost to register to the next boss is increased by 30 Energy, cumulable.
+
+### Fixes
+
+- Raid
+  - Fixed a display issue with the Try again button.
+  - Fixed a display issue with the health display after a reconnection.
+- Inventory
+  - Fixed an issue with the glow around cards when opening a pack.
+  - Fixed a display issue with the Bonus Roll counter.
+- Profile
+  - Fixed some avatars from cards not selectable in the avatar list.
+- System
+  - Fixed various issues causing instabilities on the servers.
+
+## 0.22.9144 Patch
+
+`2024-04-01 16:00 UTC`
+
+### Changes
+
+- Raid
+  - Add autoplay in raid to players that have the Insignia.
+
+### Fixes
+
+- Inventory
+  - Fixed an issue with Pranah bundle opening.
+- Raid
+  - Fixed an issue that could cause a server crash after a raid boss had been defeated.
+  - Fixed a display issue with the timer of the next boss.
+- Event journey
+  - Fixed a display issue with the banner.
+
+## 0.22.9115 Patch
+
+`2024-03-28 16:00 UTC`
+
+### Changes
+
+- Raid
+  - Show a more precise timer before the next boss phase.
+  - We now show the current health of the raid boss at the start of each duel with him instead of 100%.
+- Card back selection
+  - Allow the pre-selection of locked card backs to see the unlock conditions.
+
+### Fixes
+
+- Raid
+  - Fixed a display issue with the text on the dashboard after defeating a boss.
+  - Fixed a few display issues with the raid in the challenge window.
+- Event journey
+  - Fixed the display of the needed amount of exp to gain a level. The amount of exp to level is 1000 Event points.
+- Heptagram
+  - Fixed a few display issues with the responsive.
+- Bug report
+  - Reduced the shake threshold of the bug report detection.
 
 ## 0.22.9073 Patch
 
