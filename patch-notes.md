@@ -162,6 +162,8 @@
 - Inventory
   - Fixed an issue with the glow around cards when opening a pack.
   - Fixed a display issue with the Bonus Roll counter.
+- Collection
+  - Fixed some missing animation videos for Mantris SR cards and exclusive cards.
 - Profile
   - Fixed some avatars from cards not selectable in the avatar list.
 - System
