@@ -145,7 +145,7 @@
 - Raid
   - The Event Exclusive cards rewarded in Raids are now replaced with a Shard.
     - You will need 20 Shards to create an Exclusive card from the event.
-    - The Shard can create a Kunesh (Standard or Alternative), Gamar (Standard or Alternative) or Kunesh & Gamar card randomly following those odds: 70% Standard, 20% Alternative, 5% Combo; 50/50 between Kunesh and Gamar for Standard and Alternative.
+    - The Shard can create a Kunesh (Standard or Alternative), Gamar (Standard or Alternative) or Kunesh & Gamar card randomly following those odds: 70% Standard, 25% Alternative, 5% Combo; 50/50 between Kunesh and Gamar for Standard and Alternative.
     - You will receive at least 1 shard for each raid boss if you have been active and the boss was defeated. Based on the tier of the boss, the odds or the amount of rewards are increased.
   - Exclusive Shards, Event points and the chance to get a card pack are now increased based on your position in the damage leaderboard.
     - If you are in the top 1% of the damage Leaderboard, you will receive 100% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 100%.
