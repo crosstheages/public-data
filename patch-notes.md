@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9265](#0229265-patch)
   - [0.22.9191](#0229191-patch)
   - [0.22.9144](#0229144-patch)
   - [0.22.9115](#0229115-patch)
@@ -134,6 +135,53 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9265 Patch
+
+`2024-04-10 06:00 UTC`
+
+### Changes
+
+- Raid
+  - The Event Exclusive cards rewarded in Raids are now replaced with a Shard.
+    - You will need 20 Shards to create an Exclusive card from the event.
+    - The Shard can create a Kunesh (Standard or Alternative), Gamar (Standard or Alternative) or Kunesh & Gamar card randomly following those odds: 70% Standard, 20% Alternative, 5% Combo; 50/50 between Kunesh and Gamar for Standard and Alternative.
+    - You will receive at least 1 shard for each raid boss if you have been active and the boss was defeated. Based on the tier of the boss, the odds or the amount of rewards are increased.
+  - Exclusive Shards, Event points and the chance to get a card pack are now increased based on your position in the damage leaderboard.
+    - If you are in the top 1% of the damage Leaderboard, you will receive 100% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 100%.
+    - If you are in the top 50% of the damage Leaderboard, you will receive 50% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 50%.
+  - Players that were registered but didn't participate in the Raid will not receive rewards anymore. The potential rewards they could get is now redistributed among other active players in the form of a bonus multiplier to every reward that can be increased (basically all of them except Victory Points).
+  - Players that participated actively in the Raid will now receive rewards even if the boss didn't die at the end of the timer (roughly half of the amount of reward received if the boss died).
+  - The leaderboard of the top 128 is now directly sent on Discord at the end of the fight, while we work on a more permanent leaderboard integrated in-game.
+- Play
+  - Enlarged the size of the hitbox for discard and draw.
+- Settings
+  - Added a setting to disable card drop effects.
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Unity SA not applying the correct power.
+- Raids
+  - Fixed an issue with the BGM not stopping correctly when needed.
+- Collection
+  - Fixed an issue with the Watch Dogs card filter not saving properly in presets.
+- Profile
+  - Fixed an issue with the profile refresh when looking at the collection.
+  - Fixed the position of the card selected for wide screens.
+  - Fixed an issue with the card selected showing empty card slots on public profiles.
+- Inbox
+  - Fixed an issue with scrolling in long mails with no rewards.
+  - Fixed an issue with mails with no rewards that didn't have a delete button.
+- Inventory
+  - Fixed an issue with the inventory not loading properly in some rare cases.
+- System
+  - Fixed an issue with the version check not displaying the error correctly when using an outdated version.
+  - Fixed few unlocalized items.
+  - Optimized the way we fetch multiple times the same request to alleviate server load.
+  - Increased the threshold for the shake to report an issue feature to reduce unsolicited shakes.
+- Deck Selection
+  - Fixed a display issue with the deck selection showing Trait instead of Element.
 
 ## 0.22.9191 Patch
 
