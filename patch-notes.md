@@ -147,9 +147,11 @@
     - You will need 20 Shards to create an Exclusive card from the event.
     - The Shard can create a Kunesh (Standard or Alternative), Gamar (Standard or Alternative) or Kunesh & Gamar card randomly following those odds: 70% Standard, 25% Alternative, 5% Combo; 50/50 between Kunesh and Gamar for Standard and Alternative.
     - You will receive at least 1 shard for each raid boss if you have been active and the boss was defeated. Based on the tier of the boss, the odds or the amount of rewards are increased.
-  - Exclusive Shards, Event points and the chance to get a card pack are now increased based on your position in the damage leaderboard.
+  - Exclusive Shards, Event points and the chance to get a card pack are now increased based on your position in the damage leaderboard, example:
     - If you are in the top 1% of the damage Leaderboard, you will receive 100% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 100%.
     - If you are in the top 50% of the damage Leaderboard, you will receive 50% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 50%.
+    - If you are in the top 90% of the damage Leaderboard, you will receive 10% more Shards and Event points as well as increasing the odds to get a Static Card Pack by 10%.
+    - And so on...
   - Players that were registered but didn't participate in the Raid will not receive rewards anymore. The potential rewards they could get is now redistributed among other active players in the form of a bonus multiplier to every reward that can be increased (basically all of them except Victory Points).
   - Players that participated actively in the Raid will now receive rewards even if the boss didn't die at the end of the timer (roughly half of the amount of reward received if the boss died).
   - The leaderboard of the top 128 is now directly sent on Discord at the end of the fight, while we work on a more permanent leaderboard integrated in-game.
