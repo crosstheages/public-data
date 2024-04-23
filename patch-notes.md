@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9534](#0229534-patch)
   - [0.22.9265](#0229265-patch)
   - [0.22.9191](#0229191-patch)
   - [0.22.9144](#0229144-patch)
@@ -135,6 +136,65 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9534 Patch
+
+`2024-04-23 14:00 UTC`
+
+### Changes
+
+- Watch Dogs collection
+  - The second series of cards from the Watch Dogs collection representing the Rift faction will be available starting from `2024-04-24 16:00 UTC` and until the end of the Season 2.
+  - Get your Watch Dogs cards from the Rift faction with the 24 packs Box to receive a Connie Robinson Special Rare card.
+  - Get card backs specific to the Watch Dogs collection by collecting cards from the collection.
+  - The numbering for second series cards will not be determined until `2024-04-26 16:00 UTC`.
+  - We added a tab in the profile to see the collection progress of the Watch Dogs collection.
+- Gameplay
+  - Special Ability - Download (New)
+    - When played, your Leader duplicates the best battle card from the deck of your opponent and puts it in your hand.
+    - This new Special Ability dedicated to the Watch Dogs collaboration can be obtained by achieving 50% of the Watch Dogs collection.
+- Raid
+  - We changed a bit the presentation of the Raid in Adventure mode:
+    - We added a reward popup to present the list of available rewards.
+    - We added a shortcut to the event journey from the challenge screen to facilitate navigation.
+  - Health from Raid Boss no longer increases based on the registered players but based on the active players during an encounter.
+  - Health from Raid Boss is no longer reduced on next attempts in case it was not killed previously.
+  - Players have a maximum of 30s per turn and 2 mins in total to end a raid boss duel.
+  - There is no more AFK penalty nor "AFK status" and thus any kind of AFK reward bonus anymore.
+  - You can register to a raid boss only if its remaining health is superior to 10%.
+  - Raid Boss encounter has been reduced to 20 mins, Health has been adjusted accordingly.
+  - Raid Bosses per day reduced to 3 down from 4, energy cost has been adjusted accordingly.
+  - Rewards have been adjusted accordingly with a new bonus for the whole top 100 and 10 who have additional guaranteed shards.
+  - Duels that finish after the raid boss encounter has ended still count towards the leaderboard.
+  - Rewards are now sent when everyone finishes its raid boss duel, it can be several minutes after the raid encounter has ended.
+  - Surrender no longer counts damage against the raid boss.
+  - Changes applied earlier:
+    - Improved AI gameplay, including auto mode.
+    - Clarified the in-game mail regarding rewards gained.
+    - Numerous changes to our infrastructure to improve raid experience.
+    - As previously stated, to offset the technical difficulty we had at the start of the event, the event will now end on `2024-05-08 08:00 UTC`.
+- Mission
+  - Added a new General Mission for playing games with the Download Special Ability.
+- Settings
+  - Added a setting to disable card drop effect on the board.
+
+### Fixes
+
+- Craft
+  - Fixed an issue with eternal cards that could not be crafted.
+- Profil
+  - Fixed an issue with the profile edition preventing the switch between tabs.
+- Card Details
+  - Fixed an issue with artwork that could be shown with the wrong resolution.
+- Gamemode Selection
+  - Fixed an issue with some decks that would be wrongly flagged as invalid for Ranked.
+- Inbox
+  - Fixed a display issue in the inbox where a message could temporarily disappear after claiming rewards from another message.
+- Dashboard
+  - Fixed an issue with the Music of the dashboard that could be played numerous times at the same time.
+- System
+  - Fixed a crash that could happen when closing the game.
+  - Fixed an issue with input fields not having the cursor visible.
 
 ## 0.22.9265 Patch
 
