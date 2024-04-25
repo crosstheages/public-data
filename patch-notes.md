@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9553](#0229553-patch)
   - [0.22.9534](#0229534-patch)
   - [0.22.9265](#0229265-patch)
   - [0.22.9191](#0229191-patch)
@@ -136,6 +137,25 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9553 Patch
+
+`2024-04-24 xx:00 UTC`
+
+### Fixes
+
+- Duels
+  - Fixed an issue with the rank display at the end of a duel for Gladiators and Challengers. A compensation will be sent to affected players.
+  - Fixed an issue where players could get stuck at the end of a duel.
+  - Fixed a display issue with icons on a newly created Alliance.
+  - Fixed an issue with the play again functionality on activity that require Energy and the player doesn't have enough.
+  - Fixed an issue with the reinforcement icon not changing properly with the faction.
+  - Fixed a display issue with the Element icon of the Heptagram showing the wrong resolution.
+- Gamemode Selection
+  - Fixed an issue with the tutorial popup that couldn't close.
+- Raid
+  - Fixed a display issue with the icon of the current boss on the Challenge screen.
+  - Fixed a display issue with the currency header persistence.
 
 ## 0.22.9534 Patch
 
