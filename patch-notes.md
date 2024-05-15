@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9849](#0229849-patch)
   - [0.22.9553](#0229553-patch)
   - [0.22.9534](#0229534-patch)
   - [0.22.9265](#0229265-patch)
@@ -138,9 +139,56 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.9849 Patch
+
+`2024-04-24 10:00 UTC`
+
+### Changes
+
+- Token Generation Event (TGE)
+  - The TGE will happen on `2024-05-15 08:00 UTC`!
+  - If you have CTA tokens on your CTA account or inside your Mint Pass, they will be available directly on Immutable X.
+  - To mint cards or buy CTA Token, you will now have to go through the Portal.
+  - All mint Passes have been discharged and the CTA Tokens used have been deposited on your account.
+  - The weekly SR Airdrop has been paused and will resume a few weeks after the TGE. The access to the Perks tab has been locked in the meantime.
+  - Check the full article for all the in-depth information <https://www.crosstheages.com/en-us/news/cta/token-generation-event>
+- Animation Level
+  - As said in our latest AMA, we want to rework the collection to make it more accessible and be at the center of the application. With this rework, we also think that the current state of the animation levels is not satisfying as we want to allow all the players to get them more easily.
+  - To allow us to rework this feature, we decided to refund all the users who bought an animation level 2 or 3 on any card no matter the way (Free Animation, Pranah or CTA tokens).
+  - This refund will be made in CTA tokens for everyone.
+  - We locked the purchase of all Animation Level and it will return later on when we are ready.
+- Watch dogs
+  - The third series of cards from the Watch Dogs collection representing the Mantris faction will be available starting from `2024-05-15 16:00 UTC` and until the end of the Season 2.
+  - Get your Watch Dogs cards from the Mantris faction with the 24 packs Box to receive a Bagley Special Rare card.
+  - Get card backs specific to the Watch Dogs collection by collecting cards from the collection.
+  - The numbering for third series cards will not be determined until `2024-05-17 16:00 UTC`.
+  - Raids are back!
+    - Aiden Pierce decided to mess with the Bosses settings and implement his own instead. Watch Dogs characters are now the targets for Raids until June 18th.
+    - He added a new way to experience Raids:
+      - At the end of a turn, both players inflict damage on the other player equal to the sum of the powers of the cards they control.
+      - Your Leader is no longer guaranteed in your hand at the start of a Duel and no longer increases the chain by 1 when played.
+      - You only have 30s to play your turn.
+    - You can now earn Static versions of the Watch Dogs cards by participating in Raids and combining Shards. You can also win Trisel, event packs and Victory points.
+    - An in-game leaderboard has been added to directly see the damage inflicted during the current boss and the 8 previous bosses, as well as a Global Leaderboard to rank all players by damage inflicted since the start of this new Raid season.
+- Gameplay
+  - Capture indicator now shows up to chain 1 instead of only chain 0.
+  - Download SA now unlocks at 45% of the completion of the Watch Dogs collection instead of 50%.
+  - New activation Sounds for Banner of Command, Power Mirror and Power Stacking!
+- Profile
+  - You can now mark your profile as private to hide Collection and Story progression to other players.
+- Missions
+  - Added a Claim all missions to the General Missions tab.
+
+### Fixes
+
+- Profile
+  - Fixed a display issue with the SR, Exclusive and Unique cards count in the collection tab.
+- Inventory
+  - Fixed an issue with Event packs not showing the opening animation.
+
 ## 0.22.9553 Patch
 
-`2024-04-24 xx:00 UTC`
+`2024-04-24 12:00 UTC`
 
 ### Fixes
 
