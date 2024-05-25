@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.9914](#0229914-patch)
   - [0.22.9849](#0229849-patch)
   - [0.22.9553](#0229553-patch)
   - [0.22.9534](#0229534-patch)
@@ -138,6 +139,29 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.9914 Patch
+
+`2024-05-25 12:30 UTC`
+
+### Changes
+
+- Play
+  - Visual playboard adjustments, integration tweaks and card placement fixes.
+  - New activation Sounds for Field Influence, Draw Refill Special Ability.
+
+### Fixes
+
+- CTA Token
+  - Fixed an issue with the CTA count not refreshing properly and preventing minting even though the user had enough.
+  - Fixed an issue with the CTA Token count display rounding.
+- UI
+  - Added SFX on buttons on Mission and Loot screens.
+- Raid
+  - Fixed some visual issues on the Leaderboard dropdown, and added a permanent visualization of the score of the player when he participated.
+  - Fixed some placeholder text appearing while loading the first leaderboard.
+  - Reduced leaderboard loading time.
+  - Fixed a visual issue with the Energy counter not properly refreshing after registering to the Raid.
 
 ## 0.22.9849 Patch
 
