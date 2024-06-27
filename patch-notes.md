@@ -140,6 +140,60 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.10000 Patch
+
+`2024-06-27 02:00 UTC`
+
+### Changes
+
+- Arena
+  - A new ranked era is available !
+  - During this era, we will be holding the qualifier for the next Heroes' Legacy. Rank among the top 64 players in ranked PvP mode between June 26 and July 31 to qualify for the Heroes' Legacy 2024 final in Marseille.
+  - There will be exclusive cosmetic rewards for players that tries to qualify.
+- Gameplay
+  - Special Ability Balance
+    - Unity: Increased and unified the power gained for each reinforcement on a card to +20 instead of +10 for the first reinforcement and +5 for subsequent reinforcements.
+      - Full text: Empower each card you control by +20 power for each reinforcement. This is a passive effect and applies at the start of the duel.
+    - Banner of command: Buffed the power gain by controlled cards of the same element of the leader to +1 reinforcement (+100 power instead of +45). Increased the deck power reduction for cards of the same element as your Leader to -20 from -10.
+      - Full text: Controlled Battle cards that have the same element of your Leader, gain +1 reinforcement. Each card of the same element as your Leader has a deck cost reduction of -20. This is a passive effect and applies at the start of the duel.
+    - Power Mirror: Reverted the change that we made last year to only copy owned cards. It can now copy all cards on the board.
+      - Full text: When played, your Leader copies the nominal power of the most powerful card on the board.
+- Set 2 Special Rare combo card: Ríona
+  - The Special Rare combo card for the Set 2 is now available to be crafted !
+  - You will need a copy of every rare special card from the second set in alternative to craft it, as well as 39,000 Trisel.
+  - The numbering for Ríona will not be determined until `2024-07-10 08:00 UTC`.
+  - A new round of SR Airdrop for Set 2 will start on `2024-07-10 08:00 UTC`. You will be able to charge your mint passes to be eligible for airdrops.
+- Economy
+  - Pranah removal
+    - As announced in the latest CTA What's Next, Pranah will be removed as a currency and be replaced with CTA Token usage.
+    - You will now be able to make everything that you would do with Pranah, directly in CTA Token or local currency.
+    - On game launch, a popup will ask you to convert all the remaining Pranah at the current rate.
+    - Pranah bundle not yet opened will give CTA Token instead of Pranah, at the current rate.
+    - Energy can now be bought directly in the shop with different amounts.
+    - Mission reroll with Pranah has been removed and only the free reroll can now be used.
+    - Due to technical limitations with mobile stores, you can now only buy one pack of cards at the time. A new box of 12 packs of cards has been added to complement the 24 and 48 packs box to facilitate numerous packs purchase. Although, 12 packs boxes don't give Exclusive cards.
+  - MPC Wallet
+    - The current in-game wallet will be replaced with a Multi-Party Computation (MPC) Wallet to facilitate web3 interactions without the need to have a KYC. We will later refer it at the CTA Wallet.
+    - The first time you connect to the TCG after the update, you will be invited to transfer all the assets currently on your in-game wallet, to your CTA wallet.
+    - Any withdraw from the CTA Wallet will require a valid KYC.
+  - VIP program
+    - A new VIP program has been instituted. It rewards players that spend CTA Token to buy in-game assets through the store and players that stake their CTA Token.
+    - As you make purchases and stake CTA Token, you earn VIP points that allow you to upgrade your VIP level.
+    - VIP levels give you different bonuses like in-game shop reduction, mint discount, marketplace fees reduction, more unlocker slots, higher energy cap, animation speed up in Adventure mode, auto mode in dungeons, dungeon queues, and much more coming in season 3 and for Arise!
+    - You can see the state of your VIP status in the in-game shop or in your profile.  
+- Missions
+  - A new general mission has been added for era 3 of season 2 : I am the Champion (Season 2 Era 3): Win 20 ranked duels above Platinum rank during Era 2 of Season 2.
+  - The general mission "My purple shiny rock" (Buy your first Pranahs) has been deleted.
+- Sound
+  - Added various missing sfx on many interactions through the app, including sounds for card drops in game.
+- Raids
+  - Watch Dogs raids are now over. Thank you for participating in this new game mode.
+  - The response to the raids has been really great, and we'd like to thank all the players who took part. This new game mode has been a huge technical challenge, and we now want to bring it back more exceptionally to keep the content fresh.
+  - Stay tuned! 
+- Divers
+  - Renamed Victory points to Gaming points to differentiate them more clearly.
+  - Removed the Energy hard cap at 999.
+
 ## 0.22.9914 Patch
 
 `2024-05-25 12:30 UTC`
