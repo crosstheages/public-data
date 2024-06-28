@@ -140,6 +140,33 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.10438 Patch
+
+`2024-06-28 15:00 UTC`
+
+### Changes
+
+- Adventure
+  - Added the day display for the full Energy recovery in case the player has a max energy cap above 100.
+- Misc
+  - Added an estimated time to wait for the minting process on loading screens.
+
+### Fixes
+
+- Duel
+  - Fixed the Trisel gained display at the end of a duel.
+  - Fixed an issue with Banner of Command not correctly displaying a reinforcement icon on cards that benefit from the Leader being controlled.
+- Loot
+  - Fixed white square artifacts on the 12 pack box opening.
+- Shop
+  - Fixed several issues with shop purchases.
+  - We now correctly refresh the VIP Perks screen after a purchase.
+- Adventure
+  - Fixed the star display in adventure mode stuck at 8 stars.
+- Misc
+  - Fixed an issue with accounts with currencies remaining of old Wallets stuck on the Dashboard.
+  - Fixed the flow of CTA Wallet creation and CTA Token claims for specific cases.
+
 ## 0.22.10000 Patch
 
 `2024-06-27 02:00 UTC`
