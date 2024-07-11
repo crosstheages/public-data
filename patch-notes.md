@@ -140,6 +140,37 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.10507 Patch
+
+`2024-07-11 14:30 UTC`
+
+### Changes
+
+- Gameplay
+  - Special Ability Balance
+    - Banner of command: Nerfed the reinforcement gain to only apply to standard cards of the same element as the Leader.
+      - Full text: Controlled Standard Battle cards that have the same element of your Leader, gain +1 reinforcement. Each card of the same element as your Leader has a deck cost reduction of -20. This is a passive effect and applies at the start of the duel.
+- Adventure
+  - Surrendering during a series of dungeons now allows you to exit the series before it's end.
+- Interface 
+  - Links that would send you on the portal are now directly in game through a webview on mobile devices.
+
+### Fixes
+
+- Adventure
+  - Fixed an issue with the Chapter 3 tutorial not allowing you to discard your card with a drag and drop.
+- Shop
+  - The prices in the shop now correctly take into account your local currency.
+  - Fixed pricing for some countries outside of the EU.
+- Inventory
+  - Fixed an issue with the inventory preventing players from seeing their remaining pranah bundles and opening them.
+- Leaderboard
+  - Fixed some display issues.
+- Play
+  - Fixed some issues with the card drop sounds.
+- Crafting
+  - Fixed an issue in the Power up where some potential threshold would display the wrong number of cards added.
+
 ## 0.22.10438 Patch
 
 `2024-06-28 15:00 UTC`
