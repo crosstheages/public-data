@@ -140,6 +140,29 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.10527 Patch
+
+`2024-07-18 15:00 UTC`
+
+### Changes
+
+- Webview
+  - Added a way to access the portal through the Webview via the Burger menu on the Leaderboard.
+- VIP Perks
+  - Auto unlocker has been added as a Perks to VIP lvl 2 and onwards.
+- Arena
+  - Reduced the range at which two players can be matched together. A player can no longer be matched with players that are more than 3 divisions apart anymore.
+  - ie: A Champion player can only be matched with Champion, Gladiator, Diamond, and Platinum players.
+
+### Fixes
+
+- VIP Perks
+  - Fixed a display issue with perks that were not visible on the perks screen recap.
+- Leaderboard
+  - Fixed an issue with the Leaderboard that could fall into infinite loading.
+- Webview
+  - Fixed several display issues with the webview.
+
 ## 0.22.10507 Patch
 
 `2024-07-11 14:30 UTC`
