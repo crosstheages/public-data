@@ -153,6 +153,8 @@
 - Arena
   - Reduced the range at which two players can be matched together. A player can no longer be matched with players that are more than 3 divisions apart anymore.
   - ie: A Champion player can only be matched with Champion, Gladiator, Diamond, and Platinum players.
+  - The time between division's scope enlargement has also been increased to 1 minutes per division.
+  - ie: At first the ranked system will look only for opponents from your division. Then after 1 minute of queue, it will also look at the divisions around yours, and so on until 3 divisions apart.
 
 ### Fixes
 
