@@ -147,7 +147,7 @@
 ### Changes
 
 - Webview
-  - Added a way to access the portal through the Webview via the Burger menu on the Leaderboard.
+  - Added a way to access the portal through the Webview via the Burger menu on the Dashboard.
 - VIP Perks
   - Auto unlocker has been added as a Perks to VIP lvl 2 and onwards.
 - Arena
