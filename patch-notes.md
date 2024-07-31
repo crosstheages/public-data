@@ -140,6 +140,33 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.22.10549 Patch
+
+`2024-07-31 08:00 UTC`
+
+### Changes
+
+- Arena
+  - The qualifier for the Heroes Legacy is now over. Qualified players will be contacted and the final list will be sent in the next few days.
+  - We will send a unique cosmetic reward to players that played at least 10 ranked duels during this era, and another one for players that ranked at least Diamond.
+  - A new ranked era is available and will last until the end of the season. The same rewards apply as the previous era.
+  - Added a new board for this Era.
+- Raid
+  - Watch Dogs raid have returned with a few changes:
+    - Increased the amount of Watch Dogs card shard gained for each boss.
+    - If a T3 boss survived a raid, a new one will appear for the next Raid until it has been defeated, instead of a new T1/T2 boss rotation.
+    - The Auto mode is back for players that are at least VIP level 5.
+- Shop
+  - Watch Dogs serieshas been removed from the Shop.
+  - Watch Dogs packs can now be minted and traded on the Marketplace.
+
+### Fixes
+
+- Raid
+  - Fixed a few display issues with the Boss Health refresh.
+- Unlocker
+  - Fixed a few display issues with unlocker timers.
+
 ## 0.22.10527 Patch
 
 `2024-07-18 15:00 UTC`
