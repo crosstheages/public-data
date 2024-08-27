@@ -3,6 +3,12 @@
 ## Direct Links
 
 - 0.22
+  - [0.22.10654](#02210654-patch)
+  - [0.22.10549](#02210549-patch)
+  - [0.22.10527](#02210527-patch)
+  - [0.22.10507](#02210507-patch)
+  - [0.22.10438](#02210438-patch)
+  - [0.22.10000](#02210000-patch)
   - [0.22.9914](#0229914-patch)
   - [0.22.9849](#0229849-patch)
   - [0.22.9553](#0229553-patch)
@@ -139,6 +145,18 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+## 0.22.10564 Patch
+
+`2024-08-31 09:00 UTC`
+
+### Fixes
+
+- Loot
+  - Fixed an issue with chest minting.
+  - Fixed an issue with the display of the price for minting with Free Mint.
+- Dashboard
+  - Fixed a display issue with the system warning on the Dashboard not showing up properly.
 
 ## 0.22.10549 Patch
 
