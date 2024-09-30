@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
 - 0.22
   - [0.22.10654](#02210654-patch)
@@ -148,6 +149,49 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+## 0.23.11252 Patch
+
+`2024-09-27 08:00 PM UTC`
+
+### Changes
+
+- Collection
+  - Added a notification on the collection mission button when there is rewards to claim
+  - Added some loading animation after filter changes.
+  - Added a progress bar on the loading of animation level skins.
+  - After buying a skin for a card, it is now directly activated.
+- Raids
+  - Added more Rift cards to the Raid boss. (Hotfix already live)
+
+### Fixes
+
+- Collection
+  - Fixed the Foil filter selection being inverted.
+  - Fixed a display issue that showed Level 1 animation to Rift cards skins. (Hotfix already live)
+  - Fixed an issue with the card stack not opening. (Hotfix already live)
+  - Fixed an issue with the Shred value of SR cards Hannibal & Honora and Erika & Tiger Robot. (Available with next server restart)
+- Deck Edit
+  - Fixed an issue with the list of cards not showing all elements of combo cards and only showing one element. (Hotfix already live)
+  - Fixed a display issue with the tooltip on the warning icon when editing a deck to explain the reason it's invalid.
+- Forge
+  - Fixed the subtitle being inverted between flex and static cards.
+- Shop
+  - Fixed an issue with the Exclusive card not appearing directly in the player collection and instead being sent to the inbox.
+  - Fixed an issue with the Exclusive card power display. (Hotfix already live)
+  - Fixed responsive issue in the convert stone and Ark window.
+  - Moved the gift icon so it doesn't overlap the Element icon.
+  - Fixed some missing localization.
+- Dashboard
+  - Fixed a display issue with the Energy refill timer.
+- Inventory
+  - Fixed a display issue with the opening of multiple packs showing the same cards.
+- Adventure
+  - Fixed the remaining time display for the weekly challenge.
+- Raids
+  - Fixed an issue where the raid boss could be a field. (Hotfix already live)
+- System
+  - Fixed an issue with the webview not being shown when clicking on a link.
+
 ## 0.23.11206 Patch
 
 `2024-09-25 06:00 PM UTC`
@@ -156,7 +200,7 @@
 
 - Rift season
   - Season 3: Birth of Rift is here! You will be able to open your presale packs on `2024-09-26 06:00 PM UTC`. This season will feature up to 210 cards with 152 available right away.
-- Pack of Rift cards will be available in the shop on `2024-09-25 06:00 PM UTC` to give you some time to open your presale packs.
+  - Pack of Rift cards will be available in the shop on `2024-09-25 06:00 PM UTC` to give you some time to open your presale packs.
   - This season, you can also buy Ultra, Omega or Neo boxes that contain respectively 120, 240 and 480 Rift Cards. Those packs also come with an Exclusive card. The advancement, rank and grade of the card is random and determined the moment you buy a box. This Exclusive card will change every month. This month features Gravowl!
   - You will be able to mint these cards directly but the numbering for all Rift cards will not be determined until `2024-10-04 08:00 AM UTC`.
   - A whole new batch of missions have been added and all the missions will give Rift shards, cards or Packs. Unlocker, Arena duels and Adventure challenges now award Rift shard, cards or packs.
