@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
 - 0.22
@@ -148,6 +149,33 @@
   - [Patch](#021-patch)
 - 0.2.0
   - [Patch](#020-patch)
+
+
+## 0.23.11302 Patch
+
+`2024-10-03 14:00 PM UTC`
+
+### Changes
+
+- Collection
+  - Simplified the card detail and show directly the Footer instead of having to swipe from the bottom or click the arrow at the bottom.
+  - Clarified the Read Lore functionality for the fact that players claim Ark by reading it and not spending it.
+  - Added a Foil toggle on the product detail to switch between the Foil version of a card and its non-Foil version.
+  - Limited the number of cards taken by the shred duplicate functionality to 10 000 cards at a time. If you want to shred more than that, you will have to shred duplicates multiple times. This is to alleviate server load when shredding cards. (Available with next server restart)
+
+### Fixes
+
+- General
+  - Fixed an issue that caused connection losses after some time in the application.
+- Ranked Leaderboard
+  - Fixed a display issue with the Leaderboard not properly showing the Flex Roll drop rate.
+  - Fixed a display issue at the end of a duel not showing when you won a Flex Roll. Players have been dropping Flex Roll but they were not shown. Champions ang Gladiators can check in the Forge if they received any.
+- Collection
+  - Fixed a display issue with the Read Lore functionality displaying text in FR instead of EN.
+  - Fixed some white artifacts on some cards with parallax skin.
+- Deck edit
+  - Fixed an issue with the power filter not working properly.
+  - Fixed an issue with SA Banner not correctly applying the deck cost reduction.
 
 ## 0.23.11252 Patch
 
