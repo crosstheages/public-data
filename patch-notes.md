@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11351](#02311351-patch)
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
@@ -150,6 +151,28 @@
 - 0.2.0
   - [Patch](#020-patch)
 
+
+## 0.23.11351 Patch
+
+`2024-10-09 08:00 AM UTC`
+
+### Changes
+
+- Airdrop
+  - This week marks the first airdrop of Rift SR if you are eligible: Phosphene! 
+  - Along with the SR, we will also send the first Airdrop for the VIP Program advantage: Flex Rolls Airdrop for VIP level 6 and 7. The Ash Exclusive card Airdrop will start next week as players accumulate enough drop rate.
+  - Added the weekly Flex Roll and the Exclusive card percent in the VIP program window.
+- Collection
+  - Improved the full art of a card to hide all other UI elements and show the Artist of each card.
+  - Improved the skin page of each card to better show the displayed skin.
+
+### Fixes
+
+- Collection
+  - Fixed an issue with the Foil toggle being displayed on unowned cards.
+  - Fixed a display issue with the mission claim notification not disappearing after claiming a reward.
+- Forge
+  - Fixed an issue with the Flex Roll not being displayed in the Header.
 
 ## 0.23.11302 Patch
 
