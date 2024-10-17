@@ -1,4 +1,4 @@
-# Cross The Ages: TCG Early Access Patch Notes
+# Cross The Ages: TCG Season 2 Patch Notes
 
 ## Direct Links
 
