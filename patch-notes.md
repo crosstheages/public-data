@@ -3,10 +3,30 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11379](#02311379-patch)
   - [0.23.11351](#02311351-patch)
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11379 Patch
+
+`2024-10-18 08:00 AM UTC`
+
+### Changes
+
+- Airdrop
+  - On `2024-10-18 08:00 UTC`, every Honora & Hannibal owner will receive a new Rift SR card with the mirrored attributes from their H&H card.
+- Filters
+  - Changed the visual around a selected filter button to clarify when it has been selected.
+
+### Fixes
+
+- Shred
+  - Fixed a display issue with the shred all still showing a preview of stones earned when no rarity or rank was selected.
+- Collection
+  - Fixed a display issue with the lore claim flag persisting on a card after a claim until the collection is closed and reopened.
+  - Fixed a display issue when switching to the previous or following card rapidly.
 
 ## 0.23.11351 Patch
 
