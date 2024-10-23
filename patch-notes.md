@@ -3,11 +3,24 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11379 Hotfix #1](#02311379-hotfix-1)
   - [0.23.11379](#02311379-patch)
   - [0.23.11351](#02311351-patch)
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11379 Hotfix #1
+
+`2024-10-23 12:00 UTC`
+
+### Changes
+
+- Special Ability Balancing
+  - Field Influence: Fields are now empowered by +50 power (up from +40). This SA is now a passive effect and doesn't require the control of the Leader to be activated.
+    - Full text: Empower your field cards by +50 power and weaken opponent's field cards by -30 power. This is a passive effect and applies at the start of the duel.
+  - Power Stacking: The maximum power a Leader can be empowered is now 740 (up from 725).
+    - Full text: At the start of your turn, as long as you keep your Leader in your hand, empower it accordingly if your card is a: Mythic/S = 20; Ultra rare/Special rare/A = 15; Rare/B = 10; Uncommon/Common/C = 5. The power of the Leader can not exceed 740.
 
 ## 0.23.11379 Patch
 
