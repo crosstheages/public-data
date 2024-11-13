@@ -3,12 +3,73 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11709](#02311709-patch)
   - [0.23.11379 Hotfix #1](#02311379-hotfix-1)
   - [0.23.11379](#02311379-patch)
   - [0.23.11351](#02311351-patch)
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11709 Patch
+
+`2024-11-13 08:00 UTC`
+
+### Changes
+
+- Crafting
+  - Crafting is available now for all players!
+  - A numbering pool will be in place until `2024-11-22 8 am UTC`.
+  - Crafting is directly available in the card detail of a card. Either by selecting a specific card in the card stack and going to the craft tab, or directly in the Alternative or Combo card you want and clicking the Craft Button!
+  - Awaken standard rank 1 cards in one click and Merge combo cards directly without the need to manually awaken all reagent cards! 
+  - Powering up cards now doesn't require you to sacrifice cards, but instead uses stones and a currency.
+  - Static cards can now be crafted and require Static Stones and Arks. Eternal cards require Eternal Stones and Trisel. Flex cards cannot be crafted directly anymore. They first have to be converted into Static or Eternal.
+  - When crafting a combo card, odds now takes all reagent card's grade into account at pro rata.
+    - ie: The odds for merging a grade C card and a grade B card will give you...
+      - Before update: grade C 70%, grade B 22%, grade A 7%, grade S 1%.
+      - After update: grade C 53.3%, grade B 34.3%, grade A 10.9%, grade S 1.5%.
+- Collection
+  - We added a new setting in the filters to show card rarity on the list of cards from a set. 
+  - We reworked the quick filter display in the card stack so it is easier to see which one is selected or not. We also added a rank/grade quick filter and reworked the Foil filter with 3 states (foil and not foil / Only foil / No foil)
+  - We added the cta token & free mint display in the header when converting a card in Eternal.
+  - We added a "Select All" button in the Shred select card screen to select all currently filtered cards.
+  - We added a quick filter option in the card stack to filter by rank or grade. The rank/grade is now displayed in the top left corner of the cards.
+- VIP
+  - Added a level 8 to the VIP System.
+  - This level is available at 100 000 VIP points and unlocks
+    - the possibility to queue raid automatically,
+    - +1000 to the maximum energy,
+    - a 100% progress to the Exclusive card.
+- Shop
+  - We improved the display for boosters in the shop.
+- Dashboard
+  - We added a notification of the shop icon when players still have the daily claim for Ark and Static Stones available.
+- Cards
+  - We renamed some cards so they better fit the lore of Cross the Ages. The change will be made progressively as we have to update all cards on the Blockchain.
+    - Alvilid (Birth of Arkhante 132 & 133) into The Shores
+    - Sea Dragon (Birth of Arkhante 72 & 73) into Sea Drak
+  - All cards are now translated when changing the localization of the application. It is only translated in French for now but we plan on extending this to other languages.
+- Event
+  - Now that crafting is available, the Trisel bonus is now reduced to +25% until `2024-11-25 8 am UTC`
+  - The end of the Mantris mint has been postponed to `2025-01-01`
+
+### Fixes
+
+- Deck Edition
+  - We fixed a lot of issues related to deck building and the auto deck functionality
+    - Added back the same card swap button on cards that are the same as a card already added, that swaps an already added card with the selected card but from a different power/display (exclusives).
+    - Added a power warning directly in the deck edit screen to inform you when going above the 15000 power threshold.
+    - Added an heptagram button when editing a deck.
+    - Added toast notification after some actions to add feedback (duplicate deck, export deck, ...).
+    - Simplified the auto deck functionality by removing the deck type choice as it was already made in previous steps.
+    - Fixed the adventure auto deck sometimes creating 0 power decks.
+    - Fixed many display and usage issues.
+- Custom games
+  - Fixed an issue with the custom game preparation screen closing lobby on mobile when switching windows.
+- Card lore
+  - We fixed a few display issues in the card lore section.
+- Card detail
+  - We fixed a display issue with the swipe on cards with a skin activated that could lead to transparent cards.
 
 ## 0.23.11379 Hotfix #1
 
