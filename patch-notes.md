@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11731](#02311731-patch)
   - [0.23.11709](#02311709-patch)
   - [0.23.11379 Hotfix #1](#02311379-hotfix-1)
   - [0.23.11379](#02311379-patch)
@@ -10,6 +11,22 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11731 Patch
+
+`2024-11-15 14:00 UTC`
+
+### Fixes
+
+- Collection
+  - Fixed an issue with the shred window not showing the burn window, preventing players to shred Eternal cards.
+  - Fixed an issue with the burn window showing even on static cards if the player had a pending burn.
+  - Fixed a display issue with the card stack showing incorrect progress bar for ranks in the cards display.
+  - Fixed a display issue with the card stack showing incorrect style for the rank quick filter.
+- Shop
+  - Fixed an issue with payment with stripe. 
+- Ranked
+  - Fixed an issue with Ranked duels end screen relaunching duels automatically after stopping a Raids auto queue from the VIP Program. 
 
 ## 0.23.11709 Patch
 
