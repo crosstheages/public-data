@@ -26,7 +26,6 @@
 
 - Collection
   - When merging cards, players can't select the card with the grade they want.
-  - 
 - Raids
   - The automatic queue for raids with VIP level 8 can visually stop (even though it continues on the server side), and causes errors when the player wants to restart the queue.
 
