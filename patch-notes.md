@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11731 Hotfix #1](#02311731-hotfix-1)
   - [0.23.11731](#02311731-patch)
   - [0.23.11709](#02311709-patch)
   - [0.23.11379 Hotfix #1](#02311379-hotfix-1)
@@ -11,6 +12,23 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11731 Hotfix #1
+
+`2024-11-19 12:00 UTC`
+
+### Fixes
+
+- Mint
+  - Fixed an issue with the mint process sometimes taking longer than expected.
+
+### Known issues
+
+- Collection
+  - When merging cards, players can't select the card with the grade they want.
+  - 
+- Raids
+  - The automatic queue for raids with VIP level 8 can visually stop (even though it continues on the server side), and causes errors when the player wants to restart the queue.
 
 ## 0.23.11731 Patch
 
