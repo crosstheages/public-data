@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11818](#02311818-patch)
   - [0.23.11731 Hotfix #1](#02311731-hotfix-1)
   - [0.23.11731](#02311731-patch)
   - [0.23.11709](#02311709-patch)
@@ -13,6 +14,61 @@
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
 
+## 0.23.11818 Patch
+
+`2024-11-27 10:00 UTC`
+
+### Fixes
+
+- Collection
+  - Fixed an issue with the merge window not allowing the player to select the card with the grade they want.
+  - Fixed a display issue with the awakening animation showing an invisible card if timed between two grade previews.
+  - Fixed a display issue with the card name and title sometimes overlapping in the power up window.
+  - Fixed a display issue with the card shown as a preview of the awakening showing an incorrect numbering.
+  - Fixed a display issue with the card shown as a preview of the awakening still blinking even after canceling the awakening.
+  - Fixed a display issue with the awakening not allowing to return to rank 5 when showing the preview for awakening.
+  - Fixed a display issue with the icon of the faction of the card in the power up screen not changing according to the card faction.
+  - Fixed a display issue with the card shown after an awakening to redirect to the merge window, sometimes appearing without the art.
+  - Fixed an issue with cards not being acknowledged after receiving them from the forge and collection missions.
+  - Removed the shred icon from the card stack shown when clicking the craft shortcut.
+  - Fixed a display issue with the card stack showing incorrect progress bars for ranks in the cards display other than rank 1.
+  - Fixed a display issue with the card stack showing incorrect style for the rank quick filter other than rank 1.
+  - Fixed a display issue with the mint window not showing the same amount of CTA Token required to mint a card as the portal.
+  - Fixed a display issue with the product detail sometimes showing left and right cards in full color even if the card was not owned.
+  - Fixed a display issue with the product detail footer not refreshing properly after minting a card.
+  - Fixed a display issue with the product detail showing the card on the left on the first card of a collection on large screens.
+  - Fixed a display issue with the product detail showing incorrect faction icons for Mantris and Rift cards.
+  - Fixed a display issue with the product detail responsiveness when swiping rapidly between multiple cards.
+  - Fixed a display issue with the product detail unlocking the craft menu for flex cards by locking and unlocking them, resulting in errors.
+  - Fixed an issue with the craft button in the product detail not directly redirecting to the awakening tab with the Alt button selected.
+  - Fixed a display issue with cards not refreshing properly after buying a skin.
+  - Fixed a display issue with card details not refreshing properly after shredding the card, allowing actions that would end up in errors.
+  - Fixed a display issue with the lore tab in the product detail briefly showing placeholder text when loading.
+  - Fixed a display issue with the lore tab in the product detail showing black borders on very large devices.
+  - Fixed some delays after the swap left/right of a card before interacting with the new card.
+- Shop
+  - Fixed an issue with shop redirections not correctly scrolling to the right part of the shop.
+  - Fixed an issue with the remaining time of the rift card collection showing inaccurate time.
+- Inventory
+  - Fixed an issue with the eternal shard combine not opening the burn popup.
+- Raid
+  - Fixed a display issue with the Raid Leaderboard not correctly centering cards in the banner.
+  - Fixed a display issue with the duel end screen not always showing the boss art.
+- Game mode selection
+  - Fixed an issue with the deck selection not invalidating a deck that had been changed and was incomplete.
+- Custom games
+  - Fixed display issues after reconnecting to a custom lobby.
+  - Removed the competitive custom lobby option as we don't need it anymore.
+- Versus
+  - Fixed a display issue with the Versus screen not properly centering Leaders art.
+
+### Known issues
+
+- Raids
+  - The automatic queue for raids with VIP level 8 can visually stop (even though it continues on the server side), and causes errors when the player wants to restart the queue. Temporary fix is to disable VFX when using auto mode in Raid.
+- Duel
+  - After multiple duels, players might start seeing frame drops. We recommand players to restart the application after a few duels to prevent this while we find the source of the issue. 
+
 ## 0.23.11731 Hotfix #1
 
 `2024-11-19 12:00 UTC`
@@ -21,13 +77,6 @@
 
 - Mint
   - Fixed an issue with the mint process sometimes taking longer than expected.
-
-### Known issues
-
-- Collection
-  - When merging cards, players can't select the card with the grade they want.
-- Raids
-  - The automatic queue for raids with VIP level 8 can visually stop (even though it continues on the server side), and causes errors when the player wants to restart the queue.
 
 ## 0.23.11731 Patch
 
