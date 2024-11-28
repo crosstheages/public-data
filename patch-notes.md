@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11821](#02311821-patch)
   - [0.23.11818](#02311818-patch)
   - [0.23.11731 Hotfix #1](#02311731-hotfix-1)
   - [0.23.11731](#02311731-patch)
@@ -13,6 +14,15 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11821 Patch
+
+`2024-11-28 15:00 UTC`
+
+### Fixes
+
+- Duel
+  - Fixed a memory leak that could cause a crash after multiple duels. 
 
 ## 0.23.11818 Patch
 
@@ -61,13 +71,6 @@
   - Removed the competitive custom lobby option as we don't need it anymore.
 - Versus
   - Fixed a display issue with the Versus screen not properly centering Leaders art.
-
-### Known issues
-
-- Raids
-  - The automatic queue for raids with VIP level 8 can visually stop (even though it continues on the server side), and causes errors when the player wants to restart the queue. Temporary fix is to disable VFX when using auto mode in Raid.
-- Duel
-  - After multiple duels, players might start seeing frame drops. We recommand players to restart the application after a few duels to prevent this while we find the source of the issue. 
 
 ## 0.23.11731 Hotfix #1
 
