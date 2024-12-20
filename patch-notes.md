@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.11981](#02311981-patch)
   - [0.23.11821](#02311821-patch)
   - [0.23.11818](#02311818-patch)
   - [0.23.11731 Hotfix #1](#02311731-hotfix-1)
@@ -14,6 +15,76 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.11981 Patch
+
+`2024-12-19 12:00 UTC`
+
+### Changes
+
+- Collection
+  - Prestige sets now also show non-collected exclusive cards. (Hotfix already live)
+  - Added a toggle on the set list to show the player cards from all combined collections.
+  - Sets are now displayed from latest release to oldest release in the list of sets. We also added a button to clarify the switch between classic sets and prestige sets.
+  - The cards from a set are now loaded dynamically when scrolling to avoid long load times.
+  - On cards displayed in a card stack, we added two indicators for when the card is already in a deck and for when a card is locked.
+  - Improved the appearance of the set mission window and added a link to the profile of the player to have a better overview of the collection progression.
+  - Quick-filter icons for the card stack of alternative cards now change color depending on the rarity of the card.
+  - Rarity filters now only show rarities available in that set.
+  - On PC, the card name research now has focus directly after opening the filters to facilitate card search.
+  - Changed the appearance of some of the filters to improve readability of what is selected or not.
+  - When no cards are returned by the filters, we added a text where the cards would be to indicate that the search returned no result.
+  - Filters are now reset when opening a card stack or by returning to the set list to avoid confusion with already selected filters.
+  - When filtering cards in a set, the card details now also apply that filter when showing previous/next cards.
+  - We added a setting in the filter Panel to show the power of the cards displayed.
+- Crafting
+  - Added a warning popup when trying to merge cards containing at least one grade S card.
+  - Changed the icon and position of the information and grade percentage icons for the merge to make it more clear.
+  - In the merge screen, we added a button in the card selection screen to craft another alternative card.
+  - The merge toggles are now pre-selected depending on where you come from :
+    - Coming from the awakening of a card, the toggles selected are now the ones from the previously awakened card.
+    - Coming from the list of cards from a set, if you filtered with Eternal cards or Foil cards, the same toggles are selected in the merge screen.
+- Deck edit
+  - Added a small delay after adding a card to a deck to avoid mistakes when quickly tapping a card multiple times.
+  - When selecting the Field quick-filter, deselect all other power filters.
+- Shop
+  - Added a timer on exclusive cards in the shop from the Rift series indicating the remaining time before the next Exclusive card.
+- Bug report
+  - Added a category selection when reporting issues directly to make it easier to track in internal tools.
+- Cards
+  - Some cards have seen their artist changed to indicate the Artist name directly instead of the Polar Engine Art Studio.
+- Other
+  - Changed all webview redirection to the new portal.
+  - Added a skip button to the introduction video.
+  - Changed the way we display currencies to shorten display length.
+
+### Fixes
+
+- Collection
+  - Fixed an issue with the duplicate shred functionality sometimes not shredding all duplicates cards. (Hotfix already live)
+  - Fixed a display issue with craft icons on the list of cards not refreshing properly after shredding the last card.
+  - Fixed a display issue with the card details showing rarity borders on non possessed cards instead of greyed out borders.
+  - Fixed a display issue with the card details showing incorrect faction icons for Rift and Mantris cards.
+  - Fixed a display issue with the tooltip above decks in the deck list that would show outside of the screen for first and last decks of the list.
+  - Fixed a display issue with the shred duplicates window missing faded background.
+- Crafting
+  - Fixed a responsive issue on the Burn window for specific devices.
+  - Fixed a display issue with the power up and awakening window showing incorrect faction icons for Rift and Mantris cards.
+- Deck edit
+  - Fixed a display issue with the Heptagram being cropped on specific screen resolutions.
+  - Fixed an issue with element filters sometimes acting incorrectly when deselecting the last filter.
+- Opening
+  - Fixed a display issue with opening animation for season 1 boosters showing a chest animation instead of a booster opening.
+- Duel
+  - Fixed a display issue with the Raid boss art on the end screen of a duel being cropped.
+
+### Known issues
+
+- Trying to awaken a card right after converting into Eternal can sometimes result in errors or impossibility to complete the awakening.
+- The newly added "detail" button in the merge correctly sends you to the card you want to see but the return button from the card detail doesn't return to the merge screen.
+- The expand filter button from the shred screen was released but should not have been in this build as it is not ready and Filters are not working properly. It will be completed in a future build.
+- Rarity filters in the Watch Dog set are visible but shouldn't because there is only one rarity in this set.
+- Shredding from a prestige set doesn't show only prestige cards.
 
 ## 0.23.11821 Patch
 
