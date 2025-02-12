@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12188](#02312188-patch)
   - [0.23.11981](#02311981-patch)
   - [0.23.11821](#02311821-patch)
   - [0.23.11818](#02311818-patch)
@@ -15,6 +16,49 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12188 Patch
+
+`2025-02-12 08:00 UTC`
+
+### Changes
+
+- Push notifications
+  - Add push notifications for phones in several cases:
+    - When a pack is completed in the unlocker.
+    - When an unlocker slot is available and a pack is available.
+    - When the start of a raid's fight phase is 15 minutes away and the player is not registered.
+    - When a raid's fight phase has begun and the player is registered.
+  - An option is available to disable push notifications. On some phones, you may have to manually enable push notification through the Operating system.
+  - Notifications are still in an early stage and players could encounter some issues on specific devices. We will monitor this closely and make adjustments if necessary.
+- Missions
+  - As a first step to refactor our code base, we have deleted some daily, weekly and general missions linked to elements. If you had unclaimed General Missions, we claimed them automatically and sent you the rewards.
+- Collection
+  - Added numerous missing level 2 and 3 animations for Exclusive and Special Rare cards.
+  - When entering the merge screen from an alternative card: this card is automatically pre-selected.
+  - When entering the merge screen from the collection while filtered on eternal/static or foil/non foil, merge toggles are pre-selected on these parameters.
+  - Shredding from a prestige collection now only offers cards from the prestige collection.
+  - If the collection is filtered on foil or non-foil, the toggle foil is no longer displayed in the card detail.
+  - Added the toggle foil in card details even if the user doesn't own the card.
+  - Changed the way the element filter works when selecting the first element.
+- Profile
+  - Return of the ability to select a card in the profile.
+  - Added a card back tab to view the list of available card backs and how to obtain them.
+
+### Fixes
+
+- Collection
+  - Corrected the card numbering in prestige card's card details.
+  - Fixed inability to awaken from the global collection.
+  - Correction of the faction and power filters from the global collection.
+- Deck edition
+  - Fixed a glitch with the heptagram button in deck edition on some rare occasions.
+- Pack opening
+  - Corrected the card back display when opening packs.
+- Missions 
+  - The reroll button is now grayed out if the player has already used his daily reroll.
+- Play
+  - Fixed an issue with the sound played when playing a field card playing multiple times.
 
 ## 0.23.11981 Patch
 
