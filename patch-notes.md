@@ -37,7 +37,7 @@
   - Added numerous missing level 2 and 3 animations for Exclusive and Special Rare cards.
   - When entering the merge screen from an alternative card: this card is automatically pre-selected.
   - When entering the merge screen from the collection while filtered on eternal/static or foil/non foil, merge toggles are pre-selected on these parameters.
-  - Shredding from a prestige collection now only offers cards from the prestige collection.
+  - Using the select card shred from a prestige collection now only shows cards from the prestige collection.
   - If the collection is filtered on foil or non-foil, the toggle foil is no longer displayed in the card detail.
   - Added the toggle foil in card details even if the user doesn't own the card.
   - Changed the way the element filter works when selecting the first element.
