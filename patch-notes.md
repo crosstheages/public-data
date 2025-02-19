@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12203](#02312203-patch)
   - [0.23.12188](#02312188-patch)
   - [0.23.11981](#02311981-patch)
   - [0.23.11821](#02311821-patch)
@@ -16,6 +17,28 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12203 Patch
+
+`2025-02-19 18:00 UTC`
+
+### Fixes
+
+- Play
+  - Fixed an issue with fields sound persisting after the end of a duel.
+  - Fixed mixing on different field sounds.
+  - Fixed field color effect for some alternative fields.
+- Collection
+  - Fixed the crafting shortcut on SR cards in product details.
+  - Fixed the display of the rank in the card stack.
+  - Fixed card name search bar with some characters.
+  - Fixed card unselection in the card selection shred after a long scroll.
+  - Fixed the cards displayed in card details after a redirection from the Merge.
+- Missions
+  - Fixed some missions without text (already live).
+- System
+  - Fixed an issue that prevented the game from launching on older devices.
+  - Fixed a notification system issue that sent the same notification to the same device several times (already live).
 
 ## 0.23.12188 Patch
 
