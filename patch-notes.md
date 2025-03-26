@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12301](#02312301-patch)
   - [0.23.12203](#02312203-patch)
   - [0.23.12188](#02312188-patch)
   - [0.23.11981](#02311981-patch)
@@ -17,6 +18,41 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12301 Patch
+
+### Changes
+
+- Please note that this is the last update that will be distributed through our launcher. All subsequent updates will only be distributed through Epic Games, Apple Store and Google Play Store.
+- 2 years Anniversary event
+  - To celebrate the TCG's 2nd birthday, we're running a special event until April 29, where you can win exclusive cosmetics and cards.
+  - Gain an exclusive Avatar, Card back, Profile Banner and 2 emotes by winning Raids. When winning a Raid, you are randomly rewarded with one of the cosmetics that you don't have yet.
+  - Gain 5 different exclusive cards by winning duels and Raids: Muders, Gryffin and their combo! 
+    - In Raids: 
+      - The chance to get a card varies depending on the difficulty of the Raid and your ranking in the damage leaderboard for this boss.
+      - You can win standard cards in T1 raids, Alternative cards in T2 raids and the combo in T3 raids. The ranks, grades and foil status are random following the usual rates.
+      - Those cards have a 67% chance to be Static and 33% chance to be Flex. 
+    - In duels:
+      - When you win a duel, you have a 50% chance to drop an Exclusive card. 
+      - You can only get 1 card per duel and the advancement, rank, grade and foil status is random following the usual rates.
+      - The chance for this card to be Flex depends on the VIP level you are (0.23% at VIP 1, 0.75% at VIP 2, 1.88% at VIP 3, 3.75% at VIP 4, 7.5% at VIP 5, 18.75% at VIP 6, 37.5% at VIP 7, 75% at VIP 8).
+  - The Reverse Special Ability returns for the duration of the event, given to everyone at the start of the event.
+    - Full description: When played, your Leader reverses the conditions for capturing a card for 3 turns: if you were to capture a card, it is not captured, and vice versa.
+- Card skins
+  - We released parallax skins for all cards from season 1, season 2 and watch dogs sets.
+  - We also improved the Foil effect on all parallax skins.
+  - We added the last missing level 2 and 3 animations for Exclusive and Special Rare cards.
+- Collection
+  - Added the ability to filter more precisely when selecting cards to shred.
+  - Added the ability to lock/unlock multiple cards at once.
+- Shop
+  - The next excluded card will be available in the shop on `2025-04-09 8 am UTC` and until `2025-06-04 8 am UTC`.
+- Notification
+  - Added a notification when the unlocker booster stock is empty for vip lv 2 and more.
+
+### Known issues
+
+- The animation for opening a pack may bug out on some devices and show some missing assets.
 
 ## 0.23.12203 Patch
 
@@ -144,14 +180,6 @@
   - Fixed a display issue with opening animation for season 1 boosters showing a chest animation instead of a booster opening.
 - Duel
   - Fixed a display issue with the Raid boss art on the end screen of a duel being cropped.
-
-### Known issues
-
-- Trying to awaken a card right after converting into Eternal can sometimes result in errors or impossibility to complete the awakening.
-- The newly added "detail" button in the merge correctly sends you to the card you want to see but the return button from the card detail doesn't return to the merge screen.
-- The expand filter button from the shred screen was released but should not have been in this build as it is not ready and Filters are not working properly. It will be completed in a future build.
-- Rarity filters in the Watch Dog set are visible but shouldn't because there is only one rarity in this set.
-- Shredding from a prestige set doesn't show only prestige cards.
 
 ## 0.23.11821 Patch
 
