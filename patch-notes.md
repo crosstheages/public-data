@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12311](#02312311-patch)
   - [0.23.12301](#02312301-patch)
   - [0.23.12203](#02312203-patch)
   - [0.23.12188](#02312188-patch)
@@ -19,6 +20,19 @@
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
 
+## 0.23.12311 Patch
+
+`2025-03-27 16:00 UTC`
+
+### Fixes
+
+- Play
+  - Fixed a display issue with the duel end screen not showing the Blockchain State of the Exclusive card awarded.
+  - Fixed a display issue with the Exclusive cards won in duels not being properly acknowledged and being distributed through the inbox.
+  - Fixed a display issue with the Reverse SA animation being smaller than intended.
+- Inventory
+  - Fixed an issue with the opening animation showing missing assets.
+
 ## 0.23.12301 Patch
 
 ### Changes
@@ -27,12 +41,12 @@
 - 2 years Anniversary event
   - To celebrate the TCG's 2nd birthday, we're running a special event until April 29, where you can win exclusive cosmetics and cards.
   - Gain an exclusive Avatar, Card back, Profile Banner and 2 emotes by winning Raids. When winning a Raid, you are randomly rewarded with one of the cosmetics that you don't have yet.
-  - Gain 5 different exclusive cards by winning duels and Raids: Muders, Gryffin and their combo! 
+  - Gain 5 different exclusive cards by winning ranked duels and Raids: Muders, Gryffin and their combo! 
     - In Raids: 
       - The chance to get a card varies depending on the difficulty of the Raid and your ranking in the damage leaderboard for this boss.
       - You can win standard cards in T1 raids, Alternative cards in T2 raids and the combo in T3 raids. The ranks, grades and foil status are random following the usual rates.
       - Those cards have a 67% chance to be Static and 33% chance to be Flex. 
-    - In duels:
+    - In ranked duels:
       - When you win a duel, you have a 50% chance to drop an Exclusive card. 
       - You can only get 1 card per duel and the advancement, rank, grade and foil status is random following the usual rates.
       - The chance for this card to be Flex depends on the VIP level you are (0.23% at VIP 1, 0.75% at VIP 2, 1.88% at VIP 3, 3.75% at VIP 4, 7.5% at VIP 5, 18.75% at VIP 6, 37.5% at VIP 7, 75% at VIP 8).
