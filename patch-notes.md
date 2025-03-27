@@ -44,11 +44,11 @@
   - Gain 5 different exclusive cards by winning ranked duels and Raids: Muders, Gryffin and their combo! 
     - In Raids: 
       - The chance to get a card varies depending on the difficulty of the Raid and your ranking in the damage leaderboard for this boss.
-      - You can win standard cards in T1 raids, Alternative cards in T2 raids and the combo in T3 raids. The ranks, grades and foil status are random following the usual rates.
+      - You can win standard cards in T1 raids, Alternative cards in T2 raids and the combo in T3 raids. The ranks, grades and foil status are random following the usual rates. (Rank: 1:20%, 2:20%, 3:20%, 4:20%, 5:20%; Grade: C:70%, B:22%, A:7%, S:1%; Foil 10% )
       - Those cards have a 67% chance to be Static and 33% chance to be Flex. 
     - In ranked duels:
       - When you win a duel, you have a 50% chance to drop an Exclusive card. 
-      - You can only get 1 card per duel and the advancement, rank, grade and foil status is random following the usual rates.
+      - You can only get 1 card per duel and the advancement, rank, grade and foil status is random following the usual rates. (Advancement: Std: 80%, Alt: 15%, Cmb: 5%; Rank: 1:20%, 2:20%, 3:20%, 4:20%, 5:20%; Grade: C:70%, B:22%, A:7%, S:1%; Foil 10% )
       - The chance for this card to be Flex depends on the VIP level you are (0.23% at VIP 1, 0.75% at VIP 2, 1.88% at VIP 3, 3.75% at VIP 4, 7.5% at VIP 5, 18.75% at VIP 6, 37.5% at VIP 7, 75% at VIP 8).
   - The Reverse Special Ability returns for the duration of the event, given to everyone at the start of the event.
     - Full description: When played, your Leader reverses the conditions for capturing a card for 3 turns: if you were to capture a card, it is not captured, and vice versa.
