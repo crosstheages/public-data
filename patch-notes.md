@@ -30,6 +30,7 @@
   - Fixed a display issue with the duel end screen not showing the Blockchain State of the Exclusive card awarded.
   - Fixed a display issue with the Exclusive cards won in duels not being properly acknowledged and being distributed through the inbox.
   - Fixed a display issue with the Reverse SA animation being smaller than intended.
+  - Fixed the french localization of Chaka's event avatar.
 - Inventory
   - Fixed an issue with the opening animation showing missing assets.
 
@@ -63,10 +64,6 @@
   - The next excluded card will be available in the shop on `2025-04-09 8 am UTC` and until `2025-06-04 8 am UTC`.
 - Notification
   - Added a notification when the unlocker booster stock is empty for vip lv 2 and more.
-
-### Known issues
-
-- The animation for opening a pack may bug out on some devices and show some missing assets.
 
 ## 0.23.12203 Patch
 
