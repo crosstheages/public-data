@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12311 Hotfix #1](#02312311-hotfix-1)
   - [0.23.12311](#02312311-patch)
   - [0.23.12301](#02312301-patch)
   - [0.23.12203](#02312203-patch)
@@ -19,6 +20,17 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12311 Hotfix #1
+
+`2025-04-07 13:00 UTC`
+
+### Fixes
+
+- System
+  - We made significant changes to the way we handle duels processed by the servers. The initial deployment was planned to be alongside the new gameplay but with the influx of players coming for the event, some issues resurfaced and we made the decision to take some time to deploy some of the changes beforehand. 
+  - You should see way less crashes than before, but may still encounter some. The new structure also allows us to automatically restart the processing unit when a crash occurs. It means that even if a crash occurs, your game should go back to normal within a minute progressively. Successive games should also be faster to try and catch up the lost time.
+  - Deploying big architecture changes is hard to test at a large scale and we may encounter unplanned issues. We think this is the best time to make those changes at the wake of the new gameplay changes.
 
 ## 0.23.12311 Patch
 
