@@ -1,17 +1,17 @@
 # Cross The Ages: Portal Patch Notes
-## Direct Links
-- 0.1
-  - [0.1.00001](#0100001-patch)
 
-## 0.1.00001 Patch
-## 0.1.00001 Crafting + Search
+## Direct Links
+
+- 0.1
+  - [0.1.1](#011-crafting)
+  - [0.1.2](#012-crafting)
+
+## 0.1.1 Crafting
 
 `2025-04-17 08:00 UTC`
 
 ### Changes
 
-- Github
-  - Init file
 #### _Crafting_
 We’re thrilled to introduce a brand-new feature to the Portal: the integration of crafting!
 Here’s everything you need to know to make the most of it:
@@ -52,13 +52,11 @@ Share your thoughts and suggestions in the dedicated space:
 The search system has been completely overhauled to make finding specific cards easier. The search refines results as you type in the search bar.
 Note: Card names must be entered in the language selected on the portal.
 
----
 ### Fixes
 The name sorting system has been reimplemented. Sorting options are now displayed directly with clear descriptions, removing the need for arrow-based navigation.
 
 Instead of "Sort by name" with an up/down arrow, you now have:
-
-- Github
-  - Init file
 - Name (A → Z)
 - Name (Z → A)
+
+## 0.1.2 Crafting
