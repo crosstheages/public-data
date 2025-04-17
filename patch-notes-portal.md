@@ -4,7 +4,6 @@
 
 - 0.1
   - [0.1.1](#011-crafting)
-  - [0.1.2](#012-crafting)
 
 ## 0.1.1 Crafting
 
@@ -58,5 +57,3 @@ The name sorting system has been reimplemented. Sorting options are now displaye
 Instead of "Sort by name" with an up/down arrow, you now have:
 - Name (A → Z)
 - Name (Z → A)
-
-## 0.1.2 Crafting
