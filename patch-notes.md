@@ -48,6 +48,8 @@
 
 ## 0.23.12301 Patch
 
+`2025-03-16 08:00 UTC`
+
 ### Changes
 
 - Please note that this is the last update that will be distributed through our launcher. All subsequent updates will only be distributed through Epic Games, Apple Store and Google Play Store.
