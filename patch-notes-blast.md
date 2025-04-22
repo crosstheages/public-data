@@ -7,14 +7,12 @@
 
 ## 0.24.00001 Patch
 
-`2025-04-17 08:00 UTC`
+`2025-04-22 11am UTC`
 
 ### Changes
 
-- Github
-  - Init file
+- Available in a few hours
 
 ### Fixes
 
-- Github
-  - Init file
+- Available in a few hours
