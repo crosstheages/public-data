@@ -3,8 +3,29 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
+
+## 0.24.13302 Patch
+
+`2025-04-30 08:00 UTC`
+
+This version will be available on Epic Games Store, a link will be send by mail to all whitelisted accounts after the maintenance. 
+
+### Fixes
+- Play
+  - Fixed a visual issue with card borders not displaying correctly.
+  - Mulligan phase can take some time to activate and allow card selection.
+
+### Changes
+- Play
+  - Field cards no longer require power to be played. Their behavior remains unchanged: they still increase the power of all allied cards of the same element for the duration of a single turn.
+  - From the second turn onward, the amount of power gained per turn has been increased to +500, while the first turn for each player remains at +0. This adjustment applies during the second week of the Closed Playtest 2.
+  - Players can now activate multiple levels of a Blast in the same turn if they have enough power available. It is now possible to use level 1, 2, and 3 Blasts during a single turn if the required power is met, but the level usage limitations remain unchanged.
+
+### Known issues
+- All sounds have been disabled until Closed Playtest 2.
 
 ## 0.24.13268 Patch
 
