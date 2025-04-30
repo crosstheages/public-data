@@ -3,9 +3,18 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.13306](#02413306-patch)
   - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
+
+## 0.24.13306 Patch
+
+`2025-04-30 16:00 UTC`
+
+### Fixes
+- Play
+  - Fixed a visual issue with drone animation (some cards were visible on the side on the board).
 
 ## 0.24.13302 Patch
 
