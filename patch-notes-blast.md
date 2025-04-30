@@ -9,7 +9,7 @@
 
 ## 0.24.13302 Patch
 
-`2025-04-30 08:00 UTC`
+`2025-04-30 12:00 UTC`
 
 This version will be available on Epic Games Store, a link will be send by mail to all whitelisted accounts after the maintenance. 
 
