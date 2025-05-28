@@ -15,7 +15,6 @@
 - Made some optimizations on the social menu, talent tree and size levels loading
 - Updated the introduction video of the dungeon 1
 
-
 ### Fixes
 - Fixed issues on some colliders
 - Fixed an issue where the boss music where not played in some cases (during multiplayer game)
@@ -37,6 +36,8 @@
 - The Elite can sometimes jump through walls if the player is in other room and not visibile by the AI
 - When leaving the talent tree building, camera can be stuck in body (To fix it: opening main menu resets the camera)
 - When you are at the Tutorial step "Combo", all controlled can be stuck
+- Only XBox Gamepad controller is supported
+- On the step "Select weapon" of the tutorial, on Azerty keyboard, the key can be visible as "Z" but it's "W"
 
 ## 0.1.0.0 Closed Playtest
 
