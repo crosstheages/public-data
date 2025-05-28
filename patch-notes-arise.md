@@ -31,6 +31,7 @@
 - Sprint toggle on controller turns off after performing a dash.
 - Sprint does not activate when landing.
 - Malik's beard may occasionally appear misaligned.
+- In multiplayer, other players can be visibile during the QTE on the boss platform
 
 ## 0.1.0.0 Closed Playtest
 
