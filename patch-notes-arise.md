@@ -38,6 +38,9 @@
 - When you are at the Tutorial step "Combo", all controlled can be stuck
 - Only XBox Gamepad controller is supported
 - On the step "Select weapon" of the tutorial, on Azerty keyboard, the key can be visible as "Z" but it's "W"
+- The crystal building widget appears as "Placeholder"
+- Player can be stuck in the dialogue of the refugees when spamming Interact after the object has been obtained
+
 
 ## 0.1.0.0 Closed Playtest
 
