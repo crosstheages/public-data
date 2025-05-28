@@ -3,8 +3,60 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.3](#0103-patch)
+  - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.3 patch 
+
+`2025-05-29 12:00 UTC`
+
+### Content
+- Updated the cinematic 2.5D video
+- Updated the main menu video
+
+### Fixes
+- Fixed the issue where the player could be blocked during some tutorial steps
+- Fixed the issue where the player could be blocked by spamming Interaction key during the dialogue of the refugees
+- Fixed the issue where you were able to spam interaction key
+- Fixed the camera that was blocked when leaving the talent building
+- Fixed "On the step "Select weapon" of the tutorial, on Azerty keyboard, the key can be visible as "Z" but it's "W""
+
+### Known issues
+- Sprint is deactivated when moving the character laterally.
+- Sprint toggle on controller turns off after performing a dash.
+- Sprint does not activate when landing.
+- Malik's beard may occasionally appear misaligned.
+- In multiplayer, other players can be visibile during the QTE on the boss platform and can be damaged!
+- The informations of the player on the HUD are not correctly updated
+- The key information on the top right inside the the artellium map is not always correctly refreshed
+- The Elite can sometimes jump through walls if the player is in other room and not visible by the AI
+- Only XBox Gamepad controller is supported
+- The crystal building widget appears as "Placeholder"
+
+## 0.1.0.2 patch
+
+`2025-05-28 12:00 UTC`
+
+### Fixes
+- Fixed the login issues for external organization players
+
+### Known issues
+- Sprint is deactivated when moving the character laterally.
+- Sprint toggle on controller turns off after performing a dash.
+- Sprint does not activate when landing.
+- Malik's beard may occasionally appear misaligned.
+- In multiplayer, other players can be visibile during the QTE on the boss platform
+- The informations of the player on the HUD are not correctly updated
+- The key information on the top right inside the the artellium map is not always correctly refreshed
+- The Elite can sometimes jump through walls if the player is in other room and not visibile by the AI
+- When leaving the talent tree building, camera can be stuck in body (To fix it: opening main menu resets the camera)
+- When you are at the Tutorial step "Combo", all controlled can be stuck
+- Only XBox Gamepad controller is supported
+- On the step "Select weapon" of the tutorial, on Azerty keyboard, the key can be visible as "Z" but it's "W"
+- The crystal building widget appears as "Placeholder"
+- Player can be stuck in the dialogue of the refugees when spamming Interact after the object has been obtained
 
 ## 0.1.0.1 patch
 
