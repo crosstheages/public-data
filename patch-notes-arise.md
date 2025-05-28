@@ -32,6 +32,10 @@
 - Sprint does not activate when landing.
 - Malik's beard may occasionally appear misaligned.
 - In multiplayer, other players can be visibile during the QTE on the boss platform
+- The informations of the player on the HUD are not correctly updated
+- The key information on the top right inside the the artellium map is not always correctly refreshed
+- The Elite can sometimes jump through walls if the player is in other room and not visibile by the AI
+- When leaving the talent tree building, camera can be stuck in body (To fix it: opening main menu resets the camera)
 
 ## 0.1.0.0 Closed Playtest
 
