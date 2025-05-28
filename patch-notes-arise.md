@@ -36,6 +36,7 @@
 - The key information on the top right inside the the artellium map is not always correctly refreshed
 - The Elite can sometimes jump through walls if the player is in other room and not visibile by the AI
 - When leaving the talent tree building, camera can be stuck in body (To fix it: opening main menu resets the camera)
+- When you are at the Tutorial step "Combo", all controlled can be stuck
 
 ## 0.1.0.0 Closed Playtest
 
