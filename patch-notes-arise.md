@@ -22,6 +22,7 @@
 - Fixed the issue where you were able to spam interaction key
 - Fixed the camera that was blocked when leaving the talent building
 - Fixed "On the step "Select weapon" of the tutorial, on Azerty keyboard, the key can be visible as "Z" but it's "W""
+- Fixed "The crystal building widget appears as "Placeholder""
 
 ### Known issues
 - Sprint is deactivated when moving the character laterally.
@@ -33,7 +34,8 @@
 - The key information on the top right inside the the artellium map is not always correctly refreshed
 - The Elite can sometimes jump through walls if the player is in other room and not visible by the AI
 - Only XBox Gamepad controller is supported
-- The crystal building widget appears as "Placeholder"
+- Some desync/visual bugs can occur visually if a player is far from others when interacted
+- If a player reanme its Epic account username after a first connection on the previous one, he will be blocked when trying to connect to server
 
 ## 0.1.0.2 patch
 
