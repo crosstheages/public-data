@@ -28,7 +28,7 @@
 - Improved the path to access to the Hand in the Room 1
 - Increased the speed of the Gravitational Flux to go to Pietro Room and come back too
 - Fixed an issue where players could be visible on the boss platform during the QTE and not immune to damage
-- Fixed an issue where a player could be blocked when trying to connect to server after renaming its Epic account username (after a first connection on the previous one), players can to connect to the game
+- Fixed an issue where a player could be blocked when trying to connect to server after renaming its Epic account username (after a first connection on the previous one), players can connect to the game
 - Fixed an issue on the matchmaking where a player could be stuck and get the error on game allocation when trying to start a game. After this update, players in this case need to log in, log out and log in again to fix it.
 - World rankings is now capped to 200 records
 
