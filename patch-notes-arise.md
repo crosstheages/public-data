@@ -3,10 +3,45 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.4](#0104-patch)
   - [0.1.0.3](#0103-patch)
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.4 patch 
+
+`TBD`
+
+### Fixes
+- Removed collisions on some Fog in "CERAK Cave"
+- Fixed a crash server that could happen sometimes when damaging an "invalid" characters
+- Added a visible ping during 1s on yourself when you are pinging on yourself
+- Fixed the details of the Weapon in the Inventory Chest
+- Fixed the strengths and the weaknesses of Heptagram inside the CharacterCreation
+- Fixed aura names in the talent tree
+- Damages of the Triple Tail Attack is now scaling with the dungeon level
+- Improved the collision of the rail inside the Laboratory
+- Fixed the position of some creatures that were spawning under map inside the tunnels
+- The first break of the bridge is now sync on the start of the dungeon to be always accurate on the timer
+- Rotations of sphere and Hand in the Room 1 are now sync on the start of the dungeon to be always accurate on the timer
+- Improved the path to access to the Hand in the Room 1
+- Increased the speed of the Gravitational Flux to go to Pietro Room and come back too
+- Fixed an issue where players could be visible on the boss platform during the QTE and not immune to damage
+- Fixed an issue where a player could be blocked when trying to connect to server after renaming its Epic account username (after a first connection on the previous one), players can to connect to the game
+- Fixed an issue on the matchmaking where a player could be stuck and get the error on game allocation when trying to start a game. After this update, players in this case need to log in, log out and log in again to fix it.
+- World rankings is now capped to 200 records
+
+### Known issues
+- Sprint is deactivated when moving the character laterally.
+- Sprint toggle on controller turns off after performing a dash.
+- Sprint does not activate when landing.
+- Malik's beard may occasionally appear misaligned.
+- The informations of the player on the HUD are not correctly updated
+- The key information on the top right inside the the artellium map is not always correctly refreshed
+- The Elite can sometimes jump through walls if the player is in other room and not visible by the AI
+- Only XBox Gamepad controller is supported
+- Some desync/visual bugs can occur visually if a player is far from others when interaction in "CERAK Cave"
 
 ## 0.1.0.3 patch 
 
@@ -29,7 +64,7 @@
 - Sprint toggle on controller turns off after performing a dash.
 - Sprint does not activate when landing.
 - Malik's beard may occasionally appear misaligned.
-- In multiplayer, other players can be visibile during the QTE on the boss platform and can be damaged!
+- In multiplayer, other players can be visible during the QTE on the boss platform and can be damaged!
 - The informations of the player on the HUD are not correctly updated
 - The key information on the top right inside the the artellium map is not always correctly refreshed
 - The Elite can sometimes jump through walls if the player is in other room and not visible by the AI
