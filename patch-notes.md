@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23
+  - [0.23.12334](#02312334-patch)
   - [0.23.12311 Server-Update #1](#02312311-serverupdate-1)
   - [0.23.12311 Hotfix #1](#02312311-hotfix-1)
   - [0.23.12311](#02312311-patch)
@@ -21,6 +22,18 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12334 Patch
+
+`2025-06-02 14:00 UTC`
+
+### Changes
+
+- Shop
+  - With the end of the Jün Exclusive rotation in the shop, starting `2025-06-04 8 am UTC` and until the end of season 3, the bonus Exclusive card available in the shop for a purchase of a 24 or 48 packs box will be random from the 5 cards already released.
+    - The 24 packs box will contain one of the following cards : Gravowl, Ailene, Tannila, Orchid or Jün Standard Exclusive card. The odds for each card is 20%. Rank odds remain 20% for each rank. Foil odds remain 10%.
+    - The 48 packs box will contain one of the following cards : Gravowl, Ailene, Tannila, Orchid or Jün Alternative Exclusive card. The odds for each card is 20%. Grade odds remain C:70%, B:22%, A:7%, S:1%. Foil odds remain 10%.
+  - The update is currently rolling on all platforms and the new version will be mandatory to play at `2025-06-04 8 am UTC`.
 
 ## 0.23.12311 Server-Update #1
 
@@ -84,7 +97,7 @@
   - Added the ability to filter more precisely when selecting cards to shred.
   - Added the ability to lock/unlock multiple cards at once.
 - Shop
-  - The next excluded card will be available in the shop on `2025-04-09 8 am UTC` and until `2025-06-04 8 am UTC`.
+  - The next exclusive card will be available in the shop on `2025-04-09 8 am UTC` and until `2025-06-04 8 am UTC`.
 - Notification
   - Added a notification when the unlocker booster stock is empty for vip lv 2 and more.
 
