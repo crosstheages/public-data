@@ -3,11 +3,31 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.13547](#02413547-patch)
   - [0.24.13533](#02413533-patch)
   - [0.24.13306](#02413306-patch)
   - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
+
+## 0.24.13547 Patch
+
+`2025-05-25 08:00 UTC`
+
+### Changes
+- Play
+  - Added a sort button to sort the cards in your hand by power first or by element first.
+  - Disabled capture preview indicator for spectators.
+
+### Fixes
+- Play
+  - Fixed balance on some field sounds.
+- Deck
+  - Fixed an issue with the auto-deck being stuck when going back before naming the deck.
+  - Fixed the display of steps in auto-deck.
+  - Fixed some display issues in the deck edit menu.
+  - Fixed deck selection not showing deck color.
+  - Fixed deck list not showing decks without blast level 2 and 3.
 
 ## 0.24.13533 Patch
 
