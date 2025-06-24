@@ -3,10 +3,62 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.13533](#02413533-patch)
   - [0.24.13306](#02413306-patch)
   - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
+
+## 0.24.13533 Patch
+
+`2025-05-25 08:00 UTC`
+
+### Changes
+- External test 2
+  - Welcome back for the second External test of Blast. As we progress on the development of Blast, we wanted to share our progress to give you a better comprehension of the concept with all planned Blasts for the first release. We listened closely to your feedback and made some adjustments on specific outliers. We want to add other things from your feedback but some of them will take time to develop so stay tuned!
+  - You are currently playing on a test environment disconnected from the live server. This means that any actions performed in this environment will have no impact on your main account. In order to allow you to fully test the new gameplay, you have received all the cards directly on your test account.
+  - At the end of this second test phase, you will receive a new form to give us your impressions and suggestions. Your feedback is invaluable in helping us improve the game experience.
+  - Thank you for your participation, all players who complete a duel during this test phase will receive an exclusive card on their main account.
+  - Thank you for your support and enjoy the game!
+- Gameplay
+  - Blasts
+    - 2 new Blasts added
+      - Hack
+        - Level 1 (50 energy): You can view your opponent's hand.
+        - Level 2 (100 energy, 3 charges): You can view your opponent's hand and destroy one card from their hand.
+        - Level 3 (200 energy, 1 charge): You can view your opponent's hand and steal a card from their hand to place it directly on the board.
+      - Gravitational Wave
+        - Level 1 (50 energy): Unleashes a wave of energy on a row or column which pushes the first card encountered in that direction one cell. If the card cannot be moved, it loses -100 power.
+        - Level 2 (100 energy, 3 charges): Throw an energy ball onto a cell on the board, which pushes all adjacent cards outwards by one cell. If a card cannot be moved, it loses -100 power.
+        - Level 3 (200 energy, 1 charge): Launch a wave from the edge of the board to move all the cards on the board by one cell. If a card cannot be moved, it loses -100 power.
+    - 1 Blast updated
+      - Drone Command
+        - We inverted Drone level 1 and Drone level 2 and updated the energy cost. Here is the full breakdown:
+          - Level 1 (75 energy): Allows you to move a card on the board to a different occupied location. The two cards swap positions.
+          - Level 2 (200 energy, 3 charges): Allows you to move a card on the board to a different free location.
+          - Level 3 (300 energy, 1 charge): Allows you to move a card on the board to a different occupied location. The card occupying that location is then returned to its owner's hand. If the owner's hand is full, the card is destroyed.
+    - You can now mix 3 different Blasts levels for your deck.
+  - Energy
+    - You now regain 500 power per turn.
+  - First card immunity
+    - From the first playtest, we saw that many players are afraid to place the first card in fear of it being captured directly.
+    - To counter this, we added an immunity to captures for the first card played during 1 turn. The card is not immune to Blasts usage.
+  - Fields
+    - Fields now last 3 turns.
+  - Card display
+    - We changed the way we display cards, without borders, to better emphasize card control. We are extra curious about what you think about this change, so please send us feedback!
+  - Sound
+    - Added some sound to the game as well as background music. Keep in mind that this is only a first pass and that not all sounds have been integrated.
+- Collection
+  - Deck edition
+    - We are presenting the new way to edit your decks. You will notice that the style of this new UI is quite different from the other actual screens. This is part of the whole redesign we are currently doing to unify all screens with a coherent and enhanced experience. 
+    - This is a big part of our current work charge and we plan to release the rest of the redesign soon for remaining screens.
+- Visual changes
+  - Added textual value of how much HP was lost beside the avatar when inflicting damage.
+  - New visual applied to logs.
+  - Added a way to look at the description of the opponent's Blasts by clicking on his energy bar.
+- Spectator mode
+  - Spectator mode is back in custom mode!
 
 ## 0.24.13306 Patch
 
@@ -22,19 +74,16 @@
 
 This version will be available on Epic Games Store, a link will be send by mail to all whitelisted accounts after the maintenance. 
 
-### Fixes
-- Play
-  - Fixed a visual issue with card borders not displaying correctly.
-  - Mulligan phase can take some time to activate and allow card selection.
-
 ### Changes
 - Play
   - Field cards no longer require power to be played. Their behavior remains unchanged: they still increase the power of all allied cards of the same element for the duration of a single turn.
   - From the second turn onward, the amount of power gained per turn has been increased to +500, while the first turn for each player remains at +0. This adjustment applies during the second week of the Closed Playtest 2.
   - Players can now activate multiple levels of a Blast in the same turn if they have enough power available. It is now possible to use level 1, 2, and 3 Blasts during a single turn if the required power is met, but the level usage limitations remain unchanged.
 
-### Known issues
-- All sounds have been disabled until Closed Playtest 2.
+### Fixes
+- Play
+  - Fixed a visual issue with card borders not displaying correctly.
+  - Mulligan phase can take some time to activate and allow card selection.
 
 ## 0.24.13268 Patch
 
@@ -52,12 +101,6 @@ This version will be available on Epic Games Store, a link will be send by mail 
   - Fixed a display issue with discarded cards with a click showing card borders with no card for a short time.
   - Fixed a display issue with destroyed cards showing transparent cards during animation.
   - Fixed discard zone being misplaced on mobile.
-
-### Known issues
-
-- Play
-  - Mulligan phase can take some time to activate and allow card selection.
-- All sounds have been disabled until we make a pass on sound integration.
 
 ## 0.24.13257 Patch
 
