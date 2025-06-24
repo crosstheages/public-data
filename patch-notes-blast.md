@@ -3,20 +3,19 @@
 ## Direct Links
 
 - 0.24
-  - [0.24.13547](#02413547-patch)
+  - [0.24.13549](#02413549-patch)
   - [0.24.13533](#02413533-patch)
   - [0.24.13306](#02413306-patch)
   - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
 
-## 0.24.13547 Patch
+## 0.24.13549 Patch
 
 `2025-05-25 08:00 UTC`
 
 ### Changes
 - Play
-  - Added a sort button to sort the cards in your hand by power first or by element first.
   - Disabled capture preview indicator for spectators.
 
 ### Fixes
