@@ -28,6 +28,10 @@
   - Fixed deck selection not showing deck color.
   - Fixed deck list not showing decks without blast level 2 and 3.
 
+### Known issues
+- Deck
+  - When selecting a Blast level with inferior level not selected yet, it will fill the lowest level instead.
+
 ## 0.24.13533 Patch
 
 `2025-05-25 08:00 UTC`
