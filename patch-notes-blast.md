@@ -30,7 +30,10 @@
 
 ### Known issues
 - Deck
-  - When selecting a Blast level with inferior level not selected yet, it will fill the lowest level instead.
+  - When selecting a Blast level with an inferior level not selected yet, it will fill the lowest level instead.
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+  - The ios version currently has access to menus that were not intended to be accessible. Some of these menus are not ready and may crash the game. The only accessible menus should be the Play menu and the Collection menu.
 
 ## 0.24.13533 Patch
 
