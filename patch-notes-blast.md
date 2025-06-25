@@ -3,12 +3,29 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.13554](#02413554-patch)
   - [0.24.13549](#02413549-patch)
   - [0.24.13533](#02413533-patch)
   - [0.24.13306](#02413306-patch)
   - [0.24.13302](#02413302-patch)
   - [0.24.13268](#02413268-patch)
   - [0.24.13257](#02413257-patch)
+
+## 0.24.13554 Patch
+
+`2025-05-25 15:00 UTC`
+
+### Fixes
+- General
+  - Fixed an issue with the ios build allowing access to menus that were not intended to be accessible, making deck edition not possible.
+- Play
+  - Fixed a display issue with cards that could get stuck with the cursor on some very specific cases.
+- Deck
+  - Fixed an issue when selecting a Blast level with an inferior level not selected yet, it would fill the lowest level instead.
+
+### Known issues
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
 
 ## 0.24.13549 Patch
 
@@ -27,13 +44,6 @@
   - Fixed some display issues in the deck edit menu.
   - Fixed deck selection not showing deck color.
   - Fixed deck list not showing decks without blast level 2 and 3.
-
-### Known issues
-- Deck
-  - When selecting a Blast level with an inferior level not selected yet, it will fill the lowest level instead.
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-  - The ios version currently has access to menus that were not intended to be accessible. Some of these menus are not ready and may crash the game. The only accessible menus should be the Play menu and the Collection menu.
 
 ## 0.24.13533 Patch
 
