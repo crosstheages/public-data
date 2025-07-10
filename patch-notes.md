@@ -5,7 +5,7 @@
 - 0.23
   - [0.23.12340](#02312340-patch)
   - [0.23.12334](#02312334-patch)
-  - [0.23.12311 Server-Update #1](#02312311-serverupdate-1)
+  - [0.23.12311 Hotfix #2](#02312311-hotfix-2)
   - [0.23.12311 Hotfix #1](#02312311-hotfix-1)
   - [0.23.12311](#02312311-patch)
   - [0.23.12301](#02312301-patch)
@@ -52,7 +52,7 @@
     - The 48 packs box will contain one of the following cards : Gravowl, Ailene, Tannila, Orchid or Jün Alternative Exclusive card. The odds for each card is 20%. Grade odds remain C:70%, B:22%, A:7%, S:1%. Foil odds remain 10%.
   - The update is currently rolling on all platforms and the new version will be mandatory to play at `2025-06-04 8 am UTC`.
 
-## 0.23.12311 Server-Update #1
+## 0.23.12311 Hotfix #2
 
 `2025-04-30 08:00 UTC`
 
