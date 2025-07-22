@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.21](#01021-patch)
   - [0.1.0.20](#01020-patch)
   - [0.1.0.19](#01019-patch)
   - [0.1.0.4](#0104-patch)
@@ -13,15 +14,31 @@
 
 ## 0.1.0.21
 
-`TBD`
+`2025-07-23 16:00 UTC`
 
-- Light Ability 2 and Ultimate is sometimes not adding the aura correctly on players
-- Cooldowns could have some problems of visibility if you have a action modifier from talents
+### Fixes
+- Light Ability 2 and Ultimate is now adding the aura correctly on players
+- Sound settings is now correctly applied on the start of the application
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
+- AMD RX57.. GPUs fail to render most dungeon textures
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
+- Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
+- Cooldown could have some problems of visibility if you have a action modifier from talents
+- Light Ability 2 and Ultimate can sometimes not apply the aure correctly on players if talent modifiers is activated 
+
+### Tips
+- Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
 
 ## 0.1.0.20 patch 
 
-`2025-07-23 15:00 UTC`
+`2025-07-23 12:00 UTC`
 
 ### Fixes
 - Fixed Combo 2 and Ability 2 damages of the Water
@@ -85,6 +102,7 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
 - If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
 
 ## 0.1.0.4 patch 
 
