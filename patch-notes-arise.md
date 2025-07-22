@@ -11,24 +11,27 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
-## 0.1.0.20 patch 
+## 0.1.0.21
 
 `TBD`
 
-Next patch
+- Light Ability 2 and Ultimate is sometimes not adding the aura correctly on players
+- Cooldowns could have some problems of visibility if you have a action modifier from talents
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+
+## 0.1.0.20 patch 
+
+`2025-07-23 15:00 UTC`
 
 ### Fixes
 - Fixed Combo 2 and Ability 2 damages of the Water
-- Your character is now correctly immune during the QTE
 - The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
-- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 
 ## 0.1.0.19 patch 
 
 `2025-07-23 08:00 UTC`
 
 This playtest is only available from Epic Games for Windows Platform. 
-
 Note that Easy Anti-Cheat is now active and required to play Arise
 
 ### Content
@@ -76,6 +79,12 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
 - Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
 - Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
+- Light Ability 2 and Ultimate is sometimes not adding the aura correctly on players
+- Cooldown could have some problems of visibility if you have a action modifier from talents
+
+### Tips
+- Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
 
 ## 0.1.0.4 patch 
 
