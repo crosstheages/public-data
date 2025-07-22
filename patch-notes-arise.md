@@ -15,7 +15,7 @@
 
 `TBD`
 
-Coming soon
+Next patch
 
 ### Fixes
 - Fixed Combo 2 and Ability 2 damages of the Water
