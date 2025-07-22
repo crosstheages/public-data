@@ -3,12 +3,25 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.20](#01020-patch)
   - [0.1.0.19](#01019-patch)
   - [0.1.0.4](#0104-patch)
   - [0.1.0.3](#0103-patch)
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.20 patch 
+
+`TBD`
+
+Coming soon
+
+### Fixes
+- Fixed Combo 2 and Ability 2 damages of the Water
+- Your character is now correctly immune during the QTE
+- The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 
 ## 0.1.0.19 patch 
 
@@ -59,12 +72,6 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
 - Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
-
-### Fixing focus for the next patch
-- Fixed Combo 2 and Ability 2 damages of the Water
-- Your character is now correctly immune during the QTE
-- The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
-- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 
 ## 0.1.0.4 patch 
 
