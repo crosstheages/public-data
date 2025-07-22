@@ -60,7 +60,7 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
 - Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
 
-## Fixing focus for the next patch
+### Fixing focus for the next patch
 - Fixed Combo 2 and Ability 2 damages of the Water
 - Your character is now correctly immune during the QTE
 - The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
