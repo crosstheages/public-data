@@ -28,9 +28,11 @@ Next patch
 `2025-07-23 08:00 UTC`
 
 This playtest is only available from Epic Games for Windows Platform. 
+
 Note that Easy Anti-Cheat is now active and required to play Arise
 
 ### Content
+- You can play using a keyboard and mouse or an Xbox gamepad (PlayStation controllers and other types are not currently supported)
 - A feature to reduce the key is now available from the Artellium map
 - One dungeon is available for this Closed Playtest: CERAK Cave
 - Matchmaking has been disabled during this phase
@@ -61,6 +63,7 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 - Sprint, and dash are now functional on Land
 - If you exit or forfeit a dungeon as the leader, you will now lose one key level
 - Fixed differents issues on social, UI, etc...
+- Fixed issues related to unit frame updates when dealing damage.
 
 ### Known issues
 - Sprint does not work on Land when using a gamepad
