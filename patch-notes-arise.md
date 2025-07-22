@@ -75,6 +75,7 @@ Note that Easy Anti-Cheat is now active and required to play Arise
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
 - Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
+- Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
 
 ## 0.1.0.4 patch 
 
