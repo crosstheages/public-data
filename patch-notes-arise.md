@@ -3,15 +3,72 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.19](#01019-patch)
   - [0.1.0.4](#0104-patch)
   - [0.1.0.3](#0103-patch)
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.1.0.19 patch 
+
+`2025-07-23 08:00 UTC`
+
+This playtest is only available from Epic Games for Windows Platform. 
+Note that Easy Anti-Cheat is now active and required to play Arise
+
+### Content
+- A feature to reduce the key is now available from the Artellium map
+- One dungeon is available for this Closed Playtest: CERAK Cave
+- Matchmaking has been disabled during this phase
+- Jump gravity has been adjusted (a full update of jump mechanics will come in the next stage)
+- Dialogues are now locked to a single sequence in competitive mode (full dialogues still available in tutorial mode)
+- Light weapons have been added, along with their talent trees
+- Life weapons have been added, along with their talent trees
+- Water weapons have been added, along with their talent trees
+- Earth weapons have been added, along with their talent trees
+- Crystals can now drop Light, Life, Water and Earth weapons
+- Dungeon difficulty ramp has been increased by about 80%, and crystal drop rates have been adjusted accordingly to match Closed Playtest 1 difficulty levels
+- The health multiplier for creatures has been adjusted to +80% per player (was +100% in the previous playtest)
+- Two "Top 200 World" leaderboards are now available: one filtered by MOCA members, the other by CTA members
+- Three additional playable characters have been added (they are only visuals characters, no impact on the gameplay. In this Closed Playtest, you will be to create only one character and not able to change after creation)
+- A snapping feature has been added: creatures that lose line-of-sight or are too far from their target will now teleport to it if they are still in combat
+- Player names and group member locations are now visible above characters inside dungeons
+- Two server regions are now available. Players from different regions will share leaderboards and can group together. However, the dungeon instance will launch in the region of the key owner
+- An access code is now required to connect to the game
+- New elite loot drops have been added to the map
+- Weapon selection using a gamepad has been improved
+- Gravitational flux speed has been increased
+- The Land and Dungeon HUDs have been reworked
+- If disconnected during a dungeon, players can now reconnect to the same instance
+
+### Fixes
+- Fixed lighting and collision issues in Dungeon 1 and improved some visual elements
+- The talents menu now correctly displays the selected character
+- Sprint, and dash are now functional on Land
+- If you exit or forfeit a dungeon as the leader, you will now lose one key level
+- Fixed differents issues on social, UI, etc...
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
+- Combo 2 and Ability 2 of the Water weapon sometimes deal no damage on the Shipping build
+- Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
+- AMD RX57.. GPUs fail to render most dungeon textures
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
+
+## Fixing focus for the next patch
+- Fixed Combo 2 and Ability 2 damages of the Water
+- Your character is now correctly immune during the QTE
+- The talent preview in the talent menu does not display correctly when using a mix of elements (this does not affect in-game behavior)
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+
 ## 0.1.0.4 patch 
 
-`TBD`
+`2025-05-30 12:00 UTC`
 
 ### Fixes
 - Removed collisions on some Fog in "CERAK Cave"
