@@ -12,7 +12,7 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
-## 0.1.0.21
+## 0.1.0.21 patch
 
 `2025-07-23 08:00 UTC`
 
@@ -26,7 +26,7 @@
 - AMD RX57.. GPUs fail to render most dungeon textures
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
-- Your character can be sometimes teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
+- When you are dashing to enter in the QTE, your character will be teleported to the boss platform during the QTE without being immune (you could be vulnerable due to creature snapping if you are in combat with)
 - Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
 - Cooldown could have some problems of visibility if you have a action modifier from talents
 - Light Ability 2 and Ultimate can sometimes not apply the aure correctly on players if talent modifiers is activated 
