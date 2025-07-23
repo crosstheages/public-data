@@ -14,7 +14,7 @@
 
 ## 0.1.0.21
 
-`2025-07-23 16:00 UTC`
+`2025-07-23 08:00 UTC`
 
 ### Fixes
 - Light Ability 2 and Ultimate is now adding the aura correctly on players
@@ -38,7 +38,7 @@
 
 ## 0.1.0.20 patch 
 
-`2025-07-23 12:00 UTC`
+`2025-07-23 08:00 UTC`
 
 ### Fixes
 - Fixed Combo 2 and Ability 2 damages of the Water
