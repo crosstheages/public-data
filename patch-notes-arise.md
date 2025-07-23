@@ -15,7 +15,7 @@
 
 ## 0.1.0.22 patch
 
-`2025-07-24 8:00 UTC`
+`2025-07-24 08:00 UTC`
 
 ### Fixes
 - The reconnection window to an ongoing game has been increased to 3 minutes (previously 1 minute).
@@ -44,6 +44,7 @@
 - Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
 - Cooldown could have some problems of visibility if you have a action modifier from talents
 - The ranking can show some duplicates (All ranks are well recorded, it is just a problem about filtering, we will need to make a little maintenance about 30 minutes to fix it in the coming days)
+- Screenshots on bug report has been disabled because of an issue
 
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
