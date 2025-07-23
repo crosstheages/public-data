@@ -24,8 +24,8 @@
 - Light Finisher 3 now properly applies its effect to players.
 - GPU optimizations have been made, potentially reducing VRAM usage by up to 20%.
 - Fixed a bug where, after disconnecting or exiting a dungeon, players were unable to start a new game immediately (the associated key in the Artellium Map showed as None / Level 0).
-- Fixed server crashes related to projectile spawning.
-- Fixed server crashes related to collision handling.
+- Fixed server crashes related to projectile spawning (mainly on the life weapon)
+- Fixed server crashes related to collision handling
 - Fixed an issue with Life weapon’s Talent Ability 3 modifier, which now deals damage correctly based on Power ÷ 8 on each tick.
 - Fixed aura application issues on Life and Light talents where effects could fail to apply to players.
 - Fixed some sounds attenuation replication on some weapons
