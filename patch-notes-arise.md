@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.22](#01022-patch)
   - [0.1.0.21](#01021-patch)
   - [0.1.0.20](#01020-patch)
   - [0.1.0.19](#01019-patch)
@@ -11,6 +12,44 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.22 patch
+
+`2025-07-24 8:00 UTC`
+
+### Fixes
+- The reconnection window to an ongoing game has been increased to 3 minutes (previously 1 minute).
+- Fixed an issue where dashing into a QTE would cause the character to be teleported to the boss platform without granting immunity during the sequence.
+- Light Ability 2 and Ultimate sometimes failed to correctly apply their aura to players when talent modifiers were active — this is now fixed.
+- Light Finisher 3 now properly applies its effect to players.
+- GPU optimizations have been made, potentially reducing VRAM usage by up to 20%.
+- Fixed a bug where, after disconnecting or exiting a dungeon, players were unable to start a new game immediately (the associated key in the Artellium Map showed as None / Level 0).
+- Fixed server crashes related to projectile spawning.
+- Fixed server crashes related to collision handling.
+- Fixed an issue with Life weapon’s Talent Ability 3 modifier, which now deals damage correctly based on Power ÷ 8 on each tick.
+- Fixed aura application issues on Life and Light talents where effects could fail to apply to players.
+- Fixed some sounds attenuation replication on some weapons
+
+### Balancing
+- [Reduce] Light Finisher 3 now grants a shield equal to 100 + (Power ÷ 8) instead of a flat 50% of the target's max HP. Its damage has also been reduced from Power × 4 to Power × 3.
+- [Reduce] Light Ability 2 now provides a shield equal to 200 + Power, capped at the player’s maximum HP (previously: flat 50% of the target’s HP).
+- [Reduce] Light Ultimate now grants damage reduction equal to 20 + (30 × Power ÷ 3000)% instead of a flat 50%. However, Light Talent 3 still adds a flat +25% damage reduction on top.
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
+- AMD RX57.. GPUs fail to render most dungeon textures
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
+- Cooldown could have some problems of visibility if you have a action modifier from talents
+- The ranking can show some duplicates (All ranks are well recorded, it is just a problem about filtering, we will need to make a little maintenance about 30 minutes to fix it in the coming days)
+
+### Tips
+- Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer, please ensure that your computer’s clock is synchronized with internet time.
 
 ## 0.1.0.21 patch
 
@@ -30,6 +69,7 @@
 - Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
 - Cooldown could have some problems of visibility if you have a action modifier from talents
 - Light Ability 2 and Ultimate can sometimes not apply the aure correctly on players if talent modifiers is activated 
+- After a reconnection in a dungeon, some buff could not be visible (a respawn could be required to show it on the client)
 
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
