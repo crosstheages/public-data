@@ -15,7 +15,7 @@
 
 ## 0.1.0.22 patch
 
-`2025-07-24 08:00 UTC`
+`TBD`
 
 ### Fixes
 - The reconnection window to an ongoing game has been increased to 3 minutes (previously 1 minute).
