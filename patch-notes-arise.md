@@ -15,7 +15,7 @@
 
 ## 0.1.0.22 patch
 
-`TBD`
+`2025-07-24 08:00 UTC`
 
 ### Fixes
 - The reconnection window to an ongoing game has been increased to 3 minutes (previously 1 minute).
@@ -29,6 +29,8 @@
 - Fixed an issue with Life weapon’s Talent Ability 3 modifier, which now deals damage correctly based on Power ÷ 8 on each tick.
 - Fixed aura application issues on Life and Light talents where effects could fail to apply to players.
 - Fixed some sounds attenuation replication on some weapons
+- Updated the questions of the form for the "Rate your test" button
+- Linux and Mac users using VM can now launch the game without being disconnected by EAC
 
 ### Balancing
 - [Reduce] Light Finisher 3 now grants a shield equal to 100 + (Power ÷ 8) instead of a flat 50% of the target's max HP. Its damage has also been reduced from Power × 4 to Power × 3.
@@ -38,7 +40,7 @@
 ### Known issues
 - Sprint does not work on Land when using a gamepad
 - Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
-- AMD RX57.. GPUs fail to render most dungeon textures
+- AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
 - Sometimes, the key show on the first step of the tutorial is shown as QWERTY keyboard (so Z even if you are on AZERTY keyboard so W)
