@@ -13,6 +13,10 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.1.0.23 patch
+
+`TBD`
+
 ## 0.1.0.22 patch
 
 `2025-07-24 08:00 UTC`
@@ -48,7 +52,8 @@
 - The ranking can show some duplicates (All ranks are well recorded, it is just a problem about filtering, we will need to make a little maintenance about 30 minutes to fix it in the coming days)
 - Screenshots on bug report has been disabled because of an issue
 - Sometimes, Light Finisher 3 can apply a shield on creatures
-- One crash server can still occur if you die on reset aggro on Rare 3
+- One crash server can still occur if you die or reset aggro from Rare 3
+- Ability 2 of Life when have some talents applied could not be correctly applied on player
 
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
