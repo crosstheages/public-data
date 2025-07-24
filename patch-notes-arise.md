@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.23](#01023-patch)
   - [0.1.0.22](#01022-patch)
   - [0.1.0.21](#01021-patch)
   - [0.1.0.20](#01020-patch)
@@ -17,7 +18,37 @@
 
 `TBD`
 
+### Fixes
 
+- Ability 2 of the Fire weapon is now spawning correctly even if it collides too closely with the environment
+- Ability 2 of the Fire weapon makes now correct damage after an explosion
+- Ability 2 of the Earth weapon is now spawning correctly even if it collides too closely with the environment
+- Ability 2 of the Life weapon is now working correctly even with talent 2 and 3
+- The key show on the first step of the tutorial is now shown correctly according to your keyboard
+- The server crash caused by the reset aggro of the Rare 3 is no more active
+- Added a zone on the ground under the falling rock in the transition phase of the boss
+- Fixed an animation issue on the boss if you died from falling rock
+- Simplified the quest marker for the tutorial flow on the characters to be easier to understand
+- Added a confirmation popup on the key reduction 
+- The ranking is now ordering the record correctly (no more duplicates)
+- Cooldown is now correctly visible for all abilities even if you have an action modifier from talents (generally talent 3)
+- Fixed some issues about cooldown reset on ultimate
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
+- AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Screenshots on bug report has been disabled because of an issue
+- Sometimes, Light Finisher 3 can apply a shield on creatures
+- At the end of the tutorial, you will be sent again in tutorial. You will need to leave the second tutorial manually (by closing the game) and restarting it. 
+
+### Tips
+- Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer, please ensure that your computer’s clock is synchronized with internet time.
 
 ## 0.1.0.22 patch
 
