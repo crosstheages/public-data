@@ -17,6 +17,8 @@
 
 `TBD`
 
+
+
 ## 0.1.0.22 patch
 
 `2025-07-24 08:00 UTC`
@@ -53,7 +55,7 @@
 - Screenshots on bug report has been disabled because of an issue
 - Sometimes, Light Finisher 3 can apply a shield on creatures
 - One crash server can still occur if you die or reset aggro from Rare 3
-- Ability 2 of Life when have some talents applied could not be correctly applied on player
+- If you have 2 or 3 points in the talent tree on the Ability 2 of Life, you can no more be healed by the flower
 
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
