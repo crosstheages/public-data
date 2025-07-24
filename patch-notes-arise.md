@@ -48,7 +48,7 @@
 - The ranking can show some duplicates (All ranks are well recorded, it is just a problem about filtering, we will need to make a little maintenance about 30 minutes to fix it in the coming days)
 - Screenshots on bug report has been disabled because of an issue
 - Sometimes, Light Finisher 3 can apply a shield on creatures
-- One crash server can still occur on a collision problem (mainly when you swap life weapons)
+- One crash server can still occur if you die on reset aggro on Rare 3
 
 ### Tips
 - Note that if you have any problems of "data syncrhonization", you can fix it by restarting the game
