@@ -17,7 +17,7 @@
 
 ## 0.1.0.24 patch
 
-`TBD`
+`2025-07-25 18:00 UTC`
 
 ### Fixes
 - Fixed an issue where players could be sent back into the tutorial after completing it
