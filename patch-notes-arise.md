@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.24](#01024-patch)
   - [0.1.0.23](#01023-patch)
   - [0.1.0.22](#01022-patch)
   - [0.1.0.21](#01021-patch)
@@ -13,6 +14,35 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.24 patch
+
+`TBD`
+
+### Fixes
+- Fixed an issue where players could be sent back into the tutorial after completing it
+- Fixed a bug that allowed the boss to be stunned in certain situations
+- Fixed a problem where Rare 5 would not reapply its aura after being stunned
+- Fixed a server crash that could occur during a camera update
+- Fixed a client crash that could occur when using the Water ultimate
+- Fixed a bug where, at the end of the prematch phase, the first talent loadout could be applied on top of the selected one
+- Fixed an issue where the Finisher 3 of the light could make no damage on the Elite 2 and Boss
+- Fixed an issue where the Rock of the Ability 2 of Earth weapon could be destroy when spawned in contact with a creature
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Screenshots on bug report has been disabled because of an issue
+- Sometimes, Light Finisher 3 can apply a shield on creatures
+- Ability 3 of Fire weapon could make no damage just after using Finisher 3
+
+### Tips
+- Note that if you have any problems of "data synchronization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer/cooldowns, please ensure that your computer’s clock is synchronized with internet time.
 
 ## 0.1.0.23 patch
 
@@ -36,7 +66,6 @@
 
 ### Known issues
 - Sprint does not work on Land when using a gamepad
-- Fireball (Ability 2 of the Fire weapon) may fail to spawn if it collides too closely with the environment
 - AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
 - Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
 - Manual lock-on targeting is currently disabled on gamepad due to technical issues
