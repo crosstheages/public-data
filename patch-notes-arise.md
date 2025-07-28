@@ -15,6 +15,37 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.1.0.25 patch
+
+`TBD`
+
+This patch addresses the issue causing the boss to run indefinitely during certain sequences.
+
+While awaiting the fix, we’ve analyzed the bug’s impact on leaderboard performances. Although it can make high-key boss phases easier, its overall effect on completion time remains limited — thus, triggering it was considered acceptable.
+
+For those curious about standout leaderboard runs: the most notable time differences are mainly due to skilled use of the core snapping mechanic. While difficult to execute and highly risky, it can drastically shorten run durations when used correctly.
+
+### Fixes
+- Fixed an issue where the boss could enter an infinite run loop when charging toward the edge of the arena
+- Fixed a potential server crash caused by Life Ability 1 if the golem failed to spawn
+- Resolved several rare causes of server instability
+- Improved unit frame visibility on both creatures and crystals
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Screenshots on bug report has been disabled because of an issue
+- Sometimes, Light Finisher 3 can apply a shield on creatures
+- Ability 3 of Fire weapon could make no damage just after using Finisher 3
+
+### Tips
+- Note that if you have any problems of "data synchronization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer/cooldowns, please ensure that your computer’s clock is synchronized with internet time.
+
 ## 0.1.0.24 patch
 
 `2025-07-25 12:00 UTC`
