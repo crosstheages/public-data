@@ -3,6 +3,8 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.26](#01026-patch)
+  - [0.1.0.25](#01025-patch)
   - [0.1.0.24](#01024-patch)
   - [0.1.0.23](#01023-patch)
   - [0.1.0.22](#01022-patch)
@@ -15,9 +17,31 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.1.0.26 patch
+
+`2025-07-29 09:00 UTC`
+
+### Fixes
+- Fixed an issue on access codes where, in some cases, you could not be able to click on the "Confirm" button 
+
+### Known issues
+- Sprint does not work on Land when using a gamepad
+- AMD RX57.. and RX66..  GPUs fail to render most dungeon textures
+- Character animations for Samia, Takeshi, and Ellie may fail to load properly in gravitational flux zones
+- Manual lock-on targeting is currently disabled on gamepad due to technical issues
+- Screenshots on bug report has been disabled because of an issue
+- Sometimes, Light Finisher 3 can apply a shield on creatures
+- Ability 3 of Fire weapon could make no damage just after using Finisher 3
+
+### Tips
+- Note that if you have any problems of "data synchronization", you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer/cooldowns, please ensure that your computer’s clock is synchronized with internet time.
+
 ## 0.1.0.25 patch
 
-`TBD`
+`2025-07-28 17:00 UTC`
 
 This patch addresses the issue causing the boss to run indefinitely during certain sequences.
 
