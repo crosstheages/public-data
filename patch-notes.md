@@ -29,7 +29,7 @@
 
 ## 0.23.12415 Patch
 
-`2025-07-30 08:00 UTC`
+`2025-07-30 12:00 UTC`
 
 ### Fixes
 
@@ -63,7 +63,7 @@
 - Inbox
   - Added push notification to mobile devices for important in-game mails.
 - Collection
-  - Introduced a new Divine rarity, which includes a handful of cards that are card distributed to investors and the CTA team, to differentiate them from the exclusive cards that the rest of the community can obtain.
+  - Introduced a new Divine rarity, which includes a handful of cards that are distributed to investors and the CTA team, to differentiate them from the exclusive cards that the rest of the community can obtain.
 - Inventory
   - Eternal shards are not visible in the game anymore. They are only visible on the portal.
 
