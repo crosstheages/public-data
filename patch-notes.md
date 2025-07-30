@@ -3,7 +3,8 @@
 ## Direct Links
 
 - 0.23.5
-  - [0.23.12340](#02312415-patch)
+  - [0.23.12418](#02312418-patch)
+  - [0.23.12415](#02312415-patch)
 - 0.23
   - [0.23.12340](#02312340-patch)
   - [0.23.12334](#02312334-patch)
@@ -25,6 +26,15 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12415 Patch
+
+`2025-07-30 08:00 UTC`
+
+### Fixes
+
+- Collection
+  - Fixed an issue with Divine card display.
 
 ## 0.23.12415 Patch
 
@@ -52,6 +62,8 @@
   - When migrating cards to Solana, we will retroactively apply the randomness to all previously crafted cards.
 - Inbox
   - Added push notification to mobile devices for important in-game mails.
+- Collection
+  - Introduced a new Divine rarity, which includes a handful of cards that are card distributed to investors and the CTA team, to differentiate them from the exclusive cards that the rest of the community can obtain.
 - Inventory
   - Eternal shards are not visible in the game anymore. They are only visible on the portal.
 
