@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.23.5
+  - [0.23.12340](#02312415-patch)
 - 0.23
   - [0.23.12340](#02312340-patch)
   - [0.23.12334](#02312334-patch)
@@ -23,6 +25,35 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12415 Patch
+
+`2025-07-30 08:00 UTC`
+
+### Important information
+
+- This will be the last major patch before Blast release. There will be a new client to download, directly on Epic Games.
+
+### Changes
+
+- New Authentication
+  - In order to provide better connectivity with other service providers, we took the decision to get rid of the standard email/password authentication method. Instead, we now allow login through Google, Apple, Epic Games and Phantom SSO.
+  - Please note that Phantom SSO will not currently be available on mobile as the experience is not satisfying enough for us. It will be added later on when Phantom improves their mobile interface.
+- Compensation
+  - An email has been sent to players compensated for the removal of some assets and Pranah removal (Physical pranah bundle, Watch Dogs packs, VIP program remaining percents, Season 2 presale packs, Eternal shards, ...)
+  - Look at the details of all compensations in this article: https://www.crosstheages.com/en-us/news/cta/solana-migration-guide/
+- Eternal Multiplier
+  - The Eternal multiplier is now calculated but not currently in use. It will be enabled with Blast release.
+- Merge
+  - When merging cards from different factions the card's assigned faction is now random from the factions of the cards merged. It affects cards from all collections. The odds of each faction depends on the amount of cards from each reagent's card's faction.
+  - ie:
+    - When crafting Pollen & Ravix (1 Mantris card and 1 Arkhante card), the resulting card will have 50% of being Mantris and 50% of being Arkhante.
+    - When crafting Sassaki & His Disciples (1 Mantris card and 4 Arkhante cards), the resulting card will have 20% of being Mantris and 80% of being Arkhante.
+  - When migrating cards to Solana, we will retroactively apply the randomness to all previously crafted cards.
+- Inbox
+  - Added push notification to mobile devices for important in-game mails.
+- Inventory
+  - Eternal shards are not visible in the game anymore. They are only visible on the portal.
 
 ## 0.23.12340 Patch
 
