@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23.5
+  - [0.23.12428](#02312428-patch)
   - [0.23.12425](#02312425-patch)
 - 0.23
   - [0.23.12340](#02312340-patch)
@@ -25,6 +26,15 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12428 Patch
+
+`2025-07-31 14:00 UTC`
+
+### Changes
+
+- Login
+  - Clarified the flow for players that already did their migration on the portal.
 
 ## 0.23.12425 Patch
 
