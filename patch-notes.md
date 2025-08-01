@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23.5
+  - [0.23.12438](#02312438-patch)
   - [0.23.12432](#02312432-patch)
   - [0.23.12428](#02312428-patch)
   - [0.23.12425](#02312425-patch)
@@ -27,6 +28,19 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12438 Patch
+
+`2025-08-01 16:00 UTC`
+
+### Fixes
+
+- Adventure
+  - Fixed an issue with the Challenges screen not showing up properly.
+- Duel
+  - Fixed an issue with the queue system sometimes failing to connect. (Hotfix live)
+- Inventory
+  - Fixed an issue preventing players to start unlocking packs.
 
 ## 0.23.12432 Patch
 
