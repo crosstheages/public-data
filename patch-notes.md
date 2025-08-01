@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23.5
+  - [0.23.12432](#02312432-patch)
   - [0.23.12428](#02312428-patch)
   - [0.23.12425](#02312425-patch)
 - 0.23
@@ -26,6 +27,17 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12432 Patch
+
+`2025-08-01 13:00 UTC`
+
+### Fixes
+
+- Forge
+  - Fixed an issue with Flex cards crafting not showing Eternal stone cost even though they were consumed.
+- Duel
+  - Fixed an issue with the Trisel gain multiplier in the ranking. It was unexpectedly reduced. (Hotfix live)
 
 ## 0.23.12428 Patch
 
