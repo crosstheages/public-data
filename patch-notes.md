@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.23.5
+  - [0.23.12440](#02312440-patch)
   - [0.23.12438](#02312438-patch)
   - [0.23.12432](#02312432-patch)
   - [0.23.12428](#02312428-patch)
@@ -28,6 +29,17 @@
   - [0.23.11302](#02311302-patch)
   - [0.23.11252](#02311252-patch)
   - [0.23.11206](#02311206-patch)
+
+## 0.23.12440 Patch
+
+`2025-08-06 18:00 UTC`
+
+### Fixes
+
+- Bug report
+  - Fixed an issue where it was not possible to make bug report
+- Matchmaking
+  - Fixed an issue where you could get an error when finding a match
 
 ## 0.23.12438 Patch
 
