@@ -175,7 +175,9 @@
   - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
   - Product details, the cards from the power list cannot be scrolled.
   - Card Detail, the see on Marketplace doesn't redirect to the right page on the portal.
+  - Card Detail, the Shred button is missing on Exclusive cards.
 - Awakening
   - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+  - The bonus Exclusive card is not displayed when won and the card is sent to the inbox.
 - Merge
   - There is some display issue when exiting the merge menu in some situations. Goin back to the dashboard and coming back fixes the display issues.
