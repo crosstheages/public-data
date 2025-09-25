@@ -3,180 +3,179 @@
 ## Direct Links
 
 - 0.24
-  - [0.24.13554](#02413554-patch)
-  - [0.24.13549](#02413549-patch)
-  - [0.24.13533](#02413533-patch)
-  - [0.24.13306](#02413306-patch)
-  - [0.24.13302](#02413302-patch)
-  - [0.24.13268](#02413268-patch)
-  - [0.24.13257](#02413257-patch)
+  - [0.24.14618](#02414618-patch)
 
-## 0.24.13554 Patch
+## 0.24.14618 Patch
 
-`2025-05-25 15:00 UTC`
-
-### Fixes
-- General
-  - Fixed an issue with the ios build allowing access to menus that were not intended to be accessible, making deck edition not possible.
-- Play
-  - Fixed a display issue with cards that could get stuck with the cursor on some very specific cases.
-- Deck
-  - Fixed an issue when selecting a Blast level with an inferior level not selected yet, it would fill the lowest level instead.
-
-### Known issues
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-
-## 0.24.13549 Patch
-
-`2025-05-25 08:00 UTC`
-
-### Changes
-- Play
-  - Disabled capture preview indicator for spectators.
-
-### Fixes
-- Play
-  - Fixed balance on some field sounds.
-- Deck
-  - Fixed an issue with the auto-deck being stuck when going back before naming the deck.
-  - Fixed the display of steps in auto-deck.
-  - Fixed some display issues in the deck edit menu.
-  - Fixed deck selection not showing deck color.
-  - Fixed deck list not showing decks without blast level 2 and 3.
-
-## 0.24.13533 Patch
-
-`2025-05-25 08:00 UTC`
-
-### Changes
-- External test 2
-  - Welcome back for the second External test of Blast. As we progress on the development of Blast, we wanted to share our progress to give you a better comprehension of the concept with all planned Blasts for the first release. We listened closely to your feedback and made some adjustments on specific outliers. We want to add other things from your feedback but some of them will take time to develop so stay tuned!
-  - You are currently playing on a test environment disconnected from the live server. This means that any actions performed in this environment will have no impact on your main account. In order to allow you to fully test the new gameplay, you have received all the cards directly on your test account.
-  - At the end of this second test phase, you will receive a new form to give us your impressions and suggestions. Your feedback is invaluable in helping us improve the game experience.
-  - Thank you for your participation, all players who complete a duel during this test phase will receive an exclusive card on their main account.
-  - Thank you for your support and enjoy the game!
-- Gameplay
-  - Blasts
-    - 2 new Blasts added
-      - Hack
-        - Level 1 (50 energy): You can view your opponent's hand.
-        - Level 2 (100 energy, 3 charges): You can view your opponent's hand and destroy one card from their hand.
-        - Level 3 (200 energy, 1 charge): You can view your opponent's hand and steal a card from their hand to place it directly on the board.
-      - Gravitational Wave
-        - Level 1 (50 energy): Unleashes a wave of energy on a row or column which pushes the first card encountered in that direction one cell. If the card cannot be moved, it loses -100 power.
-        - Level 2 (100 energy, 3 charges): Throw an energy ball onto a cell on the board, which pushes all adjacent cards outwards by one cell. If a card cannot be moved, it loses -100 power.
-        - Level 3 (200 energy, 1 charge): Launch a wave from the edge of the board to move all the cards on the board by one cell. If a card cannot be moved, it loses -100 power.
-    - 1 Blast updated
-      - Drone Command
-        - We inverted Drone level 1 and Drone level 2 and updated the energy cost. Here is the full breakdown:
-          - Level 1 (75 energy): Allows you to move a card on the board to a different occupied location. The two cards swap positions.
-          - Level 2 (200 energy, 3 charges): Allows you to move a card on the board to a different free location.
-          - Level 3 (300 energy, 1 charge): Allows you to move a card on the board to a different occupied location. The card occupying that location is then returned to its owner's hand. If the owner's hand is full, the card is destroyed.
-    - You can now mix 3 different Blasts levels for your deck.
-  - Energy
-    - You now regain 500 power per turn.
-  - First card immunity
-    - From the first playtest, we saw that many players are afraid to place the first card in fear of it being captured directly.
-    - To counter this, we added an immunity to captures for the first card played during 1 turn. The card is not immune to Blasts usage.
-  - Fields
-    - Fields now last 3 turns.
-  - Card display
-    - We changed the way we display cards, without borders, to better emphasize card control. We are extra curious about what you think about this change, so please send us feedback!
-  - Sound
-    - Added some sound to the game as well as background music. Keep in mind that this is only a first pass and that not all sounds have been integrated.
-- Collection
-  - Deck edition
-    - We are presenting the new way to edit your decks. You will notice that the style of this new UI is quite different from the other actual screens. This is part of the whole redesign we are currently doing to unify all screens with a coherent and enhanced experience. 
-    - This is a big part of our current work charge and we plan to release the rest of the redesign soon for remaining screens.
-- Visual changes
-  - Added textual value of how much HP was lost beside the avatar when inflicting damage.
-  - New visual applied to logs.
-  - Added a way to look at the description of the opponent's Blasts by clicking on his energy bar.
-- Spectator mode
-  - Spectator mode is back in custom mode!
-
-## 0.24.13306 Patch
-
-`2025-04-30 16:00 UTC`
-
-### Fixes
-- Play
-  - Fixed a visual issue with drone animation (some cards were visible on the side on the board).
-
-## 0.24.13302 Patch
-
-`2025-04-30 12:00 UTC`
-
-This version will be available on Epic Games Store, a link will be send by mail to all whitelisted accounts after the maintenance. 
-
-### Changes
-- Play
-  - Field cards no longer require power to be played. Their behavior remains unchanged: they still increase the power of all allied cards of the same element for the duration of a single turn.
-  - From the second turn onward, the amount of power gained per turn has been increased to +500, while the first turn for each player remains at +0. This adjustment applies during the second week of the Closed Playtest 2.
-  - Players can now activate multiple levels of a Blast in the same turn if they have enough power available. It is now possible to use level 1, 2, and 3 Blasts during a single turn if the required power is met, but the level usage limitations remain unchanged.
-
-### Fixes
-- Play
-  - Fixed a visual issue with card borders not displaying correctly.
-  - Mulligan phase can take some time to activate and allow card selection.
-
-## 0.24.13268 Patch
-
-`2025-04-23 08:00 UTC`
-
-### Fixes
-
-- Collection
-  - Fixed the blast selection missing some assets.
-- Dashboard
-  - Fixed the patch notes window being empty.
-- Gamemode selection
-  - Fixed deck selection not being refreshed after a deck has been altered and became unusable.
-- Play
-  - Fixed a display issue with discarded cards with a click showing card borders with no card for a short time.
-  - Fixed a display issue with destroyed cards showing transparent cards during animation.
-  - Fixed discard zone being misplaced on mobile.
-
-## 0.24.13257 Patch
-
-`2025-04-22 13:00 UTC`
+`2025-09-25 14:00 UTC`
 
 ### Changes
 
-- External Test 1
-  - Thank you for joining the Blast adventure during this external test phase. We would like to inform you that, for this test phase, only essential gameplay features will be available. Side menus and other content are not yet available. Please note that the game is still under development, and you may encounter bugs or unexpected behavior: animations, sounds, visual effects and other features may be missing, and will be added as development progresses.
-  - You are currently playing on a test environment disconnected from the live server. This means that any actions performed on this environment will have no impact on your main account. In order to allow you to fully test the new gameplay, you have received all the cards directly on your test account.
-  - For the first external test, only two Blasts are available: Fireball (Arkhante's Blast) and Drone Command (Mantris' Blast).
-  - At the end of this test phase, you will receive a form to give us your impressions and suggestions. Your feedback is invaluable in helping us improve the game experience.
-  - Thank you for your participation, all players who complete a duel during this test phase will receive an exclusive card on their main account.
-  - Thank you for your support and enjoy the game!
+- Season 4!
+  - Season 4: Dawn of War is here!
+  - This season comes with new cards and their new border design. Every new card also has exclusive lore for you to discover.
+  - This new season also brings a whole new gameplay, with more dynamic effects.
+  - The whole app has received a new style with improved UX experience, notably: the Product and card details, the opening, the shop.
+  - The last big improvement are the improved rewards, through the new unlocker system, daily missions, and shop content.
+  - Let's dive in!
+- Cards
+  - All Cards have received a new improved border, integrating card name, artist and complete numbering. It allows us to only keep important information when dueling.
 - Gameplay
   - The point system has been replaced with a health system. Both players start with 25,000 Health points. The goal is to reduce the opponent's health to 0.
   - Players inflict damage to the opponent at the end of their turn up to the sum of the power of the cards you control.
-  - Special Abilities are replaced by Blasts. Blasts have 3 levels. When you choose a Blast for your deck, you choose all 3 levels, and you can play all 3 levels during the game. You can only play one Blast per turn.
-  - Each level of Blast has different effects, different energy costs, different max uses.
-  - We added an Energy system for playing cards and Blasts. You start with 650 energy and regain 350 energy at the start of each turn. The cost to play a card is equal to its power.
+  - Special Abilities are replaced by Blasts. Blasts are abilities attached to a deck. Each collection has 3 Blast divided into 3 levels. You will have to select a Blast of each level to play a deck. You can only play one Blast of each level per turn.
+  - Each level of Blast has different effects, different energy costs, different max uses. After a Blast is played, there is no capture retry if cards are moved.
+  - We added an Energy system for playing cards and Blasts. You start with 650 energy and regain 500 energy at the start of each turn starting at turn 3. The cost to play a card is equal to its power. You can't have more than 1200 Energy at any time. The surplus is lost.
   - You can play several cards per turn as long as you have enough energy.
-  - You can have as many field cards as you like in your deck. The cost to play a field card is equal to its power. Field cards only last for the duration of the player's turn. Only one field can be active at a time.
-  - You can discard & draw several times per turn. The first is free, but subsequent discards cost 200 Health points.
+  - You can discard cards to regain energy. The first discard each turn gives you 25 Energy, the second gives 75 and every discard after gives 150.
+  - You can have as many field cards as you like in your deck. Field cards don't cost energy to play. Field cards last for 3 turns and empower its element by the amount of power of the card. Only one field can be active at a time.
   - We removed the Trinity system. (But affinity remains).
   - We removed the double advantage/disadvantage in the heptagram. Now an element is only strong against 1 other and weak against another. Also changed the order of the Heptagram to keep it logical.
   - Captures are only made with a chain of 1.
   - If a card on the board drops to 0 power or less, it is destroyed.
-  - You can only have a maximum of 6 cards in your hand at any time. If you draw a 7th card, it is destroyed.
-  - Players have 60 seconds to play their turn. If you don't play during your turn, your turn ends automatically. For your next turn you will have only 30 seconds to play your turn. If you don't play during your turn, your turn ends automatically. For your next turn you will have only 15 seconds to play your turn. If you don't play during that turn, you lose the duel. Playing something during a turn with reduced time puts back your turn duration at 60 seconds.
+  - You can have a maximum of 10 cards in your hand at any time. If you draw an 11th card, it is destroyed.
+  - Players have 90 seconds to play their turn. If you don't play during your turn, your turn ends automatically. For your next turn you will have only 450 seconds to play your turn. If you don't play during your turn, your turn ends automatically. For your next turn you will have only 45 seconds to play your turn. If you don't play during that turn, you lose the duel. Playing something during a turn with reduced time puts back your turn duration at 90 seconds.
   - Win conditions are: 
     - Reduce opponent's health to 0,
     - The opponent doesn't have a card in his deck and has to draw,
     - The board is filled and player has more health than the opponent,
     - The opponent didn't play within the allowed time 3 times in a row.
-- Blasts
-  - Fireball
-    - Level 1 (50 energy): Permanently weakens a card by -100 power.
-    - Level 2 (100 energy, 3 charges): Permanently weakens a card by -200 power. Opponent's cards on adjacent squares each lose -100 power permanently.
-    - Level 3 (200 energy, 1 charge): Destroys a card. All other opponent's cards on the board lose -100 power permanently.
-  - Drone Command
-    - Level 1 (150 energy): Allows you to move a card on the board to a different free location.
-    - Level 2 (250 energy, 3 charges): Allows you to move a card on the board to a different occupied location. The two cards swap positions.
-    - Level 3 (300 energy, 1 charge): Allows you to move a card on the board to a different occupied location. The card occupying that location is then returned to its owner's hand. If the owner's hand is full, the card is destroyed.
+  - First card immunity
+    - To protect the first card played from being captured, we added an immunity to captures for the first card played during 1 turn. The card is not immune to Blasts usage.
+  - Blasts
+    - Fireball, tied to Heritage Arkhante set
+      - Level 1 (50 energy): Permanently weakens a card by -200 power.
+      - Level 2 (100 energy, 3 charges): Permanently weakens a card by -200 power. Opponent's cards on adjacent squares each lose -100 power permanently.
+      - Level 3 (200 energy, 1 charge): Destroys a card. All other opponent's cards on the board lose -100 power permanently.
+    - Drone Command, tied to Heritage Mantris set
+      - Level 1 (75 energy): Allows you to move a card on the board to a different occupied location. The two cards swap positions.
+      - Level 2 (200 energy, 3 charges): Allows you to move a card on the board to a different free location.
+      - Level 3 (250 energy, 1 charge): Allows you to move a card on the board to a different occupied location. The card occupying that location is then returned to its owner's hand. If the owner's hand is full, the card is destroyed.
+    - Hack, tied to Watch Dogs set
+      - Level 1 (25 energy): You can view your opponent's hand.
+      - Level 2 (150 energy, 3 charges): You can view your opponent's hand and destroy one card from their hand.
+      - Level 3 (300 energy, 1 charge): You can view your opponent's hand and steal a card from their hand to place it directly on the board.
+    - Gravitational Wave, tied to Heritage Rift set
+      - Level 1 (75 energy): Unleashes a wave of energy on a row or column which pushes the first card encountered in that direction one cell. If the card cannot be moved, it loses -100 power.
+      - Level 2 (100 energy, 3 charges): Throw an energy ball onto a cell on the board, which pushes all adjacent cards outwards by one cell. If a card cannot be moved, it loses -100 power.
+      - Level 3 (250 energy, 1 charge): Launch a wave from the edge of the board to move all the cards on the board by one cell. If a card cannot be moved, it is destroyed.
+    - Draw of Fate, tied to Dawn of War set
+      - Level 1 (100 energy): Draw 1 card without triggering overdraw.
+      - Level 2 (150 energy, 3 charges): Look at the top 3 cards of your deck, then reorder them.
+      - Level 3 (200 energy, 1 charge): Choose an element and draw 1 card. If the card matches the chosen element, you may play it for free on the board or burn it to repeat this action once. If not, you don't lose any charge and add the card to your hand without triggering the over-draw.
+  - Runes
+    - Runes introduce unique passive effects tied to collections, activated upon placement or while the card remains in play. These automatic effects are exclusive to S-grade cards (Static or Eternal) and are tied to the card’s collection (e.g., Isalys will always be Explosive 1, while Solis S will always be Mage 1). Each rune in the game (1 effect per collection) exists in 3 levels.
+    - Combo Rules: Effects combine based on the following rules:
+      - Each S alternate card: Level 1 effect of its collection.
+      - An S combo made with two alternates of the same collection: Level 2 effect.
+      - An S combo made with different collections: Level 1 effect for each collection.
+      - An S combo made with three alternates of the same collection: Level 3 effect.
+   - Mage - Heritage Arkhante set
+      - Level 1 : Deal 25 damage to another card of your choice.
+      - Level 2 : Deal 50 damage to another card of your choice.
+      - Level 3 : Deal 100 damage to another card of your choice.
+    - Overpowering - Heritage Mantris set
+      - Level 1 : Gives +25 power to a card in your hand.
+      - Level 2 : Gives +50 power to a card in your hand.
+      - Level 3 : Gives +100 power to a card in your hand.
+    - Concord - Watch Dogs set
+      - Level 1 : The affinities on this card grant +50 additional power.
+      - Level 2 : The affinities on this card grant +100 additional power.
+      - Level 3 : The affinities on this card grant +150 additional power.
+    - Explosive - Heritage Rift
+      - Level 1 : Deal 25 damage to each adjacent enemy card.
+      - Level 2 : Deal 50 damage to each adjacent enemy card.
+      - Level 3 : Deal 100 damage to each adjacent enemy card.
+    - Abundance - Dawn of War
+      - Level 1 : Draw 1 card.
+      - Level 2 : Draw 2 cards.
+      - Level 3 : Draw 3 cards.
+  - To sum up actions order when playing a card, they are played in this order:
+    - Card Played
+      - Rune activation,
+      - Card suppression if power at 0 or less,
+      - Friendly affinity,
+      - Card capture,
+      - Remaining affinities.
+ - New capture indicator
+    - Rune effects are applied before calculating captures.
+    - A new improved capture indicator is put on cards that need an action such as a Mage rune usage to be captured.
+- Ranked
+  - The first week of this season is considered the pre-season.
+  - A new ranked era will begin October 1st for 3 weeks that will also be the qualifier for the Heroes's Legacy finals. Read more in this article: https://crosstheages.com/en-us/news/cta/dawn-of-war-heroes-legacy/
+  - The Gladiator ranks have been removed and the Champion rank now has 100 places. Once per day the Top 100 players at diamond ranks will be classified as Champions, and won't be able to demote from Champion until the next reset.
+  - To encourage fighting at higher ranks, a decay will be applied to players of the Champion rank that didn't play at least a game this day.
+  - During the launch event, you will benefit from boosted Trisel gains in Ranked duels.
+- Season 4 boosters
+  - Same as season 3, there are 4 tiers of boosters and displays available in the Shop. All boosters contain static cards.
+  - Tier 1 booster contains 5 static cards from the Dawn of War set for $0.99.
+  - Tier 2 display contains 12 boosters of 5 static cards (60 cards) from the Dawn of War set for $9.99.
+  - Tier 3 display contains 24 boosters of 5 static cards (120 cards) from the Dawn of War set for $18.99. This display contains 1 Bonus Exclusive Standard card from: Tsanah Krey, Sveri, Lyle.
+  - Tier 4 display contains 48 boosters of 5 static cards (240 cards) from the Dawn of War set for $34.99. This Display contains 1 Bonus Exclusive Alternative card from: Tsanah Krey, Sveri, Lyle.
+  - Every booster also contains 1 Heritage card that is a random card from the 3 Heritage sets (Heritage Arkhante, Heritage Mantris, Heritage Rift). Cards are standard rank 1.
+  - Every booster also has a 2% chance to contain a random Exclusive standard or Alternative card from: Tsanah Krey, Sveri, Lyle.
+  - Season 4 minted cards will benefit from a numbering pool lasting until the end of season 4. All numberings will be decided when the season ends.
+- Season 4 Exclusive cards
+  - Tsanah Krey, Sveri, Lyle can be acquired by buying and opening shop packs.
+  - Hadrien Lys'Ortens and Malek Tornhil can be gained by winning ranked duels. They are static and have a chance to be auto minted depending on your Mint Pass if you are Platinum rank or higher (Red Mint Pass 1%, Green Mint Pass 2%, Blue Mint Pass 4%, Legacy Mint Pass 7%, Golden Mint Pass 10%, Golden Legacy Mint Pass 13%).
+  - Crested Akka can be earned randomly when Awakening of Merging cards. When crafting Static cards, the Exclusive card is static and when crafting Eternal cards, the Exclusive card is Eternal.
+- Super-combo!
+  - Maa, the super combo card has been released!
+  - You can craft it by merging Arkhel, Riona and Sijin.
+- Missions
+  - Daily missions have been simplified to include more aspects of the game and faster completion as well as new improved rewards.
+  - Weekly missions have been removed.
+  - General Missions have been renamed to Success, and are now accessible in the profile.
+  - Some old General Missions concerning the old gameplay have been deleted. If you had it completed but not claimed, we claimed that for you and sent you the rewards by mail.
+- Unlockers
+  - Unlockers are now directly accessible on the Dashboard.
+  - You gain an unlocker pack every time you win a duel if you have a free unlocker space.
+  - There are 4 tiers of unlocker boosters. Higher tiers give more cards, better odds, but take more time to unlock.
+  - There is no more unlocker stock. If your 4 slots are full, you can't gain an unlocker chest anymore until a slot is free.
+- Shop content
+  - All shop content have been revamped and you will be able to find:
+    - Seasonal boosters: contains static packs of the current season.
+    - Static Stones and Ark: contains packs of Static Stones and Ark, Trisel to Ark conversion and Eternal Stone to Static Stone conversion, and free daily Ark and Static Stones.
+    - Random daily in Ark: Every day, 3 random items are available for everyone in the shop. It can contain static stones, boosters, cards and cosmetics. 
+    - Daily boosters in Ark: Every day, you can purchase up to 3 boosters of the current season in Ark.
+    - Limited offers: The first time you gain a card that is used in a combo, a pack will be available for 2 days containing the other card and the necessary Ark and Static stones to craft the Combo card.
+    - Promotional packs: Packs in limited quantities containing enough Ark and Stones to craft a combo card.
+- Flex cards
+  - To account for the mint delay, Flex cards from season 3 will be transformed into static cards on October 22nd.
+  - The Flex status of cards will be removed. All season 4 static cards can now be minted.
+  - Chests and Boosters are no longer able to be minted.
+- Profile
+  - We added some skins for in-game end-turn attack and Blast bar. You can win those during events and purchase them in the shop.
+  - You can now set up to 8 emotes to play in-game.
+  - We removed Profile banners and in-game Footer as they were not satisfying enough for us. All purchased items have been reimbursed for 1500 Trisel per cosmetic.
+- UX improvement 
+  - The product detail has seen a complete overhaul, allowing for easier access to where the card can be acquired, the powers accessible to that can, what card it can craft, it's Lore, and other versions of that card (Exclusives, Uniques and Divines)
+  - We added 2 deck slots to everyone. You now start at 6 slots and can get up to 10 deck slots at level 20.
+  - We revamped the duel end screen to show information more clearly.
+  - We added a PC shortcut with the Escape key to close an opened popup.
+- Miscellaneous
+  - All static chests from season 1, 2 and 3 have been opened.
+
+### Known issues
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Success
+  - Successes are not available in the profile.
+- Leaderboard
+  - We had an issue with the new Leaderboard and had to re-use the old Leaderboard temporarily. It may be a bit broken while we fix the new Leaderboard.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+- Authentification
+  - The text displayed doesn't match the card displayed.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product detail, closing the card displayed in full art shows the catchline over the UI.
+  - Product details, the "Marketplace" button in How to obtain doesn't redirect to the right page on the portal.
+  - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
+  - Product details, the cards from the power list cannot be scrolled.
+  - Card Detail, the see on Marketplace doesn't redirect to the right page on the portal.
+- Awakening
+  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+- Merge
+  - There is some display issue when exiting the merge menu in some situations. Goin back to the dashboard and coming back fixes the display issues.
