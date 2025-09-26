@@ -3,7 +3,18 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14618 Hotfix #1
+
+`2025-09-25 08:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Mage, Overpowering and Explosive Level 2 and 3 damage calculation.
+  - Fixed an issue with the Blast panel not allowing Blast usage after a discard that gives enough Energy to play a Blast.
 
 ## 0.24.14618 Patch
 
