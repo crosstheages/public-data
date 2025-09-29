@@ -4,6 +4,46 @@
 
 - 0.1
   - [0.1.1](#011-crafting)
+  
+- 0.2 
+    - [0.2.0](#020-solana)
+
+
+## 0.2.0 Solana
+
+`2025-09-29 08:00 UTC`
+
+### Changes
+
+- Dashboard
+    - Overview:
+        - UX update for the delegate
+        - Added a manual mint button after your migration in the CTA vault section to retrieve your NFTs on Solana
+        - Added the ability to KYC a new account not originating from a migration
+
+- Inventory
+    - Assets Section: Launch of the inventory on Solana
+        - Added Eternal/Flex S3/Static S4 filters
+    - Products Section: Launch of the product switch
+        - Management of mass shredding by product
+        - Added the ability to craft a product
+        - Display of the number of copies of the same product
+        - Added the owned filter
+    - Binders Section:
+        - Launch of the first EP binder
+        - Note: The displayed EPs are incorrect; there is a discrepancy due to the postponement of the S3 Rift mint
+        - Added grayed-out cards in the background for cards I do not own
+        - Ability to craft a card from the binders
+
+- Limited Time Offer
+    - Launch of the LTO until October 22, 2025, 8 AM UTC
+
+- Shop
+    - Shop activation
+    - Ability to purchase an ETERNAL S4 pack at full price for users without a mint pass
+
+- Bridge
+    - Activation of the CTA token bridge ETH<-->SOL
 
 ## 0.1.1 Crafting
 
