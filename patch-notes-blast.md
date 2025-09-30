@@ -28,7 +28,7 @@
         - Full description: Gives +25/50/100 power to a card on the board.
       - Draw of Fate level 2 costs 100 Energy (down from 150)
     - Nerfs
-      - Abundance Rune (Draw of Fate) now gives Draw Charges. When you have 2 draw charges, you automatically draw 1 card. This allows us to reduce the number of cards drawn with the rune and balance the drawing mechanic more easily.
+      - Abundance Rune (Dawn of War) now gives Draw Charges. When you have 2 draw charges, you automatically draw 1 card. This allows us to reduce the number of cards drawn with the rune and balance the drawing mechanic more easily.
         - Full description: Gain 1/2/3 draw charge(s). Accumulate 2 draw charges to draw a card.
       - Drone Command level 2 now has 2 charges (down from 3).
       - Fireball level 1 costs 75 Energy (up from 50)
