@@ -35,7 +35,7 @@
       - Gravitational Wave level 1 costs 100 Energy (up from 75)
       - Hack level 3 costs 350 Energy (up from 300)
 - Mint
-  - Removed the level 10 restriction du minting.
+  - Removed the level 10 restriction to mint cards.
 
 ### Fixes
 
