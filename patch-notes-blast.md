@@ -3,9 +3,88 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14700](#02414700-patch)
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14700 Patch
+
+`2025-10-01 08:00 UTC`
+
+### Changes
+
+- Season 4's first event: Heroes' Legacy qualifyings!
+  - A new event is available starting at `2025-10-01 08am UTC`.
+  - The purpose of this event is to determine our 8 finalists for Heroes' Legacy.
+  - During this event, you will have to fight in a fresh era to determine the 8 best players until `2025-10-22 08am UTC`.
+  - Win duels to unlock exclusive cosmetics only unlockable during this event.
+  - More info on the qualifying in this article: [https://portal.crosstheages.com/](https://portal.crosstheages.com/)
+- Gameplay
+  - We made some balance changes to some runes and Blasts that were outperforming or underwhelming:
+    - Buffs
+      - Overpowering Rune (Mantris) now allows you to empower another card on the board instead of in your hand.
+        - Full description: Gives +25/50/100 power to a card on the board.
+      - Draw of Fate level 2 costs 100 Energy (down from 150)
+    - Nerfs
+      - Abundance Rune (Draw of Fate) now gives Draw Charges. When you have 2 draw charges, you automatically draw 1 card. This allows us to reduce the number of cards drawn with the rune and balance the drawing mechanic more easily.
+        - Full description: Gain 1/2/3 draw charge(s). Accumulate 2 draw charges to draw a card.
+      - Drone Command level 2 now has 2 charges (down from 3).
+      - Fireball level 1 costs 75 Energy (up from 50)
+      - Gravitational Wave level 1 costs 100 Energy (up from 75)
+      - Hack level 3 costs 350 Energy (up from 300)
+- Mint
+  - Removed the level 10 restriction du minting.
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Hack level 3, the stolen card didn't activate the rune.
+  - Fixed an issue with Draw of Fate level 3 burn and retry part not working properly.
+  - Fixed a display issue on mobile devices, the rune name could be shown behind the opponent's UI.
+  - Fixed an issue with Hack level 1, 2 and 3 only showing the first 6 cards of the opponent.
+- Opening
+  - Fixed an issue with the 5 cards displayed not always showing the rarest cards. Also, when possible, the game tries to show different cards from the same rarity.
+- Collection
+  - Fixed an issue with cards not disapearing from a player's collection after being traded.
+  - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
+  - Product detail, closing the card displayed in full art shows the catchline over the UI.
+  - Card details, fixed the see on Marketplace redirection.
+  - Card details, correctly show the Shred button on exclusive cards.
+- Awakening
+  - Fixed an issue with the bonus Exclusive card not displaying properly when won and the card was sent to the inbox.
+- Merge
+  - Fixed some redirection issues with the Merge menu.
+- Inbox
+  - Fixed a display issue on claimed currencies, not showing the proper icon.
+  - Fixed an issue preventing you from opening mails once they have been claimed.
+
+### Known issues
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Success
+  - Successes are not available in the profile.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+  - There is an issue preventing items from being purchased on iOS and Android devices.
+- Authentification
+  - The text displayed doesn't match the card displayed.
+- Opening
+  - There is a display issue when opening the last pack you have available.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Awakening
+  - There is an issue preventing players from awakening rift cards.
+  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+- Merge
+  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
+- Profile
+  - There is a display issue on the card count for each collection.
+  - There is a display issue on private profiles not hiding personalisation icons.
+- Gameplay
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14618 Hotfix #2
 
@@ -14,50 +93,7 @@
 ### Fixes
 
 - Shop
-  - Fixed an issue with paiement processing not giving the item purchased in the shop. All purchased items are being reprocessed and should arrive in your ingame mailbox.
-
-### Known issues
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Success
-  - Successes are not available in the profile.
-- Leaderboard
-  - We had an issue with the new Leaderboard and had to re-use the old Leaderboard temporarily. It may be a bit broken while we fix the new Leaderboard.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-  - There is an issue preventing items from being purchased on iOS and Android devices.
-- Authentification
-  - The text displayed doesn't match the card displayed.
-- Opening
-  - There is an issue with the 5 cards displayed not always showing the rarest cards.
-  - There is a display issue when opening the last pack you have available.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product detail, closing the card displayed in full art shows the catchline over the UI.
-  - Product details, the "Marketplace" button in How to obtain doesn't redirect to the right page on the portal.
-  - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
-  - Product details, the cards from the power list cannot be scrolled.
-  - Card Detail, the see on Marketplace doesn't redirect to the right page on the portal.
-  - Card Detail, the Shred button is missing on Exclusive cards.
-- Awakening
-  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
-  - The bonus Exclusive card is not displayed when won and the card is sent to the inbox.
-- Merge
-  - There is some display issue when exiting the merge menu in some situations. Goin back to the dashboard and coming back fixes the display issues.
-  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
-- Profile
-  - There is a display issue on the card count for each collection.
-  - There is a display issue on private profiles not hiding personalisation icons.
-- Inbox
-  - There is an issue preventing you from oppening mails once they have been claimed.
-  - There is a display issue on claimed currencies, not showing the proper icon.
-- Gameplay
-  - After playing Hack level 3, the played card doesn't activate the rune.
-  - The burn and retry part of Draw of Fate level 3 doesn't work properly.
-  - Hack level 1, 2 and 3 only shows the first 6 cards of the opponent.
-  - On mobile devices, the rune name can be shown behind the opponent's UI.
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - Fixed an issue with payment processing not giving the item purchased in the shop. All purchased items are being reprocessed and should arrive in your in game mailbox.
 
 ## 0.24.14618 Hotfix #1
 
