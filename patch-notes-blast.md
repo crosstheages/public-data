@@ -19,7 +19,8 @@
   - The purpose of this event is to determine our 8 finalists for Heroes' Legacy.
   - During this event, you will have to fight in a fresh era to determine the 8 best players until `2025-10-22 08am UTC`.
   - Win duels to unlock exclusive cosmetics only unlockable during this event.
-  - More info on the qualifying in this article: [https://portal.crosstheages.com/](https://portal.crosstheages.com/)
+  - All cosmetics are also available in the Shop. The cosmetics available in the shop are the same as the ones you get while playing. If you buy the pack and already have some of the cosmetics, the price is not reduced and you won't get the cosmetics you already had.
+  - More info on the qualifying in this article: [https://www.crosstheages.com/fr-fr/news/cta/hl2025/](https://www.crosstheages.com/fr-fr/news/cta/hl2025/)
 - Gameplay
   - We made some balance changes to some runes and Blasts that were outperforming or underwhelming:
     - Buffs
@@ -46,6 +47,7 @@
 - Opening
   - Fixed an issue with the 5 cards displayed not always showing the rarest cards. Also, when possible, the game tries to show different cards from the same rarity.
 - Collection
+  - Fixed an issue were Flex cards still visible in-game. (hotfix already live)
   - Fixed an issue with cards not disapearing from a player's collection after being traded.
   - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
   - Product detail, closing the card displayed in full art shows the catchline over the UI.
@@ -58,6 +60,8 @@
 - Inbox
   - Fixed a display issue on claimed currencies, not showing the proper icon.
   - Fixed an issue preventing you from opening mails once they have been claimed.
+- Profile
+  - Fixed a display issue on private profiles not hiding personalisation icons.
 
 ### Known issues
 - General
@@ -82,7 +86,6 @@
   - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
 - Profile
   - There is a display issue on the card count for each collection.
-  - There is a display issue on private profiles not hiding personalisation icons.
 - Gameplay
   - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
