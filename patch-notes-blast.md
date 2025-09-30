@@ -48,6 +48,7 @@
   - Fixed an issue with the 5 cards displayed not always showing the rarest cards. Also, when possible, the game tries to show different cards from the same rarity.
 - Collection
   - Fixed an issue were Flex cards still visible in-game. (hotfix already live)
+  - Fixed an issue with some cards not showing their rune properly (H&H SR cards, unique and divine cards).
   - Fixed an issue with cards not disapearing from a player's collection after being traded.
   - Product details, when a parallax skin is activated on a card, the cards from the power list can incorrectly be turned.
   - Product detail, closing the card displayed in full art shows the catchline over the UI.
