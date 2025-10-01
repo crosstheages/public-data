@@ -3,10 +3,21 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14675 Hotfix #1](#02414675-hotfix-1)
   - [0.24.14675](#02414675-patch)
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14675 Hotfix #1
+
+`2025-10-01 14:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Overpowering not applying it's bonus correctly.
+  - Fixed an issue with Draw of Fate level 3 burn and retry not working properly.
 
 ## 0.24.14675 Patch
 
