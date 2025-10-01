@@ -44,6 +44,7 @@
   - Fixed an issue with Draw of Fate level 3 burn and retry part not working properly.
   - Fixed a display issue on mobile devices, the rune name could be shown behind the opponent's UI.
   - Fixed an issue with Hack level 1, 2 and 3 only showing the first 6 cards of the opponent.
+  - Fixed an issue with the cards count after a mulligan.
 - Opening
   - Fixed an issue with the 5 cards displayed not always showing the rarest cards. Also, when possible, the game tries to show different cards from the same rarity.
 - Collection
