@@ -19,6 +19,17 @@
 - Gameplay
   - Added hints to rune play describing what the rune effect is when selecting a card.
   - Prevent the player from using Hack Blasts when the opponent doesn't have any card in hand.
+- Leaderboard
+  - We changed the display of your points in your rank to be consistant with the current Champion display.
+  - Players don't reset at 0 points when you get to a new rank anymore. Instead, you continue to increase your points throughout your rank advancement.
+  - This is only a display change with your ranking points and doesn't change anything to the ranking system.
+  - The display change is already live, but the amount of points needed to rank up will only updated with ther 14716 version of the client.
+  - Summary of rank thresholds:
+    - Bronze: 0-1149 pts
+    - Silver: 1150-1499 pts
+    - Gold: 1500-1849 pts
+    - Platinum: 1850-2199 pts
+    - Diamond: 2200 pts+
 - Card details
   - Added the date of when the numbering will be attributed to eternal cards’ card detail.
 - Settings
