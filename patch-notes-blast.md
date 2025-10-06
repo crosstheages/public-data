@@ -3,11 +3,75 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14716](#02414716-patch)
   - [0.24.14675 Hotfix #1](#02414675-hotfix-1)
   - [0.24.14675](#02414675-patch)
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14716 Patch
+
+`2025-10-06 09:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Added hints to rune play describing what the rune effect is when selecting a card.
+  - Prevent the player from using Hack Blasts when the opponent doesn't have any card in hand.
+- Card details
+  - Added the date of when the numbering will be attributed to eternal cards’ card detail.
+- Settings
+  - Added client version and account id to the settings window.
+
+### Fixes
+
+- Dashboard
+  - Fixed an issue with the deck selection, sometimes not registering a deck change.
+- Gameplay
+  - Fixed an issue with fields not applying their bonus to cards drawn after. (Hotfix already live)
+  - Added precision to Overpowering rune's description. (Hotfix already live)
+  - Added precision to Draw of Fate level 3's description. (Hotfix already live)
+  - Fixed an inconsistency in Fireball level 3's description. (Hotfix already live)
+  - Fixed a display issue with the HL end of turn attack.
+  - Fixed a display issue when discarding showing power directly instead of a preview.
+- Leaderboard
+  - Fixed some display issues on the Leaderboard. Also added back the information panel.
+- Custom lobby
+  - Fixed an issue when leaving and rejoining a custom lobby preventing the start of the duel.
+- Inventory
+  - Fixed an issue with cards and boosters not being acknowledged properly when opening multiple boosters at a time and ending in the mailbox. (Hotfix already live)
+- Mission
+  - Fixed a display issue preventing users with specific screen size from collecting their daily booster.
+  - Fixed an issue preventing the mission screen from closing. 
+  - Fixed an issue with missions not completing when the duel started before the daily reset, and finishing after daily reset. (Hotfix already live)
+- Merge
+  - Fixed some display issues on the Merge screen.
+- Profile
+  - Fixed an issue with duel history sometimes showing incorrect avatar and avatar frame. (Hotfix already live)
+
+### Known issues
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+  - There is an issue preventing items from being purchased on iOS and Android devices.
+- Authentification
+  - The text displayed doesn't match the card displayed.
+- Opening
+  - There is a display issue when opening the last pack you have available.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Awakening
+  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+- Merge
+  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
+- Profile
+  - There is a display issue on the card count for each collection.
+- Gameplay
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14675 Hotfix #1
 
@@ -77,32 +141,6 @@
 - Profile
   - Fixed a display issue on private profiles not hiding personalisation icons.
 
-### Known issues
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Success
-  - Successes are not available in the profile.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-  - There is an issue preventing items from being purchased on iOS and Android devices.
-- Authentification
-  - The text displayed doesn't match the card displayed.
-- Opening
-  - There is a display issue when opening the last pack you have available.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product details, the cards from the power list cannot be scrolled.
-- Awakening
-  - There is an issue preventing players from awakening rift cards.
-  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
-- Merge
-  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
-- Profile
-  - There is a display issue on the card count for each collection.
-- Gameplay
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
-
 ## 0.24.14618 Hotfix #2
 
 `2025-09-29 08:00 UTC`
@@ -163,14 +201,14 @@
     - Fireball, tied to Heritage Arkhante set
       - Level 1 (50 energy): Permanently weakens a card by -200 power.
       - Level 2 (100 energy, 3 charges): Permanently weakens a card by -200 power. Opponent's cards on adjacent squares each lose -100 power permanently.
-      - Level 3 (200 energy, 1 charge): Destroys a card. All other opponent's cards on the board lose -100 power permanently.
+      - Level 3 (200 energy, 1 charge): Destroys a card. All other opponent's cards on the board lose -200 power permanently.
     - Drone Command, tied to Heritage Mantris set
       - Level 1 (75 energy): Allows you to move a card on the board to a different occupied location. The two cards swap positions.
       - Level 2 (200 energy, 3 charges): Allows you to move a card on the board to a different free location.
       - Level 3 (250 energy, 1 charge): Allows you to move a card on the board to a different occupied location. The card occupying that location is then returned to its owner's hand. If the owner's hand is full, the card is destroyed.
     - Hack, tied to Watch Dogs set
       - Level 1 (25 energy): You can view your opponent's hand.
-      - Level 2 (150 energy, 3 charges): You can view your opponent's hand and destroy one card from their hand.
+      - Level 2 (150 energy, 2 charges): You can view your opponent's hand and destroy one card from their hand.
       - Level 3 (300 energy, 1 charge): You can view your opponent's hand and steal a card from their hand to place it directly on the board.
     - Gravitational Wave, tied to Heritage Rift set
       - Level 1 (75 energy): Unleashes a wave of energy on a row or column which pushes the first card encountered in that direction one cell. If the card cannot be moved, it loses -100 power.
