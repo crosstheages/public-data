@@ -20,27 +20,10 @@
 - Gameplay
   - Added a rune tab in the heptagram in game to show all rune effect.
   - Added precision to the level of Blast used in card details.
-- Collection
-  - Added a rune panel in the statistic tab of the deck edit to display how many Runes of each type you have.
-
-### Fixes
-
-- Gameplay
-  - Fixed a display issue with affinities.
-- Dashboard
-  - Fixed an issue with the shop notification not showing until players go to the shop.
-- Leaderboard
-  - Fixed a display issue with the leaderboard information popup.
-
-## 0.24.14716 Patch
-
-`2025-10-06 09:00 UTC`
-
-### Changes
-
-- Gameplay
   - Added hints to rune play describing what the rune effect is when selecting a card.
   - Prevent the player from using Hack Blasts when the opponent doesn't have any card in hand.
+- Collection
+  - Added a rune panel in the statistic tab of the deck edit to display how many Runes of each type you have.
 - Leaderboard
   - We changed the display of your points in your rank to be consistant with the current Champion display.
   - Players don't reset at 0 points when you get to a new rank anymore. Instead, you continue to increase your points throughout your rank advancement.
@@ -62,14 +45,18 @@
 - Dashboard
   - Fixed an issue with the deck selection, sometimes not registering a deck change.
 - Gameplay
+  - Fixed a display issue with affinities.
   - Fixed an issue with fields not applying their bonus to cards drawn after. (Hotfix already live)
   - Added precision to Overpowering rune's description. (Hotfix already live)
   - Added precision to Draw of Fate level 3's description. (Hotfix already live)
   - Fixed an inconsistency in Fireball level 3's description. (Hotfix already live)
   - Fixed a display issue with the HL end of turn attack.
   - Fixed a display issue when discarding showing power directly instead of a preview.
+- Dashboard
+  - Fixed an issue with the shop notification not showing until players go to the shop.
 - Leaderboard
   - Fixed some display issues on the Leaderboard. Also added back the information panel.
+  - Fixed a display issue with the leaderboard information popup.
 - Custom lobby
   - Fixed an issue when leaving and rejoining a custom lobby preventing the start of the duel.
 - Inventory
