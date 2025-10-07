@@ -3,12 +3,34 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14734](#02414734-patch)
   - [0.24.14716](#02414716-patch)
   - [0.24.14675 Hotfix #1](#02414675-hotfix-1)
   - [0.24.14675](#02414675-patch)
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14734 Patch
+
+`2025-10-07 12:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Added a rune tab in the heptagram in game to show all rune effect.
+  - Added precision to the level of Blast used in card details.
+- Collection
+  - Added a rune panel in the statistic tab of the deck edit to display how many Runes of each type you have.
+
+### Fixes
+
+- Gameplay
+  - Fixed a display issue with affinities.
+- Dashboard
+  - Fixed an issue with the shop notification not showing until players go to the shop.
+- Leaderboard
+  - Fixed a display issue with the leaderboard information popup.
 
 ## 0.24.14716 Patch
 
