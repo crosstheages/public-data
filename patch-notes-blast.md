@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14751](#02414751-patch)
   - [0.24.14734](#02414734-patch)
   - [0.24.14716](#02414716-patch)
   - [0.24.14675 Hotfix #1](#02414675-hotfix-1)
@@ -10,6 +11,48 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14751
+
+`2025-10-09 16:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Added a rune tab to the heptagram to have a description of all rune effects.
+- Success
+  - Added the success panel in the profile. Previously called General missions, it is now located in the profile.
+  - Each success gives Ark and success points. Success points track how much a player has been active and played the game.
+
+### Fixes
+
+- Gameplay
+  - Fixed a display issue with the HL end of turn attack.
+- Collection
+  - Fixed an issue with product details refresh after a new craft
+- Inventory
+  - Fixed an issue with inventory refresh after opening the last occurence of an item.
+
+### Known issues
+- General
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+  - There is an issue preventing items from being purchased on iOS and Android devices.
+- Authentification
+  - The text displayed doesn't match the card displayed.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Awakening
+  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+- Merge
+  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
+- Profile
+  - There is a display issue on the card count for each collection.
+- Gameplay
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14734 Patch
 
@@ -69,29 +112,6 @@
   - Fixed some display issues on the Merge screen.
 - Profile
   - Fixed an issue with duel history sometimes showing incorrect avatar and avatar frame. (Hotfix already live)
-
-### Known issues
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-  - There is an issue preventing items from being purchased on iOS and Android devices.
-- Authentification
-  - The text displayed doesn't match the card displayed.
-- Opening
-  - There is a display issue when opening the last pack you have available.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product details, the cards from the power list cannot be scrolled.
-- Awakening
-  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
-- Merge
-  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
-- Profile
-  - There is a display issue on the card count for each collection.
-- Gameplay
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14675 Hotfix #1
 
