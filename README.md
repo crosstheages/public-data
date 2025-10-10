@@ -12,6 +12,9 @@ Before doing any submission, please double check that a similar one does not **a
 
 ## Patch Notes
 
-Patch notes for ongoing major patch are always available [here](./patch-notes.md).
+Patch notes for ongoing major patch are always available:
+- [Blast](./patch-notes-blast.md)
+- [Arise](./patch-notes-arise.md)
+- [Portal](./patch-notes-portal.md)
 
 Whenever there is a new major patch, you will be able to find old notes in archives.
