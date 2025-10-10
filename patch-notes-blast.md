@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14771](#02414771-patch)
   - [0.24.14751](#02414751-patch)
   - [0.24.14734](#02414734-patch)
   - [0.24.14716](#02414716-patch)
@@ -12,26 +13,33 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
-## 0.24.14751
+## 0.24.14771
 
-`2025-10-09 16:00 UTC`
+`2025-10-10 15:00 UTC`
 
 ### Changes
 
 - Gameplay
-  - Added a rune tab to the heptagram to have a description of all rune effects.
-- Success
-  - Added the success panel in the profile. Previously called General missions, it is now located in the profile.
-  - Each success gives Ark and success points. Success points track how much a player has been active and played the game.
+  - Nerf
+    - Draw of Fate level 1 costs increased to 125 Energy (up from 100). (Hotfix already live)
+- Opening
+  - Added a hint when opening a booster.
 
 ### Fixes
 
-- Gameplay
-  - Fixed a display issue with the HL end of turn attack.
-- Collection
-  - Fixed an issue with product details refresh after a new craft
+- Dashboard
+  - Fixed an issue with success notification on Dashboard not clearing after claiming and coming back to the dashboard.
 - Inventory
+  - Fixed an issue that allowed displays to be selected for bulk opening, even though only one display can be opened at a time.
   - Fixed an issue with inventory refresh after opening the last occurence of an item.
+- Multi-lock
+  - Fixed an issue with multi-lock preventing cards from being unlocked.
+- Deck edit
+  - Fixed an issue with rune statistics duplicating the display on some cases.
+- Success
+  - Fixed an issue with success filters not working.
+- Card details
+  - Fixed an issue with the "See on Marketplace" shortcut in card details of Eternal cards.
 
 ### Known issues
 - General
@@ -53,6 +61,27 @@
   - There is a display issue on the card count for each collection.
 - Gameplay
   - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+
+## 0.24.14751
+
+`2025-10-09 16:00 UTC`
+
+### Changes
+
+- Gameplay
+  - Added a rune tab to the heptagram to have a description of all rune effects.
+- Success
+  - Added the success panel in the profile. Previously called General missions, it is now located in the profile.
+  - Each success gives Ark and success points. Success points track how much a player has been active and played the game.
+
+### Fixes
+
+- Gameplay
+  - Fixed a display issue with the HL end of turn attack.
+- Collection
+  - Fixed an issue with product details refresh after a new craft
+- Inventory
+  - Fixed an issue with inventory refresh after opening the last occurence of an item.
 
 ## 0.24.14734 Patch
 
