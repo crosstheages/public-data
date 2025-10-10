@@ -22,6 +22,7 @@
 - Gameplay
   - Nerf
     - Draw of Fate level 1 costs increased to 125 Energy (up from 100). (Hotfix already live)
+    - Gravitational Wave level 1 damage reduced to 50 (down from 100). (Hotfix already live)
 - Opening
   - Added a hint when opening a booster.
 
