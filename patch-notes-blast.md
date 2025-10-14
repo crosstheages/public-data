@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14777 Hotfix #1](#02414777-hotfix-1)
   - [0.24.14777](#02414777-patch)
   - [0.24.14751](#02414751-patch)
   - [0.24.14734](#02414734-patch)
@@ -13,7 +14,16 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
-## 0.24.14777
+## 0.24.14777 Hotfix #1
+
+`2025-10-14 09:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with affinities not being correctly deleted after a card has been destroyed by reaching 0 power.
+
+## 0.24.14777 Patch
 
 `2025-10-10 15:00 UTC`
 
@@ -63,7 +73,7 @@
 - Gameplay
   - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
-## 0.24.14751
+## 0.24.14751 Patch
 
 `2025-10-09 16:00 UTC`
 
