@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14788](#02414788-patch)
   - [0.24.14777 Hotfix #1](#02414777-hotfix-1)
   - [0.24.14777](#02414777-patch)
   - [0.24.14751](#02414751-patch)
@@ -13,6 +14,53 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14788 Patch
+
+`2025-10-16 09:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed a display issue with affinities on cards pushed with gravitational wave.
+  - Fixed an issue in the custom lobby where energy was gained before turn 3.
+- Mission
+  - Fixed an issue with the missions validated count that would sometimes not allow you to claim the booster even if you finished all missions.
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+  - There is a visual issue with dragging a card on the board that you don't have enough power to play, that puts you at 0 energy. Dragging the card again and dragging it to your hand will fix the energy display meanwhile.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+- Authentification
+  - The text displayed doesn't match the card displayed.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Awakening
+  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
+- Merge
+  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
+- Profile
+  - There is a display issue on the card count for each collection.
+- Opening
+  - Opening some display may take more time than necessary.
+
+### Potentiel issues
+
+- Gameplay
+  - Those are issues that have been reported but can't reproduce on our end. We need more in-game reports or video on those issue to help us identify the issue.
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - Some cards may appear invisible on the board. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with some cards not being destroyed at 0 power. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Hack level 3 sometimes not playing. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Gravitational wave level 2 sometimes not removing power from cards that couldn't move. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Explosive rune not triggering before the capture and not allowing for captures. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is a display issue with the opponent timer not appearing properly. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is a display issue with players not having the end of timer warning. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14777 Hotfix #1
 
@@ -46,32 +94,11 @@
 - Multi-lock
   - Fixed an issue with multi-lock preventing cards from being unlocked.
 - Deck edit
-  - Fixed an issue with rune statistics duplicating the display on some cases.
+  - Fixed an issue with rune statistics duplicating the display in some cases.
 - Success
   - Fixed an issue with success filters not working.
 - Card details
   - Fixed an issue with the "See on Marketplace" shortcut in card details of Eternal cards.
-
-### Known issues
-- General
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-  - There is an issue preventing items from being purchased on iOS and Android devices.
-- Authentification
-  - The text displayed doesn't match the card displayed.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product details, the cards from the power list cannot be scrolled.
-- Awakening
-  - There is an issue with trying to awaken a card that has not been minted yet. The craft will fail without consuming cards or currencies.
-- Merge
-  - There is a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
-- Profile
-  - There is a display issue on the card count for each collection.
-- Gameplay
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14751 Patch
 
@@ -101,17 +128,17 @@
 ### Changes
 
 - Gameplay
-  - Added a rune tab in the heptagram in game to show all rune effect.
+  - Added a rune tab in the heptagram in game to show all rune effects.
   - Added precision to the level of Blast used in card details.
   - Added hints to rune play describing what the rune effect is when selecting a card.
   - Prevent the player from using Hack Blasts when the opponent doesn't have any card in hand.
 - Collection
-  - Added a rune panel in the statistic tab of the deck edit to display how many Runes of each type you have.
+  - Added a rune panel in the statistics tab of the deck edit to display how many Runes of each type you have.
 - Leaderboard
-  - We changed the display of your points in your rank to be consistant with the current Champion display.
+  - We changed the display of your points in your rank to be consistent with the current Champion display.
   - Players don't reset at 0 points when you get to a new rank anymore. Instead, you continue to increase your points throughout your rank advancement.
   - This is only a display change with your ranking points and doesn't change anything to the ranking system.
-  - The display change is already live, but the amount of points needed to rank up will only updated with ther 14716 version of the client.
+  - The display change is already live, but the amount of points needed to rank up will only updated with the 14716 version of the client.
   - Summary of rank thresholds:
     - Bronze: 0-1149 pts
     - Silver: 1150-1499 pts
