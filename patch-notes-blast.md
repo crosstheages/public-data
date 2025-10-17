@@ -15,6 +15,15 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
+## 0.24.14788 Hotfix #1
+
+`2025-10-17 13:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Fireball 3 not being usable on some rare instances.
+
 ## 0.24.14788 Patch
 
 `2025-10-16 09:00 UTC`
@@ -24,6 +33,8 @@
 - Gameplay
   - Fixed a display issue with affinities on cards pushed with gravitational wave.
   - Fixed an issue in the custom lobby where energy was gained before turn 3.
+- Shop
+  - The shop is back on mobile devices! You can now purchase item in real money on Android and iOS.
 - Mission
   - Fixed an issue with the missions validated count that would sometimes not allow you to claim the booster even if you finished all missions.
 
