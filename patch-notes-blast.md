@@ -3,6 +3,8 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.14788 Hotfix #1](#02414788-hotfix-2)
+  - [0.24.14788 Hotfix #1](#02414788-hotfix-1)
   - [0.24.14788](#02414788-patch)
   - [0.24.14777 Hotfix #1](#02414777-hotfix-1)
   - [0.24.14777](#02414777-patch)
@@ -14,6 +16,20 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.14788 Hotfix #2
+
+`2025-10-22 13:00 UTC`
+
+### Changes
+
+- Leaderboard
+  - Now that qualifying is over, the leaderboard is now back to 100 players.
+
+### Fixes
+
+- Gameplay
+  - Fixed a display issue with Drone Command level 3 sending the card back in the hand with affinities (the card didn't really had any affinities and was recalculated after endturn).
 
 ## 0.24.14788 Hotfix #1
 
