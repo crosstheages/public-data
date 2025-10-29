@@ -9,6 +9,56 @@
     - [0.2.0](#020-solana)
 
 
+## 0.2.1 Defi
+
+`2025-10-29 08:00 UTC`
+
+### Changes
+
+- Dashboard
+    - Overview:
+        - Added on-chain Trisel / Stones and CTALS
+        - Access to VIP and LEVEL display
+        - VAULT CTA update: 
+            - Added off-chain Trisel and Stones currencies with deposit and withdraw shortcuts
+            - Added Orbs with shortcuts to the shop
+    - VIP:
+        - Added VIP tiers
+        - Added progress status for orb collection and CTA token spending before next level
+    - Rewards:
+        - Display of orbs of echo collected during the week and how they were obtained
+        - Display of Orbs of sealing generated per day, with tutorial explanation
+        - CTALS staking shortcut
+        - Shortcut to shop (shop opening on 11/05/25)
+        - Shortcut to inventory
+    - My Infos:
+        - Username change option enabled
+        - Email change option enabled
+            - New email address verification system
+        - Option to display or hide username publicly when marketplace opens. Disabled by default
+    - Staking:
+        - Manage your staking
+        - Check your CTALS and CTA token balance
+        - View total value locked in the ecosystem (chart coming soon)
+        - Ability to stake/unstake
+        - Table to track and claim your ongoing unstaking
+
+- Inventory
+    - Assets Section: Launch of inventory on Solana
+        - Added Eternal/Flex (for ErikaS2) /Static S4 / Physical
+    - Physical Section:
+        - Ability to convert your Eternal cards to Physical status
+        - View collections you've converted to Physical
+        - Order summary with Recovery Code that will allow you to access the "Physical collectible cards" product at the HL event (for free) or early 2026 on Shopify.
+    - Enabled MINT for static cards
+
+- Shop
+    - VIP wheel activation
+    - Preparation for opening on 11/05/25 for purchases with orbs of sealing and orbs of echo
+
+- Bridge
+    - Fixed a bug that prevented withdrawal of CTA tokens on Solana after a bridge
+
 ## 0.2.0 Solana
 
 `2025-09-29 08:00 UTC`
