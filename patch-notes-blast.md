@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15087 Hotfix #1](#02415087-hotfix-1)
   - [0.24.15087](#02415087-patch)
   - [0.24.14788 Hotfix #1](#02414788-hotfix-2)
   - [0.24.14788 Hotfix #1](#02414788-hotfix-1)
@@ -17,6 +18,16 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15087 Hotfix #1
+
+`2025-10-29 19:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with Draw of Fate level 1 using 100 Energy instead of 125.
+  - Fixed an issue with Drone Command level 3 sending the card back to the controler instead of the owner.
 
 ## 0.24.15087 Patch
 
