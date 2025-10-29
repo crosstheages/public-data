@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15079](#02415079-patch)
   - [0.24.14788 Hotfix #1](#02414788-hotfix-2)
   - [0.24.14788 Hotfix #1](#02414788-hotfix-1)
   - [0.24.14788](#02414788-patch)
@@ -16,6 +17,141 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15079 Patch
+
+`2025-10-29 08:00 UTC`
+
+### Changes
+
+- Halloween event
+  - Halloween is back in Blast!
+  - The event will last until `2025-11-19 08:00 UTC`
+  - This event brings a whole new gamemode specific to this event: 
+    - Cursed Roots appear on the board. They do not grow on empty spaces, but are destroyed if the card they cover is damaged.
+    - If they are not damaged in time, they turn into destructive pumpkins on the next turn!
+    - Pumpkins block spaces but can be moved or destroyed.
+    - When they explode, they inflict -200 power to adjacent cards.
+  - When winning event duels, you have a 50% chance to drop a Garth Exclusive card. It has a 80% chance to be standard and 20% chance to be alternative. They are static and have a chance to be auto minted depending on your Mint Pass (Red Mint Pass 0.005%, Green Mint Pass 0.010%, Blue Mint Pass 0.020%, Legacy Mint Pass 0.035%, Golden Mint Pass 0.050%, Golden Legacy Mint Pass 0.065%).
+  - Win duels to unlock exclusive cosmetics only unlockable during this event.
+  - All cosmetics are also available in the Shop. The cosmetics available in the shop are the same as the ones you get while playing. If you buy the pack and already have some of the cosmetics, the price is not reduced and you won't get the cosmetics you already had.
+  - The special Halloween gamemode also gives Ark and Trisel at the same rate as a Gold rank player in ranked. It gives unlocker chests at the same rate as Ranked duels. It doesn't drop Exclusive Leaderboard cards.
+- Economy
+  - Eternal Multiplier will be taken into account starting `2025-11-12 08:00 UTC`. All details will come in a future patch notes.
+  - The amount of EM you have will be shown on your profile at this date.
+- Leaderboard
+  - The Champions are now recalculated only once at daily reset: Champions can't be demoted even if a non-champion gets more points. At daily reset, the 100 players with the highest mmr get the Champion rank. Other players get their rank based on the number of points they have.
+- Gameplay
+  - We completely reworked the way we technically display cards to improve performance. Duels should feel way smoother, especially on older devices. We also limited fps to 30 on mobile devices to reduce overheating.
+  - Added opponent information on the mulligan screen (starting player and the Blast used by both players).
+  - Added a text info when the player reaches the maximum amount of cards in hand.
+  - Added a visual cue to gravitational wave level 3.
+  - Added a differentiated win type depending on win/lose (Defeat by lowest health).
+  - Added missing escape shortcut to the Heptagram, log and blast info popups.
+  - Added back the Mmr shield display at the end of a duel.
+  - Added information in log files to help us diagnose gameplay issues.
+  - After a disconnect or loss of focus, the app now instantly reconnects to avoid specific issues due to the delay of reconnection.
+- Shop
+  - The VIP level is now shown in the shop.
+  - Added specific standard cards to the daily Ark shop. All players will see the same card.
+  - Some articles have seen their price adjusted to account for the specific card arrival.
+- Collection
+  - Changed the order of preferred card displayed in the card collection to show grade S cards over foil cards.
+  - On the shred duplicated screen, we added a "minimum amount of cards to keep" selector for players that want to keep more than 1 card of each.
+  - Added Frozen and physical state to cards display and in filters. Shred, craft and merge is disabled for frozen and physical cards.
+  - Applied the new card stack style to all card stack screens (shred, deck edition, card selection to merge)
+- Awakening
+  - Added a popup when trying to craft a card while it's still pending mint to prevent issues.
+  - Added a refresh of the header after an awakening so currencies are up to date.
+- Openning
+  - Added a recap of new cards at the end of an opening.
+  - Added the ability to have a full view of a card in the card opening recap by clicking on it.
+  - Added a confirmation popup before opening a minted chest or booster.
+  - Added the rune to the grade S card preview.
+- Dashboard
+  - Added back the maintenance alert information.
+- Authentification
+  - Changed the cards displayed while downloading assets to season 4 cards.
+- Reward screen
+  - Ordered the rewards to show in order of priority: boosters, cards, cosmetics, currencies.
+
+### Fixes
+
+- Gameplay
+  - Improved the display of the Heroes's Legacy end of turn attack display when it's the opponent's turn.
+  - Fixed a display issue with the avatar overlapping the log screen.
+  - Fixed some unlocalized text on the duel end screen.
+  - Fixed a display issue with cards that could go "invisible" by moving under the board.
+  - Fixed an issue with the opponent ui that could sometimes overlap the board on specific screen size.
+- Shop
+  - Fixed some unlocalized text.
+  - Added missing escape shortcut to the redeem code popup.
+- Collection
+  - Fixed a display issue after claiming a collection mission progress, not refreshing properly after claiming missions containing cards as reward.
+  - Fixed some display issues with rarity filters. Players can now better see when a rarity is selected.
+  - Fixed an issue with the Header not showing the right amount of currencies with asian localizations (shortening characters missing).
+  - Fixed a display issue with the prestige collection title.
+  - Fixed an issue with the filter's escape shortcut not closing the filters properly.
+  - Fixed a display issue with the collection icon shown in the top left.
+- Merge
+  - Fixed a display issue on the screen to select another card, showing a Hanzo placeholder everytime.
+- Deck edition
+  - Fixed an issue with the import, export and delete popup's escape shortcut closing the deck edit completely.
+  - Fixed an issue with the heptagram popup escape shortcut closing the card deck edit.
+  - Fixed an issue with the card back popup escape shortcut not showing back the back button.
+  - Fixed an issue with the filter's escape shortcut not closing the filters properly.
+- Reward screen
+  - Fixed a display issue with the state bubbles not counting properly with many rewards.
+- Dashboard
+  - Fixed some unlocalized text.
+  - Fixed an issue with the Ark display in the header missing a tooltip.
+  - Added missing escape shortcut to deck selection popups.
+- Missions
+  - Added a loading while claiming a reward.
+  - Fixed an issue with the mission count not counting properly to unlock the daily booster.
+  - Fixed an issue with the craft mission not counting properly while crafting Eternal cards sometimes.
+- Lobby
+  - Added missing escape shortcut to settings and spectators popup.
+  - Fixed some unlocalized text.
+- Settings
+  - Fixed an with profile id information overlapping on specific screen size.
+- Inbox
+  - Fixed some unlocalized text.
+  - Fixed an issue with the "no message" information not showing up properly.
+  - Fixed a display with the reward displayed when opening an already claimed message.
+  - Added a loading when claiming rewards.
+- Profile
+  - Added some padding at the bottom of personalization screens so cosmetics from the last line are shown entirely.
+  - Fixed a display issue with collections' card count.
+- Authentification
+  - Fixed a display issue with the downloading screen sometimes not showing the lore of the currently displayed card.
+  - Fixed some unlocalized text.
+  - Fixed an issue with the CGU screen checkbox having a smaller hitbox than intended.
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Opening
+  - Opening some display may take more time than necessary.
+
+### Potentiel issues
+
+- Gameplay
+  - Those are issues that have been reported but can't reproduce on our end. We need more in-game reports or video on those issues to help us identify the issue.
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with some cards not being destroyed at 0 power. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Hack level 3 sometimes not playing. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Gravitational wave level 2 sometimes not removing power from cards that couldn't move. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Explosive rune not triggering before the capture and not allowing for captures. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is a display issue with the opponent timer not appearing properly. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is a display issue with players not having the end of timer warning. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.14788 Hotfix #2
 
