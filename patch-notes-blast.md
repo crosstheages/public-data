@@ -132,6 +132,7 @@
 
 - Gameplay
   - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+  - There is an issue with cards won from the event not being acknlowledge and being sent to the inbox.
 - Shop
   - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
 - Collection
