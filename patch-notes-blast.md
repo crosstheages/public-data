@@ -3,6 +3,8 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15097](#02415097-patch)
+  - [0.24.15087 Hotfix #2](#02415087-hotfix-2)
   - [0.24.15087 Hotfix #1](#02415087-hotfix-1)
   - [0.24.15087](#02415087-patch)
   - [0.24.14788 Hotfix #1](#02414788-hotfix-2)
@@ -18,6 +20,34 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15097 Patch
+
+`2025-10-31 12:00 UTC`
+
+### Changes
+
+- Gameplay
+  - We removed the ability to pre-select Blast abilities when it's not your turn to avoid issues.
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with cards going invisible after a reconnection.
+  - Fixed an issue with Exclusive card gained from the event not being acknowledged properly.
+- Deck edition
+  - Fixed an issue with deck edition not showing the correct runes on cards.
+
+## 0.24.15087 Hotfix #2
+
+`2025-10-31 08:00 UTC`
+
+### Fixes
+
+- Mission
+  - The daily mission to win a duel is now validated in ranked and event duels.
+- Gameplay
+  - Fixed an issue with Draw of Fate level 3 not launching if played too fast.
 
 ## 0.24.15087 Hotfix #1
 
