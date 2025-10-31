@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15097 Hotfix #1](#02415087-hotfix-1)
   - [0.24.15097](#02415097-patch)
   - [0.24.15087 Hotfix #2](#02415087-hotfix-2)
   - [0.24.15087 Hotfix #1](#02415087-hotfix-1)
@@ -20,6 +21,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15097 Hotfix #1
+
+`2025-10-31 17:00 UTC`
+
+### Change
+
+- Gameplay
+  - A win by destroying 10 pumpins in the Halloween game mode now gives max Trisel gain instead of opponent heath percent.
 
 ## 0.24.15097 Patch
 
