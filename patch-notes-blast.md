@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15127](#02415127-patch)
   - [0.24.15101 Hotfix #2](#02415101-hotfix-2)
   - [0.24.15101 Hotfix #1](#02415101-hotfix-1)
   - [0.24.15101](#02415101-patch)
@@ -22,6 +23,43 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15127 Patch
+
+`2025-11-07 10:00 UTC`
+
+### Fixes
+
+- Card
+  - Fixed a display issue with Albéris card standard and alternative art being inverted.
+- Gameplay
+  - Fixed an issue with the opponent end turn timer sometimes not showing if the device was not at the correct time.
+  - Fixed an issue with Draw of Fate level 3 and Hack level 3 being able to select a card slot occupied by a pumpkin and locking the use of the Blast.
+  - Fixed a display issue with cards that could get stuck at the center of the board in case the timer expired while playing the card.
+  - Fixed a display issue with the health not refreshing properly after a quick end turn.
+  - Fixed an issue at the end of a duel locking the player on an empty board.
+  - Fixed an issue with Hack 2 and 3 still showing after a reconnection following a swapturn (hotfix already live).
+  - Fixed a display issue with damage display after a card has been destroyed by a pumpkin creation (hotfix already live).
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+- Shop
+  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
+- Collection
+  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
+  - Product detail, the "close" zone of the card displayed in full art is too small.
+  - Product details, the cards from the power list cannot be scrolled.
+- Opening
+  - Opening some displays may take more time than necessary.
+
+### Potentiel issues
+
+- Gameplay
+  - Those are issues that have been reported but can't reproduce on our end. We need more in-game reports or video on those issues to help us identify the issue.
+  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
+  - There is an issue with Explosive rune not triggering before the capture and not allowing for captures. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.15101 Hotfix #2
 
@@ -69,28 +107,6 @@
   - Fixed an issue with deck edition not showing the correct runes on cards.
 - Inventory
   - Fixed an issue with frozen boosters not showing a confirmation window before opening.
-
-### Known issues
-
-- Gameplay
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product details, the cards from the power list cannot be scrolled.
-- Opening
-  - Opening some displays may take more time than necessary.
-
-### Potentiel issues
-
-- Gameplay
-  - Those are issues that have been reported but can't reproduce on our end. We need more in-game reports or video on those issues to help us identify the issue.
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
-  - There is an issue with Explosive rune not triggering before the capture and not allowing for captures. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
-  - There is a display issue with the opponent timer not appearing properly. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
-  - There is a display issue with players not having the end of timer warning. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.15087 Hotfix #2
 
