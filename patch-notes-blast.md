@@ -24,15 +24,24 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
-## 0.24.15129 Patch
+## 0.24.15141 Patch
 
-`2025-11-07 11:00 UTC`
+`2025-11-13 16:00 UTC`
+
+### Changes
+
+- Event
+  - The event has been extended until `2025-11-26 08:00 UTC`.
+  - A notification has been added on the dashboard when a mission is claimable.
 
 ### Fixes
 
 - Card
   - Fixed a display issue with Albéris card standard and alternative art being inverted.
+  - Fixed an issue with Garth Exclusive missing it's artist.
+  - Fixed a display issue with some cards resolution.
 - Gameplay
+  - Fixed an issue with Halloween game mode allowing surrender before turn 9.
   - Fixed an issue with the opponent end turn timer sometimes not showing if the device was not at the correct time.
   - Fixed an issue with Draw of Fate level 3 and Hack level 3 being able to select a card slot occupied by a pumpkin and locking the use of the Blast.
   - Fixed a display issue with cards that could get stuck at the center of the board in case the timer expired while playing the card.
@@ -40,6 +49,8 @@
   - Fixed an issue at the end of a duel locking the player on an empty board.
   - Fixed an issue with Hack 2 and 3 still showing after a reconnection following a swapturn (hotfix already live).
   - Fixed a display issue with damage display after a card has been destroyed by a pumpkin creation (hotfix already live).
+- Collection
+  - Fixed an issue with the mint cost display.
 
 ### Known issues
 
