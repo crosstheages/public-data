@@ -38,8 +38,8 @@
 
 - Card
   - Fixed a display issue with Albéris card standard and alternative art being inverted.
-  - Fixed an issue with Garth Exclusive missing it's artist.
-  - Fixed a display issue with some cards resolution.
+  - Fixed an issue with Garth Exclusive missing its artist.
+  - Fixed a display issue with some card resolution.
 - Gameplay
   - Fixed an issue with Halloween game mode allowing surrender before turn 9.
   - Fixed an issue with the opponent end turn timer sometimes not showing if the device was not at the correct time.
