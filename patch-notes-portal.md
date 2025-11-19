@@ -20,29 +20,27 @@
     - Display and redirect to corresponding pools for CTA TOKEN / CTASTO / CTATRI / CTALS
     - Display and redirect to official CTA pools: SOL/CTA - CTATRI/CTA - CTASTO/CTA - CTALS/CTA - BORG/CTA
 
-- Inventory
-    - Assets:
-        - Enabled MINT for static cards from the Blockchain State filter: STATIC - S4
-    - Binders: EM (Eternal Multiplier) Implementation:
-        - Display of your current Eternal Multiplier
-        - Display of your attainable Eternal Multiplier
-        - Display of your gain ratio based on 100 Ark earned in Blast
-        - Display of progress bars: Total EP on account vs Total Activated EP
-        - Display of 5 binders, limited to avoid page overload
-        - How the Total EP on Account bar works:
-            - All ETERNAL/PHYSICAL cards count toward the Total EP on account calculation
-        - How the Total Activated EP bar works - there are 3 ways to increase your activation bar:
-            - Activating 1 EP requires a value of $0.04
-            - Mint Passes count as dollar value, this value is calculated on a 7-day average. If you purchase a Mint Pass, it will take 7 days to reach its full potential with a daily increase of 1/7 until day 7. Here is the $ value per Mint Pass:
-                - Red Mint Pass: $70
-                - Green Mint Pass: $140
-                - Blue Mint Pass: $280
-                - Legacy Mint Pass: $490
-                - Golden Mint Pass: $1,470
-                - Golden Legacy Mint Pass: $5,390
-            - The 7-day rolling average $ value of CTALS held in the account
-            - Cards you have converted to physical:
-                - Physical cards now always secure one third of the EP they contribute by raising the EM cap accordingly. Along with the permanent 3x EP bonus they grant in any season, each EP from a physical card also adds about $0.015 to the EM cap. This adjustment ensures the 3x bonus has real value, guarantees at least a 1x contribution, and prevents situations where players claim a physical card but still end up with zero EM. The logic matches how Mint Pass works but applies individually to every physical card. For reference, a Maa grade C non-foil physical card lifts the EM cap by roughly $87.50, which is an increase of about x0.03 on the cap. Players can still reach the full benefit of the permanent 3x EP bonus by holding CTALS and/or Mint Pass.
+- Inventory - Assets:
+    - Enabled MINT for static cards from the Blockchain State filter: STATIC - S4
+- Inventory - Binders: EM (Eternal Multiplier) Implementation:
+    - Display of your current Eternal Multiplier
+    - Display of your attainable Eternal Multiplier
+    - Display of your gain ratio based on 100 Ark earned in Blast
+    - Display of progress bars: Total EP on account vs Total Activated EP
+    - Display of 5 binders, limited to avoid page overload
+    - How the Total EP on Account bar works:
+        - All ETERNAL/PHYSICAL cards count toward the Total EP on account calculation
+    - How the Total Activated EP bar works - there are 3 ways to increase your activation bar:
+        - Activating 1 EP requires a value of $0.04
+        - Mint Passes count as dollar value, this value is calculated on a 7-day average. If you purchase a Mint Pass, it will take 7 days to reach its full potential with a daily increase of 1/7 until day 7. Here is the $ value per Mint Pass:
+            - Red Mint Pass: $70
+            - Green Mint Pass: $140
+            - Blue Mint Pass: $280
+            - Legacy Mint Pass: $490
+            - Golden Mint Pass: $1,470
+            - Golden Legacy Mint Pass: $5,390
+        - The 7-day rolling average $ value of CTALS held in the account
+            - Physical cards now always secure one third of the EP they contribute by raising the EM cap accordingly. Along with the permanent 3x EP bonus they grant in any season, each EP from a physical card also adds about $0.015 to the EM cap. This adjustment ensures the 3x bonus has real value, guarantees at least a 1x contribution, and prevents situations where players claim a physical card but still end up with zero EM. The logic matches how Mint Pass works but applies individually to every physical card. For reference, a Maa grade C non-foil physical card lifts the EM cap by roughly $87.50, which is an increase of about x0.03 on the cap. Players can still reach the full benefit of the permanent 3x EP bonus by holding CTALS and/or Mint Pass.
 
 
 
