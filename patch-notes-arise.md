@@ -63,6 +63,7 @@
 - If you occur GPU crash, you can modify the quality settings in the main menu and lower it
 - The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
 - If you encounter any issues with the timer/cooldowns, please ensure that your computer’s clock is synchronized with internet time.
+- If you encounter any problems about your cursor which is leaving your window, try to swap your video screen between borderless and fullscreen in Options
 
 ## 0.1.0.26 patch
 
