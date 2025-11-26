@@ -21,10 +21,7 @@
 
 ## 0.1.0.36 patch
 
-`2025-11-26 17:30 UTC`
-
-IMPORTANT INFORMATION: Open-group (to join another leader or tag as open group to complete your group) and challenges matchmaking have been disabled for now
-It should be unlock in the following hours
+`2025-11-26 TBD UTC`
 
 ### New features
 - Added the Gathering system (resource nodes, harvesting tools with durability).
