@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.36](#01036-patch)
   - [0.1.0.26](#01026-patch)
   - [0.1.0.25](#01025-patch)
   - [0.1.0.24](#01024-patch)
@@ -16,6 +17,55 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+
+## 0.1.0.36 patch
+
+`2025-11-26 17:30 UTC`
+
+IMPORTANT INFORMATION: Open-group (to join another leader or tag as open group to complete your group) and challenges matchmaking have been disabled for now
+It should be unlock in the following hours
+
+### New features
+- Added the Gathering system (resource nodes, harvesting tools with durability).
+- Added the Crafting system (tool creation and material refinement).
+- Added the Fishing system with dedicated catches and inputs for future recipes.
+- Added Challenge: Arena (4v4) with weapon selection in safe zones and fixed 5-minute matches.
+- Added Challenge: Ascension, an 8-player vertical race with no checkpoints and rewards for the first three finishers.
+- Added the new weapon: Darkness. 
+
+### Systems
+- Major GPU performance improvement in the Dungeon : CERAK Cave.
+- Weapon durability is disabled for this playtest.
+- Tool durability (Gathering tools) is enabled.
+- Elemental affinity of the player currently has no gameplay impact.
+- Challenge Tickets added to the progression system:
+- 2 challenge tickets granted at account creation.
+- 1 daily challenge ticket granted at 08:00 UTC.
+- Chance to obtain challenge tickets as dungeon rewards.
+- Auction House will be enabled later during the playtest once early economy monitoring is complete.
+- Dungeon 2 will become available during the second week of the playtest.
+- Samia, Takeshi, and Ellie are locked for this playtest. All the characters and character creation are reworked for the Playtest 4
+
+### Pre-Alpha Notice
+- This playtest is a pre-alpha build intended to test server infrastructure, stability, balance, and gameplay direction.
+- Bugs, crashes, and visual issues are expected at this stage.
+- Players are encouraged to report any issue using the in-game bug reporting tool.
+
+### Fixes
+- AMD RX57.. and RX66..  GPUs should now render properly textures
+- Sprint is now possible on the Land
+- Manual lock-on targeting is now possible by using C on keyboard or using Press R-stick on gamepad
+
+### Known issues
+- Potions are shown as auto-selected in the prematch but the player need to select one manually to validate the selection
+- Potions are not consumed from your inventory at the end of a dungeon
+
+### Tips
+- Note that if you have any problems of data synchronization, you can fix it by restarting the game
+- If you occur GPU crash, you can modify the quality settings in the main menu and lower it
+- The automatic benchmark at launch may select overly demanding settings, manually adjust graphics options if experiencing low FPS
+- If you encounter any issues with the timer/cooldowns, please ensure that your computer’s clock is synchronized with internet time.
 
 ## 0.1.0.26 patch
 
