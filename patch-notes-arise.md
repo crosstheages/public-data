@@ -21,7 +21,7 @@
 
 ## 0.1.0.36 patch
 
-`2025-11-26 TBD UTC`
+`2025-11-26 20:30 UTC`
 
 ### New features
 - Added the Gathering system (resource nodes, harvesting tools with durability).
