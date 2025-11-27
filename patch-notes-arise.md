@@ -19,6 +19,45 @@
   - [0.1.0.0](#0100-closed-playtest)
 
 
+## 0.1.0.37 patch
+
+`2025-11-27 20:00 UTC`
+
+INFORMATION: All masteries (experience required to use tools/master crafts) has been setup to 7 for everyone for this entire playtest.
+
+### Features
+- It is now possible to Open All crystals, not more Open 10
+- Now, you have to tag in Challenge: Ascension with a group up to 3 players, the game will start when a fourth players will be found
+
+### Fixes
+- Fixed talent descriptions in the Talent Building.
+- Fixed ability descriptions of weapons in the Inventory Chest details.
+- Unlocked the talent tree for the Darkness weapon.
+- Fixed several translation mistakes.
+- Potions are now consumed at the end of the dungeon.
+- The potion selection button is no longer selected by default in the prematch menu.
+- Fixed a matchmaking notification issue that disabled the Y input on gamepad.
+- Fixed a rare client crash caused by weapon trails
+- Fixed several T3 building upgrade recipes that were not displayed correctly on the client.
+- Fixed the VFX of the second ability of the Darkness weapon.
+- Fixed an issue where, in some cases, the aura (invisibility) of the second ability of the Darkness weapon was not applied correctly.
+- Fixed an issue where the second ability of the Water weapon with 3 talent points would not apply damage.
+- Fixed an issue where the trace VFX was visible on the damage zone of the third ability of the Darkness weapon.
+- Fixed an issue where weapons were not correctly updated in the Inventory Chest after opening crystals.
+
+### Optimization
+- Improved loading performance in the laboratory area of Dungeon 1.
+
+### Known issues
+- In some cases, the ESC button may be disabled in menus (still investigating; please use the bug report tool if you have reproduction details).
+
+### Tips
+- If you experience data synchronization issues, restarting the game usually resolves the problem.
+- If you experience GPU-related crashes, lower your graphics settings from the main menu.
+- The automatic benchmark at launch may select excessively high settings; adjust manually if you encounter low FPS.
+- If you encounter timer or cooldown issues, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window unintentionally, try switching between Borderless and Fullscreen modes in the Options menu.
+
 ## 0.1.0.36 patch
 
 `2025-11-26 20:30 UTC`
