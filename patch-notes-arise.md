@@ -27,8 +27,9 @@
 ### Features
 - Auction House is now open for everyone.
 - Added KDA scores for loser team in the Challenge: Arena.
-- You can now join Challenge: Ascension with a group of 4 players directly. 
 - Added power details when crafting a weapon
+- Challenge: Ascension is still available to 4 players (3 players max in the same group)
+- Recuded the duration of the hold to gather resources to 0.75s
 
 ### Fixes
 - Fixed an issue where upgrading a building could become impossible, with higher tiers increasing the likelihood of failure.
