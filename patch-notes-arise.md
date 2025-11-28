@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.38](#01038-patch)
   - [0.1.0.37](#01037-patch)
   - [0.1.0.36](#01036-patch)
   - [0.1.0.26](#01026-patch)
@@ -19,6 +20,34 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.1.0.38 patch
+
+`2025-11-28 18:00 UTC`
+
+### Features
+- Auction House is now open for everyone.
+- Added KDA scores for loser team in the Challenge: Arena.
+- You can now join Challenge: Ascension with a group of 4 players directly. 
+- Added power details when crafting a weapon
+
+### Fixes
+- Fixed an issue where upgrading a building could become impossible, with higher tiers increasing the likelihood of failure.
+- Fixed an issue where players could become stuck in matchmaking.
+- Fixed an Eternal currencies leak in the Recycler and removed logs related to this tracking.
+- Fixed a client crash that could occur when starting the dungeon during the tutorial.
+- Fixed a client crash that could occur while fishing.
+- Fixed a client crash that could occur when leaving Challenge: Arena.
+- Fixed an issue where some players could be stuck at the tutorial step: Upgrade the buildings.
+
+### Known issues
+- In some cases, the ESC button may be disabled in menus (still investigating; please use the bug report tool if you have reproduction details).
+
+### Tips
+- If you experience data synchronization issues, restarting the game usually resolves the problem.
+- If you experience GPU-related crashes, lower your graphics settings from the main menu.
+- The automatic benchmark at launch may select excessively high settings; adjust manually if you encounter low FPS.
+- If you encounter timer or cooldown issues, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window unintentionally, try switching between Borderless and Fullscreen modes in the Options menu.
 
 ## 0.1.0.37 patch
 
