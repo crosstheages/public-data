@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.39](#01039-patch)
   - [0.1.0.38](#01038-patch)
   - [0.1.0.37](#01037-patch)
   - [0.1.0.36](#01036-patch)
@@ -19,6 +20,46 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.39 patch
+
+`2025-12-02 18:00 UTC`
+
+### Features
+- Challenge Tickets are no longer required to join Challenge modes. However, they determine rewards: no ticket means no reward.
+- Challenge: Ascension remains limited to 4 players, but you can now queue as a premade group of 4.
+- You now receive a notification when a player reaches the top in Challenge: Ascension.
+- Potions can now be traded on the Auction House.
+- Potion tiers now grant different flat amounts of health; higher tiers provide higher values.
+
+### Fixes
+- Fixed an issue where the Elite 01 in Dungeon: CERAK could enter a “walking state” after resetting its aggro.
+- Fixed an issue where it was impossible to move the character while the weapon wheel was open.
+- Fixed an issue where players could become blocked by interacting too rapidly with the elite buff drop.
+- Fixed an issue where players could become stuck on the tent in Challenge: Ascension.
+- Fixed several collider and Fishing zone issues on the Land.
+- Fixed an issue where the Tier 7 recipe remained visible even when the building was already Tier 7.
+- Fixed a client crash that could occur when leaving Challenge: Arena.
+- Fixed a client crash that could occur during Fishing on the Land.
+- Fixed a client crash that could occur when travelling to a dungeon during the tutorial step “Start a dungeon.”
+- Fixed a client crash that could occur when leaving Challenge: Arena.
+- Fixed an issue where group notifications could interfere with the interact button.
+- Fixed an issue where players could appear on the wrong team on the Challenge: Arena HUD.
+- Fixed several issues related to the Auction House.
+- Fixed an issue where in some cases, if you have a connected gamepad controller, by interacting with a notification with the mouse, you could be blocked in a menu (still investigating; please use the bug report tool if you have reproduction details).
+
+### Known issues
+- Groups may not be properly cleaned when a player disconnects. Disbanding the group is often required to unlock all players.
+- When switching weapons too quickly during the animation of Fire Combo 3 or certain other melee attacks, the character may freeze.
+- When a player exited during the tutorial step Craft tools, the player can no more complete this step
+- When you are using multiple talents of different talents, some talents could be deactivated (mainly for life talents)
+
+### Tips
+- If you experience data synchronization issues, restarting the game usually resolves the problem.
+- If you experience GPU-related crashes, lower your graphics settings from the main menu.
+- The automatic benchmark at launch may select excessively high settings; adjust manually if you encounter low FPS.
+- If you encounter timer or cooldown issues, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window unintentionally, try switching between Borderless and Fullscreen modes in the Options menu.
 
 ## 0.1.0.38 patch
 
