@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.41](#01041-patch)
   - [0.1.0.39](#01039-patch)
   - [0.1.0.38](#01038-patch)
   - [0.1.0.37](#01037-patch)
@@ -20,6 +21,36 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.41 patch
+
+`2025-12-05 18:00 UTC`
+
+### Features
+- Added a new dungeon: Crucible Assault, available in a Pre-Alpha state (this dungeon may contain significant bugs, missing sounds, optimization issues, and balancing problems; please report any issues encountered).
+- When completing a dungeon (Victory or Defeat), the leader’s key will now rotate to a different dungeon from the active dungeon list (it will no longer always remain on the same dungeon in this case).
+- When abandoning a dungeon, the key will be decremented but will remain assigned to the same dungeon.
+- Important notice: When a player starts the fight with Astrogant, the boss arena becomes locked. Players inside must activate the checkpoint, and players outside will only be able to join the arena by teleporting their character while the fight is active.
+- Removed the Equip button from the House and Inventory Chest buildings to simplify the process of selecting a new weapon or tool.
+
+### Fixes
+- Fixed an issue where rapidly switching weapons during the animation of Fire Combo 3 or certain other melee attacks could cause the character to freeze.
+- Fixed an issue where players exiting the game during the tutorial steps Craft tools or Equip tools could become unable to complete those steps.
+- Fixed an issue where creature root effects were not functioning correctly due to the snapping feature.
+
+### Known issues
+- Groups may not be properly cleaned when a player disconnects. Disbanding the group is often required to unlock all players.
+- When you are using multiple talents of different talents, some talents could be deactivated (mainly for life talents).
+- Players may occasionally load into an empty or unloaded level; reconnecting restores the environment.
+- Leaving a seamless portal may sometimes cause camera issues (camera could be sensitive to damage area by zooming to your character).
+- Rare 1 of the Dungeon02 could not update its lifebar correctly (only background color, life value is correctly updated).
+
+### Tips
+- If you experience data synchronization issues, restarting the game usually resolves the problem.
+- If you experience GPU-related crashes, lower your graphics settings from the main menu.
+- The automatic benchmark at launch may select excessively high settings; adjust manually if you encounter low FPS.
+- If you encounter timer or cooldown issues, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window unintentionally, try switching between Borderless and Fullscreen modes in the Options menu.
 
 ## 0.1.0.39 patch
 
