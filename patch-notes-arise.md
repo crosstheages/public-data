@@ -29,7 +29,6 @@
 ### Features
 - Added a new dungeon: Crucible Assault, available in a Pre-Alpha state (this dungeon may contain significant bugs, missing sounds, optimization issues, and balancing problems; please report any issues encountered).
 - When completing a dungeon (Victory or Defeat), the leader’s key will now rotate to a different dungeon from the active dungeon list (it will no longer always remain on the same dungeon in this case).
-- When abandoning a dungeon, the key will be decremented but will remain assigned to the same dungeon.
 - Important notice: When a player starts the fight with Astrogant, the boss arena becomes locked. Players inside must activate the checkpoint, and players outside will only be able to join the arena by teleporting their character while the fight is active.
 - Removed the Equip button from the House and Inventory Chest buildings to simplify the process of selecting a new weapon or tool.
 
