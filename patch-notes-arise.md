@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.1.0.42](#01042-patch)
   - [0.1.0.41](#01041-patch)
   - [0.1.0.39](#01039-patch)
   - [0.1.0.38](#01038-patch)
@@ -21,6 +22,33 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.1.0.42 patch
+
+`2025-12-06 18:00 UTC`
+
+### Features
+- For the end of this playtest, we added the feature to change the dungeon associated with your key in the Artellium Map building.
+
+### Fixes
+- Fixed an issue where it was not possible to get the same dungeon key at the end of a run.
+- Fixed an issue where the boss room visibility of the dungeon 02 could be incorrect.
+
+### Known issues
+- Groups may not be properly cleaned when a player disconnects. Disbanding the group is often required to unlock all players.
+- When you are using multiple talents of different talents, some talents could be deactivated (mainly for life talents).
+- Players may occasionally load into an empty or unloaded level; reconnecting restores the environment.
+- Leaving a seamless portal may sometimes cause camera issues (camera could be sensitive to damage area by zooming to your character).
+- Rare 1 of the Dungeon02 could not update its lifebar correctly (only background color, life value is correctly updated).
+- Some Labyrinth rooms (room of only 2 exits) may appear to have only two incorrect exits, with the correct path not visible in this type of room.
+- Astrogant’s Fire Stele can cause significant FPS drops when the player becomes immortal (dash or ultimate) and the flames pass through the character.
+
+### Tips
+- If you experience data synchronization issues, restarting the game usually resolves the problem.
+- If you experience GPU-related crashes, lower your graphics settings from the main menu.
+- The automatic benchmark at launch may select excessively high settings; adjust manually if you encounter low FPS.
+- If you encounter timer or cooldown issues, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window unintentionally, try switching between Borderless and Fullscreen modes in the Options menu.
 
 ## 0.1.0.41 patch
 
