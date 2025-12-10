@@ -6,9 +6,44 @@
   - [0.1.1](#011-crafting)
   
 - 0.2 
+    - [0.2.3](#020-Mystery-Box-&-Dashboard-Updates)
     - [0.2.2](#020-EM)
     - [0.2.1](#020-defi)
     - [0.2.0](#020-solana)
+
+
+
+
+## 0.2.3 Mystery Box & Dashboard Updates
+
+`2025-12-10`
+
+### New Features
+
+- Shop
+    - Launch of new Mystery Box for VIP progression and orb rewards
+    - New chances and new prizes available
+    - Grand prize: 575,000 Orbs
+    - Available at: https://portal.crosstheages.com/shop/mystery-box
+
+### Improvements
+
+Following feedback from the Portal test team:
+
+- Dashboard
+    - Added shortcut to staking from CTALS section
+    - EM now displayed directly on Dashboard
+    - Added expiration dates for orbs in Dashboard tooltips
+
+- Inventory
+    - Physical Collection: Highest numbering now selected by default when claiming
+
+### Coming Soon
+
+- Bridge Polygon → SOL
+- Bridge IMX → SOL
+
+
 
 ## 0.2.2 EM
 
