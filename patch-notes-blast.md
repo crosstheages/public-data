@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15475](#02415475-patch)
   - [0.24.15472](#02415472-patch)
   - [0.24.15464](#02415464-patch)
   - [0.24.15129](#02415129-patch)
@@ -26,6 +27,20 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
+## 0.24.15475 Patch
+
+`2025-12-17 20:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with the power shown on a card on the board after swapping possession while having an affinity.
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+
 ## 0.24.15472 Patch
 
 `2025-12-17 16:00 UTC`
@@ -43,11 +58,6 @@
 - Collection
   - Fixed an issue in the global collection display not loading past the initial loading.
   - Fixed an issue with the collection mission for Dawn of War at 100% not validating (Hotfix already live).
-
-### Known issues
-
-- Gameplay
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
 
 ## 0.24.15464 Patch
 
