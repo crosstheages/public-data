@@ -99,6 +99,9 @@
   - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
   - There is a missing popup on event duels when you try to surrender before turn 9. You won't be able to surrender but nothing will be displayed.
   - At the end of a ranked duel, you will have 2 unlocker chests displayed but you will receive only one, as expected.
+  - Cards that have an animation level as skin will appear as invisible in your hand and on the board. Remove the skin to see the card better.
+- Merge
+  - There is a display issue with cards on the Merge screen not impacting the craft.
 
 ## 0.24.15141 Patch
 
