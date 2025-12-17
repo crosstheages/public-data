@@ -102,6 +102,8 @@
   - Cards that have an animation level as skin will appear as invisible in your hand and on the board. Remove the skin to see the card better.
 - Merge
   - There is a display issue with cards on the Merge screen not impacting the craft.
+- Collection
+  - The global collection display doesn't show past the the initial loading.
 
 ## 0.24.15141 Patch
 
