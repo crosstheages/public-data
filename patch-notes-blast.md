@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15472](#02415472-patch)
   - [0.24.15464](#02415464-patch)
   - [0.24.15129](#02415129-patch)
   - [0.24.15101 Hotfix #2](#02415101-hotfix-2)
@@ -24,6 +25,29 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15472 Patch
+
+`2025-12-17 16:00 UTC`
+
+### Fixes
+
+- Event
+  - Fixed an issue with event mission progression not counting (Hotfix already live).
+- Gameplay
+  - Fixed a display issue with cards that have an animation level as skin appearing as invisible in your hand and on the board.
+  - Fixed an issue with "too soon to surrender" popup not showing.
+  - Fixed a display issue with the unlocker won at the end of a ranked duel showing up twice.
+- Merge
+  - Fixed a display issue with cards on the merge screen.
+- Collection
+  - Fixed an issue in the global collection display not loading past the initial loading.
+  - Fixed an issue with the collection mission for Dawn of War at 100% not validating (Hotfix already live).
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
 
 ## 0.24.15464 Patch
 
@@ -92,18 +116,6 @@
   - fixed a few display issues with the Leaderboard.
 - Profile
   - Fixed an issue with some success not being claimable if a higher threshold was already claimed.
-
-### Known issues
-
-- Gameplay
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-  - There is a missing popup on event duels when you try to surrender before turn 9. You won't be able to surrender but nothing will be displayed.
-  - At the end of a ranked duel, you will have 2 unlocker chests displayed but you will receive only one, as expected.
-  - Cards that have an animation level as skin will appear as invisible in your hand and on the board. Remove the skin to see the card better.
-- Merge
-  - There is a display issue with cards on the Merge screen not impacting the craft.
-- Collection
-  - The global collection display doesn't show past the the initial loading.
 
 ## 0.24.15141 Patch
 
