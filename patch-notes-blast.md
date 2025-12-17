@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15464](#02415464-patch)
   - [0.24.15129](#02415129-patch)
   - [0.24.15101 Hotfix #2](#02415101-hotfix-2)
   - [0.24.15101 Hotfix #1](#02415101-hotfix-1)
@@ -23,6 +24,81 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15464 Patch
+
+`2025-12-17 08:00 UTC`
+
+### Changes
+
+- Christmas event
+  - A special event is available for the winter season!
+  - The event will last until `2026-01-14 08:00 UTC`
+  - This event brings a whole new gamemode specific to this event: 
+    - At the end of every 3 turns, an elfin drone flies across the board and drops a gift.
+    - If the cell it lands in is occupied, it immediately gives a random bonus to the card; otherwise, the gift waits until a card lands on it.
+    - The drone's flight path is announced in advance, but the cell it lands on is random.
+    - Get all the gifts to overcome your opponent!
+  - When winning event duels, you have a 50% chance to drop a Red Tipped Crane Exclusive card and its combo with Garth! It has a 80% chance to be standard, 15% chance to be alternative and 5% chance to be combo. They are static and have a chance to be auto minted depending on your Mint Pass (Red Mint Pass 0.005%, Green Mint Pass 0.010%, Blue Mint Pass 0.020%, Legacy Mint Pass 0.035%, Golden Mint Pass 0.050%, Golden Legacy Mint Pass 0.065%).
+  - Win duels to unlock exclusive cosmetics only unlockable during this event. Additionally, event missions now give bonus Ark.
+  - All cosmetics are also available in the Shop. The cosmetics available in the shop are the same as the ones you get while playing. If you buy the pack and already have some of the cosmetics, the price is not reduced and you won't get the cosmetics you already had.
+  - The special Christmas gamemode also gives Ark and Trisel at the same rate as a Silver rank player in ranked. It doesn't drop Exclusive Leaderboard cards.
+- Balancing
+  - Please note that this is a temporary balancing while we do more in-depth changes for next event.
+  - Hack level 3 costs 500 Energy (up from 350).
+- Eternal Multiplier changes
+  - Eternal Multiplier no longer applies to Ark earned at the end of a duel.
+  - Rank from Leaderboard no longer increases the amount of Ark earned at the end of a duel.
+  - Eternal Multiplier now applies to Ark obtained from Reward Chests.
+  - Rank now increases the chance of obtaining higher-tier unlocker chests.
+  - Unlocker Chests can only be obtained from winning Ranked duels.
+  - Previously unlocked Reward Chests have been automatically obtained to avoid mixing old and new content. All cards and currency have been added to your account.
+  - Ark rewards from duels, and unlocker chests have been rebalanced to keep the overall impact neutral for most players.
+  - A new effect, Trisel Infusion, has been introduced: every dollar spent in the shop (in CTA Token or Fiat currency) grants one Ranked win that awards 500 Trisel (e.g., spend $10, get 10 infused wins).
+  - Trisel Infusion is also available as a VIP Tier 4 item in the Echo Shop on the Portal.
+- Shop
+  - We enabled CTA Token purchases in the shop.
+  - For Android and Apple devices, we added a retry function if the purchase was not successful to retry it the next time you enter the shop so users don't get stuck.
+- Unlocker
+  - We changed the art of the unlocker display to better match the result and the amount of booster obtained.
+- Opening
+  - Improved the visual and sound effects of the booster opening.
+- Leaderboard
+  - Allow the click on other players to display their profile.
+- Gameplay
+  - Don't show the card detail of cards when selecting a rune and the press is a bit too long.
+- Collection
+  - Improved some UI in product and Card details.
+  - Improved the Blast selection for the deck edition.
+- Bug report
+  - when reporting an issue from the login page, we added a mandatory email inpu so the support can contact you back.
+- Misc
+  - Improved some icon resolution.
+
+### Fixes
+
+- Inventory
+  - Fixed an issue with Eternal Pranah bundle missing assets.
+- Dashboard
+  - Fixed an issue with the Dashboard BGM not playing when entering the game.
+  - Fixed some asset and font inconsistency.
+- Collection
+  - Fixed an issue with the deck name change sometimes not registering on PC.
+- Reward
+  - Fixed some asset and font inconsistency.
+- Shop
+  - Fixed some asset and font inconsistency.
+- Leaderboard
+  - fixed a few display issues with the Leaderboard.
+- Profile
+  - Fixed an issue with some success not being claimable if a higher threshold was already claimed.
+
+### Known issues
+
+- Gameplay
+  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
+  - There is a missing popup on event duels when you try to surrender before turn 9. You won't be able to surrender but nothing will be displayed.
+  - At the end of a ranked duel, you will have 2 unlocker chests displayed but you will receive only one, as expected.
 
 ## 0.24.15141 Patch
 
@@ -51,26 +127,6 @@
   - Fixed a display issue with damage display after a card has been destroyed by a pumpkin creation (hotfix already live).
 - Collection
   - Fixed an issue with the mint cost display.
-
-### Known issues
-
-- Gameplay
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
-- Shop
-  - We had an issue with the possibility to pay in CTA Token in the shop, it has been disabled for now.
-- Collection
-  - Card list, the book shortcut showing that you have lore to claim should redirect to the lore section directly.
-  - Product detail, the "close" zone of the card displayed in full art is too small.
-  - Product details, the cards from the power list cannot be scrolled.
-- Opening
-  - Opening some displays may take more time than necessary.
-
-### Potentiel issues
-
-- Gameplay
-  - Those are issues that have been reported but can't reproduce on our end. We need more in-game reports or video on those issues to help us identify the issue.
-  - The end turn button sometimes doesn't trigger. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
-  - There is an issue with Explosive rune not triggering before the capture and not allowing for captures. If this happens to you, please report it using the in-game bug report feature (F1 on PC or shake your phone).
 
 ## 0.24.15101 Hotfix #2
 
