@@ -6,7 +6,7 @@
   - [0.1.1](#011-crafting)
   
 - 0.2 
-    - [0.2.4](#020-Wheel-Update-&-Briges)
+    - [0.2.4](#020-Wheel-Update-and-Briges)
     - [0.2.3](#020-Mystery-Box-&-Dashboard-Updates)
     - [0.2.2](#020-EM)
     - [0.2.1](#020-defi)
@@ -14,7 +14,7 @@
 
 
 
-## 0.2.4 Wheel Update & Bridges
+## 0.2.4 Wheel Update and Bridges
 `2026-01-07`
 
 ### New Features
