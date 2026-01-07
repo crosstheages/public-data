@@ -7,7 +7,7 @@
   
 - 0.2 
     - [0.2.4](#020-Wheel-Update-and-Briges)
-    - [0.2.3](#020-Mystery-Box-&-Dashboard-Updates)
+    - [0.2.3](#020-Mystery-Box-and-Dashboard-Updates)
     - [0.2.2](#020-EM)
     - [0.2.1](#020-defi)
     - [0.2.0](#020-solana)
@@ -29,7 +29,7 @@
     - Wheel update with new design to match the Mystery Box aesthetic
 
 
-## 0.2.3 Mystery Box & Dashboard Updates
+## 0.2.3 Mystery Box and Dashboard Updates
 
 `2025-12-10`
 
