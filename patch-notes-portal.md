@@ -6,10 +6,10 @@
   - [0.1.1](#011-crafting)
   
 - 0.2 
-    - [0.2.4](#020-Wheel-Update-and-Briges)
-    - [0.2.3](#020-Mystery-Box-and-Dashboard-Updates)
-    - [0.2.2](#020-EM)
-    - [0.2.1](#020-defi)
+    - [0.2.4](#024-wheel-update-and-briges)
+    - [0.2.3](#023-mystery-box-and-dashboard-updates)
+    - [0.2.2](#022-em)
+    - [0.2.1](#021-defi)
     - [0.2.0](#020-solana)
 
 
