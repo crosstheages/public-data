@@ -6,12 +6,27 @@
   - [0.1.1](#011-crafting)
   
 - 0.2 
+    - [0.2.4](#020-Wheel-Update-&-Briges)
     - [0.2.3](#020-Mystery-Box-&-Dashboard-Updates)
     - [0.2.2](#020-EM)
     - [0.2.1](#020-defi)
     - [0.2.0](#020-solana)
 
 
+
+## 0.2.4 Wheel Update & Bridges
+`2026-01-07`
+
+### New Features
+- Bridge (https://portal.crosstheages.com/bridge)
+    - Only available on PC, the bridge requires Metamask (for IMX and Polygon) and Phantom for asset reception
+    - The bridge is open access, you don't need to be logged in to bridge assets to any Solana address of your choice
+    - From the same interface, you can bridge IMX → SOL or POLYGON → SOL
+    - For the bridge to work properly, you must have POL on Polygon and SOL on the Solana address
+
+### Updates
+- Shop
+    - Wheel update with new design to match the Mystery Box aesthetic
 
 
 ## 0.2.3 Mystery Box & Dashboard Updates
