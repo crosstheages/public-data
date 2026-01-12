@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15475 Hotfix #1](#02415475-hotfix-1)
   - [0.24.15475](#02415475-patch)
   - [0.24.15472](#02415472-patch)
   - [0.24.15464](#02415464-patch)
@@ -26,6 +27,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15475 Hotfix #1
+
+`2026-01-12 08:00 UTC`
+
+### Fix
+
+- Collection
+  - Fixed an issue with newly released SR cards not appearing in card stacks.
 
 ## 0.24.15475 Patch
 
