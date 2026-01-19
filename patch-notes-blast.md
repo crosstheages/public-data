@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15479](#02415479-patch)
   - [0.24.15475 Hotfix #1](#02415475-hotfix-1)
   - [0.24.15475](#02415475-patch)
   - [0.24.15472](#02415472-patch)
@@ -27,6 +28,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15479 Patch
+
+`2026-01-15 15:00 UTC`
+
+### Fix
+
+- Shop
+  - Fixed an issue with purchases not going through on iOS and Android devices.
 
 ## 0.24.15475 Hotfix #1
 
