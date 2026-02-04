@@ -5,12 +5,53 @@
 - 0.1
   - [0.1.1](#011-crafting)
   
-- 0.2 
+- 0.2
+    - [0.2.5](#025-brick-breaker-account-deletion-and-migration-updates)
     - [0.2.4](#024-wheel-update-and-briges)
     - [0.2.3](#023-mystery-box-and-dashboard-updates)
     - [0.2.2](#022-em)
     - [0.2.1](#021-defi)
     - [0.2.0](#020-solana)
+
+
+## 0.2.5 Brick Breaker, Account Deletion and Migration Updates
+`2026-02-XX`
+
+### New Features
+
+- **Shop - Orb Digger Mini-Game**
+    - New arcade-style mini-game now available in rotation
+    - Weekly rotation schedule: Mystery Box → Wheel → Orb Digger
+    - Available at: https://portal.crosstheages.com/shop/miner
+
+- **Account Management - Account Deletion**
+    - Users can now permanently delete their CTA account from My Info settings
+    - **Two deletion scenarios:**
+        - **New accounts (no assets):** Immediate deletion with instant username and authentication method release
+        - **Accounts with assets:** 30-day grace period with immediate deactivation
+    - **Asset handling:**
+        - Web3 assets (NFTs, tokens) remain in your Solana wallet
+        - Web2 assets (in-game items, virtual currency) permanently deleted after 30 days
+    - **Cancellation:** Deletion can be cancelled within 30 days by reconnecting to the portal
+    - Email notifications sent at confirmation, 7 days before final deletion, and upon completion
+
+### Important Updates
+
+- **IMX → zkEVM Migration - Critical Changes** 🚨
+    - **Automatic CTA token migration has ENDED**
+    - All remaining CTA tokens must now be migrated **MANUALLY**
+    - **Migration paths based on your situation:**
+        - ✅ **Already fully migrated:** No action needed
+        - ⚠️ **Nothing migrated yet:**
+            1. Retrieve seed phrases at end of migration process
+            2. Import into MetaMask
+            3. Bridge manually: IMX zkEVM → ETH via https://toolkit.immutable.com/ethereum-bridge/
+            4. Then ETH → Solana via https://portal.crosstheages.com/bridge/bridge-tokens
+        - 🔍 **Found MetaMask wallet with CTA tokens or NFTs:**
+            - NFTs: Verify and bridge at https://portal.crosstheages.com/bridge/bridge-s01-assets
+            - Tokens (on zkEVM): Bridge manually IMX zkEVM → ETH → Solana
+    - **Note:** NFTs and Web2 assets are NOT impacted by token migration changes
+    - **Support:** https://crosstheages.atlassian.net/servicedesk/customer/portal/2/group/6/create/93
 
 
 
