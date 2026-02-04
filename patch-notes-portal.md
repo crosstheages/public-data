@@ -14,7 +14,7 @@
     - [0.2.0](#020-solana)
 
 
-## 0.2.5 Brick Breaker, Account Deletion and Migration Updates
+## 0.2.5 Orb Digger, Account Deletion and Migration Updates
 `2026-02-XX`
 
 ### New Features
