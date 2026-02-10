@@ -55,7 +55,7 @@
 - Balancing
   - Blast: Drone Command
     - Level 3 complete redesign: 
-      - Full description: Move a card on the board to a free location and restart an attack.
+      - Full description: Move a controlled card on the board to a free location and restart an attack.
       - Cost: 400 Power (up from 250).
   - Blast: Gravitational Wave
     - Level 1 now strictly applies its current description and only moves the first card encountered:
@@ -83,7 +83,7 @@
       - Cost: 200 Power.
   - Rune: Explosive
     - Complete redesign: Explosive rune now empowers the card you play but only when you play it to make attacks.
-    - Full description: This card gains +25/50/100 additional power when played only.
+    - Full description: This card gains +25/50/100 additional power until the end of the capture.
   - Rune: Overpowering
     - This rune can now be played on opponent's cards as well as controlled cards.
 - Inventory
