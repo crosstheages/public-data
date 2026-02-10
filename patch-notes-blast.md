@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15825](#02415825-patch)
   - [0.24.15479](#02415479-patch)
   - [0.24.15475 Hotfix #1](#02415475-hotfix-1)
   - [0.24.15475](#02415475-patch)
@@ -28,6 +29,98 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15825 Patch
+
+`2026-02-11 08:00 UTC`
+
+### Changes
+
+- Lunar New Year event
+  - A special event is available for the Lunar New Year!
+  - The event will last until `2026-03-11 08:00 UTC`
+  - This event brings a whole new gamemode specific to this event: 
+    - You have in hand a spell card, usable at any time.
+    - By spending energy and placing cards on the board, you can level it up to enhance its effects.
+    - When used, its effect activates and then the card is discarded; you then draw a new level 1 card at the next turn.
+    - Use your power strategically to overcome your opponents!
+  - When winning event duels, you have a 50% chance to drop a Pietro Exclusive card! It has a 80% chance to be standard and 20% chance to be alternative. They are static and have a chance to be auto minted depending on your Mint Pass (Red Mint Pass 0.005%, Green Mint Pass 0.010%, Blue Mint Pass 0.020%, Legacy Mint Pass 0.035%, Golden Mint Pass 0.050%, Golden Legacy Mint Pass 0.065%).
+  - Win duels to unlock exclusive cosmetics only unlockable during this event.
+  - All cosmetics are also available in the Shop. The cosmetics available in the shop are the same as the ones you get while playing. If you buy the pack and already have some of the cosmetics, the price is not reduced and you won't get the cosmetics you already had.
+  - The special Lunar New Year gamemode also gives Ark at the same rate as a Silver rank player in ranked. It doesn't drop Exclusive Leaderboard cards.
+- Gameplay
+  - Following feedback about the location of the discard area, it has been moved to the left side of the screen to avoid an unintentional end of turn.
+  - Improved card movement and many Blast animations and feedback.
+  - Added a glow around the endturn button to better emphasize the current player.
+- Balancing
+  - Blast: Drone Command
+    - Level 3 complete redesign: 
+      - Full description: Move a card on the board to a free location and restart an attack.
+      - Cost: 400 Power (up from 250).
+  - Blast: Gravitational Wave
+    - Level 1 now strictly applies its current description and only moves the first card encountered:
+      - Full description: Unleashes a wave of energy on a row or column which pushes the first card encountered in that direction one cell. If the card cannot be moved, it loses -50 power.
+      - Cost: 75 Power (down from 100).
+    - Level 2 now strictly applies its current description and only moves cards adjacent to the selected cell:
+      - Full description: Throw an energy ball onto a cell on the board, which pushes all adjacent cards outwards by one cell. If a card cannot be moved, it loses -100 power.
+  - Blast: Hack
+    - Level 1 complete redesign: 
+      - Full description: Choose a card from your opponent's hand that they cannot play on the next turn. You cannot choose the same card on the following turn.
+      - Cost: 75 Power (up from 25).
+    - Level 3 complete redesign: 
+      - Full description: The initial cost of enemy Blasts is multiplied by 4 during the next turn, then by 2 during the following turn. It returns to normal starting from the third turn.
+      - Cost: 250 Power (down from 500).
+  - Blast: Draw of Fate
+    - We inverted level 1 and level 2 to limit the draw cards usage.
+    - Level 1 also reduced the number of cards seen:
+      - Full description: Reorder the top 2 cards of your deck.
+      - Cost: 100 Power (down from 125).
+    - Level 2 
+      - Full description: Draw 1 card without triggering overdraw.
+      - Cost: 125 Power (up from 100).
+    - Level 3 complete redesign:
+      - Full description: Look at the top 5 cards of your deck, then choose one. The 5 cards are then shuffled, and you draw them without triggering the overdraw until you draw the chosen card. You regain 100 power for each card not drawn.
+      - Cost: 200 Power.
+  - Rune: Explosive
+    - Complete redesign: Explosive rune now empowers the card you play but only when you play it to make attacks.
+    - Full description: This card gains +25/50/100 additional power when played only.
+  - Rune: Overpowering
+    - This rune can now be played on opponent's cards as well as controlled cards.
+- Inventory
+  - Increased the odds for bonus cards of old collections to reflect the odds chance of the booster it comes from. It increases chances for mythic cards for higher tier unlocker boosters.
+- Pranah bundles
+  - The last Pranah bundles have been automatically opened and converted into Eternal Stones.
+  - Here is the detail for each bundle : Small Pranah bundle: 14 Eternal Stones, Medium Pranah bundle: 67 Eternal Stones, Large Pranah bundle: 190 Eternal Stones, Massive Pranah bundle: 462 Eternal Stones, Huge Pranah bundle: 779 Eternal Stones, Mega Pranah bundle: 1587 Eternal Stones, Giga Pranah bundle: 3968 Eternal Stones, Ultimate Pranah bundle: 7936 Eternal Stones, Golden Pranah bundle: 7936 Eternal Stones, Golden Legacy Pranah bundle: 7936 Eternal Stones.
+  - Users that still had Pranah from bundle opening have been awarded Eternal Stones.
+- Shop
+  - Added step options for converting Trisel and Eternal stones.
+- Collection
+  - Following feedback, we have added the name of the artist who worked on the card animation when the full display of a card with an animated skin is selected.
+- Authentification
+  - We added silent authentication with Epic Games (connecting directly to a linked account without additional input). Google and Apple Silent Auth will be implemented in the next patch.
+- Deck edition
+  - Redesigned the deck Boxes for a more unified theme.  
+- Profile
+  - Added a redirection to the portal for username changes.
+- Misc
+  - Improved some UI inconsistencies in authentication, dashboard, collection, profile, inbox, leaderboard screens.
+  - Improved the way we display tooltips when gaining random cards to be more precise.
+  - Added the system message to the authentication screen allowing us to better communicate when there are infrastructure issues.
+
+### Fixes
+
+- Gameplay
+  - Fixed an issue with capture preview calculation with affinities.
+- Leaderboard
+  - Fixed an issue with Leaderboard ranking not properly displaying rank changes.
+- Inventory
+  - Fixed an issue with chests from previous seasons not correctly playing the opening video.
+  - Fixed an issue with the booster size when opening a booster.
+- Collection
+  - Fixed an issue with filters not showing all cards when filtering by rank/grade and not possessed cards (ie: showing all missing grade S cards).
+  - Fixed an issue with the skin list showing up multiple times when going back to a previously shown card.
+- Misc
+  - Fixes an issue with emote resolution not being consistent.
 
 ## 0.24.15479 Patch
 
@@ -55,11 +148,6 @@
 
 - Gameplay
   - Fixed an issue with the power shown on a card on the board after swapping possession while having an affinity.
-
-### Known issues
-
-- Gameplay
-  - There is some performance issue on some devices with lags and impossibility to play cards. We are actively working on a setting to reduce effect quality and allow you to play as well as reduce overheating and battery consumption.
 
 ## 0.24.15472 Patch
 
