@@ -47,7 +47,7 @@
   - When winning event duels, you have a 50% chance to drop a Pietro Exclusive card! It has a 80% chance to be standard and 20% chance to be alternative. They are static and have a chance to be auto minted depending on your Mint Pass (Red Mint Pass 0.005%, Green Mint Pass 0.010%, Blue Mint Pass 0.020%, Legacy Mint Pass 0.035%, Golden Mint Pass 0.050%, Golden Legacy Mint Pass 0.065%).
   - Win duels to unlock exclusive cosmetics only unlockable during this event.
   - All cosmetics are also available in the Shop. The cosmetics available in the shop are the same as the ones you get while playing. If you buy the pack and already have some of the cosmetics, the price is not reduced and you won't get the cosmetics you already had.
-  - The special Lunar New Year gamemode also gives Ark at the same rate as a Silver rank player in ranked. It doesn't drop Exclusive Leaderboard cards.
+  - The special Lunar New Year gamemode also gives Ark and unlocker chests at the same rate as a Silver rank player in ranked. It doesn't drop Exclusive Leaderboard cards.
 - Gameplay
   - Following feedback about the location of the discard area, it has been moved to the left side of the screen to avoid an unintentional end of turn.
   - Improved card movement and many Blast animations and feedback.
