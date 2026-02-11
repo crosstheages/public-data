@@ -122,6 +122,11 @@
 - Misc
   - Fixes an issue with emote resolution not being consistent.
 
+### Known issues
+
+- Authentication
+  - Epic silent auth is not working properly, a new windows client is underway to fix the issue.
+
 ## 0.24.15479 Patch
 
 `2026-01-15 15:00 UTC`
