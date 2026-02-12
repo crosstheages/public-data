@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15832](#02415832-patch)
   - [0.24.15825](#02415825-patch)
   - [0.24.15479](#02415479-patch)
   - [0.24.15475 Hotfix #1](#02415475-hotfix-1)
@@ -29,6 +30,17 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15832 Patch
+
+`2026-02-12 08:00 UTC`
+
+### Fixes
+
+- Gameplay
+  - Added an animation to one of the lantern so it doesn't hide the health of the opponent whe ntaking damage.
+- Authentication
+  - Fixed Epic Games silent auth.
 
 ## 0.24.15825 Patch
 
