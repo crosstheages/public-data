@@ -38,7 +38,7 @@
 ### Fixes
 
 - Gameplay
-  - Added an animation to one of the lantern so it doesn't hide the health of the opponent whe ntaking damage.
+  - Added an animation to one of the lantern so it doesn't hide the health of the opponent when taking damage.
 - Authentication
   - Fixed Epic Games silent auth.
 
