@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.24
+  - [0.24.15832 Hotfix #1](#02415832-hotfix-1)
   - [0.24.15832](#02415832-patch)
   - [0.24.15825](#02415825-patch)
   - [0.24.15479](#02415479-patch)
@@ -30,6 +31,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.24.15832 Hotfix #1
+
+`2026-03-02 10:30 UTC`
+
+### Changes
+
+- Duel
+  - Discarding is no longer considered sufficient action to avoid being detected as AFK.
 
 ## 0.24.15832 Patch
 
