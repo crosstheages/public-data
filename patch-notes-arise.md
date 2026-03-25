@@ -50,16 +50,16 @@ Exclusively available on Steam for this session, Playtest 4: 25 March to 13 Apri
 - Added new leaderboards for materies and Challenge: Ascension. 
 - It's now possible to sprinting and use weapons on lands.
 
-## Coming features during the next weeks
+### Coming features during the next weeks
 - Interactive Map for dungeon (improves navigation and dungeon exploration with clearer visual guidance and player orientation).
 
-## Improvements
+### Improvements
 - Dungeon 1: Puzzle before the Cinematic has been simplified for new players
 - Dungeon 2: The difficult has been reduced to be more accessible. 
 - Fishing game and animations have been improved. 
 - Improved the lighting and environment of the Rift land.
 
-## Balancing
+### Balancing
 - All weapons has been adjusted to be able more scalable on their tier (rather than rarity)
 
 ### Systems
