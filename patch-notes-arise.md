@@ -44,11 +44,13 @@ Exclusively available on Steam for this session, Playtest 4: 25 March to 13 Apri
 - Mastery Tree is now fully available (encourages build specialization and long-term progression toward unlocking Tier 7 content).
 - Your house and storage chest now function as a bank within your lands. You can carry resources and weapons using your personal inventory, but be mindful of your weight - higher weight reduces mobility (not applicable in dungeons).
 - Added weapon durability (introduces resource management and economic depth by requiring maintenance and replacement of gear).
-- Added a new camera view (offers players more control over perspective to improve comfort and gameplay readability).
+- Added a new camera view (offers players more control over perspective to improve comfort and gameplay readability). You can switch between them with "V" key.
 - Added the ability to unequip weapons (gives players more flexibility in managing loadouts and adapting to different situations).
 - Added a new photo mode (only usable in solo zone like Land).
 - Added new leaderboards for materies and Challenge: Ascension. 
 - It's now possible to sprinting and use weapons on lands.
+- Added new keys to be able to switch to a quickslot element directly.
+
 
 ### Coming features during the next weeks
 - Interactive Map for dungeon (improves navigation and dungeon exploration with clearer visual guidance and player orientation).
