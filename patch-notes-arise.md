@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.4.0.3](#0403-patch)
   - [0.1.0.42](#01042-patch)
   - [0.1.0.41](#01041-patch)
   - [0.1.0.39](#01039-patch)
@@ -22,6 +23,70 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+## 0.4.0.3 patch
+
+`2026-03-25 TBD UTC`
+
+Exclusively available on Steam for this session, Playtest 4: 25 March to 13 April
+
+### New Features
+- Added the Beginner’s Zone (introduces core mechanics like gathering, refining, crafting, and upgrading in a safe learning environment).
+- Added the Transition Zone (bridges solo and multiplayer gameplay, introducing travel mechanics and a first optional PvP experience).
+- Added the Emote System (enhances social interactions by allowing players to communicate and express themselves non-verbally).
+- Added a new land: Arkhante (expands the world with new environments, resources, and exploration opportunities).
+- Added a new weapon: Air (introduces a new combat style focused on mobility, range, and unique elemental abilities).
+- Added a new Character Creation System (gives players more control over identity with deeper body selection and customization options).
+- Added a new building: Stylist (allows players to modify appearance anytime, supporting personalization).
+- Added a new building: Weekly Chest Hall (provides recurring challenges with rewards).
+- Added a new building: Music Box (lets players collect music vinyls and customize the ambiance of their lands for immersion).
+- Added outfits which can be unlocked through your character progression.
+- Mastery Tree is now fully available (encourages build specialization and long-term progression toward unlocking Tier 7 content).
+- New Personal Inventory system: House and Inventory chest are now used like a bank in your lands. You can now transport resources and weapons with your personal inventory.
+- Added weapon durability (introduces resource management and economic depth by requiring maintenance and replacement of gear).
+- Added a new camera view (offers players more control over perspective to improve comfort and gameplay readability).
+- Added the ability to unequip weapons (gives players more flexibility in managing loadouts and adapting to different situations).
+- Added a new photo mode (only usable in solo zone like Land).
+- Added new leaderboards for materies and Challenge: Ascension. 
+- It's now possible to sprinting and use weapons on lands.
+
+## Coming features during the next weeks
+- Interactive Map for dungeon (improves navigation and dungeon exploration with clearer visual guidance and player orientation).
+
+## Improvements
+- Dungeon 1: Puzzle before the Cinematic has been simplified for new players
+- Dungeon 2: The difficult has been reduced to be more accessible. 
+- Fishing game and animations have been improved. 
+- Improved the lighting and environment of the Rift land.
+
+## Balancing
+- All weapons has been adjusted to be able more scalable on their tier (rather than rarity)
+
+### Systems
+- Weapon durability is enabled.
+- Gathering tool durability is enabled.
+- 2 challenge tickets are granted at account creation.
+- 2 daily challenge ticket is granted at 08:00 UTC.
+
+### Pre-Alpha Notice
+- This playtest is a pre-alpha build intended to test server infrastructure, stability, balance, and gameplay direction.
+- Bugs, crashes, and visual issues are expected at this stage.
+- Players are encouraged to report any issues using the in-game bug reporting tool.
+
+### Known Issues
+- The Arena Challenge description in Map Artellium is not updated. This challenge is only playable in groups of two players.
+- Graphical issues that could occur during QTE cinematics when playing as Samia or Ellie (only during the cinematic)
+- Stone is not properly removed on the client side after crafting. Reconnecting or changing zones resynchronize the data.
+- Air weapon is not correctly visible in the opening crystal building.
+- Sometimes, players could not be able to leave a group. In this case, do not hesitate to disband the group from a leader action.
+
+### Tips
+- If you experience data synchronization issues, try restarting the game.
+- If you encounter GPU crashes, lower the graphics settings in the main menu.
+- The automatic benchmark at launch may select overly demanding settings; adjust graphics options manually if you experience low FPS.
+- If you encounter issues with timers or cooldowns, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window, try switching between borderless and fullscreen modes in the Options menu.
+
 
 ## 0.1.0.42 patch
 
