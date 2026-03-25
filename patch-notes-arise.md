@@ -82,8 +82,9 @@ Exclusively available on Steam for this session, Playtest 4: 25 March to 13 Apri
 - Air weapon is not correctly visible in the opening crystal building.
 - Sometimes, players could not be able to leave a group. In this case, do not hesitate to disband the group from a leader action.
 - Sometimes, the weight of your personal inventory could not be correctly updated.
-- Some SFX of weapon air are not spatialized
-- Sometimes, leaving Arena of TransitionZone could 
+- Some SFX of weapon air are not spatialized.
+- Sometimes, leaving the Arena of TransitionZone may cause you to become stuck in that zone. In this case, the exit portal no longer works, and you must disconnect and reconnect to leave.
+- Challenge: Ascension is locked for now because of a Critical issue.
 
 ### Tips
 - If you experience data synchronization issues, try restarting the game.
