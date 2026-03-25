@@ -85,6 +85,7 @@ Exclusively available on Steam for this session, Playtest 4: 25 March to 13 Apri
 - Some SFX of weapon air are not spatialized.
 - Sometimes, leaving the Arena of TransitionZone may cause you to become stuck in that zone. In this case, the exit portal no longer works, and you must disconnect and reconnect to leave.
 - Challenge: Ascension is locked for now because of a Critical issue.
+- Consumed potions are not correctly removed from inventory at the end of a dungeon
 
 ### Tips
 - If you experience data synchronization issues, try restarting the game.
