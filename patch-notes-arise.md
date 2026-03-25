@@ -79,6 +79,9 @@ Exclusively available on Steam for this session, Playtest 4: 25 March to 13 Apri
 - Stone is not properly removed on the client side after crafting. Reconnecting or changing zones resynchronize the data.
 - Air weapon is not correctly visible in the opening crystal building.
 - Sometimes, players could not be able to leave a group. In this case, do not hesitate to disband the group from a leader action.
+- Sometimes, the weight of your personal inventory could not be correctly updated.
+- Some SFX of weapon air are not spatialized
+- Sometimes, leaving Arena of TransitionZone could 
 
 ### Tips
 - If you experience data synchronization issues, try restarting the game.
