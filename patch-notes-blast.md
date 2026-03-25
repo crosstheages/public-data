@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.25
+  - [0.25.16821](#02516821-patch)
 - 0.24
   - [0.24.15832 Hotfix #1](#02415832-hotfix-1)
   - [0.24.15832](#02415832-patch)
@@ -32,6 +34,77 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
+## 0.25.16821 Patch
+
+`2026-03-25 15:00 UTC`
+
+### Changes
+
+- 3rd Anniversary event
+  - A special event is available to celebrate the 3rd Anniversary of Cross The Ages!
+  - The event will run until `2026-04-22 08:00 UTC`
+  - When winning ranked duels, you have a 20% chance to drop a Special Rare card specific to this event. There are 3 standard cards to collect, which can be crafted into a combo card. These cards are static and have a chance to be auto-minted depending on your Mint Pass. The drop rates have been increased since previous events and are now as follows: Red Mint Pass 0.05%, Green Mint Pass 0.1%, Blue Mint Pass 0.2%, Legacy Mint Pass 0.35%, Golden Mint Pass 0.5%, Golden Legacy Mint Pass 0.65%.
+  - Win duels to unlock exclusive cosmetics that are only obtainable during this event.
+  - All cosmetics are also available in the Shop. The cosmetics in the Shop are identical to those obtained through gameplay. If you buy a pack and already own some of the cosmetics, the price will not be reduced and you will not receive duplicates.
+  - To celebrate with us, any player who logs in during this event will receive: 1 Special Rare card from the event, 1 Omega Dawn of War display, 50,000 Ark and 2,000 Static Stones.
+  - Phrinak, the Dawn of War Special Rare combo card is now available to be crafted. The numbering will be decided in the same way as other Dawn of War cards: at the end of this season.
+- Adventure
+  - Experience the new Adventure mode and discover a full story featuring challenging puzzles.
+  - More than 80 puzzles are available, with additional ones being released regularly.
+  - A complete app tutorial is integrated into the adventure storyline.
+  - Face challenging duels against well-known bosses.
+  - Each time you lose a puzzle, you lose a life, which regenerates at a rate of 1 every 10 minutes. You can also ask your friends to send you lives. You don't lose lives until you unlock Arena mode.
+- Gameplay
+  - Runes
+    - We have updated the Mage and Overpowering runes to make cards with these runes faster to play. When you play a card with a Mage or Overpowering rune, you will gain a spell card corresponding to that rune, which can be played at any time during your turn. If you play another rune of the same type before using the spell card, you will not draw a new one. Instead, the existing rune will be upgraded with the new rune value.
+  - The order of actions displayed during a turn has been significantly revised. The consequences of each action should now be clearer, with effects displayed at the appropriate time.
+  - The visual display of field cards has been updated to better differentiate them from combat cards in your hand.
+- Arena
+  - A new ranked era has started!
+  - The rank of all players have been reset to Bronze to put everyone at the same level.
+  - Rewards remain unchanged.
+- Crafting
+  - We have improved the way the result of an individual awakening is displayed.
+- Social
+  - A friend list has been integrated, allowing you to stay connected with your contacts, challenge them to duels, and request lives for Adventure mode.
+- Arena
+  - Added a shortcut from the deck selection screen to the deck creation interface.
+- Inventory
+  - Added a card pack opening history to review the results of recently opened packs or replay chest opening animations.
+  - Updated the chest detail display to better visualize its contents.
+  - Updated the chest opening visuals to make it more appealing.
+- Shop
+  - Added purchase history display in the Shop.
+  - Added boosters from the Heritage Arkhante, Heritage Mantris, and Heritage Rift collections to the Shop to help complete older static collections.
+- Collection
+  - Added level 2 and level 3 animations to common and uncommon combo cards from the Heritage Arkhante and Heritage Mantris collections.
+- Game guide
+  - Added a game guide in the burger menu to review each game mechanic individually.
+- Profile
+  - Added display of rewards obtained from each duel.
+- Misc
+  - Added a setting to change the FPS limit for mobiles. Increased FPS will have improved performance but also drain more battery.
+  - Added a setting to subscribe or not to different categories of notifications.
+  - Added Steam authentication.
+  - Updated colors for colorblind mode.
+  - Added animated backgrounds throughout the interface.
+  - Added an animation to the notification icon.
+  - Updated all headers and currency popups.
+  - Added missing confirmation popups for Portal redirections.
+  - Minor interface changes throughout the app to provide a better user experience.
+
+### Fixes
+
+- Collection
+  - Fixed the display of the lore panel on WD cards (WD cards don’t have lore).
+- Rewards
+  - Fixed an issue with cards displayed in the reward screen showing as Eternal while they are in fact static.  
+
+### Known issues
+
+- Adventure
+  - Players may encounter a bug that prevents them from starting an adventure level. If this issue occurs, restarting the app will resolve it.
+
 ## 0.24.15832 Hotfix #1
 
 `2026-03-02 10:30 UTC`
@@ -48,7 +121,7 @@
 ### Fixes
 
 - Gameplay
-  - Added an animation to one of the lantern so it doesn't hide the health of the opponent when taking damage.
+  - Added an animation to one of the lanterns so it doesn't hide the health of the opponent when taking damage.
 - Authentication
   - Fixed Epic Games silent auth.
 
