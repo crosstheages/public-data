@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.16821 Hotfix #1](#02416821-hotfix-1)
   - [0.25.16821](#02516821-patch)
 - 0.24
   - [0.24.15832 Hotfix #1](#02415832-hotfix-1)
@@ -33,6 +34,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.16821 Hotfix #1
+
+`2026-03-26 13:30 UTC`
+
+### Fixes
+
+- Unlocker
+  - Fixed an issue with unlocker boosters not containing Trisel if gained with EM. Players that opened those boosters will receive an in-game mail containing the missed Trisel.
 
 ## 0.25.16821 Patch
 
