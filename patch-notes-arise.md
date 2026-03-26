@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.4.0.4](#0404-patch)
   - [0.4.0.3](#0403-patch)
   - [0.1.0.42](#01042-patch)
   - [0.1.0.41](#01041-patch)
@@ -24,9 +25,43 @@
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
 
+## 0.4.0.4 patch
+
+`2026-03-26 17:30 UTC`
+
+### New Features
+- Challenge: Ascension is now unlocked. You can play this one up to 4 players (even solo if you want to beat your timer).
+- When you are gathering a resource, you can now see the total amount of this items in your inventory.
+
+### Fixed issues
+- The Arena Challenge description in Map Artellium is not updated. This challenge is only playable in groups of two players.
+- Stone is not properly removed on the client side after crafting. Reconnecting or changing zones resynchronize the data.
+- Sometimes, players could not be able to leave a group. In this case, do not hesitate to disband the group from a leader action.
+- Some SFX of weapon air are not spatialized.
+- Sometimes, the weight of your personal inventory could not be correctly updated.
+- Sometimes, leaving the Arena of TransitionZone may cause you to become stuck in that zone. In this case, the exit portal no longer works, and you must disconnect and reconnect to leave.
+- Air weapon is not correctly visible in the opening crystal building.
+- Consumed potions are not correctly removed from inventory at the end of a dungeon.
+
+### Known Issues
+- Graphical issues that could occur during QTE cinematics when playing as Samia or Ellie (only during the cinematic).
+
+### Pre-Alpha Notice
+- This playtest is a pre-alpha build intended to test server infrastructure, stability, balance, and gameplay direction.
+- Bugs, crashes, and visual issues are expected at this stage.
+- Players are encouraged to report any issues using the in-game bug reporting tool.
+
+### Tips
+- If you experience data synchronization issues, try restarting the game.
+- If you encounter GPU crashes, lower the graphics settings in the main menu.
+- The automatic benchmark at launch may select overly demanding settings; adjust graphics options manually if you experience low FPS.
+- If you encounter issues with timers or cooldowns, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window, try switching between borderless and fullscreen modes in the Options menu.
+
+
 ## 0.4.0.3 patch
 
-`2026-03-25 TBD UTC`
+`2026-03-25 19:30 UTC`
 
 Exclusively available on Steam for this session, Playtest 4: 25 March to 13 April
 
