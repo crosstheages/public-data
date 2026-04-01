@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.1
+  - [0.4.0.5](#0405-patch)
   - [0.4.0.4](#0404-patch)
   - [0.4.0.3](#0403-patch)
   - [0.1.0.42](#01042-patch)
@@ -24,6 +25,52 @@
   - [0.1.0.2](#0102-patch)
   - [0.1.0.1](#0101-patch)
   - [0.1.0.0](#0100-closed-playtest)
+
+
+## 0.4.0.5 patch
+
+`2026-04-01 TBD UTC`
+
+### New Features
+- The first version of the interactive map is now available for Dungeon 1, Dungeon 2 and Lands by pressing M keyboard key (Unit descriptions are not yet implemented, and several UX improvements are planned for this feature).
+- A x4 multiplier has been added to all Mastery rewards for this playtest.
+- The priority of the “Equip Weapon” action has been increased to match that of the “Dodge” action.
+- New visible options have been added in the bottom-right corner for Emotes, Wheel, Inventory, and Camera inputs.
+
+### Fixed issues
+- Improved QTE visuals, including lighting and character rendering.
+- Fixed an issue where music CDs was not correctly visible on the Rift Land
+- Fixed an issue where the timer reset of Weekly Hall Chest was not correctly shown.
+- The leaderboard now displays correctly the weapons used during each run.
+- The leaderboard now displays the username in the mastery leaderboards.
+- Weapons can now be repaired at the Forge.
+- Tools can now be repaired at the Tools maker. 
+- Consumed potions are now properly removed from the inventory upon returning to the land.
+- Air weapons are now correctly visible in the opening crystal building.
+- Fixed an issue where the players may be disconnected after one hour of inactivity and will need to reconnect to the game.
+- The mini-boss of dungeon 2 shield debug trace is no longer visible.
+- Fixed an issue where it was required to disconnect/reconnect after talent reset to unlock the interface.
+- Fixed an issue where the weapon wheel could block movement when dying with the wheel open.
+- Fixed some colliders on the Arkhante Land 2
+- Fixed an issue where the message of Maintenance could not be correctly shown
+- Fixed an issue where players were rejected by the matchmaking if they were going in Challenge: Ascension with 4 players as Open group. 
+- Fixed an issue where the text of the Arena in the TransitionZone could not be correctly shown
+- Fixed an issue where the Elite 1 of Dungeon 2 was vulnerable to stun effect.
+- Fixed an issue where data could not be correctly loaded on first entrance of Arkhante Land without reconnecting.
+- Fixed some rare crashes
+- Fixed some mistranslations
+
+### Pre-Alpha Notice
+- This playtest is a pre-alpha build intended to test server infrastructure, stability, balance, and gameplay direction.
+- Bugs, crashes, and visual issues are expected at this stage.
+- Players are encouraged to report any issues using the in-game bug reporting tool.
+
+### Tips
+- If you experience data synchronization issues, try restarting the game.
+- If you encounter GPU crashes, lower the graphics settings in the main menu.
+- The automatic benchmark at launch may select overly demanding settings; adjust graphics options manually if you experience low FPS.
+- If you encounter issues with timers or cooldowns, ensure your system clock is synchronized with internet time.
+- If your cursor leaves the game window, try switching between borderless and fullscreen modes in the Options menu.
 
 ## 0.4.0.4 patch
 
