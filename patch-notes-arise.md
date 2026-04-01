@@ -29,7 +29,7 @@
 
 ## 0.4.0.5 patch
 
-`2026-04-01 TBD UTC`
+`2026-04-01 14:00 UTC`
 
 ### New Features
 - The first version of the interactive map is now available for Dungeon 1, Dungeon 2 and Lands by pressing M keyboard key (Unit descriptions are not yet implemented, and several UX improvements are planned for this feature).
