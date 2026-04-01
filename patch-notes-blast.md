@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.16881](#02516881-patch)
   - [0.25.16821 Hotfix #1](#02416821-hotfix-1)
   - [0.25.16821](#02516821-patch)
 - 0.24
@@ -34,6 +35,45 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.16881 Patch
+
+`2026-04-02 08:00 UTC`
+
+### Changes
+
+- Adventure
+  - Reduced the Ranked mode unlock tutorial to level 40 (previously level 67). Players that were between level 40 and 67 before the patch will have to finish an adventure level to trigger the Arena tutorial.
+  - Added back the capture preview indicator for adventure levels.
+  - Added a restart button directly in-game to restart an adventure level. The button is located in the in-game logs.
+  - Changed the frequency of the life send limit to friends from once every 24 hours to once every 4 hours.
+  - Hid the life counter until level 41, at which point your lives start to decrease if you fail a level.
+  - Added a tooltip in the footer explaining how to unlock locked sections. An additional improvement is planned to allow players to force the Arena unlock, but it is not yet ready.
+- Mission 
+  - Added a daily mission available until Ranked mode is unlocked that replaces winning a ranked duel with completing an adventure level, allowing players to complete their daily quests.
+- Collection
+  - Moved the Blast info button from the box list to the deck editor.
+  - Added an information panel when trying to craft an alternative card without the necessary reagents.
+- Shop
+  - Removed the VIP display for players at VIP Level 0.
+- Misc
+  - Reduced the display frequency of the connection issue icon.
+
+### Fixes
+
+- Adventure
+  - Attempted to fix the display issue with the adventure map loading sometimes showing an unzoomed view. If you still have issues with this version, please make an in-game report to help us solve this issue.
+- Game
+  - Fixed a display issue with Hack level 2 not showing hacked cards as grayed out.
+  - Fixed an issue where rune-generated spell cards could trigger hand overflow.
+- Inventory
+  - Fixed an issue with the opening history not showing the replay button for chests with video openings.
+- Collection
+  - Fixed a display issue with the currency info popup in the collection missions window not appearing for already claimed items.
+  - Fixed an issue where a crafting icon would be displayed on a card even if the player did not own the reagents.
+  - Fixed an issue with the merge screen always showing the first card when you wanted to change the selected card.
+- Shop
+  - Fixed a display issue with the cost of items in the Ark when the player has a high amount of currency.
 
 ## 0.25.16821 Hotfix #1
 
