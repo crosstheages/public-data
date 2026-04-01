@@ -32,7 +32,7 @@
 `2026-04-01 14:00 UTC`
 
 ### New Features
-- The first version of the interactive map is now available for Dungeon 1, Dungeon 2 and Lands by pressing M keyboard key (Unit descriptions are not yet implemented, and several UX improvements are planned for this feature).
+- The first version of the interactive map is now available for Dungeon 1, Dungeon 2 and Lands by pressing "," keyboard key (Unit descriptions are not yet implemented, and several UX improvements are planned for this feature).
 - A x4 multiplier has been added to all Mastery rewards for this playtest.
 - The priority of the “Equip Weapon” action has been increased to match that of the “Dodge” action.
 - New visible options have been added in the bottom-right corner for Emotes, Wheel, Inventory, and Camera inputs.
