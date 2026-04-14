@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.17048](#02517048-patch)
   - [0.25.16881](#02516881-patch)
   - [0.25.16821 Hotfix #1](#02416821-hotfix-1)
   - [0.25.16821](#02516821-patch)
@@ -35,6 +36,53 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.17048 Patch
+
+`2026-04-15 08:00 UTC`
+
+### Changes
+
+- Adventure
+  - New zone available! Enjoy 20 new puzzles and a new story to continue your adventure.
+  - Updated the hint system to provide more guidance for medium and hard levels. The first hint is free, the second costs 1 life, and the third costs an additional 2 lives.
+  - Added an information popup explaining the life system when players start losing lives after failing a puzzle.
+  - Increased the size of in-duel dialogues.
+  - Lore is now displayed for levels that are not yet unlocked.
+- Social
+  - Added the ability to spectate friends’ duels directly from the friends list.
+  - Added 3 new settings: block all friend requests, block all duel requests, and block duel spectating from friends.
+- Collection
+  - Hid the convert option in item details when the player does not have a Phantom account.
+
+### Fixes
+
+- Adventure
+  - Fixed missing in-duel dialogues in levels 15, 20, and 80.
+  - Fixed an issue with the level 80 dialogue not displaying the character on the right.
+  - Fixed several dialogue spelling mistakes.
+  - Fixed an issue where leaving the app on the reward screen could result in a locked state.
+  - Fixed inconsistencies with capture previews on turn 1.
+  - Fixed a display issue where losing an already completed puzzle incorrectly showed a life loss.
+- Duel
+  - Fixed an issue where a card losing affinity with less than 100 power was not properly destroyed when moved by Drone Command.
+  - Fixed a display issue with Draw of Fate not showing the card back of the deck.
+- Successes
+  - Fixed an issue where player level progress did not update correctly after leveling up from an adventure duel.
+  - Fixed a display issue with the profile notification not disappearing when claiming successes.
+- Leaderboard
+  - Fixed inconsistencies with rank icon and name display.
+- Inventory
+  - Fixed an issue where Double, Triple, and Quadruple boosters incorrectly displayed multi-open controls, even though this feature is not available for them. We are aware that players would like this functionality and plan to add it in the future, but technical limitations currently prevent it.
+- Collection
+  - Fixed an issue with quick filters incorrectly showing grades for standard cards in certain cases.
+  - Fixed a display issue where card stacks did not show foil states correctly.
+- Shop
+  - Fixed an issue preventing purchases for iOS Devices.
+- Misc
+  - Fixed a display issue with the Blast icon on some Android devices.
+  - Fixed several client crashes.
+  - Performed a major cleanup of legacy assets and current assets optimisation, resulting in a significant reduction in application size.
 
 ## 0.25.16881 Patch
 
