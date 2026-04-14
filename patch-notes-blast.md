@@ -54,6 +54,8 @@
   - Added 3 new settings: block all friend requests, block all duel requests, and block duel spectating from friends.
 - Collection
   - Hid the convert option in item details when the player does not have a Phantom account.
+- Shop
+  - Fixed an issue preventing purchases for iOS Devices. People taht were unable to purchase the pack with the discount will be able to purchase it again after the update.
 
 ### Fixes
 
@@ -77,8 +79,6 @@
 - Collection
   - Fixed an issue with quick filters incorrectly showing grades for standard cards in certain cases.
   - Fixed a display issue where card stacks did not show foil states correctly.
-- Shop
-  - Fixed an issue preventing purchases for iOS Devices.
 - Misc
   - Fixed a display issue with the Blast icon on some Android devices.
   - Fixed several client crashes.
