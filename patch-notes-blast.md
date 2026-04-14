@@ -3,7 +3,7 @@
 ## Direct Links
 
 - 0.25
-  - [0.25.17048](#02517048-patch)
+  - [0.25.17052](#02517052-patch)
   - [0.25.16881](#02516881-patch)
   - [0.25.16821 Hotfix #1](#02416821-hotfix-1)
   - [0.25.16821](#02516821-patch)
@@ -37,7 +37,7 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
-## 0.25.17048 Patch
+## 0.25.17052 Patch
 
 `2026-04-15 08:00 UTC`
 
@@ -67,10 +67,11 @@
   - Fixed inconsistencies with capture previews on turn 1.
   - Fixed a display issue where losing an already completed puzzle incorrectly showed a life loss.
 - Duel
-  - Fixed an issue where a card losing affinity with less than 100 power was not properly destroyed when moved by Drone Command.
+  - Fixed an issue where a card losing affinity with less than 100 power was not properly destroyed when moved by Drone Command or Gravitational Wave.
   - Fixed a display issue with Draw of Fate not showing the card back of the deck.
 - Successes
   - Fixed an issue where player level progress did not update correctly after leveling up from an adventure duel.
+  - Fixed an issue with the Dawn of War completion mission not progressing. The next time you obtain a Dawn of War card will recompute your progression automatically.
   - Fixed a display issue with the profile notification not disappearing when claiming successes.
 - Leaderboard
   - Fixed inconsistencies with rank icon and name display.
