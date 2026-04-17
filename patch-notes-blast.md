@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.17066](#02517066-patch)
   - [0.25.17054](#02517054-patch)
   - [0.25.16881](#02516881-patch)
   - [0.25.16821 Hotfix #1](#02416821-hotfix-1)
@@ -36,6 +37,23 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.17066 Patch
+
+`2026-04-17 13:00 UTC`
+
+### Fixes
+
+- Adventure
+  - Fixed a display issue with a character in the level 100 dialogue on mobile devices.
+- Duel
+  - Fixed a display issue where discarding field cards did not correctly modify the field icon.
+- Leaderboard
+  - Fixed an issue where the Champion rank displayed an incorrect icon.
+- Collection
+  - Fixed a display issue where a deck’s favorite card appeared with a field icon.
+- Misc
+  - Fixed an issue with icon display on mobile devices.
 
 ## 0.25.17054 Patch
 
