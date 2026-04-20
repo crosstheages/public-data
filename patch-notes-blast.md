@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.17066 Hotfix #1](#02417066-hotfix-1)
   - [0.25.17066](#02517066-patch)
   - [0.25.17054](#02517054-patch)
   - [0.25.16881](#02516881-patch)
@@ -37,6 +38,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.17066 Hotfix #1
+
+`2026-04-20 12:00 UTC`
+
+### Changes
+
+- Adventure
+  - Updated level 68 to intermediate difficulty. It now includes hints to help players progress if needed.
 
 ## 0.25.17066 Patch
 
