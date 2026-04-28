@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.25
+  - [0.25.17xxx](#02517xxx-patch)
   - [0.25.17066 Hotfix #1](#02417066-hotfix-1)
   - [0.25.17066](#02517066-patch)
   - [0.25.17054](#02517054-patch)
@@ -38,6 +39,52 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.17253 Patch
+
+`2026-04-29 08:00 UTC`
+
+### Changes
+
+- Adventure
+  - New zone available! Enjoy 20 new puzzles and a new story to continue your adventure.
+  - Added an option to unlock Arena mode directly for experienced players. If it is not yet unlocked, you can tap the Arena icon in the footer to unlock it early. A valid deck is required.
+  - Added a description popup for rewards on the adventure map.
+- Duel
+  - While casting Gravitational Wave Level 3, the camera is now slightly more zoomed out on mobile to improve visibility of the orbs.
+- Successes
+  - Duel successes can now be completed in Adventure mode and are counted the first time a level is completed.
+- Inventory
+  - Added the ability to open multiple Double, Triple, and Quadruple boosters (up to a maximum of 500 cards at once).
+- Collection
+  - Pressing the shop icon in a card’s details now redirects directly to its corresponding section in the Daily Ark shop.
+- Shop
+  - Added a notification icon for free claims in the shop.
+- Misc
+  - Improved Portuguese localization.
+
+### Fixes
+
+- Duel
+  - Added a transition to attack power values to smooth out changes.
+  - Fixed an issue where players could get stuck at the end of a duel in case of a draw.
+  - Fixed an issue where the timeout sound could continue playing after a loss.
+- Profile
+  - Fixed a display issue where the profile showed total XP instead of current level XP.
+  - Fixed an issue where the “Win a duel with less than 100 health points” success did not validate properly.
+- Reward
+  - Fixed an issue where the reward screen did not display the new card border when receiving a previously unowned card.
+  - Fixed an issue where deck slot rewards did not display the reward name.
+- Social
+  - Fixed an issue where friend notifications were not removed after claiming all available lives.
+  - Fixed an issue where life gifts could no longer be claimed if they were too old.
+- Collection
+  - Fixed an issue where the completion auto-deck could generate an invalid deck in certain cases.
+  - Fixed an issue where Blast selection in Auto-deck did not scale properly for Blasts with long descriptions.
+  - Fixed an issue where preset filters did not correctly apply the selected element and power range.
+- Shop
+  - Fixed an issue where the purchase limit in the pre-purchase window did not display the correct value.
+  - Fixed a display issue where the CTA Token amount in the header did not shorten properly when the player had a large amount of CTA Tokens.
 
 ## 0.25.17066 Hotfix #1
 
