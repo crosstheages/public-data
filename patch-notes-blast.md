@@ -50,7 +50,7 @@
 - Duel
   - Fixed a display issue with the Blast bar.
 - Social
-  - Fixed an issue with the individual energy request not working properly.
+  - Fixed an issue with the individual life request not working properly.
 - Shop
   - Fixed a display issue with sold out items in the shop.
 
