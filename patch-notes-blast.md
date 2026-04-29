@@ -3,7 +3,8 @@
 ## Direct Links
 
 - 0.25
-  - [0.25.17250](#02517250-patch)
+  - [0.25.17256](#02517256-patch)
+  - [0.25.17252](#02517252-patch)
   - [0.25.17066 Hotfix #1](#02417066-hotfix-1)
   - [0.25.17066](#02517066-patch)
   - [0.25.17054](#02517054-patch)
@@ -40,7 +41,20 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
-## 0.25.17250 Patch
+## 0.25.17256 Patch
+
+`2026-04-29 08:30 UTC`
+
+### Fixes
+
+- Duel
+  - Fixed a display issue with the Blast bar.
+- Social
+  - Fixed an issue with the individual energy request not working properly.
+- Shop
+  - Fixed a display issue with sold out items in the shop.
+
+## 0.25.17252 Patch
 
 `2026-04-29 08:00 UTC`
 
