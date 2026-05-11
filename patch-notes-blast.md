@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.26
+  - [0.26.17402](#02617402-patch)
 - 0.25
   - [0.25.17256](#02517256-patch)
   - [0.25.17252](#02517252-patch)
@@ -40,6 +42,50 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.26.17402 Patch
+
+`2026-05-13 08:00 UTC`
+
+### Changes
+
+- Spring event: Floral Awakening
+  - A special event is now available to celebrate the arrival of Spring!
+  - The event will last until `2026-06-10 08:00 UTC`
+  - This event introduces a brand-new event-exclusive game mode: 
+    - A special Flower card appears on the board at the start of each duel.
+    - Control it, protect it, and use affinities to evolve it through multiple stages.
+    - The Flower can be destroyed and will respawn at a random location.
+  - When winning event duels, you have a 20% chance to drop previously release event Exclusive card! It included Pietro (Standard and Alternative), Garth (Standard and Alternative), Red Tipped Crane (Standard and Alternative) and Garth & Red Tipped Crane (Combo). They are static and have a chance to be auto minted depending on your Mint Pass (Red Mint Pass 0.05%, Green Mint Pass 0.1%, Blue Mint Pass 0.2%, Legacy Mint Pass 0.35%, Golden Mint Pass 0.5%, Golden Legacy Mint Pass 0.65%).
+  - Win duels to unlock exclusive cosmetics available only during this event.
+  - All cosmetics are also available in the Shop. Shop cosmetics are identical to those obtainable through gameplay. Purchasing a pack does not reduce its price if you already own some cosmetics, and duplicate cosmetics will not be granted.
+  - The special Spring game mode also rewards Ark and Unlocker chests at the same rate as Ranked Silver players. Exclusive Leaderboard cards cannot be obtained from this mode.
+- Adventure
+  - Improved dialogue presentation.
+  - Added the ability to replay dialogues shown after a duel.
+- Duel
+  - Mage and Overpowering cards are now drawn after captures are completed to improve visual flow.
+- Successes
+  - Successes linked to player level are now automatically claimed at the end of duels that grant experience.
+- System
+  - Reworked duel infrastructure to improve match stability and responsiveness for players outside Europe.
+
+### Fixed
+
+- Adventure
+  - Fixed an issue where the adventure map could appear extremely zoomed out in rare cases.
+- Collection
+  - Fixed a display issue on the multi-lock screen at high resolutions.
+- Duel
+  - Fixed a display issue where Drone Command did not remove affinities at the correct time.
+  - Fixed an issue where cards could become stuck in the air.
+- Awakening
+  - Fixed an issue where runes shown in previews were not properly grayscaled.
+- Misc
+  - Fixed a display issue with the header on mobile devices.
+  - Fixed several crash instances.
+  - Fixed the resize handle not appearing on Windows.
+  - Fixed several missing shadows in scrolling areas.
 
 ## 0.25.17256 Patch
 
