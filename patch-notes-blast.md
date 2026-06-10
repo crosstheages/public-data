@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.26
+  - [0.26.17419](#02617419-patch)
   - [0.26.17404](#02617404-patch)
 - 0.25
   - [0.25.17256](#02517256-patch)
@@ -42,6 +43,22 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.26.17419 Patch
+
+`2026-06-10 14:00 UTC`
+
+### Fixes
+
+- Arena
+  - Fixed an issue where the last selected game mode was not being saved correctly.
+  - Fixed a display issue with the Unlocker drop rate percentage.
+  - Fixed an issue with the Arena tutorial not loading up properly.
+- Auth
+  - Fixed an issue where reconnections during a duel could redirect players to the authentication page.
+- Misc
+  - Fixed a display issue where disabled buttons appeared darker than intended.
+
 
 ## 0.26.17404 Patch
 
