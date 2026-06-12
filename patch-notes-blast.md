@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.26
+  - [0.26.17421](#02617421-patch)
   - [0.26.17419](#02617419-patch)
   - [0.26.17404](#02617404-patch)
 - 0.25
@@ -44,6 +45,15 @@
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
 
+## 0.26.17421 Patch
+
+`2026-06-12 14:00 UTC`
+
+### Fixes
+
+- Arena
+  - Fixed an issue with the deck creation tutorial not loading up properly.
+
 ## 0.26.17419 Patch
 
 `2026-06-10 14:00 UTC`
@@ -58,7 +68,6 @@
   - Fixed an issue where reconnections during a duel could redirect players to the authentication page.
 - Misc
   - Fixed a display issue where disabled buttons appeared darker than intended.
-
 
 ## 0.26.17404 Patch
 
@@ -87,7 +96,7 @@
 - System
   - Reworked duel infrastructure to improve match stability and responsiveness for players outside Europe.
 
-### Fixed
+### Fixes
 
 - Adventure
   - Fixed an issue where the adventure map could appear extremely zoomed out in rare cases.
