@@ -3,6 +3,7 @@
 ## Direct Links
 
 - 0.26
+  - [0.25.17421 Hotfix #1](#02417421-hotfix-1)
   - [0.26.17421](#02617421-patch)
   - [0.26.17419](#02617419-patch)
   - [0.26.17404](#02617404-patch)
@@ -44,6 +45,15 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.25.17421 Hotfix
+
+`2026-06-12 16:00 UTC`
+
+### Changes
+
+- Adventure
+  - New zone available! Enjoy 20 new puzzles and a new story to continue your adventure.
 
 ## 0.26.17421 Patch
 
