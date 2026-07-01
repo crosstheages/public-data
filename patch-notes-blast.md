@@ -2,6 +2,8 @@
 
 ## Direct Links
 
+- 0.27
+  - [0.27.17620](#02717620-patch)
 - 0.26
   - [0.26.17421 Hotfix #1](#02617421-hotfix-1)
   - [0.26.17421](#02617421-patch)
@@ -45,6 +47,59 @@
   - [0.24.14618 Hotfix #2](#02414618-hotfix-2)
   - [0.24.14618 Hotfix #1](#02414618-hotfix-1)
   - [0.24.14618](#02414618-patch)
+
+## 0.27.17620 Patch
+
+`TBD`
+
+### Changes
+
+- Summer Event: Heatwave Enrage
+  - A special event is now available to celebrate the arrival of Summer!
+  - This event introduces a brand-new event-exclusive game mode:
+    - Heat rises throughout the duel: a shared Heat meter increases by 1 each round, progressively intensifying the battle.
+    - Energy gain accelerates with Heat: as Heat reaches higher thresholds, players gain significantly more energy each turn, enabling faster and more explosive plays.
+    - Environmental heat damages all cards: starting at Heat 3, global damage is applied to every card at the end of each round. This damage increases over time, forcing constant board rotation and aggressive decision-making.
+  - When winning event duels, you have a 20% chance to obtain a previously released event-exclusive card. Available cards include Pietro (Standard and Alternative), Garth (Standard and Alternative), Red Tipped Crane (Standard and Alternative), and Garth & Red Tipped Crane (Combo). These are static cards and have a chance to be automatically minted depending on your Mint Pass (Red Mint Pass: 0.05%, Green Mint Pass: 0.1%, Blue Mint Pass: 0.2%, Legacy Mint    Pass: 0.35%, Golden Mint Pass: 0.5%, Golden Legacy Mint Pass: 0.65%).
+  - Win duels to unlock exclusive cosmetics available only during this event.
+  - All cosmetics are also available in the Shop. Shop cosmetics are identical to those obtainable through gameplay. Purchasing a pack does not reduce its price if you already own some cosmetics, and duplicate cosmetics will not be  granted.
+  - The special Summer game mode also rewards Ark and Unlocker chests at the same rate as Ranked Silver players. Exclusive Leaderboard cards cannot be obtained from this mode.
+- Event
+  - Event progression is now more prominently displayed at the end of event duels.
+  - When viewing a player's profile, you can now click on their insignia to view their previous event results.
+- Awakening Improvements
+  - The Alt button is now positioned at the end of the wheel for greater consistency.
+- Opening Improvements
+  - Added emphasis to the rarity crystal.
+  - Improved rare and mythic visual effects.
+- System Optimizations
+  - Improved AI duel behavior and responsiveness.
+  - Following the duel infrastructure rework, we applied the same approach to the rest of the game to improve stability and responsiveness for players outside Europe.
+  - Additional system optimizations have been made to improve overall responsiveness:
+    - Capture previews.
+    - Navigation system.
+    - Minted rewards.
+- Misc
+  - Improved card quality on all devices.
+  - Updated the Adventurer's Guide screenshots.
+
+### Fixes
+
+- Duel
+  - Fixed an issue where runes on cards would not appear when the cards were in certain positions.
+  - Fixed an issue with card positions when multiple cards attacked simultaneously.
+  - Fixed a display issue with Hack visual effects when triggered too quickly.
+  - Fixed an issue where the power preview displayed an incorrect value when discarding a card while already at maximum power.
+- Adventure
+  - Minor UI fixes.
+- Collection
+  - Minor UI fixes.
+- Awakening
+  - Fixed an infinite loading issue that could occur when navigating through Awakening in a specific way.
+- Rewards
+  - Fixed the power font on cards.
+- Misc
+  - Fixed several errors and crashes.
 
 ## 0.26.17421 Hotfix #1
 
