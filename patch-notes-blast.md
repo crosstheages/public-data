@@ -60,9 +60,9 @@
     - Heat rises throughout the duel: a shared Heat meter increases by 1 each round, progressively intensifying the battle.
     - Energy gain accelerates with Heat: as Heat reaches higher thresholds, players gain significantly more energy each turn, enabling faster and more explosive plays.
     - Environmental heat damages all cards: starting at Heat 3, global damage is applied to every card at the end of each round. This damage increases over time, forcing constant board rotation and aggressive decision-making.
-  - When winning event duels, you have a 20% chance to obtain a previously released event-exclusive card. Available cards include Pietro (Standard and Alternative), Garth (Standard and Alternative), Red Tipped Crane (Standard and Alternative), and Garth & Red Tipped Crane (Combo). These are static cards and have a chance to be automatically minted depending on your Mint Pass (Red Mint Pass: 0.05%, Green Mint Pass: 0.1%, Blue Mint Pass: 0.2%, Legacy Mint    Pass: 0.35%, Golden Mint Pass: 0.5%, Golden Legacy Mint Pass: 0.65%).
+  - When winning event duels, you have a 20% chance to obtain a previously released event-exclusive card. Available cards include Pietro (Standard and Alternative), Garth (Standard and Alternative), Red Tipped Crane (Standard and Alternative), and Garth & Red Tipped Crane (Combo). These are static cards and have a chance to be automatically minted depending on your Mint Pass (Red Mint Pass: 0.05%, Green Mint Pass: 0.1%, Blue Mint Pass: 0.2%, Legacy Mint Pass: 0.35%, Golden Mint Pass: 0.5%, Golden Legacy Mint Pass: 0.65%).
   - Win duels to unlock exclusive cosmetics available only during this event.
-  - All cosmetics are also available in the Shop. Shop cosmetics are identical to those obtainable through gameplay. Purchasing a pack does not reduce its price if you already own some cosmetics, and duplicate cosmetics will not be  granted.
+  - All cosmetics are also available in the Shop. Shop cosmetics are identical to those obtainable through gameplay. Purchasing a pack does not reduce its price if you already own some cosmetics, and duplicate cosmetics will not be granted.
   - The special Summer game mode also rewards Ark and Unlocker chests at the same rate as Ranked Silver players. Exclusive Leaderboard cards cannot be obtained from this mode.
 - Event
   - Event progression is now more prominently displayed at the end of event duels.
@@ -423,7 +423,7 @@
 - Collection
   - Fixed the display of the lore panel on WD cards (WD cards don’t have lore).
 - Rewards
-  - Fixed an issue with cards displayed in the reward screen showing as Eternal while they are in fact static.  
+  - Fixed an issue with cards displayed in the reward screen showing as Eternal while they are in fact static. 
 
 ### Known issues
 
@@ -519,7 +519,7 @@
 - Authentification
   - We added silent authentication with Epic Games (connecting directly to a linked account without additional input). Google and Apple Silent Auth will be implemented in the next patch.
 - Deck edition
-  - Redesigned the deck Boxes for a more unified theme.  
+  - Redesigned the deck Boxes for a more unified theme. 
 - Profile
   - Added a redirection to the portal for username changes.
 - Misc
